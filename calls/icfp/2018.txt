@@ -1,0 +1,147 @@
+Artifact Submission
+The goal of artifact evaluation is to support future researchers in their ability to reproduce and build on today’s work.
+
+The Artifact Evaluation Committee’s purpose is to assess how well paper authors prepare artifacts in support of such future researchers. The AEC chairs will invite authors of accepted papers to submit an artifact that supports the conclusions of the paper. The AEC will read the paper and explore the artifact to give the authors third-party feedback about how well the artifact supports the paper and how easy it is, in the committee’s opinion, for future researchers to use the artifact.
+
+This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the first page of the paper in the ICFP proceedings. Authors of papers with accepted artifacts are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+Valid types of submissions
+An artifact that supports the paper’s conclusions can take many forms, including any or all of the following:
+
+a working copy of the software (and dependencies), including benchmarks, examples and/or case studies
+experimental data sets
+a mechanized proof
+In contrast to ICFP 2017, we will not be accepting paper proofs as artifacts for evaluation.
+
+Call for Submissions
+Because the evaluation process is single blind, we will ask the authors to provide their artifacts via an anonymous third-party link (Google Drive or Dropbox). The authors should make a real effort not to learn the identity of their reviewers. Note that single-blind means that the authors are not anonymous to the reviewers and do not need to maintain anonymity either in the artifact or in communications with the AEC.
+
+In spite of this anonynimity, ICFP 2018 artifact evaluation will be a process that encourages free communication between reviewers and authors. This communication will help the reviewers overcome any small problems with the artifacts, and help the authors iteratively improve their artifacts if they chose to take advantage of this communication policy.
+
+We will use HotCRP’s new facilities for anonymous communication between the authors and reviewers during the review process. For other needs, authors shouldn’t hesitate to contact the artifact evaluation co-chairs at the address below.
+
+Selection Criteria
+The artifact will be evaluated in relation to the expectations set by the paper. Thus, in addition to just running the artifact, the evaluators will read the paper and may try to tweak provided inputs or otherwise slightly generalize the use of the artifact from the paper in order to test the artifact’s limits.
+
+Artifacts should be:
+
+consistent with the paper,
+as complete as possible,
+well documented,
+future-proof, and
+easy to reuse, facilitating further research.
+Looking toward the future, the community benefits most when your artifact facilitates future research. For example, future researchers may build on your artifact, possibly by extending it to cover new situations or augmenting it with new components (either in a pre- or post-processing fashion) to solve a different class of problems. Other future researchers may try an alternative approach to solving your problem and can benefit from both comparing directly to your solution (as a baseline), and understanding more deeply (than described in the paper) the various tradeoffs and engineering decisions that you took.
+
+The AEC strives to place itself in the shoes of such future researchers and then to ask: how much would this artifact have helped me?
+
+Future-proof artifacts are those that are encapsulated, don’t require network services, and fully specify the version or commit hashes of the software involved. For example, an artifact should never instruct the user to check out “master” of a repository. Ideally, artifacts should be provided as virtual machines and/or Docker containers or Nix closures. Further, before camera-ready papers are finalized, artifacts will preferably be assigned DOI numbers and hosted by a library or archival service for long term preservation. This step is not mandatory, but is encouraged, and you will receive concrete hosting suggestions by email.
+
+Submission Process
+If your paper is accepted, you can log into https://icfp18aec.hotcrp.com/, where you will find your submission listed with the same paper number as on the original submission site. On HotCRP you will see your prepopulated abstract and PDF submission from the original paper submission. Please leave these in place and augment the submission with the artifact data. However, you may remove “supplemental material” uploads from the original submission, to avoid confusion, if they are subsumed by the artifact submission.
+
+Your artifact submission will take one of two forms:
+
+A URL pointing to a single file containing the artifact, plus an md5 hash of that file (use the md5 or md5sum command-line tool to generate the hash).
+Direct upload: the artifact uploaded directly to HotCRP (if it’s less than 100 MB).
+In the first case, the URL must be a Google Drive or Dropbox URL, to help protect the anonymity of the reviewers.
+
+Irrespective of which artifact delivery mechanism you use, URL or direct upload, your artifact must contain an overview document as described below. You will upload the document separately as part of your submission, but also include the document within the artifact in an obvious place, such as on the desktop in a virtual machine, and name it “ArtifactOverview” plus an appropriate file extension.
+
+Finally, note that you will have to check “The submission is complete.” for your artifact submission to be received. This is important for us to disambiguate true artifact submissions from the prepopulated paper entries.
+
+Overview of the Artifact
+Your overview document should consist of two parts or sections:
+
+a Getting Started Guide, and
+Step-by-Step Instructions for how you propose to evaluate your artifact (with appropriate connections to the relevant sections of your paper).
+The Getting Started Guide should contain setup instructions (including, for example, a pointer to the VM player software, its version, passwords if needed, etc.) and basic testing of your artifact that you expect a reviewer to be able to complete in 30 minutes. Reviewers will follow all the steps in the guide during an initial phase of the evaluation period. You should write your Getting Started Guide to be as simple and straightforward as possible, and yet it should stress the key elements of your artifact. If well written, anyone who has successfully completed the Getting Started Guide should not have any technical difficulties with the rest of your artifact.
+
+The Step-by-Step Instructions should explain how to reproduce any experiments or other activities that support the conclusions in your paper in full detail. Write this for future researchers who have a deep interest in your work and who are studying it to improve it or compare against it faithfully. If your artifact is a tool, and running it to reproduce your experiments takes more than a few minutes, point this out and point out ways to run it on smaller inputs if possible.
+
+Where appropriate, include descriptions of and links to files (included in the archive) that represent expected outputs (e.g., the log files expected to be generated by your tool on the given inputs); if there are warnings that are safe to be ignored, explain which ones they are.
+
+Performance experiments
+For performance experiments, it is understood that results will not perfectly match those in the paper, due to differences in the reviewers hardware, noise from virtualization, and so on. Rather, artifact evaluators will expect to reproduce qualitative outcomes. Further, if special hardware is needed to reproduce results (or run experiments at all) please contact the Co-chairs to see if arrangements can be made.
+
+Plotting: Where possible, please automate data extraction and the production of plots, so that wherever possible the experiments run using the artifact produce figures matching those figures in the paper.
+
+Packaging the Artifact
+When packaging your artifact, please keep in mind: a) how accessible you are making your artifact to other researchers, and b) the fact that the ICFP AEC members will have a limited time in which to make an assessment of each artifact. The setup for your artifact should take less than 30 minutes, or it is unlikely to be endorsed, since the AEC will not have sufficient time to evaluate it.
+
+Your artifact should take one of the following forms:
+
+A Docker image, and the DockerFile that was used to create it. As far as possible refer to dependencies using explicit version numbers, so that the image can be recreated in the future if necessary.
+
+A virtual machine image (e.g. VirtualBox), including a description of how the image was created from a standard base image. This description could be in the form of an executable script. Again, the aim here is to make it possible both to evaluate your artifact now, and to reproduce it in the future.
+
+All dependencies should be clearly specified using immutable references; in particular references to source code repositories should include exact hashes, not just a reference to the master branch.
+
+You should make your artifact available as a single archive file and name the artifact “artifactXYZ.ext”, where “XYZ” is the paper number, and “ext” is the appropriate suffix for the given archive format. Please use a widely available compressed archive format (zip, tgz, tbz) and VM formats. Please use open formats for documents. We prefer experimental data to be submitted in CSV format.
+
+Submit your artifact via the 2018 ICFP AEC HotCRP website (details will be sent to authors).
+
+Timeline
+We understand that even given good software, it takes time to produce a good artifact. Thus we allot two weeks between paper acceptance and artifact submission. So you know what to expect, we provide a rough timeline of the subsequent evaluation process.
+
+ICFP acceptance notification Fri May 18
+Artifact submission Fri Jun 1
+Review & technical clarification Wed Jun 6 - Wed Jun 27
+Preliminary reviews available Wed Jun 27
+Further clarification, if needed Wed Jun 27 - Mon Jul 2
+Final decision sent to authors Tue Jul 3
+Seal of Approval: Badging Standards
+If the artifact is found by the committee to meet the expected standards, it will be awarded the “Artifact evaluated: functional” badge.
+
+Note that in contrast to ICFP 2017, the “Artifact evaluated: reusable” badge will not be awarded this year. This badge is under review by SIGPLAN and it is expected to be reintroduced with a clear and consistent set of guidelines to be applied across all SIGPLAN conferences in the future.
+
+Additional “Artifact Available” Badge:
+During the evaluation process (after the initial artifact submission on May 15th), you will have the option of filing your artifact in an archival repository. See the ACM link above for some suggestions, as well as this link.
+
+If your artifact is permanently available, with a DOI, then your paper will receive an additional “Artifact Available” badge in the proceedings of the conference.
+
+Finally, note that the ICFP18 AEC will not apply “Results replicated” or “Results reproduced” badges. Those badges may be applied in the future by the ACM, if another study reproduces the outcome of yours.
+
+More Information
+For additional information, clarification, or answers to questions, please contact the ICFP Artifact Evaluation co-chairs:
+
+Simon Marlow marlowsd@gmail.com
+Ryan Newton rrnewton@indiana.edu
+
+Chairs
+Simon Marlow marlowsd@gmail.com
+Ryan Newton rrnewton@indiana.edu
+
+Commitee
+Martin Avanzini
+Shrutarshi Basu
+Jost Berthold
+Aleš Bizjak
+Guido Chari
+Vikraman Choudhury
+Jonathan DiLorenzo
+Jesus Dominguez
+Gian Pietro Farina
+Michael Gale
+Francesco Gavazzo
+Mark Grebe
+Armaël Guéneau
+Kristoffer Just Arndal Andersen
+Gowtham Kaki
+David Kaloper-Meršinjak
+Hsiang-Shang ‘Josh’ Ko
+Wen Kokke
+Chaitanya Koparkar
+Victor Lanvin
+Fengyun Liu
+Liam O'Connor
+Ivan Perez
+Tommaso Petrucciani
+Amos Robinson
+Alejandro Serrano
+Thomas Sewell
+Thomas Sibut-Pinote
+KC Sivaramakrishnan
+Jacob Stanley
+Marco Vassena
+Theo Winterhalter
+Erik de Castro Lopo

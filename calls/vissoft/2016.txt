@@ -1,0 +1,18 @@
+Artifacts: Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. Following the effort initiated at ESEC/FSE’11, authors of accepted technical papers at VISSOFT 2016 can have their artifacts evaluated by the program committee. Positively evaluated artifacts will be reflected in the paper publication, presentation, and be formally announced during the conference. More information about the artifact evaluation process may be found on artifact-eval.org.
+
+Important Dates:
+Artifact submission: June 26, 2016
+Artifact notification: July 15, 2016
+Camera-Ready: August 12, 2016
+
+Chairs
+Alexandre Bergel
+Santiago Vidal
+
+Committee
+Willian Oizumi
+Juan Pablo Sandoval Alcocer
+Alejandro Rago
+Andre van Hoorn
+Leonel Merino
+Fabio Petrillo

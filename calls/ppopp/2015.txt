@@ -1,0 +1,134 @@
+Artifact Evaluation for PPoPP'15
+
+[ Back to PPoPP'15 conference website ]
+
+Prizes for 2 highest ranked artifacts
+
+1st place sponsored by
+NVLogo 2D resize.jpg
+
+2nd place sponsored by
+CTuning foundation logo1a.png
+
+"Nvidia Quadro K6000" for
+"The SprayList: A scalable relaxed priority queue"
+Justin Kopinsky, Dan Alistarh, Jerry Li  and Nir Shavit
+
+"Acer C720P" for
+"A graph-based higher-order intermediate representation"
+Roland Leißa, Marcel Köster and Sebastian Hack
+
+Important dates
+
+PPoPP paper decision:
+10 Nov 2014
+Artifact submission:
+18 Nov 2014 AoE
+Technical clarification:
+10-12 Dec 2014
+Decision announced:
+16 Dec 2014
+Public discussion:
+9 Feb 2015 [ Slides ]
+Packaging guidelines
+
+We use the following guidelines for artifacts. Because we want to encourage as many of you as possible to submit, these are only guidelines, not hard rules. Of course, if the material you want us to evaluate is fairly standard, following these suggestions will greatly simplify our lives. After all, remember: You want us to be able to evaluate your artifact, don't you?
+
+How to submit
+
+Please read the guidelines on what to submit. Please upload your submission to EasyChair (common with CGO).
+
+Review process
+
+The review process is described in detail here.
+
+Prior Artifact Evaluation
+
+Artifacts have been already evaluated at several conferences and workshops including recent PLDI 2014, OOPSLA 2014 and ADAPT 2014. Our eventual goal is to develop the common evaluation methodology gradually and collaboratively. See artifact-eval.org and c-mind.org/reproducibility for more details.
+
+Artifact Evaluation Committee (AEC)
+
+Chairs:
+
+Grigori Fursin, cTuning foundation, France
+Bruce R. Childers, University of Pittsburgh, USA
+Advisory board:
+
+ Shriram Krishnamurthi, Brown University, USA
+Committee members:
+
+David Boehme, LLNL, USA
+Santiago Bock, University of Pittsburgh, USA
+Lingda Li, Rutgers University, USA
+Lin Ma, Huawei America Research Lab, USA
+Yiannis Nikolakopulos, Chalmers University, Sweden
+Jeeva Paudel, University of Alberta, Canada
+Paul Thomson, Imperial College London, UK
+Peter Libic, Charles University in Prague, Czech Republic
+Dave Wilkinson, University of Pittsburgh, USA
+Weiwei Chen, Qualcomm, USA
+Riyadh Baghdadi, ENS and University Pierre et Marie Curie, Paris, France
+Na Meng, University of Texas Austin, USA
+Arun Raman, Qualcomm, USA
+Bapi Chatterjee, Chalmers University, Sweden
+Martin Maas, University of California Berkeley, USA
+Vojtech Horky, Charles University in Prague, Czech Republic
+Vasileios Trigonakis, EPFL, Switzerland
+Mahdi Eslamimehr, SAP Labs, USA
+Yuhao Zhu, University of Texas Austin, USA
+Melanie Kambadur, Columbia University, USA
+Michael Laurenzano, UMich, USA
+Above threshold
+
+List of papers with artifacts above threshold:
+
+NUMA-aware Graph-structured Analytics
+Kaiyuan Zhang, Rong Chen and Haibo Chen
+Predicate RCU: An RCU for Scalable Concurrent Updates
+Maya Arbel and Adam Morrison
+Scalable and Efficient Implementation of 3D Unstructured Meshes Computation: A Case Study on Matrix Assembly
+Loïc Thébault, Eric Petit and Quang Dinh
+VirtCL: A Framework for OpenCL Device Abstraction and Management
+Yi-Ping You, Hen-Jung Wu, Yeh-Ning Tsai and Yen-Ting Chao
+Dynamic deadlock verification for general barrier synchronisation
+Tiago Cogumbreiro, Raymond Hu, Francisco Martins and Nobuko Yoshida
+Low-Overhead Software Transactional Memory with Progress Guarantees and Strong Semantics
+Minjia Zhang, Jipeng Huang, Man Cao and Michael Bond
+The SprayList: A Scalable Relaxed Priority Queue
+Justin Kopinsky, Dan Alistarh, Jerry Li and Nir Shavit
+Performance Implications of Dynamic Memory Allocators on Transactional Memory Systems
+Alexandro Baldassin, Edson Borin and Guido Araujo
+More than You Ever Wanted to Know about Synchronization
+Vincent Gramoli
+Cache-Oblivious Wavefront: Improving Parallelism of Recursive DP Algorithms without Losing Cache-efficiency
+Yuan Tang, Ronghui You, Haibin Kan, Jesmin Tithi, Pramod Ganapathi and Rezaul Chowdhury
+Discussions
+
+We consider AE as a continuous learning curve. If you have questions or comments and suggestions on how to improve packaging and reviewing process, please get in touch or use our public Google or LinkedIn groups. We will hold a joint public CGO/PPoPP AE discussion session on February 9th, 2015.
+
+Chair
+Grigori Fursin
+Bruce R. Childers
+
+Committee
+Riyadh Baghdadi
+Santiago Bock
+David Boehme
+Bapi Chatterjee
+Weiwei Chen
+Mahdi Eslamimehr
+Vojtech Horky
+Melanie Kambadur
+Michael Laurenzano
+Lingda Li
+Peter Libic
+Lin Ma
+Martin Maas
+Na Meng
+Yiannis Nikolakopulos
+Jeeva Paudel
+Arun Raman
+Paul Thomson
+Vasileios Trigonakis
+David Wilkinson
+Yuhao Zhu

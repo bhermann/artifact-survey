@@ -1,0 +1,79 @@
+Call for Artifacts
+Authors of accepted research papers at ECOOP 2015 can have their artifacts evaluated by an Artifact Evaluation Committee. Artifacts that live up to the expectations created by the paper will be marked with a badge in the proceedings. Furthermore, they will be invited for inclusion in the brand new Dagstuhl Artifacts Series (DARTS) published in the Dagstuhl Research Online Publication Server (DROPS). Artifacts in DARTS are freely downloadable and ensure permanent and durable storage. As software projects are likely to evolve over time, archived artifacts provide a snapshot in time of the actual software/data that was used to create the paper: we expect this will simplify the job of independently repeating any experiments presented in the paper. Although there is no obligation for accepted artifacts to be included in DARTS, readers of accepted papers will greatly benefit from having access to those artifacts, and the attention that the authors’ work will get may likely increase if their artifacts are made publicly available. Artifacts that are deemed especially meritorious will be singled out for special recognition in the proceedings and at the conference.
+
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. The submission of an artifact is voluntary and will not influence the final decision regarding the papers (which is obviously enforced because the artifacts are submitted after the notification of acceptance has been sent out). Notification about the outcome of the Artifact Evaluation and reviews including suggestions for improving the artifacts will be distributed about two weeks before the deadline for the final version of the research paper, such that the outcome can be mentioned in the paper and the final artifact can be uploaded for inclusion in DARTS.
+
+A submitted artifact should be consistent with the associated paper. It should be so well documented that it is accessible for a general computer scientist with an interest in the research area, who has read your paper.
+
+A submitted artifact is treated as confidential, just like a submitted research paper. However, it is strongly recommended that artifacts are made available to the research community afterwards, thus enabling the abovementioned effects such as improved reproducibility etc.
+
+Submission deadline countdown
+Check out the remaining time until the deadline.
+
+How to submit
+To submit your artifact, start a new paper at: https://ecoop2015aec.hotcrp.com. The submission form requires filling the following fields:
+
+Title of the ECOOP 2015 accepted paper the artifact refers to.
+
+Submission (PDF, max 15MB): preliminary PDF version of the ECOOP 2015 accepted paper (will be used by the AEC to check if the artifact lives up to the expectations created in the paper).
+
+Artifact download link: please provide an HTTP or FTP link to a single compressed archive file (gz, zip) containing everything needed for supporting a full evaluation of the artifact. Artifacts will be downloaded by the AEC following the link provided here. A confirmation email will be sent by the AEC to the contact author(s) when the artifact has been successfully downloaded.
+
+MD5 sum of the artifact: please insert the MD5 sum of the submitted compressed archive (a 16-bytes hex code, e.g., 595f44fec1e92a71d3e9e77456ba80d1). The AEC will use this value to check the integrity of the file downloaded from the link provided at point 3.
+
+Authors of the artifact (may include people who are not authors of the accepted paper, but contributed to creating the artifact).
+
+Abstract: short description of the artifact, to be used for assignments of artifacts to reviewers (‘bidding’).
+
+Contact author(s).
+
+PC conflicts: AEC members who may have conflicts of interest with this artifact.
+
+Packaging Guidelines
+When packaging your artifact for submission, please take the following into consideration: Your artifact should be as accessible to the AE committee member as possible, and it should be possible for the AE member to quickly make progress in the investigation of your artifact. Please provide some simple scenarios describing concretely how the artifact is intended to be used; for a tool, this would include specific inputs to provide or actions to take, and expected output or behavior in response to this input. In addition to these very tightly controlled scenarios that you prepare for the AE committee member to try out, it may be very useful if you suggest some variations along the way, such that the AE committee member will be able to see that the artifact is robust enough to tolerate a few experiments.
+
+For artifacts that are tools, one very convenient way for reviewers to learn about your artifact is to include a video showing you using the artifact in a simple scenario, along with verbal comments explaining what is going on.
+
+In order to avoid problems with software dependencies and installation, it may be very useful if you provide the artifact installed and ready to use on a virtual machine (for VirtualBox, VMware, or a similar widely available platform).
+
+The artifact must be made available as a single, self-contained archive file, using a widely supported archive format such as zip or a compressed tar format (e.g., .tgz). The archive must contain a file index.html, to be rendered by a Web browser, working as a starting point for reading your documentation, and possibly pointing to external resources. We can of course not enforce it, but we strongly recommend that you do not make any attempts to use such external links to discover who is reviewing your artifact.
+
+Please use widely supported open formats for documents, and preferably the CSV or JSON format for data.
+
+As described above, the submission form requests a short description of the artifact, to be used for assignments of artifacts to reviewers (‘bidding’); it would be a good idea to write the first few paragraphs of your index.html in such a way that it will serve as the short description as well.
+
+Reviewing Process
+Submitted artifacts will go through a two-phase evaluation:
+
+Kicking-the-tires: reviewers check the artifact integrity and look for any possible setup problems that may prevent it from being properly evaluated (e.g., corrupted or missing files, VM won’t start, immediate crashes on the simplest example, etc.). Authors are informed of the outcome and, in case of technical problems, they can help solve them during a brief author response period.
+
+Artifact assessment: reviewers evaluate the artifacts, checking if they live up to the expectations created by the papers.
+
+Kick-the-tires response period
+Authors will be given a 48-hour period (from Thursday, 26 March 2015 to Friday, 27 March 2015) to read and respond to the kick-the-tires reports of their artifacts. Authors may be asked for clarifications in case the committee encountered problems that may prevent reviewers from properly evaluating the artifact.
+
+For More Information
+For additional information, clarification, or answers to questions: Please contact the ECOOP Artifact Evaluation Chairs at ecoop15aec@dis.uniroma1.it.
+
+Chairs
+Camil Demetrescu
+Matthew Flatt
+
+Committee
+Karim Ali
+Stefan Blom
+Lubomír Bulej
+Nicolás Cardozo
+Fernando Chirigati
+Emilio Coppa
+Paolo G. Giarrusso
+Raghavendra Kagalavadi
+Du Li
+Sihan Li
+Stefan Marr
+Philip Mayer
+Cyrus Omar
+Daniel Perelman
+Cosmin Radoi
+Christophe Scholliers
+Wei Yang

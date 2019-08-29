@@ -1,0 +1,13 @@
+https://www.sigsoft.org/fse20/cfpResearch.html
+
+Research Artifacts and Appendix
+
+Submissions that facilitate reproducibility and follow-up research by using available data sets, publicly providing data sets, or making tools publicly available are especially encouraged. Publicly providing reusable research artifacts (data or tools) is not mandatory, but will strengthen the reproducibility of the research, which is an explicit evaluation criterion. To recognize the contribution of a significant and high-quality research artifact, the program committee will select one of the accepted papers to receive a "Best Artifact Award".
+
+The appendix provides a means to include complementary information with the paper that will remain confidential to the program committee. The appendix can be used to provide extra material that could be useful in evaluation of the contribution, such as: detailed proofs of theoretical claims, partial or complete data sets, scripts and statistical formulas, more extensive tool outputs, screen shots or videos of tools, etc.
+
+The authors cannot use the appendix as additional space for explaining their contribution. The research papers must be self-contained. Reviewers will not be required to read the appendix, but will be encouraged to consult the appendix to resolve the questions that may arise during the reviewing process. There is no limit on the size of the appendix, although authors should keep in mind that large appendices will be unlikely to be examined by the reviewers due to time constraints.
+
+Authors who are planning to make their artifacts public in the event that their submission is accepted are encouraged to provide these artifacts for confidential review as a part of the on-line appendix, and to clearly indicate what will be made public. Such contributions will be considered for the artifact award (with the reservation that claims of availability will be verified prior to announcement of the artifact award).
+
+To be considered for the Best Artifact Award, please check the box labeled "This paper includes description of a publicly available research artifact" on the submission page (under the title and abstract).

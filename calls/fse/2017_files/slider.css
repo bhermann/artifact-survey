@@ -1,0 +1,110 @@
+/* Remove list formatting from Promo UL/LI */
+#promo, #promo li
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+ 
+/* Styles for the optional promo navigation container */
+#promonav
+{
+    padding:4px;
+    background:#eee;
+    border:1px solid #e0e0e0;
+    margin-top:1px;
+}
+ 
+/* Keep the next button at the right edge */
+#promonav .next
+{
+    float:right;
+}
+ 
+/* Link styles in promo navigation  */
+#promonav a
+{
+    padding:0 3px;
+    border:1px solid #eee;
+    text-decoration:none;
+    outline:0;
+    color:#777;
+}
+ 
+/* Style applied on mouseover of promo navigation link(s) */
+#promonav a:hover
+{
+    color:#000;
+}
+/* The index automatically gets an activeSlide class, use this to indicate the current slide */
+#promoindex a.activeSlide
+{
+    font-weight:bold;
+    background:#fff;
+    border-color:#ccc;
+}
+
+p.description {
+	line-height: 1.5em;
+}
+
+@media screen and (max-width: 1200px) {
+        .responsiveslide {margin-left: 0px !important;width:100% !Important;height: 100% !important;}
+
+}
+
+
+/*	@media screen and (min-width: 841px) {
+
+		.dynamicrow {height: 210px;}
+	}
+*/
+
+	@media screen and (min-width: 1201px) {
+
+		.dynamicrow {height: 210px;}
+	}
+
+	@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+  
+	.dynamicrow {height: 170px;}
+	}
+	
+	
+	@media screen and (min-width: 637px) and (max-width: 736px) {
+
+  
+	.dynamicrow {height: 160px;}
+	}
+	
+	@media screen and (min-width: 481px) and (max-width: 636px) {
+
+  
+	.dynamicrow {height: 135px;}
+	}
+	
+	
+/*	@media screen and (min-width: 481px) and (max-width: 840px) {
+
+  
+	.dynamicrow {height: 160px;}
+	}*/
+	
+	@media screen and (min-width: 381px) and (max-width: 480px) {
+
+	.dynamicrow {height: 90px;}
+	}
+
+	@media screen and (min-width: 281px) and (max-width: 380px) {
+
+  
+	.dynamicrow {height: 60px;}
+	}
+	
+	@media screen and (max-width: 280px) {
+
+  
+	.dynamicrow {height: 30px;}
+	}
+

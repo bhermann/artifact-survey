@@ -1,0 +1,289 @@
+.footer {
+  background: #7b0d0f !important;
+  display: block !important;
+  color: #fff !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  padding: 0 0 30px !important;
+  border-top: 5px solid #dc5c5e !important;
+  height: auto !important;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5 {
+  color: #dc5c5e !important;
+  border-bottom: 2px solid #660b0c !important;
+  padding-bottom: 10px !important;
+  margin-top: 22px;
+}
+
+/* contact option is now visible
+footer hr {
+  display: none;
+}
+ */
+
+footer small {
+  font-size: 100% !important;
+  line-height: 21px !important;
+}
+
+footer a {
+  line-height: 18px !important;
+  -webkit-transition: all 500ms ease !important;
+  -moz-transition: all 500ms ease !important;
+  -ms-transition: all 500ms ease !important;
+  -o-transition: all 500ms ease !important;
+  transition: all 500ms ease !important;
+}
+
+footer a:hover, footer a:focus {
+  color: #dc5c5e !important;
+}
+
+.logobar {
+  border-bottom: solid 32px #7b0d0f;
+  height: 205px;
+  background: url("https://conf.researchr.org/getImage/ecoop-issta-2018/orig/logo-bike-solo639-1476-longer.png") no-repeat 15px 0px;
+  background-size: auto 175px;
+}
+
+.brand-text {
+  opacity: 0;
+}
+
+.logobar>div>div>a {
+  color: inherit;
+}
+
+.logobar .container, .logobar .container-fluid {
+  /* height: 201px; */
+}
+
+.navbar {
+  background-color: transparent;
+  border: none;
+  padding-right: 15px;
+}
+.with-carousel .navbar {
+  top: 430px;
+}
+
+.navbar .container, .navbar .container-fluid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: #e7e7e7;
+  color: #555;
+}
+
+.navbar-default .navbar-nav>li>a {
+  -webkit-transition: 0.2s !important;
+  transition: 0.2s !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  /*background-color: rgb(245,255,255);*/
+}
+
+#content .col-sm-12 {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.panel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px 25px 15px 15px;
+}
+
+.panel-heading {
+  border-radius: 20px 20px 0px 0px;
+}
+
+#tab {
+  border-top: 0px
+}
+
+.active a.bound {
+  border: 0px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-tabs {
+  border: 0px;
+}
+
+.nav-tabs>li>a:hover {
+  border: 0px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  -webkit-transition: 0.2s !important;
+  transition: 0.2s !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  background: url("http://conf.researchr.org/getImage/issta-2018/orig/issta-ams.png") no-repeat 100% 0px;
+  background-size: auto 88px;
+  top: 83px;
+  right: 10px;
+  height: 80px;
+  width: 220px;
+  z-index: 100;
+}
+
+.place {
+  z-index: 3 !important;
+  position: absolute;
+  left: 15px;
+  top: 175px;
+  color: #fff !important;
+  display: block;
+  clear: both;
+  line-height: 27px;
+  float: left;
+}
+
+.place2 {
+  z-index: 2 !important;
+  position: absolute;
+  left: 355px;
+  top: 175px;
+  color: #fff !important;
+  line-height: 27px;
+  float: right;
+}
+
+.place a {
+  display: inline-block;
+  color: #fff !important;
+  margin-left: 5px;
+}
+
+.place2 a {
+  color: #fff !important;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+
+h3 {
+  font-size: 20px;
+  color: black;
+}
+
+.with-carousel .navbar {
+  top: 430px;
+}
+
+#navigationbar {
+  border: none;
+}
+
+.carousel {
+  top: -52px;
+}
+
+.tab-content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  padding: 15px;
+  background-color: white;
+}
+
+.tab-pane td, .tab-pane th {
+  border-top: 0px;
+}
+
+td, th {
+  border: 0px !important;
+}
+
+td.btn-primary {
+  border-radius: 0px 0px 15px 15px !important;
+}
+
+.col-sm-12 table {
+  margin: 15px 0px 15px 0px;
+}
+
+.table-hover>tbody>tr:hover {
+  background-color: #f5f5f5 !important;
+}
+
+#content .panel .panel-heading, #content .panel .btn-primary {
+  background-color: #7b0d0f;
+  border-color: #7b0d0f;
+  color: #fff;
+}
+
+#content .panel-primary {
+  border: 0px;
+}
+
+#content .panel .text-success {
+  background-color: #fff;
+}
+
+.table-hover>tbody>tr:hover {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 1439px) {
+  .with-carousel .navbar {
+    top: 370px;
+  }
+}
+
+@media (max-width:991px) {
+  .with-carousel .navbar {
+    top: 412px;
+  }
+}
+
+@media (max-width: 767px) {
+  .with-carousel .navbar {
+    top: 0px;
+    z-index: 2;
+  }
+  .navbar .container, .navbar .container-fluid {
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+  }
+  .navbar {
+    padding-right: 0px;
+  }
+  .carousel {
+    position: absolute;
+    width: 100%;
+    top: 19px !important;
+  }
+
+.carousel-inner .item {
+    height: 178px !important;
+}
+  .navbar-brand {
+    opacity: 0;
+  }
+  .place, .place2 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 994px) {}
+
+@media (max-width: 440px) {}

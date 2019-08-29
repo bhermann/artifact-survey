@@ -1,0 +1,76 @@
+PPoPP 2017 Artifact Evaluation
+About
+Call for Artifact Evaluations
+Call for Artifact Evaluations
+Authors of accepted papers will be invited to formally submit their supporting materials to the Artifact Evaluation process. The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves. Further information is available on the PPoPP AEC web page. Authors of accepted papers are encouraged (but not obliged) to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+Important dates
+Paper decision: 12 Nov 2016
+Artifact submission: 20 Nov 2016 AoE
+Technical clarification: 5-10 Dec 2016
+Decision announced: 13 Dec 2016
+Public discussion: 6 Feb 2017
+How to pack and submit
+Please read the guidelines on what to submit. Please upload your submission to EasyChair (joint CGO/PPoPP submission).
+
+Review process
+The review process is described in detail here.
+
+Artifact Evaluation Committee (AEC)
+Chairs:
+
+Wonsun Ahn (PPoPP Chair), University of Pittsburgh, USA
+Joe Devietti (CGO Chair), University of Pennsylvania, USA
+Committee (joint with CGO'17):
+
+See here
+Discussions
+We consider AE as a continuous learning curve. If you have questions or comments and suggestions on how to improve packaging and reviewing process, please get in touch!
+
+Our presentation about Artifact Evaluation Experience at CGO/PPoPP'15 is available online here.
+
+Chairs
+Wonsun Ahn (PPoPP Chair), University of Pittsburgh, USA
+Joe Devietti (CGO Chair), University of Pennsylvania, USA
+
+Committee
+Raghesh Aloor
+Tariq Alturkestani
+Gergo Barany
+Tal Ben-Nun
+Man Cao
+Prasanth Chatarasi
+Guoyang Chen
+Tiago Cogumbreiro
+Wenzhi Cui
+Grigori Fursin
+Anshuman Goswami
+Johann Hauswald
+Shiyou Huang
+Yihe Huang
+Joseph Izraelevitz
+Gangwon Jo
+Rashid Kaleem
+Yuriy Kashnikov
+Sanidhya Kashyap
+Martin Kong
+Qingrui Liu
+Anton Lokhmotov
+Karthik Murthy
+Abdulqawi Saif
+Malavika Samak
+Aritra Sengupta
+Isaac Sheff
+Jyothish Soman
+Michel Steuwer
+Yulei Sui
+Lili Sun
+Rishi Surendran
+Adilla Susungi
+Thiago S. F. X. Teixeira
+Robert Utterback
+Shasha Wen
+Qiuping Yi
+Adarsh Yoga
+Faisal Zaghloul
+Chi Zhang

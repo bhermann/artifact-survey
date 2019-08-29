@@ -1,0 +1,29 @@
+Artifacts: Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. Following the effort initiated at ESEC/FSE'11, authors of accepted technical papers at VISSOFT 2015 can have their artifacts evaluated by the program committee.
+
+Important Dates
+All dates refer to midnight 23:59:59 AoE.
+
+Main track (technical papers)	NIER and Tool tracks
+Abstract Submission:	May 4, 2015
+Paper Submission:	May 11, 2015	June 29, 2015
+Author Response Period:	June 8-12, 2015
+Author Notification:	June 18, 2015	July 31, 2015
+Camera-Ready Copies:	August 21, 2015	August 21, 2015
+Artifact Submission for Accepted Papers:	June 24, 2015
+Artifact Notification:	July 31, 2015
+Conference Date:	September 27-28, 2015	September 27-28, 2015
+
+Chairs
+Alexandre Bergel
+Anne Etien
+
+Committee
+Andrei Chis
+Jean-Christophe Bach
+Ricardo Terra
+David Méndez Acuña
+Kate Isaacs
+Sebastian Baltes
+Emitza Guzman
+Marcelo Schots
+Yuriy Tymchuk

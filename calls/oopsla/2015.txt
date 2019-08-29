@@ -1,0 +1,89 @@
+Help others to build upon the contributions of your paper!
+
+The Artifact Evaluation process is a service provided by the community to help authors of accepted papers provide more substantial supplements to their papers so future researchers can more effectively build on and compare with previous work.
+
+The Artifact Evaluation Committee has been formed to assess how well paper authors prepare artifacts in support of such future researchers. Roughly, authors of papers who wish to participate are invited to submit an artifact that supports the conclusions of the paper. The Artifact Evaluation Committee will read the paper and explore the artifact to give the authors third-party feedback about how well the artifact supports the paper and how easy it is, in the committee’s opinion, for future researchers to use the artifact.
+
+This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully receive a seal of approval printed on the first page of the paper in the OOPSLA proceedings. Authors of papers with accepted artifacts are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+Call for Submissions
+Authors intending to submit their artifacts for evaluation are encouraged to begin preparing their artifacts for evaluation as soon as practical, following the packaging guidelines below. Because the evaluation process is single blind (the authors are blinded as to who has evaluated their artifact), we will ask the authors to provide their artifacts on a website, from where the AE committee chairs will upload the artifact to a separate site accessible to the whole Artifact Evaluation Committee (AEC). The authors should make a real effort not to learn the identity of their reviewers. If it is necessary for tracing to occur, the authors must warn the reviewers in advance.
+
+This process was inspired by the ECOOP 2013 artifact evaluation process by Jan Vitek, Erik Ernst, and Shriram Krishnamurthi. The processes for ECOOP and OOPSLA are similar but not identical.
+
+Selection Criteria
+The artifact will be evaluated in relation to the expectations set by the paper. Thus, in addition to just running the artifact, the evaluators will read the paper and may try to tweak provided inputs or otherwise slightly generalize the use of the artifact from the paper in order to test the artifact’s limits.
+
+Artifacts should be:
+
+consistent with the paper,
+as complete as possible,
+well documented, and
+easy to reuse, facilitating further research.
+Looking towards the future, the community benefits most when your artifact facilitates future research. For example, future researchers may build on your artifact, possibly by extending it to cover new situations or augmenting it with new components (either in a pre- or post-processing fashion) to solve a different class of problems. Other future researchers may try an alternative approach to solving your problem and can benefit from both comparing directly to your solution (as a baseline), and understanding more deeply (than described in the paper) the various tradeoffs and engineering decisions that you took.
+
+The nature of your contribution and artifact dictates how best to think about others building on it. The general principle is only that artifacts help us, as a community, be more effective.
+
+The AEC strives to place itself in the shoes of such future researchers and then to ask: how much would this artifact have helped me?
+
+Submission Process
+Your submission should consist of three pieces: an overview of your artifact, a url pointing to a single file containing the artifact, and an md5 hash of that file (use the md5 or md5sum command-line tool to generate the hash). If your paper makes it passed Round 1 of the OOPSLA review process, you will receive an email from the Artifacts program chairs with instructions on where to submit your artifact. The organizers will download your artifact to provide it to the AEC separately from the submission process.
+
+Overview of the Artifact
+Your overview should consist of two parts:
+
+a Getting Started Guide and
+Step-by-Step Instructions for how you propose to evaluate your artifact (with appropriate connections to the relevant sections of your paper);
+The Getting Started Guide should contain setup instructions (including, e.g., a pointer to the VM player software, its version, passwords if needed, etc) and basic testing of your artifact that you expect a reviewer to be able to complete in 30 minutes. Reviewers will follow all the steps in the guide during an initial phase of the evaluation period and the organizers may relay questions if the reviewers run into difficulties. You should write your Getting Started Guide to be as simple and straightforward as possible, and yet it should stress the key elements of your artifact. If well written, anyone who has successfully completed the Getting Started Guide should not have any technical difficulties with the rest of your artifact. This guide is your only opportunity to allow “debugging” of your artifact. Once the reviewers have completed this phase, there will be no further opportunity for interaction with the authors.
+
+The Step by Step Instructions should explain how to reproduce any experiments or other activities that support the conclusions in your paper in full detail. Write this for future researchers who have a deep interest in your work and who are studying it to improve it or compare against it faithfully. If your artifact is a tool, and running it to reproduce your experiments takes more than a few minutes, point this out and point out ways to run it on smaller inputs if possible.
+
+Where appropriate, include descriptions of and links to files (included in the archive) that represent expected outputs (e.g., the log files expected to be generated by your tool on the given inputs); if there are warnings that are safe to be ignored, explain which ones they are.
+
+Packaging the Artifact
+When packaging your artifact, please keep in mind: a) how accessible you are making your artifact to other researchers, and b) the fact that the OOPSLA AEC members will have a limited time in which to make an assessment of each artifact. The setup for your artifact should take less than 30 minutes or it is unlikely to be endorsed simply because the AEC will not have sufficient time to evaluate it.
+
+Ideally, your artifact should contain a bootable virtual machine image with all of the necessary libraries installed to be able to run it. Using a virtual machine provides a way to make an easily reproducible environment for your artifact — it is less susceptible to bit rot. It also helps the evaluation committee have confidence that errors or other problems cannot cause harm to their machines or reveal their identity (because networking can simply be disabled from outside of the VM image). While a VM is not mandatory, it is encouraged.
+
+You should make your artifact available as a single archive file and use the naming convention <paper #>.<suffix>, where the appropriate suffix is used for the given archive format. Please use a widely available compressed archive format such as ZIP (.zip), tar and gzip (.tgz), or tar and bzip2 (.tbz2). Please use open formats for documents and we prefer experimental data to be submitted in csv format.
+
+Submit your artifact via the 2015 OOPSLA AEC HotCRP website: https://oopsla15aec.hotcrp.com/
+
+More Information
+For additional information, clarification, or answers to questions please contact the OOPSLA Artifacts co-chairs (Robby Findler and Michael Hind) at artifacts@splashcon.org.
+
+Robby Findler
+Michael Hind
+Stavros Aronis
+Mohammad Reza Azadmanesh
+Titus Barik
+Jonathan Bell
+Kumud Bhandari
+Swarnendu Biswas
+Stephen Chang
+Will Dietz
+Robert Dyer
+Niklas Fors
+Adrien Guatto
+Eric Holk
+Brandon Holt
+Timothy Jones
+Vojin Jovanovic
+Erick Lavoie
+Qingzhou Luo
+Pallavi Maiya
+Dmitri Makarov
+Jabier Martinez
+Trevor L. McDonell
+Na Meng
+Matthew Milano
+Julie L. Newcomb
+Jens Nicolay
+Luís Pina
+Boaz Rosenan
+Malavika Samak
+Malte Schwerhoff
+Asumu Takikawa
+John Vilk
+Shiyi Wei
+Minjia Zhang

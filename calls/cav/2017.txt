@@ -1,0 +1,42 @@
+Artifact Submission and Evaluation
+Authors of accepted regular papers will be invited to submit (but are not required to submit) the relevant artifact for evaluation by the artifact evaluation committee.
+
+Authors of all tool papers are required to submit their artifact to the artifact evaluation committee at the paper submission time. Unlike regular papers, the results of the artifact evaluation for tool papers will be available to the program committee during the online discussions.
+
+To submit an artifact, please prepare a virtual machine (VM) image of your artifact and keep it accessible through an HTTP link throughout the evaluation process. As the basis of the VM image, please choose commonly used OS versions that have been tested with the virtual machine software and that evaluators are likely to be accustomed to. We encourage you to use https://www.virtualbox.org and save the VM image as an Open Virtual Appliance (OVA) file. Please include the prepared link in the appropriate field of the paper submission form.
+
+In addition, please supply at submission time a link to a short plain-text file describing the OS and parameters of the image, as well as the host platform on which you prepared and tested your virtual machine image (OS, RAM, number of cores, CPU frequency). Please describe how to proceed after booting the image, including the instructions for locating the full documentation for evaluating the artifact.
+
+If you are not in a position to prepare the artifact as above, please contact PC chairs for an alternative arrangement.
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the artifact evaluation committee and that yields expected results. We next provide some guidelines.  Document in detail how to reproduce most of the experimental results of the paper using the artifact; keep this process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users. Ensure the artifact is in the state ready to run. It should work without a network connection. It should not require the user to install additional software before running. It should use reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops. The evaluation should take reasonable amount of time to complete. When possible include source code within your virtual machine image and point to the most relevant and interesting parts of the source code tree.
+
+Members of the artifact evaluation committee and the program committee are asked to use submitted artifact for the sole purpose of evaluating the contribution associated with the artifact.
+
+Artifact Evaluation Committee
+Ayca Balkan, UCLA
+Stephanie Balzer, CMU
+James Bornholt, University of Washington
+Simon Cruanes, INRIA Nancy
+Matthias Dangl University of Passau
+Marko Doko, MPI-SWS
+Chuchu Fan, UIUC
+Pietro Ferrara, Julia
+Johannes Hoelzl, TU Munich
+Lars Hupel, TU Munich
+Swen Jacobs, Saarland University
+Moa Johansson, Chalmers
+Dejan Jovanovic, SRI
+Ralf Jung, MPI-SWS
+Ivan Kuraj, MIT
+Andreas Lochbihler, ETH Zurich
+Jose Morales, IMDEA
+Van Chan Ngo, CMU
+Zvonimir Pavlinovic, NYU
+Markus Rabe, UC Berkeley
+Mukund Raghothaman, UPenn
+Andrew Reynolds, University of Iowa
+Nima Roohi, UIUC
+Christian Schilling, University of Freiburg
+Muralidaran Vijayaraghavan, MIT
+Nicolas Voirol, EPFL

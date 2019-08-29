@@ -1,0 +1,16 @@
+http://esec-fse.inf.ethz.ch/cfp.html
+
+Artifact Evaluation
+Results presented in technical papers are often validated or supported by software artifacts. To reward the effort of creating artifacts, authors of accepted research paper may, if they wish, have their tools, data or model evaluated by the Artifact Evaluation Committee.
+
+After the research paper notification, authors of accepted papers will be contacted to submit their artifact for evaluation. Evaluation of the artifact will be sent to the authors before the camera ready deadline.
+
+Artifacts that are positively evaluated, will be formally recognized in the proceedings and at the conference.
+
+http://esec-fse.inf.ethz.ch/committees.html
+
+Artifacts Evaluation Chairs
+	Alexandre Bergel
+University of Chile, Chile
+	Lorenzo Bettini
+Università di Torino, Italy

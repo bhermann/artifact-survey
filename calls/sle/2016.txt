@@ -1,0 +1,35 @@
+Artifact Evaluation
+This year, SLE introduces an evaluation process for assessing the quality of the artifacts on which papers are based, treating them as first-class citizens and fostering the culture of experimental reproducibility. Authors of accepted papers are invited to submit artifacts.
+
+Artifacts (tools, grammars, datasets, proofs, links, models, videos, visualizations) that live up to the expectations created by the paper will receive a badge of approval from the Artifact Evaluation Committee (AEC). They will be invited for inclusion as freely downloadable supplementary material, ensuring permanent and durable storage. There is no obligation for authors of accepted papers to participate in this process, but we strongly encourage authors to consider this possibility as availability will greatly benefit readers and increase the impact of their work.
+
+The submission most significantly exceeding expectations, will receive the Distinguished Artefact award, sponsored by Raincode.
+
+In a nutshell, a good artifact is:
+
+consistent with the paper
+as complete as possible
+well-documented
+easy to (re)use
+Evaluation Process
+The artifact evaluation process of SLE borrows heavily from processes described at artifact-eval.org, ECOOP 2016 and ICSME 2016. We have an open reviewing model in which artifacts will be submitted to a GitHub repository, and reviewing/discussion will be conducted through GitHub issues.
+
+Chairs
+Vadim Zaytsev
+Dimitris Kolovos
+
+Committee
+Anthony Anjorin, University of Paderborn, Germany
+Thomas Degueule, Inria, France
+Romina Eramo, University of L’Aquila, Italy
+Ludovico Iovino, Gran Sasso Science Institute, Italy
+Javier L. Canovas Izquierdo, Universitat Oberta da Catalunya, Spain
+Patricia Martin-Rodilla, Institute of Heritage Sciences, Spain
+Andrea Mocci, Università della Svizzera italiana, Switzerland
+Jesper Öqvist, Lund University, Sweden
+Matthew Roberts, Macquarie University, Australia
+Alexandre Sawczuk da Silva, Victoria University of Wellington, New Zealand
+Jiasi Shen, Massachusetts Institute of Technology, USA
+Vasco Sousa, University of Montreal, Canada
+Maria Spichkova, RMIT University, Australia
+Daniel Strüber, Philipps-Universität Marburg, Germany

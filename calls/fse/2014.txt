@@ -1,0 +1,22 @@
+https://fse22.gatech.edu/cfp/research
+
+Artifact Evaluation
+Results presented in technical papers are often validated or supported by software artifacts. To reward the effort of creating artifacts, authors of accepted research paper may, if they wish, have their tools, data or model evaluated by the Artifact Evaluation Committee. After the research paper notification, authors of accepted papers will be contacted to submit their artifact for evaluation. (Authors are also encouraged to make available online, when applicable and at the time of their submission, research artifacts related to their submitted work.) Artifacts that are positively evaluated, will be formally recognized in the proceedings and at the conference. To recognize the contribution of a significant and high-quality research artifact, the program committee will select one of the accepted papers to receive a "Best Artifact Award".
+
+Artifact Evaluation Committee
+Alessandra Gorla, Saarland University
+Sonia Haiduc, Florida State University
+Shane McIntosh, Queen"s University
+Andrea Mattavelli, University of Lugano
+Vijayaraghavan Murali, National University of Singapore
+Meiyappan Nagappan, Queen"s University
+Jaechang Nam, Hong Kong University of Science and Technology
+Tung Thanh Nguyen, Utah State University
+Genaína Nunes Rodrigues, University of Brasilia
+Fayola Peters, West Virginia University
+Daryl Posnett, University of California Davis
+Baishakhi Ray, University of California Davis
+Vibha Singhal Sinha , IBM Research India
+Giovanni Toffetti, IBM Haifa Research Lab
+Jooyong Yi , National University of Singapore
+Annie Ying, McGill University

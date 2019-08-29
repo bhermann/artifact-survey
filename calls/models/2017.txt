@@ -1,0 +1,47 @@
+Artifact Evaluation at MoDELS
+ACM/IEEE 20th International Conference on Model Driven Engineering Languages and Systems
+Austin, Texas, USA, 17–22 September 2017
+Austin
+Facts in short
+Event: MoDELS 2017
+Where: Austin (USA)
+When: 17–22 Sept 2017
+Submission: 7 July 2017
+
+Goals
+The goal of the artifact track is to publish valuable artifacts that are supplementary material to MODELS’17 papers, but stand valuable for themselves. A parallel goal is to encourage MODELS’17 research track authors to improve their quality standards regarding research reproducibility and comparability of research results.
+
+The goal of the artifact archiving is to ensure that the artifacts stay available for a long time, they are possible to locate using search engines, and that they are reusable by other researchers. Additionally, archiving allows to designate exactly the version of the artifact that was used to produce the research result.
+
+The goal of the evaluation process is to assess the artifacts themselves and to help improving them, and not to assess the quality of the research linked to the artifact. The process assumes that the quality of research has been already assessed and approved for MODELS’17 by the program committees. Thus the main goal of the review process is constructive: to improve the submitted artifacts, not to reject or filter them. A rejection may happen, if it is assessed that improving the artifact to sufficient quality is impossible in the given time frame, the artifact is not consistent with the main paper’s results, or the artifact itself is not of sufficient relevance to the scope of the main research paper or to the MODELS community at large.
+
+The process in 2017 is a pilot process, thus it should be kept small and under good control. The intention is to scale the process up in the future editions, if it is evaluated as useful by the MODELS steering committee. Thus it is also a goal of this process to produce reasonable documentation and self-evaluation of the experience.
+
+Timeline
+3 July: Final notification of research track; call for artifacts
+7 July: Artifact submission deadline
+10–17 July: AEC work
+17–19 July: Final AEC meeting and decisions
+19 July: Notification
+21 July: Camera ready due + ready artifact description also due.
+17–22 Sep: Conference and artifact presentations
+Submission
+The artifacts must be submitted to ReMoDD if they are licensed under CC-BY, CC-BY-ND, CC-BY-SA, CC-BY-NC-SA, CC-BY-NC-ND, or to figshare otherwise. An additional two-page document must be submitted with one page describing the artifact and one providing additional information for the artifact evaluators. If the evaluation is positive, the first page will be published at CEUR as a part of the MoDELS Satellite Events Proceedings.
+
+More details TBA soon.
+
+NB: if your artifact is demoable, please consider submitting its demonstration to the Tools and Demonstrations Track!
+
+Chairs
+Andrzej Wąsowski (IT University, Denmark) aka @AndrzejWasowski
+Vadim Zaytsev (Raincode Labs, Belgium) aka @grammarware
+Artifact Evaluation Committee
+Ahmad Salim	Al-Sibahi (IT University of Copenhagen, Denmark)
+Daniel	Strüber (University of Koblenz and Landau, Germany)
+Jesús Sánchez	Cuadrado (Universidad de Murcia, Spain)
+Ludovico	Iovino (Gran Sasso Science Institute, Italy)
+Matthias Schöttle (McGill University, Montreal, Canada)
+Patricia Martín-Rodilla (Incipit-CSIC, Spain)
+Regina Hebig (University of Gothenburg, Sweden)
+Contact
+For any information please contact: models-artifacts@cs.utexas.edu

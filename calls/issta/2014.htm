@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://mir.cs.illinois.edu/issta2014/artifacts.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/issta2014-template.dwt" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="icon" type="image/png" href="http://mir.cs.illinois.edu/favicon.png">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ISSTA 2014 - Artifact Evaluation</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 80%/1.4 Arial, Helvetica, sans-serif;
+	background-color: #001525;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin-left: 0; /* the auto value on the sides, coupled with the width, centers the layout */
+	padding: 0;
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	background-color: #000000;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+	padding: 10px 0;
+}
+.sponsor{
+        background-color: #FFFFFF;
+        color: #1E1E1F;
+	border-collapse: collapse;
+        margin: 0 auto;
+        align: center;
+        text-align: center;
+        width: 125px;
+}
+/* ~~ The footer ~~ */
+.footer {
+	padding: 2px 2px;
+	background-color: #9EB0DD;
+	font: 79%/1.4 Arial, Helvetica, sans-serif;
+}
+.footer td {
+	vertical-align:top;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.topmenu {
+	background-color: #1E1E1F;
+	color: #1E1E1F;
+	border-collapse: collapse;
+	border: 1px solid #1E1E1F;
+}
+.topmenu td {
+	outline: solid;
+	outline-color: #1E1E1F;
+	outline-width: 0px;
+	background-color: #313856;
+	text-align: left;
+	padding-left: 5px;
+	border-left-width: 4px;
+	border-left-color: #8c96df;
+	border-left-style: solid;
+}
+.topmenu a:link {
+	text-decoration:none;
+	color:#FFF; 
+}
+.topmenu a:hover {
+	text-decoration: underline;
+	color: #FFFD7F;
+}
+.topmenu a:visited {
+	color:#FFF; 
+}
+ol {
+	text-indent:hanging;
+	margin-left:5em;
+}
+ol li {
+	margin-top:1px;
+	margin-bottom:1px;	
+}
+ul {
+	text-indent:hanging;
+	margin-left:5em;
+}
+ul li {
+	margin-top:1px;
+	margin-bottom:1px;	
+}
+.mainblock {
+	margin: 0px;
+	padding: 0px;	
+}
+.leftcol {
+	background-color: #1E1E1F;	
+}
+.linkbutton {
+	background-color: #C1E5EE;
+	color: #003295;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-left-color: #009;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #009;
+}
+.linkbutton a {
+	text-decoration: none;
+}
+.linkbutton a:hover {
+	text-decoration: underline;
+}
+.linkbutton a:visited {
+	text-decoration: none;
+	color: #003295;
+}
+-->
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;     /* 10px top & bottom padding, 0px left & right */
+  border-width: 1px 0; /*  1px top & bottom border,  0px left & right */
+  border-color: #000;
+  border-style: solid;
+  border-spacing: 20px 0;
+}
+</style>
+</head>
+
+<body>
+
+<center><div class="container" height="167">
+  <div class="header">
+    <img src="./2014_files/issta-header.jpg">
+    <!-- end .header --></div>
+  <div class="mainblock">
+  <table width="960" border="0" cellspacing="0">
+      <tbody><tr>
+      	<td width="140" align="left" valign="top" class="leftcol">
+          <div class="topmenu">
+            <table width="100%">
+               <tbody><tr><td><a href="http://mir.cs.illinois.edu/issta2014/index.html">About</a></td></tr>
+	       <tr><td><a href="http://mir.cs.illinois.edu/issta2014/program.html">Program</a></td></tr>
+               <tr><td><a href="http://mir.cs.illinois.edu/issta2014/invited.html">Invited Speakers</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/dates.html">Important Dates</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/demo.html">Tool Demonstrations</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/artifacts.html">Artifact Evaluation</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/doctoral.html">Doctoral Symposium</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/pc.html">Program Committee</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/organization.html">Organization</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/events.html">Co-located Events</a></td></tr>
+	        <tr><td><a href="http://mir.cs.illinois.edu/issta2014/registration.html">Registration</a></td></tr>
+                <tr><td><a href="http://mir.cs.illinois.edu/issta2014/travel.html">Travel</a></td></tr>
+            </tbody></table>
+          </div>
+<!--
+  <div class="sponsor" align="center">
+               <br>
+               <b>Sponsored By</b><br><br>
+               <img src="picture_library/sigsoft.gif"> <br><br> 
+	       <img src="picture_library/acm.png"> <br><br> 
+	       <img src="picture_library/fujitsu.gif"> <br><br>
+               <img src="picture_library/ms.jpg"> <br><br>
+	       <img src="picture_library/oracle.gif" width="75%" height="75%"> <br><br>
+	       <img src="picture_library/coverity.png" width="75%" height="75%"> <br><br>
+               <img src="picture_library/nec-blue.gif" width="75%" height="75%"> <br><br>
+               <img src="picture_library/sigplan.png" width="75%" height="75%"> <br><br>   
+          </div>
+-->
+         <br>
+     	</td>
+        <td width="840">  
+          <div class="content">
+            <!-- InstanceBeginEditable name="Content" --><h2>ISSTA 2014, Call for Artifacts</h2>
+
+<p>
+ISSTA 2014 will allow authors of accepted research papers to submit artifacts along with their papers. An artifact can be any kind of content related to a paper, e.g., detailed experimental data, complete experimental setup, test suites, or tools.
+Submitting an artifact is optional.
+</p>
+
+<p>
+Two members of the Artifact Evaluation Committee (AEC) will review an artifact with respect to the following criteria (if applicable):
+</p><ul>
+<li>How easy is it to use the provided artifact? (Easy to reuse)</li>
+<li>Does the artifact help to reproduce the results from the paper? (Consistent)</li>
+<li>What is the percentage of the results that can be reproduced? (Complete)</li>
+<li>Does the artifact describe and demonstrate how to apply the presented method to a new input? (Well documented)</li>
+</ul>
+<p></p>
+
+<p>
+Accepted artifacts got an official <a href="http://mir.cs.illinois.edu/issta2014/storage/aec-badge-issta.pdf">badge of approval</a> (courtesy of Matthias Hauswirth) which can be shown in the proceedings and in presentations
+It will be up to the authors whether they make the results of the evaluation process public or not.</p>
+
+<p>We encourage authors to make accepted artifacts available online!</p>
+
+
+<!--<h3>Submission guidelines</h3>-->
+<!-- <h3>Important Dates:</h3> -->
+
+<table class="box">
+  <caption>Important Dates</caption>
+  <tbody><tr><td>Submission Deadline</td> <td>April 18, 2014 (Friday), extended from April 11</td></tr>
+  <tr><td>Notification</td> <td>May 26th, 2014 (Monday)</td></tr>
+</tbody></table>
+
+<h3>Submission Instructions</h3>
+
+<p>
+All submissions have to be made through: <a href="https://www.easychair.org/conferences/?conf=issta2014ae">https://www.easychair.org/conferences/?conf=issta2014ae</a>.
+</p>
+
+<p>
+We expect the authors to submit only a link to a single file containing all the information needed to evaluate the submitted artifact (see the following section). The artifact evaluation chairs will download the artifact and distribute it to the reviewers (in order to hide the identity of the reviewers from the authors). The authors should additionally make an effort not to learn the identity of the reviewers, e.g., through logging.
+</p>
+
+<h3>Packaging Guidelines</h3>
+
+<p>High quality packaging of an artifact is as important as the quality of the artifact itself. Please keep in mind that the committee members will have limited time to review each artifact. We have some requirements for the artifact submission that will expedite the review process.</p>
+
+<p>
+</p><ul>
+  <li>Please <b>submit a single zip archive, containing a README text file with instructions, the paper, and the artifact itself</b>. Additionally, you may submit a video with a demo and/or instructions. The name of the file should be &lt;paper #&gt;.zip.</li>
+  <li>We provide a template for the <a href="http://mir.cs.illinois.edu/issta2014/storage/README">README</a> file. Fill it out without modifying the lines starting with "#".</li>
+  <li>In case you want to submit a running setup of your tool, please use the <a href="http://mir.cs.illinois.edu/~gliga/service/issta2014/AE.zip">virtual machine image</a> that we have prepared (and include it in the zip archive). Please read our <a href="http://mir.cs.illinois.edu/issta2014/storage/INSTRUCTIONS">instructions</a> on how to run the virtual machine.  You can install any software that is needed to demonstrate the artifact.<!--  Avoid uninstalling software or modifying the desktop environment.--> Assume that no Internet connection will be available for the review!
+</li>
+</ul>
+<p></p>
+
+<h3>Previous Artifact Evaluations</h3>
+
+<p>
+ISSTA is not the first venue to offer an artifact evaluation process but continues a recent trend in Software Engineering conferences (cf. <a href="http://cs.brown.edu/~sk/Memos/Conference-Artifact-Evaluation/">FSE 2011</a>, <a href="http://ecoop13-aec.cs.brown.edu/">ECOOP 2013</a>, and <a href="http://splashcon.org/2013/cfp/665">OOPSLA 2013</a>).  The motivation for such an extension of the submission and review process is twofold.
+</p><ol>
+<li>Submitting artifacts (e.g., tools or detailed experimental results) allows for a more thorough assessment of the claims made in a paper.</li>
+<li>Publishing artifacts (e.g., test suites or an executable experimental setup) makes it easier for other researchers to reproduce results from a paper or to compare their own techniques with the one presented in a paper.</li>
+</ol>
+<p></p>
+
+<p>
+Previous artifact evaluation committees have put some thought into how to introduce artifact evaluation without scaring potential authors from submissions. Detailed accounts can be found <a href="http://cs.brown.edu/~sk/Memos/Conference-Artifact-Evaluation/#lead-in">here</a> and <a href="http://ecoop13-aec.cs.brown.edu/about.txt">here</a>.
+We generally follow these considerations and hope that the authors will submit their results for the evaluation.
+</p>
+
+<h3>Artifact Evaluation Chairs</h3>
+<p> <a href="http://mir.cs.illinois.edu/~gliga/">Milos Gligoric</a>,
+University of Illinois at Urbana-Champaign, USA. <br>
+<a href="http://www.falkhowar.de/">Falk Howar</a>, Carnegie Mellon
+Silicon Valley, USA.</p>
+
+<h3>Artifact Evaluation Committee</h3>
+
+<p>
+<a href="http://www.st.cs.uni-saarland.de/~gorla/">Alessandra Gorla</a>, Saarland University, Saarbrucken, Germany <br>
+<a href="http://www.cc.gatech.edu/~wjin6/mypage/index.html">Wei Jin</a>, Georgia Institute of Technology, USA <br>
+<a href="http://homepage.cs.uiowa.edu/~tkahsaiazene/">Temesghen Kahsai</a>, NASA Ames, USA <br>
+<a href="http://people.epfl.ch/cgi-bin/people?id=199829&amp;lang=en&amp;cvlang=en">Baris Kasikci</a>, Swiss Federal Institute of Technology in Lausanne, Switzerland <br>
+<a href="http://people.csail.mit.edu/aleks/website/">Aleksandar Milicevic</a>, Massachusetts Institute of Technology, USA <br>
+<a href="http://people.csail.mit.edu/misailo/">Sasa Misailovic</a>, Massachusetts Institute of Technology, USA <br>
+<a href="http://www.kivancmuslu.com/">Kivanc Muslu</a>, University of Washington, USA <br>
+<a href="http://ls5-www.cs.tu-dortmund.de/cms/de/mitarbeiter/wiss/Johannes_Neubauer.html">Johannes Neubauer</a>, TU Dortmund, Germany <br>
+<a href="http://www.dsc.ufcg.edu.br/~gsoares/Gustavo_Soares/Home.html">Gustavo Soares</a>, Universidade Federal de Campina Grande, Brazil <br>
+<a href="http://pages.cs.wisc.edu/~songlh/">Linhai Song</a>, University of Wisconsin-Madison, USA <br>
+<a href="http://fsl.cs.illinois.edu/index.php/Andrei_Stefanescu">Andrei Stefanescu</a>, University of Illinois at Urbana-Champaign, USA <br>
+<a href="http://www.comp.nus.edu.sg/~shinhwei/">Shin Hwei Tan</a>, National University of Singapore, Singapore <br>
+<a href="http://www.cse.ust.hk/~idagoo/">Yida Tao</a>, The Hong Kong University of Science and Technology, Hong Kong <br>
+<a href="https://sites.google.com/site/xushengxiaoshome/">Xusheng Xiao</a>, North Carolina State University, USA <br>
+<a href="https://webspace.utexas.edu/lz3548/www/">Lingming Zhang</a>, University of Texas at Austin, USA <br>
+<a href="http://homes.cs.washington.edu/~szhang/">Sai Zhang</a>, University of Washington, USA <br>
+</p>
+            <!-- InstanceEndEditable --><!-- end .content -->
+          </div>         
+     	</td>
+      </tr>
+  </tbody></table>
+  </div>
+  <div class="footer">
+            <table width="100%">
+                <tbody><tr>
+                    <td width="50%">
+                        <strong>ISSTA '14: International Symposium on Software Testing and Analysis</strong><br>
+                        Bay Area, California, July 21 – 25, 2014
+                    </td>
+                    <td width="50%">
+                        <b>General Chair:</b> <a href="mailto:corina.s.pasareanu@nasa.gov">Corina Pasareanu</a><br>
+                        <b>Program Chair:</b> <a href="mailto:marinov@illinois.edu">Darko Marinov</a><br>
+			<b>Local Organization Chair:</b> <a href="mailto:oksana.tkachuk@nasa.gov">Oksana Tkachuk</a>
+                  </td>
+                </tr>
+            </tbody></table>   
+            <!-- end .footer -->
+          </div>
+<!-- end .container --></div></center>
+
+<!-- InstanceEnd -->
+</body></html>

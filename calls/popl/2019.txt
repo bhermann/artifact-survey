@@ -1,0 +1,196 @@
+POPL 2019 Artifact Evaluation
+About
+Submit an Artifact
+Artifact Submission Guidelines
+Information for Committee Members
+A paper consists of a constellation of artifacts that extend beyond the document itself, including software, mechanized proofs, models, test suites, and benchmarks. In some cases, the quality of these artifacts is as important as that of the document itself, yet our conferences offer no formal means to submit and evaluate anything but the paper. To address this, POPL has run an optional artifact evaluation process since POPL 2015, inspired by similar efforts in our community.
+
+Goals
+The goal of the artifact evaluation process is two-fold: to both reward and probe. Our primary goal is to reward authors who take the trouble to create useful artifacts beyond the paper. Sometimes the software tools that accompany the paper take years to build; in many such cases, authors who go to this trouble should be rewarded for setting high standards and creating systems that others in the community can build on. Conversely, authors sometimes take liberties in describing the status of their artifacts—claims they would temper if they knew the artifacts are going to be scrutinized. This leads to more accurate reporting.
+
+Our hope is that eventually, the assessment of a paper’s accompanying artifacts will guide the decision-making about papers: that is, the Artifact Evaluation Committee (AEC) would inform and advise the Program Committee (PC). This would, however, represent a radical shift in our conference evaluation processes; we would rather proceed gradually. Thus, artifact evaluation is optional, and authors choose to undergo evaluation only after their paper has been conditionally accepted. Nonetheless, feedback from the Artifact Evaluation Committee can help improve the both the final version of the paper and any publicly released artifacts. The authors are free to take or ignore the AEC feedback at their discretion.
+
+Criteria
+The evaluation criteria are ultimately simple. A paper sets up certain expectations of its artifacts based on its content. The AEC will read the paper and then judge how well the artifact matches these criteria. Thus the AEC’s decision will be that the artifact does or does not “conform to the expectations set by the paper”. Ultimately, we expect artifacts to be:
+
+consistent with the paper,
+as complete as possible,
+documented well, and
+easy to reuse, facilitating further research.
+Benefits
+We believe the dissemination of artifacts benefits our science and engineering as a whole. Their availability improves replicability and reproducibility, and enables authors to build on top of each others’ work. It can also help more unambiguously resolve questions about cases not considered by the original authors.
+
+Beyond helping the community as a whole, it confers several direct and indirect benefits to the authors themselves. The most direct benefit is, of course, the recognition that the authors accrue. But the very act of creating a bundle that can be evaluated by the AEC confers several benefits:
+
+The same bundle can be publicly released or distributed to third-parties.
+
+A bundle can be used subsequently for later experiments (e.g., on new parameters).
+
+The bundle simplifies having to re-run the system subsequently when, say, having to respond to a journal reviewer’s questions.
+
+The bundle is more likely to survive being put in storage between the departure of one student and the arrival of the next.
+
+Creating a bundle that meets all these properties can be onerous and therefore, the process we describe below does not require an artifact to have all these properties. It offers a route to evaluation that confers fewer benefits for vastly less effort.
+
+Process
+To maintain a wall of separation between paper review and the artifacts, authors will be asked to submit their artifacts only after their papers have been conditionally accepted and artifact evaluation does not influence acceptance decisions regarding papers. Of course, authors can (and should!) prepare their artifacts well in advance, and can provide the artifacts to the PC via supplemental materials, as many authors already do.
+
+The authors of all conditionally accepted papers will be asked whether they intend to have their artifact evaluated and, if so, to submit the artifact. They are welcome to indicate that they do not.
+
+After artifact submission, the AEC will download and install the artifact (where relevant), and evaluate it. Since we anticipate small glitches with installation and use, reviewers may communicate with authors to help resolve glitches while preserving reviewer anonymity. With the help of Eddie Kohler, we have set up HotCRP so that reviewers can ask questions while preserving their anonymity and get immediate answers from the (non-anonymous) authors directly from the HotCRP interface. Any reviews submitted to HotCRP also go immediately to the authors, who can again answer any reviewer questions or fix potential issues. The AEC will complete its evaluation, discuss, and notify authors of the outcome. There is approximately one week between feedback from the AEC and the deadline for the camera ready versions of accepted papers. This is intended to allow authors sufficient time to include the feedback from the AEC as they deem fit.
+
+Starting this year the AEC will offer the “Artifacts Evaluated - Reusable” badge to the artifacts that receive above average scores and that are additionally made available in a way that enables reuse (for software artifacts this means releasing the artifact under an open source license, ideally on a platform like GitHub, GitLab, BitBucket, SourceForge, etc). All other artifacts that “meet expectations” will get the default “Artifacts Evaluated - Functional” badge. Finally, papers whose artifacts meet or surpass the AEC’s expectations and where the authors also make an immutable snapshot of their artifacts available eternally on ACM DL will also receive ACM’s “Artifacts Available” badge. The ACM assures us that such artifact snapshots will be available to download in perpetuity for free to anyone, without any paywall. We encourage authors to make their artifacts publicly available in some form. It is, however, up to the authors whether and how they want to make their artifacts available, and storing an immutable snapshot on ACM DL does not prevent authors in any way from also distributing their code on an open source platform or their personal websites.
+
+ACM's Artifacts Evaluated – Reusable Badge        ACM's Artifacts Evaluated – Functional Badge        ACM's Artifacts Available Badge
+
+All the badges above will be added to the papers by the publisher, not by the authors.
+
+Artifact Details
+To avoid excluding some papers, the AEC will try to accept any artifact that authors wish to submit. These can be software, mechanized proofs, test suites, data sets, and so on. Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it.
+
+Since POPL 2017 the AEC has decided to not accept paper proofs in the artifact evaluation process. The AEC lacks the time and often the expertise to carefully review paper proofs. We hope that reserving the artifact evaluated badge to mechanized proofs that are easier to check and reuse will incentivize more of the POPL authors to mechanize their metatheory in a proof assistant.
+
+While we encourage open research, submission of an artifact does not grant permission to make its content public. AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact.
+
+We strongly encourage that you anonymize any data files that you submit. We recognize that some artifacts may attempt to perform malicious operations by design. These cases should be boldly and explicitly flagged in detail in the readme so AEC members can take appropriate precautions before installing and running these artifacts.
+
+AEC Membership
+The AEC will consist of about 30 members, made up of a combination of senior graduate students, postdocs, and researchers, identified with the help of the POPL Program Committee and of previous AEC members.
+
+Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations we will encounter. In addition, these graduate students represent the future of the community, so involving them in this process early will help push this process forward. Moreover, participation in the AEC can provide useful insight into both the value of artifacts, the process of artifact evaluation, and help establish community norms for artifacts. We therefore seek to include a broad cross-section of the POPL community on the AEC.
+
+Naturally, the AEC chairs will devote considerable attention to both mentoring and monitoring the junior members of the AEC, helping to educate the students on their power and responsibilities.
+
+
+Submit an Artifact
+After your paper has been (conditionally) accepted, please check the Artifact Submission Guidelines and, if you wish, submit your artifact at https://popl19aec.hotcrp.com
+
+POPL notification: Wednesday, 10 October 2018 (AoE)
+Artifact submission deadline: Monday, 15 October 2018 (AoE)
+Answering AE reviewer questions: 18 October - 7 November 2018 (AoE)
+Artifact decisions announced: Wednesday, 7 November 2018 (AoE)
+POPL camera-ready deadline will be paper specific, but for papers submitting artifacts it is expected not to be before Wednesday, 14 November 2018 (AoE)
+For submitting your artifact, please enter the title, abstract, and PDF of your (conditionally) accepted POPL 2019 paper, as well as topics, conflicts, and any “bidding instructions” for the potential reviewers. Additionally, please provide a stable URL or if that is not possible upload an archive of your artifact. You will no longer be able to change these after the artifact submission deadline, with the exception of fixing or improving the content at the other end of the stable URL in response to reviewer feedback.
+
+HotCRP communication setup
+The HotCRP setup for Artifact Evaluation is a bit non-standard in order to allow direct communication with the reviewers while preserving reviewer anonymity. Reviewers can ask questions anonymously using author-visible comments and get immediate answers from the authors directly within the HotCRP interface. So if reviewers get stuck on installing or trying an artifact they can directly ask the authors for help.
+
+Moreover, each review is available to authors as soon as it is submitted. The reviewers are aware of this, so they will only submit a review if they are okay with authors seeing it. If authors want to comment on a review or to answer a reviewer question they should use HotCRP comments.
+
+Artifact Submission Guidelines
+By the submission deadline, please submit the abstract and PDF of your conditionally accepted POPL 2019 paper, as well as topics, conflicts, and any “optional bidding instructions” for the potential reviewers. https://popl19aec.hotcrp.com/.
+
+Additionally, please provide a stable URL or if that is not possible upload an archive of your artifact. You will no longer be able to change these after the artifact submission deadline. For your artifact to be considered you also need to check the “ready for review” box before the deadline.
+
+We recommend creating a single web page at a stable URL that contains the artifact and instructions for installing and using the artifact.
+
+The committee will read your accepted paper before evaluating the artifact. But, it is quite likely that the artifact needs more documentation to use. Please provide enough documentation so that the reviewers can property assess your artifact, including for instance: a web page and/or a README file, a tutorial, a long version of the paper if the artifact is better described herein, code comments for the main entry points, etc. Please use the web page or the README file to make concrete what claims you are making of the artifact in the paper and to what do they correspond in the actual artifact. What usually works very well in all cases is a (sub)section by (sub)section index mapping explicit claims and any other artifact-relevant material from the paper to concrete pointers in the actual artifact (e.g. Theorem 42 from Section 5.2 corresponds to theorem foo in Coq file dir1/Blah.v, or the pseudocode from Figure 6 from Section 7 corresponds to function fun in file dir2/wizbang.c, or to obtain the graph in Figure 8 run make test and the results will be in file.csv). This is also a place where you can tell us about expectations set up by the paper that are not precisely matched by the artifact (e.g., for some reason you weren’t able ship some data or some part of your code, or you still have a few well-documented admits in your Coq proofs), difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper (e.g. you just have a prototype that takes hard-coded inputs and can’t take new inputs). We are still going to evaluate the artifact relative to the paper, but this helps reviewers navigate your artifact and set expectations up front, especially in cases that might frustrate the reviewers without prior notice.
+
+Artifact authors not anonymous
+The artifact submissions are not anonymous. Reviewers will see the authors for each artifact from the start, so there is no need to expend effort to hide the artifact authors.
+
+Reviewer Anonymity
+We ask that, during the evaluation period, you not embed any analytics or other tracking in the Web site for the artifact or, if you cannot control this, that you not access this data. This is important for maintaining the confidentiality of reviewers. If for some reason you cannot comply with this, please notify the chairs immediately.
+
+Packaging Artifacts
+Authors should consider one of the following methods to package the software components of their artifacts (though the AEC is open to other reasonable formats as well):
+
+Source code: If your artifact has very few dependencies and can be installed easily on several operating systems, you may submit source code and build scripts. However, if your artifact has a long list of dependencies, please use one of the other formats below.
+Virtual Machine: A virtual machine containing software application already setup with the right tool-chain and intended runtime environment. For example:
+For mechanized proofs, the VM would have the right version of the theorem prover used.
+For a mobile phone application, the VM would have a phone emulator installed.
+For raw data, the VM would contain the data and the scripts used to analyze it.
+We recommend using VirtualBox, since it is freely available on several platforms. An Amazon EC2 instance is also possible.
+Binary Installer: please indicate exactly which platform and other runtime dependencies your artifact requires.
+Live instance on the Web: Ensure that it is available for the duration of the artifact evaluation process.
+Screencast: A detailed screen-cast of the tool along with the results, especially if one of the following special cases applies:
+The application needs proprietary/commercial software that is not easily available or cannot be distributed to the committee.
+The application requires significant computation resources (e.g., more than 24 hours of execution time to produce the results).
+Remember that the AEC is attempting to determine whether the artifact meets the expectations set by the paper. (The instructions to the committee are available here.) Package your artifact to help the committee easily evaluate this.
+
+If you have any questions about how best to package your artifact, please don’t hesitate to contact the AEC chairs, at popl19aec.chairs@gmail.com.
+
+Extra advice for specific classes of research
+Creating good research artifacts is hard and what makes an artifact good varies from community to community and is often unwritten. Here are some non-authoritative guidelines that you might find useful, targeted at specific kinds of research:
+
+SIGPLAN Empirical Evaluation Guidelines
+Proof Artifact Guidelines by Marianna Rapoport
+Please note that these guidelines are not the official criteria by which by the POPL AEC evaluates artifacts, since (1) these guidelines are about doing good research in general and the AEC will only evaluate the artifacts of papers that were already (conditionally) accepted at POPL, (2) these guidelines might set a too high bar for artifacts if not flexibly interpreted, and (3) in the end artifact evaluation does involve a judgement about the value of an artifact that is to a certain extent subjective, and cannot be completely captured by a checklist any more than what makes a good POPL paper can.
+
+Information for Committee Members
+Reviewing Website
+https://popl19aec.hotcrp.com/
+
+Deadlines
+Artifact bidding starts: Tuesday, 16 October 2018, 01:00 (AoE)
+Artifact bidding deadline: Wednesday, 17 October 2018, 23:59 (AoE)
+Artifact Reviewing period: 18 October - 1 November 2018 (AoE)
+All artifact reviews due: Thursday, 1 November 2018, 23:59 (AoE)
+Artifact Discussion period: 2 - 6 November 2018 (AoE)
+Artifact decisions announced: Wednesday, 7 November 2018, 23:59 (AoE)
+Please don’t leave tasks to the last minute! Please try to install the artifacts early so that you can contact the authors via HotCRP and troubleshoot if needed. Please submit your reviews early. This will give us more time to read each others’ reviews and understand the relative quality of the artifacts.
+
+Installation and Contacting Authors in HotCRP
+Immediately after authors submit the artifacts, please try to install/setup the artifacts that were assigned to you. Please do this as soon as you can, so we have time to troubleshoot any issues. With the help of Eddie Kohler, we have set up HotCRP so that reviewers can ask questions anonymously and get immediate answers from the authors directly from the HotCRP interface.
+
+Do not publicize or retain any part of an artifact
+While we encourage open research, submission of an artifact does not contain tacit permission to make its content public. AEC members may not publicize any part of an artifact during or after completing evaluation, nor retain any part of it after evaluation.
+
+Artifact Evaluation Guidelines
+Once you have installed the artifact, you can start evaluating it!
+
+Two main things to keep in mind:
+
+Read the paper and write a review that discusses the following: Does the artifact meet the expectations set by the paper?
+
+The paper has already been accepted, so don’t review the paper. Review the artifact.
+
+This is not a completely objective process and that’s okay. We want to know if the artifact meets your expectations as a researcher. Does something in the artifact annoy you or delight you? You should say so in your review. Note that while the ideal may be replicability (i.e., obtaining the same results using the authors’ artifact), there are many reasons why we as a committee may be unable to replicate the results yet still deem the artifact as meeting expectations. For example, it may be difficult or impossible for the authors to provide a bundled artifact that allows replication.
+
+We encourage you to try your own tests. But, don’t be a true adversary. This is research software so stuff will break. Assume the authors acted in good faith and aren’t trying to hoodwink us. Instead, suppose you had to use/modify the artifact for your own research. Do you think you could? You’ll have to imagine and extrapolate, but that’s okay.
+
+You may find it easier to adjust scores once you’ve reviewed all 2-3 of your artifacts. Moreover, once you read others’ reviews, you’ll get a better sense of average artifact quality. Don’t hesitate to change your scores later.
+
+Finally, if the paper says “we have software/data for X and Y”, but the artifact is only “X” that’s okay. But, it should be crystal clear from the paper that the artifact that was evaluated only did “X”. Say so in your review. Free free to say, “I wish you’d also provided Y as an artifact”, but know that it won’t affect this paper.
+
+HotCRP communication setup
+Since last year we have set up HotCRP so that you can ask questions anonymously using author-visible comments and get immediate answers from the authors directly within the HotCRP interface. So if you get stuck on installing or trying an artifact you can directly ask the authors for help. Moreover, each review is available to authors as soon as it is submitted, so please be aware that when you submit a review the authors will see it immediately and can potentially answer to any questions or issues you raise in your review. If your opinion evolves, for instance as you discuss with the authors or review other artifacts, do not hesitate to change your scores or reviews, being aware that authors will immediately see these updates too.
+
+Selecting the best artifacts
+One novelty this year is that we will be awarding both the default “Artifacts Evaluated - Functional” badge and the cooler “Artifacts Evaluated - Reusable” badge. This cooler badge is for the artifacts that receive the best scores and that are additionally made available in a way that enables reuse—for software artifacts this means that the authors committed to release the artifact under an open source license. So our role this year is not only to check that the artifacts we accept meet the expectations set by the paper, but also to identify the best reusable artifacts. This makes the artifact scoring and the discussions more important, so this year the discussion period was extended to 5 days (2 - 6 November, AoE).
+
+Chairs
+Benjamin Delaware
+Cătălin Hriţcu
+
+Committee
+Sara Achour
+Arthur Azevedo de Amorim
+Casper Bach Poulsen
+Aleš Bizjak
+Martin Bodin
+Jesper Cockx
+Ankush Das
+Daniel Dietsch
+Samuel Drews
+Gregory Essertel
+Jeevana Priya Inala
+Jeehoon Kang
+Kenji Maillard
+William Mansky
+Karl Palmskog
+Daniel Patterson
+Jennifer Paykin
+Jonathan Protzenko
+Christopher Pulte
+Robert Rand
+Talia Ringer
+Christine Rizkallah
+Taro Sekiyama
+Thomas Sewell
+Jan Stolarek
+David Swasey
+Amin Timany
+Caterina Urban
+Di Wang
+He Zhu

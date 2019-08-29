@@ -1,0 +1,42 @@
+https://conf.researchr.org/track/issta-2018/issta-2018-Artifacts#About
+
+Call for Artifacts
+The Artifact Evaluation process is a service provided by the community to help (1) the ISSTA program committee make better acceptance decisions and (2) authors of accepted papers provide more substantial supplements to their papers so that future researchers can more effectively build on and compare with previous work.
+
+Artifacts in that sense include (but are not limited to):
+
+Tools, which are implementations of systems or algorithms potentially useful in other studies.
+Data repositories, which are data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.
+Frameworks, which are tools and services illustrating new approaches that could be used by other researchers in different contexts.
+This list is not exhaustive, but if your proposed artifact is not on this list, please email the chairs before submitting.
+
+The Artifact Evaluation Committee has been formed to assess how well paper authors prepare artifacts in support of claims made in the paper and future use of the artifacts. Authors of papers who wish to participate are invited to submit an artifact before May 10th, which is 8 days after the final author notification for the paper. The artifact will only be reviewed by the AEC if the paper for the artifact is accepted.
+
+The AEC will follow the terminology from the ACM Artifact Review and Badging policy.
+
+Different from the prior practices of artifact evaluation, the PC will take into consideration how well claims made and experimental results reported in a paper match its corresponding artifact when making acceptance decisions. Specifically, artifacts will be evaluated under the following criteria:
+
+Consistency with the paper,
+Completeness,
+Quality of documentation, and
+Ease of reuse (depending on self assessment during submission).
+Artifacts for all accepted papers will be reviewed after author notification is sent if they have not been reviewed earlier during the paper review period. To review an artifact, the Artifact Evaluation Committee will read the paper and explore the artifact to give the authors feedback about how well the artifact supports the paper and how easy it is, in the committee’s opinion, for future researchers to use the artifact. However, for a PC-requested review, only the former will be considered for the PC to make decisions.
+
+Reproducibility Studies
+ISSTA 2018 introduces the new paper category of reproducibility studies. We expect reproducibility studies to clearly point out the artifacts the study is built on, and to submit those artifacts to artifact evaluation. Artifacts evaluated positively will be eligible to obtain the highly prestigious badges Results Replicated or Results Reproduced.
+
+Badging
+Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the first page of the paper in the ISSTA proceedings and the ACM Digital Library. The seal will be one of the following:
+
+Artifacts Evaluated - Functional: The artifacts are complete, well-documented and allow to obtain the same results as the paper.
+Artifacts Evaluated - Reusable: Same as above, but the artifacts are of such high quality that they can be reused as is on other data sets, or for other purposes.
+Distinguished Artifact Awards
+Additionally, artifacts that go above and beyond the expectations of the Artifact Evaluation Committee will receive a Distinguished Artifact Award.
+
+Packaging Instructions
+Artifacts must be packaged for easy evaluation. Ideally, there should be no dependencies and no installation; if at all possible, we recommend submitting a self-contained virtual machine image or container (VirtualBox, Docker). Otherwise, please ensure that the total installation and configuration time is kept as low as possible. Artifacts that require more than 30 minutes of installation/configuration may not be evaluated.
+
+The root directory of the submission must contain a README.html or README.txt file with complete, easy-to-follow instructions on how to use the artifact. We strongly recommend providing examples that make it easy for the reviewers to get started, and scripts that automate the task of launching the tool and reproducing the experiments (if applicable).
+
+Publishing
+Authors of papers with accepted artifacts are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.

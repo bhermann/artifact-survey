@@ -1,0 +1,24 @@
+Artifacts:
+Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. Following the effort initiated at ESEC/FSE’11, authors of accepted technical papers at VISSOFT 2018 can have their artifacts evaluated by the program committee. Positively evaluated artifacts will be reflected in the paper publication, presentation, and be formally announced during the conference. A paper with an accepted artifact will have five extra minutes of presentation which can be used to present the artifact. The authors will also be invited to demo the artifact during the interactive informal demo session organized for the tool demo track.
+
+Given the short time between the acceptance notification and the deadline to submit the artifact, we suggest the authors to start preparing it beforehand.
+
+Finally, for more information about the artifact evaluation process visit http://www.artifact-eval.org.
+
+Important Dates:
+Artifact Submission: June 22, 2018
+Artifact Notification: July 11, 2018
+Submission link: https://easychair.org/conferences/?conf=vissoft2018
+
+Chairs
+Johan Fabry
+Roberto Minelli
+
+Committee
+Ivan Bacher
+Sebastian Baltes
+Tanja Blascheck
+Alexander Breckel
+Jannik Laval
+Leonel Merino
+Nischal Shrestha

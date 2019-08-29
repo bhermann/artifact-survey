@@ -1,0 +1,112 @@
+Artifact Submission
+Artifact evaluation criteria: please visit the webpage for more details.
+
+Authors of accepted regular papers will be invited to submit (but are not required to submit) the relevant artifact for evaluation by the artifact evaluation committee.
+
+Authors of all tool papers are required to submit their artifact to the artifact evaluation committee at the paper submission time. Unlike regular papers, the results of the artifact evaluation for tool papers will be available to the program committee during the online discussions.
+
+To submit an artifact, please prepare a virtual machine (VM) image of your artifact and keep it accessible through an HTTP link throughout the evaluation process. As the basis of the VM image, please choose commonly used OS versions that have been tested with the virtual machine software and that evaluators are likely to be accustomed to. We encourage you to use https://www.virtualbox.org and save the VM image as an Open Virtual Appliance (OVA) file. Please include the prepared link in the appropriate field of the artifact submission form. Only for the tool artifacts: To ensure integrity of the submitted artifacts, we kindly ask the authors to compute the SHA1 checksum of the artifact file and provide it at submission time. (A checksum can be found by running sha1sum (Linux) or File Checksum Integrity Verifier (Microsoft Windows)).
+
+By following the link, you can download a VM with the latest version of Ubuntu (login “cav”, password “ae”).
+
+In addition, please supply at submission time a link to a short plain-text file describing the OS and parameters of the image, as well as the host platform on which you prepared and tested your virtual machine image (OS, RAM, number of cores, CPU frequency). Please describe how to proceed after booting the image, including the instructions for locating the full documentation for evaluating the artifact.
+
+The artifacts for the accepted papers should be submitted to the track called “Artifact evaluation for full papers” at the submission site: https://easychair.org/conferences/?conf=cav2018
+
+If you are not in a position to prepare the artifact as above, please contact PC chairs for an alternative arrangement. For instance, if you cannot provide us with a VM that contains licensed software, e.g., Matlab, please contact us, so we can find a solution.
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the artifact evaluation committee and that yields expected results. The artifact should follow the guidelines:
+
+Document in detail how to reproduce most of the experimental results of the paper using the artifact; keep this process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.
+Ensure the artifact is in the state ready to run. It should work without a network connection. It should not require the user to install additional software before running, that is, all required packages should be installed on the provided virtual machine.
+The artifact should use reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops. The evaluation should take reasonable amount of time to complete. If this is not the case for your benchmarks, make sure to also include simpler benchmarks that do not require long running time by the artifact. If this is not possible, please contact PC and AEC chairs as soon as possible.
+When possible include source code within your virtual machine image and point to the most relevant and interesting parts of the source code tree.
+We encourage the authors to include log files that were produced by their tools, and point to the relevant log files in the artifact description.
+Members of the artifact evaluation committee and the program committee are asked to use submitted artifact for the sole purpose of evaluating the contribution associated with the artifact.
+
+Artifact evaluation criteria: please visit the webpage for more details.
+
+Artifact Evaluation Criteria
+These are the instructions adapted from HSCC 2018. Thanks to Sergiy Bogomolov and Ian Mitchell for sharing the criteria and letting us to reuse them.
+
+Each member of the artifact evaluation committee assigned to review an artifact should judge it based on three criteria — coverage, instructions, and quality— where each criteria is assessed on the following scale:
+
+Significantly exceeds expectations (5)
+Exceeds expectations (4)
+Meets expectations (3)
+Falls below expectations (2)
+Missing or significantly falls below expectations (1)
+In order to be judged “repeatable” an artifact must “meet expectations” (average score of 3), and must not have any missing elements (no scores of 1). Each artifact is evaluated independently according to the objective criteria. The higher scores (“exceeds” or “significantly exceeds expectations”) in the criteria should be considered aspirational goals, not requirements for acceptance. As CAV accepts a wide range of research results, there is no direct mapping from the score to the decision. The final decision is left to the members of the Artifact Evaluation Committee.
+
+Coverage
+What fraction of the appropriate figures and tables are reproduced by the artifact? Note that some figures and tables should not be included in this calculation; for example, figures generated in a drawing program, or tables listing only parameter values. The focus is on those figures or tables in the paper containing computationally generated or processed experimental evidence to support the claims of the paper.
+
+Note that satisfying this criterion does not require that the corresponding figures or tables be recreated in exactly the same format as appears in the paper, merely that the data underlying those figures or tables be generated in a recognizable format.
+
+A repeatable element is one for which the computation can be rerun by following the instructions in the artifact in a suitably equipped environment. An extensible element is one for which variations of the original computation can be run by modifying elements of the code and/or data. Consequently, necessary conditions for extensibility include that the modifiable elements be identified in the instructions or documentation, and that all source code must be available and/or involve calls to commonly available and trusted software (eg: Windows, Linux, C or Python standard libraries, Matlab, etc.).
+
+The categories for this criterion are:
+
+None (missing / 1): There are no repeatable elements. This case automatically applies to papers which do not submit an artifact or papers which contain no computational elements.
+Some (falls below expectations / 2): There is at least one repeatable element.
+Most (meets expectations / 3): The majority (at least half) of the elements are repeatable.
+All repeatable or most extensible (exceeds expectations / 4): All elements are repeatable or most are repeatable and easily modified. Note that if there is only one computational element and it is repeatable, then this score should be awarded.
+All extensible (significantly exceeds expectations / 5): All elements are repeatable and easily modified.
+Instructions
+This criterion is focused on the instructions which will allow another user to recreate the computational results from the paper.
+
+None (missing / 1): No instructions were included in the artifact.
+Rudimentary (falls below expectations / 2): The instructions specify a script or command to run, but little else.
+Complete (meets expectations / 3): For every computational element that is repeatable, there is a specific instruction which explains how to repeat it. The environment under which the software was originally run is described.
+Comprehensive (exceeds expectations / 4): For every computational element that is repeatable there is a single command which recreates that element almost exactly as it appears in the published paper (eg: file format, fonts, line styles, etc. might not be the same, but the content of the element is the same). In addition to identifying the specific environment under which the software was originally run, a broader class of environments is identified under which it could run.
+Outstanding (significantly exceeds expectations / 5): In addition to the criteria for a comprehensive set of instructions, explanations are provided of:
+All the major components / modules in the software
+Important design decisions made during implementation
+How to modify / extend the software
+What environments / modifications would break the software
+Quality
+This criterion explores the documentation and trustworthiness of the software and its results. While a set of scripts which exactly recreate, for example, the figures from the paper certainly aid in repeatability, without well-documented code it is hard to understand how the data in that figure were processed, without well-documented data it is hard to determine whether the input is correct, and without testing it is hard to determine whether the results can be trusted.
+
+If there are tests in the artifact which are not included in the paper, they should at least be mentioned in the instructions document. Documentation of test details can be put into the instructions document or into a separate document in the artifact.
+
+The categories for this criterion are:
+
+None (missing / 1): There is no evidence of documentation or testing.
+Rudimentary documentation (falls below expectations / 2): The purpose of almost all files is documented (preferably within the file, but otherwise in the instructions or a separate readme file).
+Comprehensive documentation (meets expectations / 3): The purpose of almost all files is documented. Within data files, the format and structure of the data is documented; for example, in comma separated value (csv) files there is a header row and/or comments explaining the contents of each column. Note that availability and quality of the source code is not required at this level.
+Comprehensive documentation and documented source code/4 (exceeds expectations / 4): The source code is available. Within source code files, almost all classes, methods, attributes and variables are given lengthy clear names and/or documentation of their purpose.
+Comprehensive documentation and rudimentary testing (exceeds expectations / 4): In addition to the criteria for comprehensive documentation, there are identified test cases with known solutions which can be run to validate at least some components of the code.
+Both cases above / 4.5: for the sake of completeness.
+Comprehensive documentation and testing (significantly exceeds expectations / 5): In addition to the criteria for comprehensive documentation, there are clearly identified unit tests (preferably run with a unit test framework) which exercise a significant fraction of the smaller components of the code (individual functions and classes) and system level tests which exercise a significant fraction of the full package. Unit tests are typically self-documenting, but the system level tests will require documentation of at least the source of the known solution.
+Note that tests are a form of documentation, so it is not really possible to have testing without documentation.
+
+Chairs
+Igor Konnov (chair), TU Wien
+
+Committee
+Artifact Evaluation Committee
+Thibaut Balabonski, Université Paris Sud
+Sergiy Bogomolov, Australian National University
+Simon Cruanes, Aesthetic Integration, Ltd.
+Matthias Dangl, LMU Munich
+Eva Darulova, MPI-SWS
+Ramiro Demasi, Universidad Nacional de Córdoba
+Grigory Fedyukovich, Princeton University
+Johannes Hölzl, VU Amsterdam
+Jochen Hoenicke, University of Freiburg
+Antti Hyvärinen, USI Lugano
+Swen Jacobs, Saarland University
+Saurabh Joshi, IIT Hyderabad
+Dejan Jovanovic, SRI
+Ayrat Khalimov, TU Graz
+Jan Křetínský, TU Munich
+Alfons Laarman, Leiden University
+Ravichandhran Kandhadai Madhavan, EPFL
+Andrea Micheli, FBK Trento
+Sergio Mover, University of Colorado Boulder
+Aina Niemetz, Stanford University
+Burcu Kulahcioglu Ozkan, MPI-SWS
+Markus Rabe, UC Berkeley
+Andrew Reynolds, University of Iowa
+Martin Suda, TU Wien
+Mitra Tabaei Befrouei, TU Wien

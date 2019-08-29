@@ -1,0 +1,44 @@
+Welcome
+Welcome to the Artifact Evaluation process! We hope you will submit to take advantage of this opportunity.
+
+Dates
+Paper decision notification: March 8, 2013
+Artifacts due: March 8, 2013
+Artifact evaluation decisions announced: April 12, 2013
+Camera-ready due: April 19, 2013
+
+Example
+After the review period was over, the authors of Feature-Oriented Programming with Object Algebras, namely Bruno C. d. S. Oliveira, Tijs Van Der Storm, Alex Loh and William R. Cook, very graciously agreed to let us publish the full review of their artifact. Here it is!
+
+Process
+Artifact evaluation is open only to accepted papers. This is intentional: it ensures that the AEC cannot influence whether or not a paper is accepted. This measure was put in place to reassure authors who felt this would be too radical a change to the process of evaluating conference paper submissions.
+
+Of course, this doesn't mean you can't start getting ready! We have published the packaging guidelines below, so you can begin to prepare your artifacts for submission. Even if your paper doesn't get accepted, this should still be a useful exercise for general dissemination. In addition, we hope the guidelines will give you ideas about how your material can be disseminated, either by suggesting methods you hadn't considered or pointing you to resources you weren't aware of.
+
+As soon as papers are chosen for the conference, you will be invited to submit. We will then have a few weeks in which to perform the evaluation. We may contact you if we have a problem with the submission, but there is no formal “response” period.
+
+Thus, even though there is nothing formally to do now, you would do well to have your artifact packaged and ready to go. The moment you receive the good news, you should be ready to upload!
+
+Packaging Guidelines
+We have written guidelines for artifacts. Because we want to encourage as many of you as possible to submit, these are only guidelines, not hard rules. Of course, if the material you want us to evaluate is fairly standard, following these suggestions will greatly simplify our lives. After all, remember: You want us to be able to evaluate your artifact, don't you?
+
+The Committee
+The committee consists of up-and-coming researchers:
+
+Craig Anslow, Victoria University of Wellington
+Tegawendé F. Bissyandé, University of Bordeaux
+Dominique Devriese, KU Leuven
+Wei Jin, Georgia Institute of Technology
+Tomas Kalibera, Purdue University
+Filip Pizlo, Apple
+Joe Gibbs Politz, Brown University
+Mohammad Sadoghi, University of Toronto
+Mario Sangiorgio, Politecnico di Milano
+Niko Schwarz, University of Bern
+Lukas Stadler, Johannes Kepler Universität
+Joshua Sunshine, CMU
+Veronica Isabel Uquillas Gomez, Vrije Universiteit Brussel
+with Jan Vitek, Erik Ernst, and Shriram Krishnamurthi heading the process.
+
+Prior AEC
+Here's a report on the AEC process for ESEC/FSE 2011.

@@ -1,0 +1,73 @@
+Welcome
+Welcome to the Artifact Evaluation Process for PLDI 2014! We hope you will submit to take advantage of this opportunity.
+
+Learn more »
+
+
+Dates
+Paper decision notification:
+Feb 5, 2014
+Artifacts due:
+Feb 10, 2014
+Decisions announced:
+approx. Mar 15, 2014
+Camera-ready due:
+Mar 20, 2014
+Packaging Guidelines
+We have written guidelines for artifacts. Because we want to encourage as many of you as possible to submit, these are only guidelines, not hard rules. Of course, if the material you want us to evaluate is fairly standard, following these suggestions will greatly simplify our lives. After all, remember: You want us to be able to evaluate your artifact, don't you?
+
+How to Submit
+Please read the guidelines on what to submit. Please upload your submission to EasyChair.
+
+The Committee
+The committee consists of several up-and-coming researchers with Eric Eide, Shriram Krishnamurthi, and Jan Vitek heading the process.
+
+See the committee members!
+
+Prior AECs
+Here's a report on the AEC process for ESEC/FSE 2011. You can also see the AEC sites for ECOOP 2013 and OOPSLA 2013.
+
+Numbers
+PLDI accepted 52 papers. Of these, 20 submitted transcripts. Of these, 12 were found to be above threshold.
+
+Discussion
+Edward Z. Yang kindly transcribed a discussion we had about the process at PLDI 2014. Please see his transcript! (Note: this transcript has not been verified for accuracy.)
+
+Process
+Artifact evaluation is open only to accepted papers. This is intentional: it ensures that the AEC cannot influence whether or not a paper is accepted. This measure was put in place to reassure authors who felt this would be too radical a change to the process of evaluating conference paper submissions.
+
+Of course, this doesn't mean you can't start getting ready! We have published the packaging guidelines, so you can begin to prepare your artifacts for submission. Even if your paper doesn't get accepted, this should still be a useful exercise for general dissemination. In addition, we hope the guidelines will give you ideas about how your material can be disseminated, either by suggesting methods you hadn't considered or pointing you to resources you weren't aware of.
+
+As soon as papers are chosen for the conference, you will be invited to submit. We will then have a few weeks in which to perform the evaluation. We may contact you if we have a problem with the submission, but there is no formal “response” period.
+
+Thus, even though there is nothing formally to do now, you would do well to have your artifact packaged and ready to go. The moment you receive the good news, you should be ready to upload!
+
+Chairs
+Eric Eide
+Shriram Krishnamurthi
+Jan Vitek
+
+
+The Artifact Evaluation Committee
+Sriram Aananthakrishnan, U. of Utah
+Rafael Auler, U. of Campinas
+Daniel W. Barowy, U. of Massachusetts Amherst
+Wei-Fan Chiang, U. of Utah
+Nathan Chong, Imperial College London
+Ravi Chugh, U. of California, San Diego
+Charlie Curtsinger, U. of Massachusetts Amherst
+Christina Delimitrou, Stanford U.
+Gilles Duboscq, Johannes Kepler U. Linz
+Eric Holk, Indiana U.
+Jeff Huang, U. of Illinois at Urbana-Champaign
+Vineeth Kashyap, U. of California, Santa Barbara
+Zachary Kincaid, U. of Toronto
+Rafal Kolanski, Purdue U.
+Saeed Maleki, U. of Illinois at Urbana-Champaign
+Jeeva Paudel, U. of Alberta
+Veselin Raychev, ETHZ
+Gregor Richards, Purdue U.
+Adrian Sampson, U. of Washington
+Vincent St-Amour, Northeastern U.
+Jules Villard, Imperial College London
+Dacong Yan, Ohio State U.

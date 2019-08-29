@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://2018.fseconference.org/track/fse-2018-Artifacts -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ESEC/FSE 2018 Artifacts - ESEC/FSE 2018</title>
+<link href="https://2018.fseconference.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" rel="shortcut icon" type="image/x-icon">
+<link href="./2018_files/common_.css" rel="stylesheet" type="text/css">
+<script async="" src="./2018_files/analytics.js"></script><script type="text/javascript">var show_webdsl_debug=false;</script>
+<script type="text/javascript">var contextpath="https://2018.fseconference.org";</script>
+<link rel="stylesheet" href="./2018_files/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="./2018_files/conf.css" type="text/css"><link rel="stylesheet" href="./2018_files/fse.css" type="text/css"><link rel="stylesheet" href="./2018_files/theme.bootstrap.min.css" type="text/css"><script type="text/javascript" src="./2018_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./2018_files/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="./2018_files/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="./2018_files/tablesorter-init.js"></script>
+<script type="text/javascript" src="./2018_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./2018_files/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+  font-weight: bold;
+  padding: 8px 15px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+  color: #C09853;
+  background-color: #FCF8E3;
+  border-color: #FBEED5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
+<script type="text/javascript" src="./2018_files/ajax.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var GATids = [];GATids.push('t0'); ga('create', 'UA-9607501-2', 'auto', 't0');ga('t0.set', 'anonymizeIp', true);ga('t0.send', 'pageview');</script>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="ESEC/FSE 2018 Artifacts - ESEC/FSE 2018">
+<meta name="description" content="The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) is an internationally renowned forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, experiences, and challenges in the field of software engineering. Formerly the FSE conference in alternating years and ESEC/FSE in other years, ESEC/FSE is now the new name of this annual conference series. The ESEC/FSE conference brings together experts from academia and industry to exchange the latest research results and tren ...">
+<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://2018.fseconference.org/getImage/carousel/Downtown-Orlando.jpg?1533838192000">
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) is an internationally renowned forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, experiences, and challenges in the field of software engineering. Formerly the FSE conference in alternating years and ESEC/FSE in other years, ESEC/FSE is now the new name of this annual conference series. The ESEC/FSE conference brings together experts from academia and industry to exchange the latest research results and tren ...">
+<style type="text/css" id="core-notify">.notifyjs-corner {
+  position: fixed;
+  margin: 5px;
+  z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+  position: relative;
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin: 3px;
+}
+
+.notifyjs-wrapper {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.notifyjs-container {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.notifyjs-hidable {
+  cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+  position: relative;
+}
+
+.notifyjs-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+}</style></head>
+<body id="track"><div class="frame"><div class="logobar"><div class="container"><a href="https://2018.fseconference.org/" class="navbar-brand navigate"><span class="brand-text">ESEC/FSE 2018</span></a><div class="place">Sun 4 - Fri 9 November 2018 <a href="https://2018.fseconference.org/venue/fse-2018-venue" class="navigate">Lake Buena Vista, Florida, United States</a></div></div></div><div class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div id="navigationbar" class="navigationbar collapse navbar-collapse"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/venue/fse-2018-venue" class="navigate">Hotel: Wyndham Lake Buena Vista Disney Springs Resort</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Registration" class="navigate">Registration</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Request+Visa+Invitation+Letter" class="navigate">Request Visa Invitation Letter</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Transportation%3A+Getting+to+the+conference+site" class="navigate">Transportation and Directions</a></li><li class="block"><a href="https://2018.fseconference.org/attending/child-care" class="navigate">Child Care Options</a></li><li class="block"><a href="https://2018.fseconference.org/attending/food-and-breakfast" class="navigate">Food and Breakfast</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Code+of+Conduct" class="navigate">Code of Conduct</a></li><li class="block"><a href="https://2018.fseconference.org/attending/schedule-overview" class="navigate">Schedule Overview</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Program+Details" class="navigate">Program Details</a></li><li class="block"><a href="https://2018.fseconference.org/attending/sightseeing" class="navigate">Sightseeing Near the Conference</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Submission+Policies" class="navigate">ESEC/FSE 2018 Submission Policies</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Travel+Support" class="navigate">CAPS Travel Support</a></li><li class="block"><a href="https://2018.fseconference.org/attending/Supporting+ESEC%5EsFSE" class="navigate">Supporting ESEC/FSE</a></li></ul></li><li class="block"><a href="https://2018.fseconference.org/info/distinguished-paper-awards" class="navigate">Awards</a></li><li class="dropdown"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018" class="navigate">Complete Program</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?prog=Your%20Program" class="navigate"><span class="glyphicon glyphicon-star"></span> Your Program</a></li><li class="block divider"></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Sun%204%20Nov%202018" class="navigate">Sun 4 Nov</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Mon%205%20Nov%202018" class="navigate">Mon 5 Nov</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Tue%206%20Nov%202018" class="navigate">Tue 6 Nov</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Wed%207%20Nov%202018" class="navigate">Wed 7 Nov</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Thu%208%20Nov%202018" class="navigate">Thu 8 Nov</a></li><li class="block"><a href="https://2018.fseconference.org/program/program-fse-2018?date=Fri%209%20Nov%202018" class="navigate">Fri 9 Nov</a></li></ul></li><li id="tracks-in-navbar" class="dropdown"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-3"><div class="row"><div class="col-sm-5"><ul class="block multi-column-dropdown"><li class="block dropdown-header">ESEC/FSE 2018</li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-research-papers" class="navigate">Research Papers</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Social" class="navigate">Social</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Journal-First" class="navigate">Journal-First</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-NIER" class="navigate">New Ideas and Emerging Results</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Demonstration" class="navigate">Demonstrations</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Industry" class="navigate">Industry</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Workshops" class="navigate">Workshops</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-A-TEST" class="navigate">A-TEST</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-EnSEmble" class="navigate">EnSEmble</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-WASPI" class="navigate">WASPI</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-SWAN" class="navigate">SWAN</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-NL4SE" class="navigate">NL4SE</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="navigate">Artifacts</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Doctorial-Symposium" class="navigate">Doctorial Symposium</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Student-Research-Competition" class="navigate">Student Research Competition</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-ESEC-FSE-2018-Student-Volunteers" class="navigate">ESEC/FSE 2018 Student Volunteers</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Keynotes" class="navigate">Keynotes</a></li><li class="block"><a href="https://2018.fseconference.org/track/fse-2018-Faculty-Mentorship-Roundtables" class="navigate">Faculty Mentorship Roundtables</a></li></ul></div><div class="col-sm-7"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Workshops</li><li class="block"><a href="https://2018.fseconference.org/track/jpf-2018-papers" class="navigate"><strong>JPF</strong> </a></li><li class="block dropdown-header">Co-hosted Festivals</li><li class="block"><a href="https://2018.fseconference.org/track/rosefest-2018" class="navigate"><strong>ROSE Festival</strong> </a></li></ul></div></div></ul></li><li class="dropdown"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Organization <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-2"><div class="row"><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">ESEC/FSE 2018</li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-most-influential-paper-award-committee" class="navigate">Test of Time Paper Award Committee</a></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Research Papers</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-papers-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Journal-First</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-journal-first-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-journal-first-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>New Ideas and Emerging Results</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-nier-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-visions-and-reflections-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Demonstrations</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-demonstration-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-demonstration-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Industry</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-industry-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-industry-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Workshops</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-workshops-organizing-committee" class="navigate">Organizing Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>WASPI</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-waspi-organizing-committee" class="navigate">Organizing Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Artifacts</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-artifacts-organizing-committee" class="navigate">Organizing Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Doctorial Symposium</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-doctorial-symposium-organizing-committee" class="navigate">Organizing Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Student Research Competition</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-student-research-competition-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-student-research-competition-program-committee" class="navigate">Program Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>Faculty Mentorship Roundtables</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-faculty-mentorship-roundtables-mentors" class="navigate">Mentors</a></li><li class="block"><a href="https://2018.fseconference.org/committee/fse-2018-faculty-mentorship-roundtables-organizing-committee" class="navigate">Organizing committee</a></li></ul></li><li class="block dropdown-header">Contributors</li><li class="block"><a href="https://2018.fseconference.org/people-index" class="navigate"><span class="glyphicon glyphicon-search"></span><sub><span class="glyphicon glyphicon-user"></span></sub> People Index</a></li></ul></div><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>JPF</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/jpf-2018-papers-organizing-committee" class="navigate"><strong>JPF</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://2018.fseconference.org/committee/jpf-2018-papers-program-committee" class="navigate"><strong>JPF</strong> <small>Program Committee</small></a></li></ul></li><li class="block dropdown-header">Co-hosted Festivals</li><li class="dropdown dropdown-submenu"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>ROSE Festival</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/committee/rosefest-2018-papers-organizing-committee" class="navigate"><strong>ROSE Festival 2018</strong> <small>Organizing Committee</small></a></li></ul></li></ul></div></div></ul></li><li class="block"><a href="https://2018.fseconference.org/search//all" class="navigate"><span class="glyphicon glyphicon-search"></span><span class="hidden-sm"> Search</span></a></li><li class="dropdown"><a href="https://2018.fseconference.org/track/fse-2018-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-sm">Series <span class="caret"></span></span><span title="" class="visible-sm" data-original-title="Series"><span class="glyphicon glyphicon-repeat"></span> <span class="caret"></span></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://2018.fseconference.org/series/fse" class="navigate">Series</a></li><li class="block divider"></li><li class="block"><a href="https://2020.esec-fse.org/track/fse-2020-papers" class="navigate">ESEC/FSE 2020</a></li><li class="block"><span class="text-muted"><span class="glyphicon glyphicon-chevron-right"></span> ESEC/FSE 2018</span></li></ul></li></ul><script type="text/javascript">(function($){
+      $(document).ready(function(){
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+        });
+      });
+    })(jQuery);
+    </script><div class="navbar-right"><ul class="block nav navbar-nav"><li class="block"><a href="https://conf.researchr.org/signin/fse-2018/https%3A%5Es%5Es2018.fseconference.org%5Estrack%5Esfse-2018-Artifacts" rel="nofollow" class="navigate">Sign in</a></li><li class="block"><a href="https://2018.fseconference.org/signup" class="navigate">Sign up</a></li></ul></div></div></div></div><div id="content" class="container"><div class="page-header"><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://2018.fseconference.org/" class="navigate">ESEC/FSE 2018</a> (<a href="https://2018.fseconference.org/series/fse" class="navigate">series</a>) / </span><h1>ESEC/FSE 2018 Artifacts</h1></div><div class="row"><div class="col-sm-8"><p></p><h2>Call For Papers</h2><p></p><p>Authors of accepted research papers are invited to submit an artifact to the FSE Artifact Track. &nbsp;Note that any such artifact can also be submitted to the ESEC/FSE demonstration track (and vice versa).</p>
+<p>Research papers with “artifacts” receive a “badge” on the front page of their paper in the proceedings. These badges certify that the paper has associated artifacts of the following form:</p>
+<table>
+<thead>
+<tr><th> </th><th> Functional </th><th> Reusable </th><th> Available </th><th> Replicated </th><th> Reproduced </th></tr>
+</thead>
+<tbody>
+<tr><td>No Badge </td><td> <img src="./2018_files/artifacts_evaluated_functional_dl.jpg" alt=""> </td><td> <img src="./2018_files/artifacts_evaluated_reusable_dl.jpg" alt=""> </td><td> <img src="./2018_files/artifacts_available_dl.jpg" alt=""> </td><td> <img src="./2018_files/results_replicated_dl.jpg" alt=""></td><td> <img src="./2018_files/results_reproduced_dl.jpg" alt=""> </td></tr>
+<tr><td> </td><td> Artifacts   documented, consistent, complete, exercisable, and include appropriate evidence of verification and validation. </td><td> Functional + very carefully documented and well-structured to the extent that reuse and repurposing is facilitated. In particular, norms and standards of the research community for artifacts of this type are strictly adhered to. </td><td> Functional + Placed on a publicly accessible archival repository. A DOI or link to this repository along with a unique identifier for the object is provided. </td><td> Available + main results of the paper have been obtained in a subsequent study by a person or team other than the authors, using, in part, artifacts provided by the author. </td><td> Available +  The main results of the paper have been independently obtained in a subsequent study by a person or team other than the authors, without the use of author-supplied artifacts. </td></tr>
+</tbody>
+</table>
+<p>Papers with such badges contain reusable products that other researchers can use to bootstrap their own research. Such papers earn increased citations and greater prestige in the research community. &nbsp;Artifacts of interest include (but are not limited to) the following. This list is not exhaustive, but if your proposed artifact is not on this list, please email the chairs before submitting.</p>
+<ul>
+<li>
+<p>Software, which are implementations of systems or algorithms potentially useful in other studies. "</p>
+</li>
+<li>
+<p>Data repositories, which are data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.</p>
+</li>
+<li>
+<p>Frameworks, which are tools and services illustrating new approaches to software engineering that could be used by other researchers in different contexts.</p>
+</li>
+</ul>
+<h3>Selection Criteria</h3>
+<p>The ESEC/FSE artifacts track will &nbsp;evaluated using the criteria in the last row of the above table. &nbsp;</p>
+<p>The goal of this track is to encourage reusable research products.</p>
+<ul>
+<li>Hence, no “functional” badges will be awarded &nbsp;</li>
+</ul>
+<p>Note that for “replicated” and “reproduced” badges, authors will need to offer appropriate documentation that their artifacts have reached that stage.</p>
+<ul>
+<li>So it is anticipated that most of our artifacts will be “reusable” and “available”.</li>
+</ul>
+<h3>Review Process</h3>
+<ul>
+<li>
+<p>Artifacts will be reviewed via a double blinded GitHub-based process. &nbsp;All reviews will be Github issues.</p>
+</li>
+<li>
+<p>Artifacts will be checked for their “badge worthiness” by one reviewer unless there is an author/reviewer dispute in which case a second check will be conducted by a second reviewer or one of the chairs.</p>
+</li>
+<li>
+<p>Reviewers will be assigned an anonymous GitHub ID.</p>
+</li>
+<li>
+<p>And authors will interact with the reviewers using their real (non-anonymously).</p>
+</li>
+<li>
+<p>Reviewers will have 14 days to assess the artifacts.</p>
+</li>
+<li>
+<p>Reviewers and authors will then have one week to &nbsp;interact such that (e.g.) if there is &nbsp;one line missing in a config file, then that bug can be fixed and the artifact declared “reusable”.</p>
+</li>
+<li>
+<p>Track chairs will then meet to write a “decisions.md” list written to the <a href="http://github.com/researchart/fse18">http://github.com/researchart/fse18</a> that contains a table of submissions and their associated badge (if any).</p>
+</li>
+</ul>
+<h3>Submission Process</h3>
+<ol>
+<li>
+<p>(Optional) Read “Good Enough Practices in Scientific Computing” by Greg Wilson, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, Tracy K. Teal. <a href="https://arxiv.org/pdf/1609.00037">https://arxiv.org/pdf/1609.00037</a> and consider if the advice of Section4 is useful for you. Also, read Section7 for a list of packaging options that, might be, overly elaborate (but you would need to decide that for yourself.</p>
+</li>
+<li>
+<p>Prepare all the supporting materials needed to execute an artifact:</p>
+</li>
+<li>
+<p>a README main file describing what the artifact does;</p>
+</li>
+<li>
+<p>A STATUS &nbsp;file stating what kind of badge you are applying for (one of reusable, available, replicated, reproduced) as well as the reasons why you think your artifact deserves that badge.</p>
+</li>
+<li>
+<p>a LICENSE file describing the distribution rights (and note that to score “available” or higher, then that license needs to be some form of open source license).</p>
+</li>
+<li>
+<p>an INSTALL file with installation instructions. These instructions should include notes on what output to expect that confirms</p>
+</li>
+<li>
+<p>The code is installed and working</p>
+</li>
+<li>
+<p>The code is doing something interesting and useful</p>
+</li>
+<li>
+<p>Enough associated code and data such that some CS person with a reasonable knowledge of scripting, build tools, etc. could install, build, run your code; i.e. anyone that gets the following joke:<img src="./2018_files/pasted image 0.png" alt=""></p>
+</li>
+<li>
+<p>Place in a directory with some ID that refers to a contact author, plus a tool name, plus and ESEC/FSE title/id number.</p>
+</li>
+<li>
+<p>Zip that file.</p>
+</li>
+<li>
+<p>Place that file online.</p>
+</li>
+<li>
+<p>Go to <a href="http://tiny.cc/18fseartifacts">http://tiny.cc/18fseartifacts</a> and fill in a submission form which will ask you to include a link to your zip file.</p>
+</li>
+<li>
+<p>If, in a few days, your directory has not appeared at &nbsp;<a href="https://github.com/researchart/fse18/tree/master/submissions">https://github.com/researchart/fse18/tree/master/submissions</a>, then ping <a href="mailto:tim@menzies.us">tim@menzies.us</a> or olga.baysal@carleton.ca</p>
+</li>
+</ol>
+<h3>Important Dates</h3>
+<ul>
+<li>
+<p>June 11: ESEC/FSE technical paper notification</p>
+</li>
+<li>
+<p>June 25: Artifact submission deadline</p>
+</li>
+<li>
+<p>July 7: begin discussion period with reviewers</p>
+</li>
+<li>
+<p>July 21: Track chairs meeting to write the decisions.txt document listing what badge (if any) is assigned to each artifact.</p>
+</li>
+<li>
+<p>July 31: ESEC/FSE camera ready deadline</p>
+</li>
+</ul>
+<h3>Artifact Evaluation Co-Chairs</h3>
+<ul>
+<li>
+<p>Olga Baysal &nbsp;&nbsp;(Carleton University , Canada)</p>
+</li>
+<li>
+<p>Tim Menzies &nbsp;(NC State, USA)</p>
+</li>
+</ul>
+<h3>Program Committee</h3>
+<ul>
+<li>
+<p>Latifa Guerrouj, Ecole de Technologie Superieure, Canada</p>
+</li>
+<li>
+<p>Barbara Russo, Free University of Bolzano/Bozen, Italy</p>
+</li>
+<li>
+<p>Reyhaneh Jabbarvand Behrouz, University of California, Irvine, USA</p>
+</li>
+<li>
+<p>Eunjong Choi, Nara Institute of Science and Technology, Japan</p>
+</li>
+<li>
+<p>Maria Gomez, Saarland University, Germany</p>
+</li>
+<li>
+<p>Bonita Sharif, Youngstown State University, USA</p>
+</li>
+<li>
+<p>David Lo, Singapore Management University, Singapore</p>
+</li>
+<li>
+<p>Collin McMillan, University of Notre Dame, USA</p>
+</li>
+<li>
+<p>Hungyu Zhang, Newcastle University, Australia</p>
+</li>
+</ul>
+<p></p></div><div class="col-sm-4 sidebar"><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title">Important Dates<span class="pull-right"><small><span class="glyphicon glyphicon-globe"></span><span class="glyphicon glyphicon-time"></span> AoE (UTC-12h)</small></span></div></div><table class="table table-hover important-dates-in-sidebar"><tbody><tr href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="clickable-row past"><td>Tue 31 Jul 2018<br>Camera Ready Deadline</td></tr><tr href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="clickable-row past"><td>Sat 21 Jul 2018<br>Track chairs meeting to write the decisions.txt document listing what badge (if any) is assigned to each artifact.</td></tr><tr href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="clickable-row past"><td>Sat 7 Jul 2018<br>Discussion Period with Reviewers</td></tr><tr href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="clickable-row past"><td>Mon 25 Jun 2018<br>Submission Deadline </td></tr><tr href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="clickable-row past"><td>Mon 11 Jun 2018<br>Technical Paper Notification</td></tr></tbody></table></div><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title"><a href="https://2018.fseconference.org/committee/fse-2018-artifacts-organizing-committee" class="navigate">Organizing Committee</a></div></div><ul class="list-group"><li class="list-group-item"><a href="https://2018.fseconference.org/profile/olgabaysal" class="navigate"><div class="media"><span class="pull-left"><img alt="Olga Baysal" src="./2018_files/micro-avatar.jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Olga Baysal<span class="pull-right"><small>Co-chair</small></span></h5><h5 class="media-heading"><span class="text-black">Carleton University</span></h5><h5 class="media-heading"><small>Canada</small></h5></div></div></a></li><li class="list-group-item"><a href="https://2018.fseconference.org/profile/timmenzies" class="navigate"><div class="media"><span class="pull-left"><img alt="Tim Menzies" src="./2018_files/micro-avatar(1).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Tim Menzies<span class="pull-right"><small>Co-chair</small></span></h5><h5 class="media-heading"><span class="text-black">North Carolina State University</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li></ul></div></div></div><div id="messages-placeholder" class="alert alert-warning" style="display:none;"><a data-dismiss="alert" class="close">x</a><em>Thu 29 Aug 14:32</em></div></div><div id="notifications-ph" class="webdsl-placeholder"></div><footer class="footer"><div class="container"><div class="footer-box"><div class="row"><div class="col-sm-3"><h3><a href="https://2018.fseconference.org/" class="navigate"><span class="glyphicon glyphicon-home"></span> ESEC/FSE 2018</a></h3><div><a href="https://2018.fseconference.org/contact" class="navigate"><span class="glyphicon glyphicon-envelope"></span> contact form</a></div><hr>using <a href="https://conf.researchr.org/" class="navigate">conf.researchr.org</a> (<a href="http://yellowgrass.org/roadmap/conf.researchr.org" class="navigate">v1.16.1</a>)<br><small><a href="https://2018.fseconference.org/support" target="_blank" class="navigate"><span class="glyphicon glyphicon-question-sign"></span> Support page</a></small><br><small></small></div><div class="col-sm-5"><div class="row"><div class="col-sm-6"><h4>Tracks</h4><a href="https://2018.fseconference.org/track/fse-2018-research-papers" class="navigate">Research Papers</a><br><a href="https://2018.fseconference.org/track/fse-2018-Social" class="navigate">Social</a><br><a href="https://2018.fseconference.org/track/fse-2018-Journal-First" class="navigate">Journal-First</a><br><a href="https://2018.fseconference.org/track/fse-2018-NIER" class="navigate">New Ideas and Emerging Results</a><br><a href="https://2018.fseconference.org/track/fse-2018-Demonstration" class="navigate">Demonstrations</a><br><a href="https://2018.fseconference.org/track/fse-2018-Industry" class="navigate">Industry</a><br><a href="https://2018.fseconference.org/track/fse-2018-Workshops" class="navigate">Workshops</a><br><a href="https://2018.fseconference.org/track/fse-2018-A-TEST" class="navigate">A-TEST</a><br><a href="https://2018.fseconference.org/track/fse-2018-EnSEmble" class="navigate">EnSEmble</a><br><a href="https://2018.fseconference.org/track/fse-2018-WASPI" class="navigate">WASPI</a><br><a href="https://2018.fseconference.org/track/fse-2018-SWAN" class="navigate">SWAN</a><br><a href="https://2018.fseconference.org/track/fse-2018-NL4SE" class="navigate">NL4SE</a><br><a href="https://2018.fseconference.org/track/fse-2018-Artifacts" class="navigate">Artifacts</a><br><a href="https://2018.fseconference.org/track/fse-2018-Doctorial-Symposium" class="navigate">Doctorial Symposium</a><br><a href="https://2018.fseconference.org/track/fse-2018-Student-Research-Competition" class="navigate">Student Research Competition</a><br><a href="https://2018.fseconference.org/track/fse-2018-ESEC-FSE-2018-Student-Volunteers" class="navigate">ESEC/FSE 2018 Student Volunteers</a><br><a href="https://2018.fseconference.org/track/fse-2018-Keynotes" class="navigate">Keynotes</a><br><a href="https://2018.fseconference.org/track/fse-2018-Faculty-Mentorship-Roundtables" class="navigate">Faculty Mentorship Roundtables</a></div><div class="col-sm-6"><h4>Co-hosted Workshops</h4><a href="https://2018.fseconference.org/track/jpf-2018-papers" class="navigate">JPF 2018</a><br><h4>Co-hosted Festivals</h4><a href="https://2018.fseconference.org/track/rosefest-2018" class="navigate">ROSE Festival 2018</a></div></div></div><div class="col-sm-2"><h4>Attending</h4><a href="https://2018.fseconference.org/venue/fse-2018-venue" class="navigate">Hotel: Wyndham Lake Buena Vista Disney Springs Resort</a><br><a href="https://2018.fseconference.org/attending/Registration" class="navigate">Registration</a><br><a href="https://2018.fseconference.org/attending/Request+Visa+Invitation+Letter" class="navigate">Request Visa Invitation Letter</a><br><a href="https://2018.fseconference.org/attending/Transportation%3A+Getting+to+the+conference+site" class="navigate">Transportation and Directions</a><br><a href="https://2018.fseconference.org/attending/child-care" class="navigate">Child Care Options</a><br><a href="https://2018.fseconference.org/attending/food-and-breakfast" class="navigate">Food and Breakfast</a><br><a href="https://2018.fseconference.org/attending/Code+of+Conduct" class="navigate">Code of Conduct</a><br><a href="https://2018.fseconference.org/attending/schedule-overview" class="navigate">Schedule Overview</a><br><a href="https://2018.fseconference.org/attending/Program+Details" class="navigate">Program Details</a><br><a href="https://2018.fseconference.org/attending/sightseeing" class="navigate">Sightseeing Near the Conference</a><br><a href="https://2018.fseconference.org/attending/Submission+Policies" class="navigate">ESEC/FSE 2018 Submission Policies</a><br><a href="https://2018.fseconference.org/attending/Travel+Support" class="navigate">CAPS Travel Support</a><br><a href="https://2018.fseconference.org/attending/Supporting+ESEC%5EsFSE" class="navigate">Supporting ESEC/FSE</a></div><div class="col-sm-2"><h4>External Links</h4>
+<a href="http://www.esec-fse.org/">About ESEC/FSE</a> <br>
+
+<a href="http://www.esec-fse.org/past_events">Past Events</a></div></div></div></div></footer></div><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; $(node).find('[title]').tooltip({placement: 'auto top', container: 'body'}); $('.tooltip.fade.in, .ui-tooltip-content').remove(); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><script type="text/javascript">jQuery(document).ready(function($) {
+	      $(".clickable-row").click(function() {
+	      	if(window.location.href.indexOf($(this).attr("href")) < 0){
+	            window.document.location = $(this).attr("href");
+	        }
+	      });
+		});
+		</script>
+<style>body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }</style></body></html>

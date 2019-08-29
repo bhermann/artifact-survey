@@ -1,0 +1,49 @@
+Artifact Submission
+
+
+
+As in previous years, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work. Artifact submission is optional. We accept only virtual machine images that can be processed with Virtual Box.  Details on what to submit and how will be sent to the corresponding authors by mail shortly after the paper submission deadline. The submitted artifacts will be used by the program committee as a secondary evaluation criterion whose sole purpose is to find additional positive arguments for the paper's acceptance. Furthermore, an Artifact Evaluation Committee will assess artifacts and will award an "Artifact Approved" stamps to accepted papers that come with an artifact that allows to reproduce the results presented in the paper. Submissions without artifacts are welcome and will not be penalized.
+
+
+
+Important Dates
+
+
+
+Full paper submission
+
+
+Artifact aubmissions
+
+
+Author notification
+
+Final version due
+
+Conference
+
+
+Artifact Evaluation Chair
+•Xavier Rival (CNRS/ENS/INRIA, France)
+
+
+
+Artifact Evaluation Committee
+
+•Ahmad Salim Al Sibahi (University of Copenhagen, Denmark)
+•Frédéric Besson (Inria/Univ Rennes/CNRS/IRISA, France)
+•Liqian Chen (NUDT, China)
+•Gidon Ernst (National Institute of Informatics, Japan)
+•George Fourtounis (University of Athens, Greece)
+•Kihong Heo (University of Pennsylvania, USA)
+•Huisong Li (CNRS/ENS/INRIA, France)
+•Sergio Mover (University of Colorado Boulder, USA)
+•Hakjoo Oh (Korea University, South Korea)
+•Oded Padon (Tel Aviv University, Israel)
+•Jihyeok Park (KAIST, South Korea)
+•Marie Pelleau (University Nice/Sophia Antipolis, France)
+•Markus Schordan (Lawrence Livermore National Laboratory, USA)
+•Fausto Spoto (University of Verona/Julia Srl, Italy)
+•David Sprunger (National Institute of Informatics, Japan)
+•Caterina Urban (ETH Zurich, Switzerland)
+•Jules Villard (Facebook)

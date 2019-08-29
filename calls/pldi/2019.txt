@@ -1,0 +1,155 @@
+PLDI 2019 PLDI Research Artifacts
+About
+Info for Authors
+Info for Reviewers
+Background
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet most of our conferences offer no formal means to submit and evaluate anything but the paper.
+
+Following a trend in our community over the past many years, PLDI 2019 includes an Artifact Evaluation process, which allows authors of accepted papers to optionally submit supporting artifacts. The goal of artifact evaluation is two-fold: to probe further into the claims and results presented in a paper, and to reward authors who take the trouble to create useful artifacts to accompany the work in their paper. Artifact evaluation is optional and authors choose to undergo evaluation only after their paper has been accepted.
+
+The evaluation and dissemination of artifacts improves reproducibility, and enables authors to build on top of each other’s work. Beyond helping the community as a whole, the evaluation and dissemination of artifacts confers several direct and indirect benefits to the authors themselves.
+
+Our ideal outcome for the artifact evaluation process is to accept every artifact that is submitted, provided it meets the evaluation criteria listed below. While some artifacts may not pass muster and may be rejected, we will evaluate in earnest and make our best attempt to follow authors’ evaluation instructions.
+
+Evaluation Criteria
+The artifact evaluation committee will read each artifact’s paper and judge how well the submitted artifact conforms to the expectations set by the paper. The specific artifact evaluation criteria are:
+
+consistency with the paper
+completeness
+documentation
+ease of reuse
+Note that artifacts will be evaluated with respect to the claims and presentation in the submitted version of the paper, not the camera-ready version.
+
+Badges
+Authors of papers with accepted artifacts will be assigned an official ACM artifact evaluation badge, indicating that they have taken the extra time and have undergone the extra scrutiny to prepare a useful artifact. The badge will appear on the first page of the camera-ready version of the paper, indicating that the artifact was evaluated and functional.
+
+Process
+To maintain the separation of paper and artifact review, authors will only be asked to upload their artifacts after their papers have been accepted. Authors planning to submit to the artifact evaluation should prepare their artifacts well in advance of this date, however, to ensure adequate time for packaging and documentation.
+
+Throughout the artifact review period, submitted reviews will be (approximately) continuously visible to authors. Reviewers will be able to continuously interact (anonymously) with authors for clarifications, system-specific patches, and other logistics help to make the artifact evaluable. The goal of continuous interaction is to prevent rejecting artifacts for a “wrong library version”-type problem. The conference proceedings will include a discussion of the continuous artifact evaluation process.
+
+Types of Artifacts
+The artifact evaluation will accept any artifact that authors wish to submit, broadly defined. A submitted artifact might be:
+
+software
+mechanized proofs
+test suites
+data sets
+hardware (if absolutely necessary)
+a video of a difficult- or impossible-to-share system in use
+any other artifact described in a paper
+Artifact Evaluation Committee
+Other than the chairs, the AEC members are senior graduate students, postdocs, or recent PhD graduates, identified with the help of the PLDI PC and recent artifact evaluation committees.
+
+Among researchers, experienced graduate students are often in in the best position to handle the diversity of systems expectations that the AEC will encounter. In addition, graduate students represent the future of the community, so involving them in the AEC process early will help push this process forward. The AEC chairs devote considerable attention to both mentoring and monitoring, helping to educate the students on their responsibilities and privileges.
+
+Info for Authors
+Submission
+Submit your artifact via HotCRP: https://pldi19ae.hotcrp.com/
+
+General Info
+A well-packaged artifact is more likely to be easily usable by the reviewers, saving them time and frustration, and more clearly conveying the value of your work during evaluation. A great way to package an artifact is as a Docker image or in a virtual machine that runs “out of the box” with very little system-specific configuration.
+
+Submission of an artifact does not contain tacit permission to make its content public. AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, and similar items in your artifact.
+
+Artifact evaluation is single-blind. Please take precautions (e.g. turning off analytics, logging) to help prevent accidentally learning the identities of reviewers.
+
+Packaging and Instructions
+Your submission should consist of four pieces:
+
+The submission version of your accepted paper.
+A README.txt file that explains your artifact (details below).
+A URL pointing to a single file containing the artifact. The URL must be a Google Drive or Dropbox URL, to help protect the anonymity of the reviewers. You may upload your artifact directly if it’s less than 100 MB.
+An md5 hash of the file submitted (use the md5 or md5sum command-line tool to generate the hash). and an md5 hash of that file (use the md5 or md5sum command-line tool to generate the hash).
+Your README.txt should consist of two parts:
+
+a Getting Started Guide and
+Step-by-Step Instructions for how you propose to evaluate your artifact (with appropriate connections to the relevant sections of your paper);
+The Getting Started Guide should contain setup instructions (including, for example, a pointer to the VM player software, its version, passwords if needed, etc.) and basic testing of your artifact that you expect a reviewer to be able to complete in 30 minutes. Reviewers will follow all the steps in the guide during an initial kick-the-tires phase. The Getting Started Guide should be as simple as possible, and yet it should stress the key elements of your artifact. Anyone who has followed the Getting Started Guide should have no technical difficulties with the rest of your artifact.
+
+The Step by Step Instructions explain how to reproduce any experiments or other activities that support the conclusions in your paper. Write this for readers who have a deep interest in your work and are studying it to improve it or compare against it. If your artifact runs for more than a few minutes, point this out and explain how to run it on smaller inputs.
+
+Where appropriate, include descriptions of and links to files (included in the archive) that represent expected outputs (e.g., the log files expected to be generated by your tool on the given inputs); if there are warnings that are safe to be ignored, explain which ones they are.
+
+The artifact’s documentation should include the following:
+
+A list of claims from the paper supported by the artifact, and how/why.
+A list of claims from the paper not supported by the artifact, and how/why.
+Example: Performance claims cannot be reproduced in VM, authors are not allowed to redistribute specific benchmarks, etc. Artifact reviewers can then center their reviews / evaluation around these specific claims.
+
+Packaging the Artifact
+
+When packaging your artifact, please keep in mind: a) how accessible you are making your artifact to other researchers, and b) the fact that the AEC members will have a limited time in which to make an assessment of each artifact.
+
+Your artifact can contain a bootable virtual machine image with all of the necessary libraries installed. Using a virtual machine provides a way to make an easily reproducible environment — it is less susceptible to bit rot. It also helps the AEC have confidence that errors or other problems cannot cause harm to their machines.
+
+You should make your artifact available as a single archive file and use the naming convention <paper #>., where the appropriate suffix is used for the given archive format. Please use a widely available compressed archive format such as ZIP (.zip), tar and gzip (.tgz), or tar and bzip2 (.tbz2). Please use open formats for documents.
+
+Discussion with Reviewers
+We expect each artifact to receive 3-4 reviews.
+
+Throughout the review period, reviews will be submitted to HotCRP and will be (approximately) continuously visible to authors. AEC reviewers will be able to continuously interact (anonymously) with authors for clarifications, system-specific patches, and other logistics to help ensure that the artifact can be evaluated. The goal of continuous interaction is to prevent rejecting artifacts for a “wrong library version” types of problems.
+
+Distinguished Artifacts
+Based on the reviews and discussion among the AEC, one or more artifacts will be selected for Distinguished Artifact awards.
+
+Info for Reviewers
+Important Dates
+Author artifact submission: Feb 21
+Reviewer preferences due: Feb 25
+(Phase 1) Basic functionality reviews due: Mar 8 Mar 13
+(Phase 2) Full reviews due: Mar 22
+(Phase 3) Final revised reviews due: Apr 5
+Author notification: Apr 11
+Phase 1 Deadline
+In this phase, you will go through the Getting Started Guide that accompanies each artifact and submit a review based on the “basic functionality” described in it. These initial reviews will be made available to authors, and they will be able to communicate with you directly through HotCRP in order to debug simple issues that arise. The identity of reviewers remains anonymous (“Reviewer A”, “Reviewer B”, etc.).
+
+Phase 2 Deadline
+In this phase, you will go through the Step-by-Step Instructions of each artifact and submit full, complete reviews, extending and expanding upon the Phase 1 reviews as appropriate. As before, these reviews will be made available to authors, and they will be able to communicate with you directly through HotCRP.
+
+Phase 3 Deadline
+The majority of artifact evaluations are expected to be completely done after the previous two phases, requiring no additional back-and-forth with the authors. This third phase is for artifacts which posed no problems during Phase 1 (Getting Started) but had issues during Phase 2 (Step-by-Step Instructions). This phase allows such artifacts to be discussed with authors in case there are simple issues that can be addressed that enable the artifact to be evaluated successfully.
+
+Evaluation Guidelines
+See SIGPLAN’s Empirical Evaluation Guidelines for some methodologies to consider during evaluation.
+
+Chairs
+Ravi Chugh
+Roopsha Samanta
+
+Committee
+Sara Achour
+Arthur Azevedo de Amorim
+Sean Bartell
+Elias Castegren
+Daniele Cono D'Elia
+Ankush Das
+Kavon Farvardin
+Brian Hempel
+Hossein Hojjat
+Qinheping Hu
+Nouraldin Jaber
+Gowtham Kaki
+Sagar Karandikar
+Leonidas Lampropoulos
+Haopeng Liu
+Jed Liu
+Lun Liu
+Rasool Maghareh
+Kenji Maillard
+Petar Maksimović
+Mikaël Mayer
+Matthew Milano
+Igor Moreno Santos
+Rachit Nigam
+Rohan Padhye
+Daniel Patterson
+Arjun Radhakrishna
+John Sarracino
+Taro Sekiyama
+Bogdan-Alexandru Stoica
+Yahui Sun
+Qiyi Tang
+Amin Timany
+Caterina Urban
+Yan Wang

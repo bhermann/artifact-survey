@@ -1,0 +1,43 @@
+Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. They support the repeatability of experiments and precise comparison with alternative approaches, thus enabling higher quality in the research area as a whole. They may also make it easier for other researchers to perform their own experiments, thus helping the original authors disseminating their ideas in detail. Hence, artifacts should be taken seriously and recognized separately.
+
+The AE process at ECOOP 2019 is a continuation of the AE process at previous ECOOP editions, and several other conferences, including ESEC/FSE, OOPSLA, PLDI, ISSTA, HSCC, and SAS: see the authoritative Artifact Evaluation for Software Conferences web site.
+
+Authors will be invited to archive their accepted artifacts on the Dagstuhl Artifacts Series (DARTS) published in the Dagstuhl Research Online Publication Server (DROPS). Each artifact will be assigned a DOI, separate from the ECOOP companion paper, allowing the community to cite artifacts on their own.
+
+Call for Artifacts
+Authors of accepted papers at ECOOP 2019 can have their artifacts evaluated by an Artifact Evaluation Committee. The artifact evaluation is open for ECOOP 2019 papers of all categories (i.e., Research, Tool Insights, Reproduction Study, Experience Report, Pearl, and Brave New Idea). Artifacts that live up to the expectations created by the paper will be marked with a badge in the proceedings. Furthermore, they will be invited for inclusion in the Dagstuhl Artifacts Series (DARTS) published in the Dagstuhl Research Online Publication Server (DROPS). Artifacts in DARTS are freely downloadable and ensure permanent and durable storage. As software projects are likely to evolve over time, archived artifacts provide a snapshot in time of the actual software/data that was used to create the paper: we expect this will simplify the job of independently repeating any experiments presented in the paper. Although there is no obligation for accepted artifacts to be included in DARTS, readers of accepted papers will greatly benefit from having access to those artifacts, and the attention that the authors’ work will receive may likely increase if their artifacts are made publicly available. Artifacts that are deemed especially meritorious will be singled out for special recognition in the proceedings and at the conference.
+
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. The submission of an artifact is voluntary and will not influence the final decision regarding the papers (which is obviously enforced because the artifacts are submitted after the notification of acceptance has been sent out). Notification about the outcome of the Artifact Evaluation and reviews including suggestions for improving the artifacts will be distributed before the deadline for the final version of the paper, such that the outcome can be mentioned in the paper and the final artifact can be uploaded for inclusion in DARTS.
+
+A submitted artifact should be consistent with the associated paper. It should be so well documented that it is accessible for a general computer scientist with an interest in the research area, who has read the associated paper.
+
+A submitted artifact is treated as confidential, just like a submitted paper. However, it is strongly recommended that artifacts are made available to the research community afterwards, thus enabling the above mentioned effects such as improved reproducibility etc.
+
+Artifact Submission
+Submission link: https://ecoop19ae.hotcrp.com/
+
+Every submission must include:
+
+An abstract that briefly describes the artifact.
+A PDF file that describes the artifact in detail and provides instructions for using it.
+A URL for downloading the artifact.
+A PDF file of the most recent version of the accepted paper.
+Artifact Packaging Guidelines
+When packaging your artifact for submission, please take the following into consideration: Your artifact should be as accessible to the AE committee members as possible, and it should be easy for the AE members to quickly make progress on the investigation of your artifact. Please provide some simple scenarios describing concretely how the artifact is intended to be used; for a tool, this would include specific inputs to provide or actions to take, and expected output or behavior in response to this input. In addition to these very tightly controlled scenarios that you prepare for the AE committee members to try out, it may be very useful if you suggest some variations along the way, such that the AE committee members will be able to see that the artifact is robust enough to tolerate a few experiments.
+
+For artifacts that are tools, one very convenient way for reviewers to learn about your artifact is to include a video showing you using the artifact in a simple scenario, along with verbal comments explaining what is going on.
+
+To avoid problems with software dependencies and installation, it may be very useful if you provide the artifact installed and ready to use on a virtual machine (for example, VirtualBox, VMware, or a similar widely available platform). The artifact must be made available as a single, self-contained archive file, using a widely supported archive format such as zip or a compressed tar format (e.g., tgz). Please use widely supported open formats for documents, and preferably the CSV or JSON format for data.
+
+Reviewing Process
+Submitted artifacts will go through a two-phase evaluation:
+
+Kicking-the-tires: Reviewers check the artifact integrity and look for any possible setup problems that may prevent it from being properly evaluated (e.g., corrupted or missing files, VM won’t start, immediate crashes on the simplest example, etc.). Authors are informed of the outcome and, in case of technical problems, they can help solve them during a brief author response period.
+Artifact assessment: Reviewers evaluate the artifacts, checking if they live up to the expectations created by the papers.
+Kick-the-tires Response Period
+Authors will be given a 96-hour period to read and respond to the kick-the-tires reports of their artifacts. Authors may be asked for clarifications in case the committee encountered problems that may prevent reviewers from properly evaluating the artifact.
+
+Guidelines for Authors and Reviewers
+Guidelines for Authors: When submitting artifacts, please consult the Guidelines for Packaging AEC Submissions. We encourage you to also read the HOWTO for AEC Submitters. Note that while the description of the artifact is initially not required to follow a specific format, the camera-ready version should be based on the DARTS authors template.
+
+Authors and Reviewers of Proof Artifacts: We encourage authors and reviewers of mechanized proofs to consult the recent guidelines for submitting and reviewing proof artifacts.

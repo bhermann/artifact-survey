@@ -1,0 +1,80 @@
+.logobar .container, .logobar .container-fluid {
+  position: relative;
+}
+.navbar-brand {
+    float: left;
+    background: url(https://conf.researchr.org/getImage/icse-2019/orig/icse2019_logo_final.png) center / contain no-repeat;
+    background-size: 100%;
+    min-height: 249px;
+    background-position: 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+    display: inline-block;
+    background-size: contain;
+    background-position: left;
+    width: 100%;
+}
+.navbar-brand {
+    min-height: 75px;
+}
+
+
+@media screen and (min-width: 450px) {
+    .navbar-brand {
+        min-height: 249px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .navbar-brand {
+        min-height: 249px;
+    }
+}
+
+.navbar-brand .brand-text{
+  display: none;
+}
+
+.logobar {
+    border-bottom: 30px solid black;
+}
+
+.place {
+    z-index: 2 !important;
+    position: absolute !important;
+    color: #fff !important;
+    display: block;
+    clear: both;
+    line-height: 27px;
+    float: left;
+    bottom: -33px; /*positioning changed a bit*/
+    font-size: 0px; /*this hides the date + place*/
+}
+
+.place:before {
+    content: "25 May - 31 May 2019, Montr\00e9 al, QC, Canada"; /*inject the date/other text in different format*/
+    color: white !important;
+    font-size: 14px;
+}
+
+.attribution{
+    background-color: black;
+    padding: 3px;
+    opacity: 0.7;
+}
+
+
+/* Change Program tab to Schedule */
+body#track a[href="#program"] {
+    font-size: 0px !important;
+}
+body#track a[href="#program"]:after {
+    content: "Schedule";
+    font-size: 14px !important;
+}
+
+.track-color.c50 { 
+    background-color: #ffcc99 !important; 
+} 

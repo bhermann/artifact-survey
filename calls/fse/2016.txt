@@ -1,0 +1,90 @@
+https://www.cs.ucdavis.edu/fse2016/calls/artifacts/
+
+Call for Papers: Artifacts Track
+Goal and Scope
+The FSE 2016 artifacts track exists to promote and share, celebrate and catalog all excellent examples of research artifacts in software engineering. These artifacts are reusable units of research that can be used to support other research endeavors.
+
+The research artifact call is open to all accepted authors of FSE’16 papers.
+
+Those authors, if they wish, may share their tools, data, scripts etc to the FSE’16 Artifacts Track Program Committee. (Note: to be eligible for review in this track, all artifacts must be online, free to download and use).
+
+Note that “artifacts” may be any part of the accepted paper (so one paper could generate multiple artifact submissions). For lists of research artifacts types, please review the FSE 2016 Artifacts Tutorial. Please also review the (non-exhaustive) list of known research artifact types. If your proposed artifact is not on that list, please email the chairs (tim.menzies@gmail.com and olga.baysal@carleton.ca) before submitting. We are open to extending the list of acceptable research artifacts!
+
+Submissions must contain:
+
+Author(s)’ contact details
+How the artifact is licensed
+All artifacts must come with an open source license that allows FSE to freely distribute its contents
+You may wish to choose from a list of popular open source licenses or to seek help in choosing an open source license
+A URL where the submission can be downloaded
+The scorecard sub-headings (see below: Insightful, Useful, Usable), making the case that the artifact is worthy of inclusion in the track
+Optionally, but highly recommended, one eye catching graphic that shows off either the tool or the kinds of processing it might support.
+Name of artifact
+Evaluation
+All submissions that meet the submission criteria (see below) and fit the scope of the conference will be reviewed by three members of the Artifacts Track Program Committee. Submissions will be evaluated as follows:
+
+Diamond	Award winning: most insightful, useful, and usable artifacts. Diamond artifacts will be given awards at a public session at FSE 2016, mentioned as part of the social media campaign for FSE 2016, and cataloged in an online repository.
+Platinum	Very good: insightful, useful, and usable artifacts. Platinum artifacts will be mentioned as part of the social media campaign for FSE 2016 and cataloged in an online repository.
+Gold	Potentially insightful, useful, or usable artifacts. Gold artifacts will be cataloged in an online repository.
+Artifacts will be scored using the following scorecard:
+
+Insightful
+
+Timely (i.e., addresses a problem that is most current and most pressing)?
+Makes researchers “smarter” in some way (e.g., identifies and fills some significant gap in prior work)?
+Useful
+
+Serves a useful purpose?
+Serves a purpose that would otherwise be tedious, prolonged, awkward, or impossible?
+Cost-effective?
+Usable
+
+Easy to understand?
+Accompanied by tutorial notes?
+Artifacts need not be executable but if so, are they:
+Easy to download, install, or execute?
+Available in a virtual machine image?
+Available online?
+Supported by configuration management tools to permit easy updates?
+Note that the shorter the artifact:
+
+The greater must be its insight. For an example of a short artifact that might have been rated “Gold,” we reference half a page from a recent TSE paper. In that paper, Section 2.1 and Figure 1 could be considered a motivational “artifact” that calls for more work on customizing analytic techniques for particular sites.
+The greater the onus on the author for demonstrating that the artifact is worthy. For example, for anti-patterns there needs to be some supporting text or results arguing that the anti-pattern is (a) actually seen in practice and (b) a significant problem.
+Submitted papers must comply with the ACM Policy and Procedures on Plagiarism. Papers submitted to the artifacts track must not have been published elsewhere and must not be under review or submitted for review elsewhere while under consideration for FSE 2016.
+
+Publication and Presentation
+For all artifacts score Gold, Platinum or Diamond, the authors will be able to revise their one page submission and include it in the proceedings.
+
+How to Submit, and the Review Process
+All authors of the accepted research papers will receive an invitation with the instructions on how to submit their artifacts (by June 10 via email).
+Write a pdf submissions using the FSE 2016 Formatting Instructions. This submission would include two (1+1) pages:
+First page: Describe the artifact along the dimensions of the scorecard (i.e., Insightful, Useful, Usable). Refer to the Evaluation criteria (at https://www.cs.ucdavis.edu/fse2016/calls/artifacts/). This page will be used to evaluate your artifact.
+Second page: Describe the artifact and how one can use it (mention about any difficulties one might encounter in using the artifact, or its maturity relative to the content of the paper). This page will be used in the proceedings and you will append it to your research paper once the artifact is accepted. The description of the artifact for the proceedings must not exceed 1 page (including all text, references, and figures).
+Make the name of that pdf “XXX_YYY.pdf”, where XXX is the last name of the corresponding author and YYY is some short name for the artifact.
+Get a GitHub account and email that name to fse2016artifacts@easychair.org with the subject line:
+“FSE16 artifacts track, add my account to the repository.”
+Our reply to you will point to a GitHub repository and a directory for submissions. Drag and drop your pdf onto that directory.
+Create an issue in that repository whose title is the XXX_YYY. Do not add any text to the comment.
+Review of the artifacts will be conducted in GitHub where reviewers’ feedback will be public.
+Important Dates
+Invitation to Submit: June 10, 2016
+Submission deadline: June 30, 2016
+Author notification: July 25 July 29, 2016
+Camera-ready deadline: July 31 August 8, 2016
+Artifacts Track Chairs
+Olga Baysal	Carleton University, Canada	olga.baysal@carleton.ca
+Tim Menzies	North Carolina State University, USA	tim.menzies@gmail.com
+Program Committee
+David Lo	http://www.mysmu.edu/faculty/davidlo/	Singapore Management University
+Arie Gurfinkel	http://www.sei.cmu.edu/staff/arie	Software Engineering Institute, Carnegie Mellon
+University
+Latifa Guerrouj	http://latifaguerrouj.ca/	Ecole de Technologie Superieure
+Sonia Haiduc	http://www.cs.fsu.edu/~shaiduc	Florida State University
+Mark Van Den Brand	http://www.win.tue.nl/~mvdbrand	Eindhoven University of Technology
+Barbara Russo	http://www.inf.unibz.it/~russo/	Free University of Bolzano/Bozen
+Christoph Treude	http://ctreude.ca/	University of Adelaide
+Felienne Hermans	http://www.felienne.com	Delft University of Technology
+Collin McMillan	http://www.cse.nd.edu/~cmc	University of Notre Dame
+Hongyu Zhang	https://sites.google.com/site/hongyujohn/	Microsoft Research
+Emily Hill	http://users.drew.edu/~ehill1/	Drew University
+Yasutaka Kamei	http://posl.ait.kyushu-u.ac.jp/~kamei/	Kyushu University

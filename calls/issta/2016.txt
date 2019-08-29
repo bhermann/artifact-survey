@@ -1,0 +1,8 @@
+https://issta2016.cispa.saarland/accepted-artifacts/
+
+ISSTA 2016 allowed authors of research papers to submit artifacts along with their papers. An artifact can be any kind of content related to a paper, e.g., detailed experimental data, complete experimental setup, test suites, or tools. The artifacts were reviewed by at least two members of a dedicated Artifact Evaluation Committee. The AEC reviewed an artifact with respect to the following criteria (if applicable):
+
+How easy is it to use the provided artifact? (Easy to reuse)
+Does the artifact allow one to reproduce the results stated in the paper? (Consistent)
+What is the fraction of the results that can be reproduced? (Complete)
+Does the artifact describe and demonstrate how to apply the presented method to a new input? (Well documented)

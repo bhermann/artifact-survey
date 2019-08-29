@@ -1,0 +1,282 @@
+/*
+ * 1.0 Portfolio Detail
+ */
+.mpl-carousel-wrap.mpl-portfolio-slider-wrap {
+    margin-bottom: 25px;
+}
+
+.mpl-portfolio-entry-info {
+    margin: 30px 0 0;
+}
+
+@media (min-width: 768px) {
+    .mpl-portfolio-entry-info dt {
+        float: left;
+        width: 80px;
+        overflow: hidden;
+        clear: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .mpl-portfolio-entry-info dd {
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+.mpl-entry-meta {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.mpl-entry-meta li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mpl-entry-meta i {
+    margin-right: 5px;
+}
+
+.mpl-entry-meta a {
+    color: #888;
+}
+
+.mpl-entry-meta a:hover {
+    color: #8bc03c;
+}
+
+ul.mpl-entry-share {
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+.mpl-entry-share li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.mpl-entry-share li a {
+    display: block;
+    padding: 0;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+}
+
+/*
+ * 1.1 Portfolios List
+ */
+.mpl-post-pagination ul {
+    margin: 40px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 30;
+    text-align: center;
+}
+
+.mpl-post-pagination li {
+    list-style-type: none;
+}
+
+.mpl-post-pagination li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.mpl-post-pagination li a,
+.mpl-post-pagination li span {
+    display: inline-block;
+    padding: 15px 0;
+    width: 40px;
+}
+
+.mpl-portfolio-list-filter ul {
+    margin: 0 0 20px;
+    list-style-type: none;
+}
+
+.mpl-portfolio-list-filter li {
+    display: inline-block;
+}
+
+.mpl-portfolio-list-filter li a {
+    display: block;
+    padding: 5px 15px;
+    color: inherit;
+}
+
+.mpl-portfolio-list-filter li.active a,
+.mpl-portfolio-list-filter li a:hover {
+    color: #8dc73f;
+}
+
+.mpl-portfolio-box .entry-title {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.mpl-portfolio-grid {
+    margin: -15px;
+}
+
+.mpl-portfolio-box-wrap {
+    padding: 15px;
+	display: none;
+}
+
+.mpl-portfolio-grid.full {
+    margin: 0;
+}
+
+.mpl-portfolio-grid.full .mpl-portfolio-box-wrap {
+    padding: 0;
+}
+
+.mpl-portfolio-image {
+    text-align: center;
+}
+
+/*
+ * 2.0 Event Detail
+ */
+.mpl-event-entry-top:before,
+.mpl-event-entry-top:after {
+    content: "";
+    display: table;
+}
+
+.mpl-event-entry-top:after {
+    clear: both;
+}
+
+.mpl-feature-img-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mpl-event-entry-info dl {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .mpl-event-entry-info dt {
+        float: left;
+        width: 80px;
+        overflow: hidden;
+        clear: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .mpl-event-entry-info dd {
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+.mpl-date-tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 55px;
+  height: 75px;
+  background-color: #1b1b1b;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.mpl-date-tag span {
+  display: block;
+  line-height: 1.3;
+}
+
+.mpl-date-tag span.mpl-date-tag-d {
+  font-size: 2em;
+  line-height: 1;
+}
+
+/*
+ * 2.1 Events List
+ */
+.mpl-events-list-wrap .mpl-event-box {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.mpl-events-list-wrap .mpl-event-box:before,
+.mpl-events-list-wrap .mpl-event-box:after {
+    content: "";
+    display: table;
+}
+
+.mpl-events-list-wrap .mpl-event-box:after {
+    clear: both;
+}
+
+.mpl-events-list-wrap .entry-aside,
+.mpl-events-list-wrap .entry-main {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+    min-height: 1px;
+}
+
+@media screen and (min-width: 992px) {
+    .mpl-events-list-wrap .mpl-event-box .entry-aside {
+        width: 40%;
+    }
+    .mpl-events-list-wrap .mpl-event-box .entry-main {
+        width: 60%;
+    }
+    .mpl-events-list-wrap .mpl-event-box .img-box {
+        margin-bottom: 0;
+    }
+}
+
+.mpl-event-entry-meta {
+    margin: 10px 0 15px;
+}
+
+.mpl-event-entry-meta span {
+  display: inline-block;
+}
+
+.mpl-event-entry-meta span + span {
+  margin-left: 20px;
+}
+
+.mpl-events-grid .mpl-event-box {
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.mpl-events-grid .entry-main {
+    padding: 20px;
+}
+
+.mpl-events-grid .mpl-feature-img-box {
+    margin-bottom: 0;
+}
+
+.mpl-events-grid .mpl-event-entry-meta span + span {
+    margin-left: 0;
+}
+
+.mpl-events-grid .entry-title {
+    font-size: 18px;
+}

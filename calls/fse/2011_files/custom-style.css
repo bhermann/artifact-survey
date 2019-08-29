@@ -1,0 +1,214 @@
+/****************************/
+/* CUSTOM STYLE CSS         */
+/****************************/
+/* 
+Put your custom css and css overrides in this file.  By restricting 
+your css changes to custom-style.css, your changes will not be overwritten 
+when upgrading to a new version of this theme.
+
+Steps to customize your 0Point theme:                       
+1. Add your custom css to this file                
+2. Rename this file to local.css                   
+3. Uncomment different examples and modify data as you wish 
+4. Clear cached data at admin/settings/performance 
+*/
+/****************************/
+
+/* Erase or comment the lines below to get rid of the image in the right sidebar 
+ * and the brand image or choose another image and change the path instead. */
+
+#wrapper {
+	background: transparent url(../images/all/_sidebarimg.png) 99% 99% no-repeat;
+}
+
+brand {
+	background: url(logo.png) 50% 30% no-repeat;
+	position: relative;
+	margin: 5px auto 0;
+	width: 250px;
+	height: 50px;
+}
+
+
+/* HEADER IMAGE ROTATOR */
+.himg #headimg {
+	background: #fff url(headerimg/rotate.php) no-repeat 100% 100%; /* rotates images in the headerimg folder */
+	border-bottom: 1px solid #eee;
+}
+
+
+/* Uncomment the first declaration below to hide the titles on the front page 
+ * Addapt the second declaration to hide a certain title. 
+ * Third one is for no "Read more" on the first page. */ 
+/*
+.front h2 a {
+	display: none;
+}
+.front #node-XXX h2 a {
+	display: none;
+}
+.front .node_read_more {
+	display: none;
+}
+*/
+
+
+/*******************************/
+/* CUSTOM FIXED or FLUID WIDTH */
+/*******************************/ 
+/* First choose "Custom Layout width" in 0 Point settings page.
+ * Uncomment the lines below and modify the value as you wish. 
+ * E.g. 1000px for fixed width or 85% for fluid width */
+
+body.layout-fluid .sizer {
+	width: 90%;
+}
+body.layout-fixed .sizer {
+	width: 980px;
+}
+
+
+
+/*******************************/
+/* CUSTOM Equal width sidebars */
+/*******************************/ 
+/* First choose "Equal width sidebars" in 0 Point settings page.
+ * Uncomment the lines below and modify the values keeping pair values. */
+/*
+body.l-m-r-eq .colleft, body.m-r-eq .colleft, body.l-m-eq .colleft {
+	width: 199px;
+	margin-left: -199px;
+}
+body.l-m-r-eq .colright, body.m-r-eq .colright, body.l-m-eq .colright {
+	width: 199px;
+	margin-right: -199px;
+}
+body.l-m-r-eq .outer, body.l-m-eq .outer, body.l-m-eq .outer {
+	margin-left: 199px;
+}
+body.l-m-r-eq .outer, body.m-r-eq .outer, body.m-r-eq .outer {
+	margin-right: 199px;
+}
+body.l-m-eq .colleft {
+	width: 199px;
+	margin-left: -199px;
+}
+body.m-r-eq .colright {
+	width: 199px;
+	margin-right: -199px;
+}
+*/
+
+
+/******************************/
+/* SPECIAL STATIC-MENU COLORS */
+/******************************/
+
+/* Uncomment this to have different colors (and chooose them) for first and last menu items. */
+/*
+#navlist li.first a {
+	background: #D0932C;
+}
+#navlist li.last a {
+	background: #BF5D8C;
+}
+*/
+
+
+/* Change the values below accordingly: XXX=menu numer; YYY=background color. */
+/*
+#navlist li.menu-XXX a {
+	background: #YYY;
+}
+*/
+
+
+/*******************************/
+/* UPDATE ICONS FOR NEW BLOCKS */
+/*******************************/
+/* where XXX is the block number */
+
+/*
+#block-block-XXX .block-icon {
+background: transparent url(../images/contact_48.png) no-repeat;
+}
+*/
+
+
+.sitemap-box h2 {
+	display: none;
+}
+.views-exposed-widget #edit-submit {
+	border: 1px solid #555;
+	margin-top: 15px !important;
+}
+.pane-content h2.title a {
+	font-size: 140%;
+}
+
+/* VL 2010-08-24 Chair style*/
+
+hr.litehr {background-color:gray;border:0; height:1px;}
+hr.midhr {background-color:gray;border-top:1 solid grey; height:1px;}
+hr.clear {clear:both;}
+span.chairname {font-weight:bold;color:#164188; }
+img.chair {float:left; margin: 10px 10px 10px 10px; width:100px; border: 3px solid #e7e8e9;}
+
+p.chairtitle {background-color: #e4eefd; font-weight:bold; padding: 3px; clear:both;}
+p.clear {clear:both;}
+h4.clear {clear:both;}
+
+.bluetitle {background-color: #e4eefd; font-weight:bold; padding: 3px; clear:both;}
+
+.clear {clear:both;}
+
+a.chair:link {text-decoration: none;}
+a.chair:visited {text-decoration: none;}
+a.chair:hover {text-decoration: none; color: #164188;}
+a.chair:active {text-decoration: none;}
+
+table.dates { padding: 3px;}
+table.dates th, td { padding: 1px;}
+div.views-field-created {font-size: 10px;}
+
+div.block-wrapper h2 {font-size: 14px;}
+div.block-wrapper div.field-content {font-size: 14px;}
+div.block-wrapper {margin: 0px; padding: 0px;}
+block-views-latest_news-block_1 {margin: 0px; padding 0px;}
+div.social-icon-clear {clear: both; }
+div.social-icon {float: right; }
+img.social-icon {float: right; width: 40px; margin-bottom: 4px;}
+#main div.views-row {border-bottom: 1px solid lightgrey;margin-bottom: 0px; margin-top: 10px;}
+
+
+table.program { border: 1px solid lightgrey; border-collapse: separate; border-spacing: 2px; width: 540px;}
+table.program thead { font-weight: bold;}
+table.program td { text-align: center; width:80px;border-spacing: 2px;}
+table.program td.time {background-color: #ccffff; width:30px;} 
+table.program td.ds { background-color: #ffcc99;}
+table.program td.tb { background-color: lightgreen;}
+table.program td.pwg { background-color: #ffffcc;}
+table.program td.plenary { background-color: #9999cc;}
+table.program td.rt { background-color: #9999ff;}
+table.program td.long {width: 250px;}
+
+table.programlist {border: 1px solid lightgrey;}
+table.programlist td.time {width: 120px; background-color: lightyellow; text-align: right;}
+table.programlist td.place {background-color: lightyellow;}
+table.programlist td.tracktitle {font-weight: bold; color: #164188;}
+
+.authors {font-style: none;}
+.title {font-style: italic;}
+
+span.keynotename {font-weight:bold;color:#164188; }
+p.keynotetitle {font-weight:bold;color:#164188;}
+img.keynoteimg {float:left; margin: 10px 10px 10px 10px; width:100px; border: 3px solid #e7e8e9;}
+p.keynotedate {background-color: #e4eefd; font-weight:bold; padding: 3px; clear:both;}
+
+
+table.registration { width: 460px; }
+table.registration thead td {  border: 2px solid white;font-weight: bold; text-align: center; background:#FCD5B4; }
+table.registration tbody td {text-align: center; border: 2px solid white;}
+table.registration tbody td.RName {text-align: left; background:#EEECE1;}
+table.registration tbody td.early {background:#DBE5F1;}
+table.registration tbody td.late {background:#B8CCE4;}

@@ -1,0 +1,83 @@
+Call for Artifact Evaluations
+
+
+Updated: The Artifact Evaluation procedure for PPoPP 2016 has finished. The list of accepted artifacts can be found at http://ctuning.org/ae/artifacts.html
+
+Authors of accepted papers will be invited to formally submit their supporting materials to the Artifact Evaluation process. The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves. Further information is available on the PPoPP AEC web page. Authors of accepted papers are encouraged (but not obliged) to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+Important dates
+Paper decision: 10 Nov 2015
+Artifact submission: 20 Nov 2015 AoE
+Technical clarification: 14-20 Dec 2015
+Decision announced: 22 Dec 2015
+Public discussion: 14 March 2016
+How to pack and submit
+Please read the guidelines on what to submit. Please upload your submission to EasyChair (joint CGO/PPoPP submission).
+
+Review process
+The review process is described in detail here.
+
+Artifact Evaluation Committee (AEC)
+Chairs:
+
+Grigori Fursin, cTuning foundation, France
+Bruce R. Childers, University of Pittsburgh, USA
+Committee (joint with CGO'16):
+
+See here
+Discussions
+We consider AE as a continuous learning curve. If you have questions or comments and suggestions on how to improve packaging and reviewing process, please get in touch!
+
+Our presentation about Artifact Evaluation Experience at CGO/PPoPP'15 is available online here.
+
+Chairs
+Grigori Fursin, cTuning foundation, France
+Bruce R. Childers, University of Pittsburgh, USA
+
+Committee
+Maya Arbel
+Stavros Aronis
+Gergo Barany
+David Beckingsale
+Kumud Bhandari
+Santiago Bock
+Jeffrey Bosboom
+Trevor Brown
+Man Cao
+Prasanth Chatarasi
+Bapi Chatterjee
+Weiwei Chen
+Natacha Crooks
+Pantazis Deligiannis
+Ankush Desai
+Monika Dhok
+Emilio Francesquini
+Todd Gamblin
+Matthew Halpern
+Rashid Kaleem
+Svilen Kanev
+Michael Laurenzano
+Jingwen Leng
+Lingda Li
+Peter Libic
+Lin Ma
+Na Meng
+Karthik Murthy
+Yiannis Nikolakopulos
+Sreepathi Pai
+HyukWoo Park
+Jeeva Paudel
+Malavika Samak
+Aritra Sengupta
+KC Sivaramakrishnan
+Steven Smith
+Yulei Sui
+Rishi Surendran
+Paul Thomson
+Vasileios Trigonakis
+Wei Wang
+Zhe Wang
+Shasha Wen
+David Wilkinson
+Ennan Zhai
+Xiaowei Zhu
+Yuhao Zhu

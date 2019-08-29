@@ -1,0 +1,190 @@
+Artifact Evaluation for PPoPP 2019
+
+[ Back to PPoPP 2019 conference website ]
+
+
+Artifact evaluation is over - see accepted artifacts here !
+News: We received a record number of artifacts for evaluation: 20 out of 29 papers! Some artifacts even require an access to a supercomputer! A great motivation for our experiment automation initiative (see recent SCC18 example)!
+
+Authors of accepted papers are invited to formally submit their supporting materials to the Artifact Evaluation process (AE). AE is run by a separate committee whose task is to assess how submitted artifacts support the work described in accepted papers while reproducing at least some experiments. This submission is voluntary and will not influence the final decision regarding the papers.
+
+Prepare your submission and Artifact Appendix using the following guidelines and register it at the PPoPP AE website. Your submission will be then reviewed according to the following guidelines. Please, do not forget to provide a list of hardware, software, benchmark and data set dependencies in your artifact abstract - this is essential to find appropriate evaluators!
+
+The papers that successfully go through AE will receive a set of ACM badges of approval printed on the papers themselves and available as meta information in the ACM Digital Library (it is now possible to search for papers with specific badges in ACM DL). Authors of such papers will have an option to include Artifact Appendix to the final paper (up to 2 pages).
+
+If you have questions, please check AE FAQs, get in touch with the AE chairs, contact steering committee, or join AE google group.
+
+Submission
+
+This document (V20190108) provides guidelines to submit your artifact for evaluation across a range of CS conferences and journals. It gradually evolves to define a common submission methodology based on our past Artifact Evaluations and open discussions, the ACM reviewing and badging policy (which we contributed to as a part of the ACM taskforce on reproducibility), artifact-eval.org and your feedback (2018a, 2018b, 2017a, 2017b, 2014).
+News
+Do not forget to provide a list of hardware, software, benchmark and data set dependencies in your artifact abstract - this is essential to find appropriate evaluators!
+We opened a dedicated AE google group with many past AE chairs and organizers - feel free to provide your feedback or ask questions there!
+Follow this guide if you would like to convert your experimental scripts to portable and customizable CK workflows. Feel free to contact the CK community to get free help!
+Proceedings, CK workflows and report from the 1st ACM ReQuEST-ASPLOS'18 tournament to co-design efficient SW/HW stack for deep learning are now available online: ACM DL, report, CK workflows.
+We co-authored a new ACM Result and Artifact Review and Badging policy in 2016 and now use it for AE at CGO, PPoPP, Supercomputing, ReQuEST, IA3 and SysML..
+What to expect   Preparing artifacts for submission   If accepted   Examples of accepted artifacts   Methodology archive   Extended artifact description
+What to expect
+We aim to formalize and unify artifact submission while keeping it relatively simple. You will need to pack your artifacts (code and data) using any publicly available tool. In some exceptional cases when rare hardware or proprietary software is used, you can arrange a remote access to a machine with the pre-installed software. Then you need to prepare a small and informal Artifact Appendix using our AE LaTeX template (now used by CGO, PPoPP, Supercomputing, PACT, IA3, RTSS, ReQuEST and other ACM/IEEE conferences and workshops) to explain evaluators what your artifact is and how to validate it. You will normally be allowed to add up to 2 pages of this Appendix to your final camera-ready paper. You will need to add this appendix to you paper and submit it to the AE submission website for a given event. You can find examples of such AE appendices in the following papers: ReQuEST-ASPLOS'18 (associated experimental workflow), CGO'17, PPoPP'16, SC'16. Note that since your paper is already accepted, artifact submission is single blind i.e. you can add author names to your PDF!
+
+Please, do not forget to check the following artifact reviewing guidelines to understand how your artifact will be evaluated. In the end, you will receive a report with the following overall assessment of your artifact and a set of ACM reproducibility badges:
+
+
+Since our eventual goal is to promote collaborative and reproducible research, we see AE as a cooperative process between authors and reviewers to validate shared artifacts rather than naming and shaming problematic artifacts. We therefore allow continuous and anonymous communication between authors and reviewers via HotCRP to fix raised issues until a given artifact can pass evaluation or until a major issue is detected.
+Preparing artifacts for submission
+You need to perform the following steps to submit your artifact for evaluation:
+Prepare experimental workflow.
+You can skip this step if you just want to make your artifacts publicly available without validation of experimental results.
+
+You need to provide at least some scripts or Jupyter Notebooks to prepare and run experiments, as well as reporting and validating results.
+
+If you would like to use the Collective Knowledge framework to automate your workflow and think you might need some assistance, please contact us in advance! We are developing CK to help authors reduce their time and effort when preparing AI/ML/SW/HW workflows for artifact evaluation by reusing many data sets, models and frameworks already shared by the community in a common format. This, in turn, should enable evaluators to quickly validate results in an automated and portable way. Please, see CK community use-cases and check out the following papers with CK workflows: ReQuEST-ASPLOS'18 (associated CK workflow), CGO'17, IA3'17, SC'15.
+
+Pack your artifact (code and data) or provide an easy access to them using any publicly available and free tool you prefer or strictly require.
+
+For example, you can use the following:
+Docker to pack only touched code and data during experiment.
+Virtual Box to pack all code and data including OS (typical images are around 2..3GB; we strongly recommend to avoid images larger than 10GB).
+Standard zip or tar with all related code and data, particularly when an artifact should be rebuilt on a reviewers machine (for example to have a non-virtualized access to a specific hardware).
+Private or public GIT or SVN.
+Arrange a remote access to a machine with pre-installed software (exceptional cases when rare hardware or proprietary software is used or your VM image is too large) - you will need to privately send the access information to the AE chairs. Also, please avoid making any changes to the remote machine during evaluation unless explicitly agreed with AE chairs - you can do it during the rebuttal phase if needed!
+Check other tools which can be useful for artifact and workflow sharing.
+
+Write a brief artifact abstract with a SW/HW check-list to informally describe your artifact including minimal hardware and software requirements, how it supports your paper, how it can be validated and what the expected result is. Particularly stress if you use any proprietary software or hardware Note that it is critical to help AE chairs select appropriate reviewers! If you use proprietary benchmarks or tools (SPEC, Intel compilers, etc), we suggest you to provide a simplified test case with open source software to be able to quickly validate functionality of your experimental workflow.
+
+Fill in and append AE template (download here) to the PDF of your (accepted) paper. Though it should be relatively intuitive, we still strongly suggest you to check out extra notes about how to fill in this template based on our past AE experience.
+
+Submit the artifact abstract and the new PDF at the AE submission website provided by the event.
+If you encounter problems, find some ambiguities or have any questions, do not hesitate to get in touch with the AE community via the dedicated AE google group.
+If accepted
+You will need to add up to 2 pages of your AE appendix to your camera ready paper while removing all unnecessary or confidential information. This will help readers better understand what was evaluated. If your paper will be published in the ACM Digital Library, you do not need to add reproducibility stamps yourself - ACM will add them to your camera-ready paper! In other cases, AE chairs will tell you how to add a stamp to your paper.
+Sometimes artifact evaluation help discover some minor mistakes in the accepted paper - in such case you now have a chance to add related notes and corrections in the Artifact Appendix of your camera-ready paper..
+A few artifact examples from the past conferences, workshops and journals
+"Highly Efficient 8-bit Low Precision Inference of Convolutional Neural Networks with IntelCaffe" (Paper DOI, Artifact DOI, Original artifact, CK workflow, CK results)
+"Software Prefetching for Indirect Memory Accesses", CGO 2017, dividiti award for the portable and customizable CK-based workflow (Sources at GitHub, PDF with AE appendix, CK dashboard snapshot)
+"Optimizing Word2Vec Performance on Multicore Systems", IA3 at Computing 2017, dividiti award for the portable and customizable CK-based workflow (Sources at GitHub, PDF with AE appendix)
+"Self-Checkpoint: An In-Memory Checkpoint Method Using Less Space and its Practice on Fault-Tolerant HPL", PPoPP 2017 (example of a public evaluation via HPC and supercomputer mailing lists: GitHub discussions)
+"Lift: A Functional Data-Parallel IR for High-Performance GPU Code Generation", CGO 2017 (example of a public evaluation with a bug fix: GitLab discussions, example of a paper with AE Appendix and a stamp: PDF, CK workflow for this artifact: GitHub, CK concepts: blog)
+"Gunrock: A High-Performance Graph Processing Library on the GPU", PPoPP 2016 (PDF with AE appendix and GitHub)
+"GEMMbench: a framework for reproducible and collaborative benchmarking of matrix multiplication", ADAPT 2016 (example of a CK-powered artifact reviewed and validated by the community via Reddit)
+"Integrating algorithmic parameters into benchmarking and design space exploration in dense 3D scene understanding", PACT 2016 (example of interactive graphs and artifacts in the Collective Knowledge format)
+"Polymer: A NUMA-aware Graph-structured Analytics Framework", PPoPP 2015 (GitHub and personal web page)
+"A graph-based higher-order intermediate representation", CGO 2015 (GitHub)
+"MemorySanitizer: fast detector of uninitialized memory use in C++", CGO 2015 (added to LLVM)
+"Predicate RCU: an RCU for scalable concurrent updates", PPoPP 2015 (BitBucket)
+"Low-Overhead Software Transactional Memory with Progress Guarantees and Strong Semantics", PPoPP 2015 (SourceForge and Jikes RVM)
+"More than You Ever Wanted to Know about Synchronization", PPoPP 2015 (GitHub)
+"Roofline-aware DVFS for GPUs", ADAPT 2014 (ACM DL, Collective Knowledge repository)
+"Many-Core Compiler Fuzzing", PLDI 2015 (example of an artifact with a CK-based experimental workflow and live results)
+Methodology archive
+We keep track of the past submission and reviewing methodology to let readers understand which one was used in the papers with the evaluated artifacts.
+V20190108 (SysML'19): LaTeX template, submission guide, reviewing guide
+V20180713 (CGO'19/PPoPP'19/PACT'18/IA3'18/ReQuEST'18): LaTeX template, submission guide, reviewing guide
+V20171101 (CGO'18/PPoPP'18): LaTeX template, submission guide, reviewing guide
+V20170414 (PACT'17): LaTeX template, submission guide, reviewing guide
+V20161020 (PPoPP'17/CGO'17): LaTeX template, submission guide, reviewing guide
+V20160509 (PACT'16): LaTeX template, submission guide, reviewing guide
+V20151015 (PPoPP'16/CGO'16/ADAPT'16): LaTeX template, submission guide, reviewing guide
+Also see original AE procedures for programming language conferences.
+Thank you for participating in Artifact Evaluation!
+
+Reviewing
+
+This document (V20190108) provides guidelines to review artifacts. It gradually evolves to define common evaluation criteria based on our past Artifact Evaluations and open discussions, the ACM reviewing and badging policy (which we contributed to as a part of the ACM taskforce on reproducibility), artifact-eval.org and your feedback (2018a, 2018b, 2017a, 2017b, 2014).
+Reviewing process
+After an artifact submission deadline specific to a given event, AE reviewers will bid on artifacts they would like to review based on a provided artifact abstract and check-list, their competencies, and access to specific hardware and software, while avoiding possible conflicts of interest. Within a few days, AE chairs will make the final reviewer selection to ensure at least three or more reviewers per artifact.
+Reviewers will then have approximately 2..3 weeks to evaluate artifacts and provide a report using a dedicated artifact submission website (usually HotCRP). Reviewers will be communicating with authors about encountered issues continuously and anonymously via submission website in order to quickly resolve issues - our philosophy of artifact evaluation is not to fail problematic artifacts but to help authors improve at least publicly available ones and pass evaluation!
+
+In the end, AE chairs will then decide on a set of badges (see below) to award to a given artifact based on all reviews and authors responses.
+Artifact evaluation
+Reviewers will need to read a paper and then thoroughly go through authors' artifact appendix step-by-step to evaluate a given artifact. They should then describe their experience at each stage (success or failure, encountered problems and how they were possibly solved, and questions or suggestions to the authors), and then give a score on scale -1 .. +1 where
+    +1) exceeded expectations
+    0) met expectations (or inapplicable)
+    -1) fell below expectations
+Criteria	Score	ACM reproducibility badges
+Artifacts available?	Are all artifacts related to this paper publicly available?
+Note that it is not obligatory to make artifacts publicly available!
+
+The author-created artifacts relevant to this paper will receive an ACM "artifact available" badge only if they have been placed on a publicly accessible archival repository such as Zenodo, FigShare, and Dryad. A DOI will be then assigned to their artifacts and must be provided in the Artifact Appendix!
+
+Notes: ACM does not mandate the use of above repositories. However, publisher repositories, institutional repositories, or open commercial repositories are acceptable only if they have a declared plan to enable permanent accessibility! Personal web pages, GitHub, GitLab and BitBucket are not acceptable for this purpose.
+
+Artifacts do not need to have been formally evaluated in order for an article to receive this badge. In addition, they need not be complete in the sense described above. They simply need to be relevant to the study and add value beyond the text in the article. Such artifacts could be something as simple as the data from which the figures are drawn, or as complex as a complete software system under study.
+
+Artifacts functional?	Package complete?	All components relevant to evaluation are included in the package?
+Note that proprietary artifacts need not be included. If they are required to exercise the package then this should be documented, along with instructions on how to obtain them. Proxies for proprietary data should be included so as to demonstrate the analysis.
+
+The artifacts associated with the paper will receive an "Artifacts Evaluated - Functional" badge only if they are found to be documented, consistent, complete, exercisable, and include appropriate evidence of verification and validation.
+
+Well documented?	Enough to understand, install and evaluate artifact?
+Exercisable?	Includes scripts and/or software to perform appropriate experiments and generate results?
+Consistent?	Artifacts are relevant to the associated paper and contribute in some inherent way to the generation of its main results?
+Artifacts customizable and reusable?
+Can other users easily reuse and customize this artifact and experimental workflow? For example, can it be used on a different platform, with different benchmarks, data sets, compilers, tools, under different conditions and parameters, etc.?
+
+Unfortunately, current criteria for awarding this badge are vague. We work with the community to develop Collective Knowledge framework which can help authors share their artifacts and workflows as reusable, portable and customizable components with a standard API. The idea is to automatically award this badge when authors use portable and customizable workflow frameworks (see ACM ReQuEST and SC SCC for more details).
+
+The artifacts associated with the paper will receive an "Artifact Evaluated - Reusable" badge only if they are of a quality that significantly exceeds minimal functionality. That is, they have all the qualities of the Artifacts Evaluated - Functional level, but, in addition, they are very carefully documented and well-structured to the extent that reuse and repurposing is facilitated. In particular, norms and standards of the research community for artifacts of this type are strictly adhered to.
+
+Results validated?	Can all main results from the paper be validated using provided artifacts?
+Report any unexpected artifact behavior (depends on the type of artifact such as unexpected output, scalability issues, crashes, performance variation, etc).
+
+The artifacts associated with the paper will receive a "Results replicated" badge only if the main results of the paper have been obtained in a subsequent study by a person or team other than the authors, using, in part, artifacts provided by the author.
+
+Note that variation of empirical and numerical results is tolerated. In fact it is often unavoidable in computer systems research - see "how to report and compare empirical results" in AE FAQ!
+
+Since it may take months to reproduce some complex experiments (for example to perform full training of a deep learning model), we now discuss a staged AE where we will first validate that artifacts are functional before camera ready paper, and then use a separate AE with full validation of all results based on ACM ReQuEST tournament methodology without strict deadlines. We plan to validate this approach at SysML'19.
+
+Workflow framework used?	Was any portable and customizable workflow framework used to automate preparation and validation of experiments (such as CK)?	We promote the use of standard workflow frameworks to help evaluators quickly validate results in an automated and portable way. Such artifact can receive a special prize if arranged by the event.
+Distinguished artifact?	Is artifact publicly available, functional, reproducible and easily reusable?	Artifact can receive distinguished artifact award if arranged by the event.
+Methodology archive
+We keep track of the past submission and reviewing methodology to let readers understand which one was used in the papers with the evaluated artifacts.
+V20190108 (SysML'19): LaTeX template, submission guide, reviewing guide
+V20180713 (CGO'19/PPoPP'19/PACT'18/IA3'18/ReQuEST'18): LaTeX template, submission guide, reviewing guide
+V20171101 (CGO'18/PPoPP'18): LaTeX template, submission guide, reviewing guide
+V20161020 (PACT'17): LaTeX template, submission guide, reviewing guide
+V20161020 (PPoPP'17/CGO'17): LaTeX template, submission guide, reviewing guide
+V20160509 (PACT'16): LaTeX template, submission guide, reviewing guide
+V20151015 (PPoPP'16/CGO'16/ADAPT'16): LaTeX template, submission guide, reviewing guide
+Also see original AE procedures for programming language conferences.
+
+Chairs
+Grigori Fursin
+Flavio Vella
+
+Committee
+Sundaram Ananthanarayanan
+Chandranil Chakraborttii
+Younghyun Cho
+Marco Cianfriglia
+Biagio Cosenza
+Apurba Das
+Subhasis Das
+Salvatore Di Girolamo
+Nikoli Dryden
+Troels Henriksen
+Nikita Koval
+Snehasish Kumar
+Kan LIU
+Ang Li
+Tobias Maier
+Karthik Srinivasa Murthy
+Aman Nougrahiya
+Devangi Parikh
+Reza Salkordeh
+Tao Song
+Bogdan-Alexandru Stoica
+Pengfei Su
+Xulong Tang
+Jyothi Krishna V S
+Ilias Vougioukas
+Ivan Walulya
+Shasha Wen
+Sebastian Wild
+Adarsh Yoga
+Zhen ZHENG
+Pantea Zardoshti
+Justs Zarins
+Chi Zhang
+Wei Zhang
+Tingzhe Zhou

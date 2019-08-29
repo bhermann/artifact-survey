@@ -1,0 +1,62 @@
+Artifact Evaluation
+
+CAV AE Logo
+
+CAV 2015 encourages authors of accepted papers where research findings include software, mechanized proofs, data sets, test suites, models, or any other digital artifacts to submit these to an optional artifact evaluation. The purpose of the evaluation is to provide a service by the community to help authors provide more substantial supplements to their papers so future researchers can more effectively build on and compare with previous work. The Artifact Evaluation Committee (AEC) will read the paper and explore the artifact to give the authors third-party feedback about how well the artifact supports the paper and how easy it is for future researchers to use the artifact.
+
+At least three members of the AEC will review an artifact with respect to the following criteria (if applicable):
+
+Easy to reuse. How easy is it to reuse the provided artifact?
+Consistent. Does the artifact help to reproduce the results from the paper?
+Complete. What is the percentage of the results that can be reproduced?
+Well documented. Does the artifact describe and demonstrate how to apply the presented method to a new input?
+The members of the AEC will return their feedback on these criteria, and consequently a submitted artifact will be deemed to meet (or exceed) the expectations set out by the corresponding paper accepted into CAV 2015, or fail to do so. Successful validations may make use of the above seal, and will be highlighted at the conference.
+
+While the CAV 2015 Artifact Evaluation is the first edition in the series of CAV conferences, the approach is informed by the following Artifact Evaluation as performed in, e.g., ESEC/FSE 2011, SAS 2013, PLDI 2014, ISSTA 2014, ISSTA 2015, as well as several other conferences.
+
+Important Dates
+Submission deadline: April 24th 2015 (Anywhere on Earth)
+Author notification: May 22nd 2015
+Submission Instructions
+Upon notification of acceptance of their papers into CAV 2015, authors will be invited to submit via EasyChair an abstract describing their artifact and download instructions. The abstracts will only be used to facilitate the review process and will not be evaluated themselves. The authors should make an effort not to learn the identity of the reviewers, e.g., through logging.
+
+Packaging Guidelines
+High quality packaging of an artifact is as important as the quality of the artifact itself. Please keep in mind that the committee members will have limited time to review each artifact. We have some requirements for the artifact submission that will expedite the review process.
+
+In order to ease the reproducibility of the experimental evaluation, we recommend the use of a provided virtual machine (VM). If for some reason you don’t want to use the VM, we strongly encourage to use VirtualBox. Please provide detailed instructions for the use of the artifact in the README file listed below. This includes platform requirements, installation instructions, external libraries and tools, etc.
+
+Steps for packaging and submission:
+
+1. Download the virtual machine from CAV2015_AE_VM Username: cav Password: ae
+2. Include your tool in the VM, namely create in the home directory a folder with the following items:
+2.a) Your accepted paper
+2.b) A detailed README file of how to run your tool
+2.c) A directory containing the artifact (benchmarks + tool or proof scripts)
+3. If is not necessary to modify the VM in order to run the artifact, place a zipped directory (from 2) on a website. If it is necessary to modify the VM, then place the modified VM with a zipped directory (from 2) in the home directory.
+4. Submit to EasyChair and add the link to your VM (or zipped directory) in the abstract field. Please use the same title as for the CAV submission.
+
+Organizers
+Arie Gurfinkel, Software Engineering Institute, Carnegie Mellon University, USA
+Temesghen Kahsai, Carnegie Mellon Silicon Valley/NASA Ames, USA
+Michael Tautschnig, Queen Mary University of London, UK
+
+Program Committee
+Aws Albarghouthi (University of Wisconsin-Madison, US)
+Sergiy Bogomolov (University of Freiburg, Germany)
+Adrien Champion (The University of Iowa, USA)
+Loris D’Antoni (University of Pennsylvania, USA)
+Arnaud Dieumegard (Carnegie Mellon University, USA)
+Marko Dimjašević (University of Utah, USA)
+Jessica Davies (University of Toronto, Canada)
+Andreas Holzer (Vienna University of Technology, Austria)
+Dejan Jovanović (SRI International, USA)
+Nuno P. Lopes (MSR, UK)
+Kasper Luckow (Carnegie Mellon University, USA)
+Anvesh Komuravelli (Carnegie Mellon University, USA)
+Quoc-Sang Phan (Queen Mary, University of London, UK)
+Corneliu Popeea (TUM, Germany)
+Andrew Reynolds (EPFL, Switzerland)
+Yakir Vizel (Princeton University, US)
+Björn Wachter (University of Oxford, UK)
+Philipp Wendler (University of Passau, Germany)
+Caterina Urban (École Normale Supérieure, France)

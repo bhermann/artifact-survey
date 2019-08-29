@@ -1,0 +1,81 @@
+Artifact Submission
+
+
+
+As in previous years, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work. Artifact submission is optional. We accept only virtual machine images that can be processed with Virtual Box. Details on what to submit and how will be sent to the corresponding authors by mail shortly after the paper submission deadline. The submitted artifacts will be used by the program committee as a secondary evaluation criteria whose sole purpose is to find additional positive arguments for the paper's acceptance. Submissions without artifacts are welcome and will not be penalized.
+
+
+
+Important Dates
+
+
+
+Abstract submission
+
+
+
+Full paper submission
+
+
+
+Artifact aubmissions
+
+
+
+Author notification
+
+Final version due
+
+Conference
+
+
+Friday, April 14th, 2017 (anywhere on earth)
+
+Friday, April 21st, 2017 (anywhere on earth)
+
+Thursday, April 20th, 2017 (anywhere on earth)
+
+Thursday, April 27th, 2017 (anywhere on earth)
+
+Tuesday, April 25th, 2017 (anywhere on earth)
+
+Tuesday, May 2nd, 2017 (anywhere on earth)
+
+Monday, June 12th, 2017
+
+Wednesday, July 5th, 2017
+
+August 30th - September 1st, 2017
+
+
+WARNING! This is NOT a sole artifact evaluation committee.
+
+Program Chair
+•Francesco Ranzato (University of Padova, Italy)
+
+
+
+Program Committee
+•Elvira Albert (Complutense University of Madrid, Spain)
+•Jade Alglave (University College London, UK)
+•Josh Berdine (Facebook, UK)
+•Aleksandar Chakarov (University of Colorado Boulder, USA)
+•Liqian Chen (National University of Defense Technology, China)
+•Maria Christakis (University of Kent, UK)
+•Pierre Ganty (IMDEA Software Institute, Spain)
+•Alberto Griggio (FBK, Italy)
+•Arie Gurfinkel (University of Waterloo, Canada)
+•Thomas Jensen (INRIA, France)
+•Laura Kovacs (Vienna University of Technology, Austria)
+•Ana Milanova (Rensselaer Polytechnic Institute, USA)
+•Anders Møller (Aarhus University, Denmark)
+•Kedar Namjoshi (Bell Labs Nokia, USA)
+•Andreas Podelski (University of Freiburg, Germany)
+•Xavier Rival (CNRS/ENS/INRIA, France)
+•Ilya Sergey (University College London, UK)
+•Harald Sondergaard (The University of Melbourne, Australia)
+•Fausto Spoto (University of Verona/Julia, Italy)
+•Caterina Urban (ETH Zurich, Switzerland)
+•David Van Horn (University of Maryland, USA)
+•Arnaud J. Venet (Facebook, USA)
+•Eran Yahav (Technion, Israel)

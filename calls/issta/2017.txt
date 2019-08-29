@@ -1,0 +1,21 @@
+https://conf.researchr.org/track/issta-2017/issta-2017-artifacts
+  
+Call for Artifacts
+The Artifact Evaluation process is a service provided by the community to help (1) the ISSTA program committee make better acceptance decisions and (2) authors of accepted papers provide more substantial supplements to their papers so future researchers can more effectively build on and compare with previous work.
+
+The Artifact Evaluation Committee has been formed to assess how well paper authors prepare artifacts in support of claims made in the paper and future use of the artifacts. Authors of papers who wish to participate are invited to submit an artifact before Feb 17th, which is two weeks after the paper submission deadline. The artifact will be reviewed by the AEC under one of the following two conditions: (1) the ISSTA PC explicitly requests the reviewing of the artifact if they believe the outcome of the review is necessary for them to better assess the paper or (2) the paper for the artifact is accepted.
+
+Different from the prior practices of artifact evaluation, the PC will take into consideration how well claims made and experimental results reported in a paper match its corresponding artifact when making acceptance decisions. Not all submitted artifacts will be reviewed. The AEC will perform on-demand reviewing based on the PC’s requests.
+
+Artifacts for all accepted papers will be reviewed after author notification is sent if they have not been reviewed earlier during the paper review period. To review an artifact, the Artifact Evaluation Committee will read the paper and explore the artifact to give the authors third-party feedback about how well the artifact supports the paper and how easy it is, in the committee’s opinion, for future researchers to use the artifact. However, for a PC-requested review, only the former will be considered for the PC to make decisions.
+
+Papers that go through the Artifact Evaluation process successfully receive a seal of approval printed on the first page of the paper in the ISSTA proceedings. Authors of papers with accepted artifacts are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+Submission Instructions:
+Our goal is for submissions to be double-blind. We understand that fully double-blind may be unrealistic in certain situations. However we ask that you remove information that reveals the authors to the degree that is reasonably possible. We also ask that your submission does not attempt to infer the identity of the reviewers. If your submission collects usage information that may reveal reviewer identity then you must reveal this fact prominently in both the included instructions and the abstract section of the EasyChair submission.
+
+The submission process consists of the following steps. First register your intent to submit an artifact by making a submission on the Artifacts EasyChair site. In your EasyChair Artifact submission, the author, title, and paper pdf must match your earlier EasyChair ISSTA submission for which you are submitting an artifact. The Artifact abstract must indicate if and how your submission may reveal reviewer information (e.g., via usage tracking). The Artifact EasyChair submission must be received by Feb 17.
+
+After the EasyChair submission deadline, we will contact authors with instructions on how to upload their artifacts and usage instructions into our Dropbox folder. We will revoke author access to this Dropbox folder on Feb 24.
+
+Instructions on how to setup and explore the artifact should be placed prominently in the submission directory. If your artifact requires a specific setup, we recommend you package your artifact as a VirtualBox VM image.

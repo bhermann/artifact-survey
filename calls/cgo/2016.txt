@@ -1,0 +1,73 @@
+Artifact Evaluation for CGO 2016
+
+[ Back to CGO 2016 conference website ]
+
+Artifact evaluation is finished - see accepted artifacts (with awards) here !
+
+News:
+Highest ranked artifact: "A Basic Linear Algebra Compiler for Structured Matrices", Daniele G. Spampinato and Markus Puschel
+(award by the cTuning foundation)
+14 March 2016 (Monday, 18:00-18:30) - public AE dicussion (results, distinguished artifact award, issues, future work).
+14-16 March 2016 - informal Collective Knowledge demos to solve various encountered issues during Artifact Evaluation. CK enables collaborative and reproducible experimentation using shared and realistic workloads combined with customizable autotuning and predictive analytics plugins.
+Authors of accepted CGO 2016 papers will be invited to formally submit their supporting materials to the Artifact Evaluation process. The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that successfully go through the Artifact Evaluation process will receive a seal of approval printed on the papers themselves. Authors of accepted papers are then encouraged to make these materials publicly available upon publication of the proceedings, by including them as "source materials" in the Digital Library.
+
+How to submit
+Please prepare your artifacts for submission using the following guide. Then, register your submission at the joint CGO/PPoPP EasyChair website - you will be asked to submit your paper title (do not forget to add CGO 2016 as prefix), author list, artifact abstract, pdf of your paper with an appendix describing how to access and validate your artifacts, and possible conflicts of interests with CGO PC members, existing AE members or anyone else.
+Reviewing process
+Your artifacts will be reviewed based on the following guidelines. Artifacts receiving "met expectations" or above score will pass evaluation and will receive a stamp of approval. We are also arranging a prize for the highest ranked artifact.
+Feedback
+We consider Artifact Evaluation as a continuous learning curve - our eventual goal is to collaboratively develop common experimental and artifact sharing methodology for computer system's research. After running AE at CGO 2015 for the first time, we received an overall positive feedback from the community and, therefore, continue this experiment. However, we also experienced various issues which you may check out in our online presentation. Based on this experience and in collaboration with ACM, we are preparing revised submission and reviewing guidelines for CGO 2016. If you have questions, comments and suggestions on how to improve packaging, submission and reviewing process, please do not hesitate to get in touch!
+
+
+AE Chairs:
+Grigori Fursin (dividiti/cTuning)
+Bruce Childers (U. of Pittsburgh)
+
+Committee
+Maya Arbel	Technion (Israel)
+Stavros Aronis	Uppsala University (Sweden)
+Gergo Barany	CEA (France)
+David Beckingsale	LLNL (USA)
+Kumud Bhandari	Rice University (USA)
+Santiago Bock	University of Pittsburgh (USA)
+Jeffrey Bosboom	MIT (USA)
+Trevor Brown	University of Toronto (Canada)
+Man Cao	Ohio State University (USA)
+Prasanth Chatarasi	Rice University (USA)
+Bapi Chatterjee	Chalmers University (Sweden)
+Weiwei Chen	Qualcomm (USA)
+Natacha Crooks	MPI-SWS & University of Texas in Austin (USA)
+Pantazis Deligiannis	Imperial College, London (UK)
+Ankush Desai	UC Berkeley (USA)
+Monika Dhok	IIS (India)
+Emilio Francesquini	University of Campinas (Brasil)
+Todd Gamblin	LLNL (USA)
+Matthew Halpern	University of Texas at Austin (USA)
+Rashid Kaleem	University of Texas at Austin (USA)
+Svilen Kanev	Harvard University (USA)
+Michael Laurenzano	University of Michigan (USA)
+Jingwen Leng	University of Texas at Austin (USA)
+Lingda Li	Rutgers University (USA)
+Peter Libic	Google ; Charles University in Prague (Czech Republic)
+Lin Ma	Huawei America Research Lab (USA)
+Na Meng	University of Texas at Austin (USA)
+Karthik Murthy	Rice University (USA)
+Yiannis Nikolakopulos	Chalmers University (Sweden)
+Sreepathi Pai	University of Texas at Austin (USA)
+HyukWoo Park	Seoul National University (Korea)
+Jeeva Paudel	University of Alberta (Canada)
+Malavika Samak	IIS (India)
+Aritra Sengupta	Ohio State University (USA)
+KC Sivaramakrishnan	University of Cambridge (UK)
+Steven Smith	CoHo Data (Vancouver)
+Yulei Sui	University of New South Wales (Australia)
+Rishi Surendran	Rice University (USA)
+Paul Thomson	Imperial College London (UK)
+Vasileios Trigonakis	EPFL (Switzerland)
+Wei Wang	University of Virginia (USA)
+Zhe Wang	ICT (China)
+Shasha Wen	University of Washington (USA)
+David Wilkinson	University of Pittsburgh (USA)
+Ennan Zhai	Yale University (USA)
+Xiaowei Zhu	Tsinghua University (China)
+Yuhao Zhu	University of Texas at Austin (USA)

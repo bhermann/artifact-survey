@@ -1,0 +1,34 @@
+Artifact Evaluation for CGO 2019
+
+[ Back to CGO 2019 conference website ]
+
+
+Authors of accepted CGO 2019 papers are invited to formally submit their supporting materials to the Artifact Evaluation process (AE). AE is run by a separate committee whose task is to reproduce (at least some) experiments and assess how submitted artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers.
+
+Prepare your submission and Artifact Appendix using the following guidelines and register it at the CGO AE website (contact AE chairs for more details). Your submission will be then reviewed according to the following guidelines. Please, do not forget to provide a list of hardware, software, benchmark and data set dependencies in your artifact abstract - this is essential to find appropriate evaluators!
+
+The papers that successfully go through AE will receive a set of ACM badges of approval printed on the papers themselves and available as meta information in the ACM Digital Library (it is now possible to search for papers with specific badges in ACM DL). Authors of such papers will have an option to include Artifact Appendix to the final paper (up to 2 pages).
+
+
+CGO'19 AE Chairs:
+Bruce Childers (University of Pittsburgh, USA)
+Luis Oliveria (University of Pittsburgh, USA)
+Michel Steuwer (University of Glasgow, UK)
+
+Committee
+Andrej IVANIS	University of Edinburgh
+Asif Khan	TU Dresden
+Bastian Hagedorn	University of Munster
+Bongjun Kim	POSTECH
+Christof Schlaak	University of Edinburgh
+Fangzhou Liu	University of Rochester
+Ganesha Upadhyaya	Huawei
+Gyeongmin Lee	POSTECH
+James Davis	Virginia Tech
+Larisa Stoltzfus	University of Edinburgh
+Pengfei Su	William & Mary
+Qingrui Liu	Virginia Tech
+Shasha Wen	William & Mary
+Simon Rokicki	INRIA
+Thibaut Marty	IRISA
+Xinwei Fu	Virginia Tech

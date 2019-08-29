@@ -1,0 +1,93 @@
+http://esec-fse15.dei.polimi.it/replicationPack.html
+Call for Replication Packages
+Results presented in technical papers are often validated or supported by software artifacts, including tools, models, and datasets. To reward the effort of creating these artifacts and enhance reproducibility of results presented at the conference, authors of accepted full papers at ESEC/FSE 2015 will be given the opportunity to submit their artifacts to the Replication Packages Evaluation Committee.
+
+Papers associated to accepted replication packages will benefit from:
+
+Five more minutes of presentation at the conference;
+An extra page dedicated to the presentation of the replication package in the conference proceedings;
+The replication package itself stored on the ACM digital library.
+This continues a practice started with ESEC/FSE 2011 and that is becoming increasingly popular across software engineering conferences.
+All authors of accepted full research papers will be contacted to submit their artifact for evaluation. Authors will be notified the results of the evaluation before the camera ready deadline.
+
+After the research paper notification, authors of accepted papers will be able to submit their artifact for evaluation. Evaluation of the artifact will be based on the following criteria (in alphabetical order):
+
+Consistency with the accepted paper
+Completeness
+Ease of reuse
+Potential to facilitate further research
+Quality of the documentation
+How to submit
+Please read the guidelines below for detailed submission instructions.
+Important Dates
+Deadline for Replication Packages Submission: June 7 2015, Deadline is Past!
+Deadline for notification: July 1, 2015, Deadline is Past!
+Deadline for camera ready: July 15, 2015
+ACM SIGSOFT will make the conference proceedings in the ACM Digital Library fully open for download two weeks prior to the conference.
+
+List of accepted replication packages
+Jongse Park, Hadi Esmaeilzadeh, Xin Zhang, Mayur Naik and William Harris, FlexJava: Language Support for Safe and Modular Approximate Programming
+Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy and Rukma Talwadker, Hey, You Have Given Me Too Many Knobs! ---Understanding and Dealing with Over-Designed Configuration in System Software
+Gholamreza Safi, Arman Shahbazian, William G.J. Halfond and Nenad Medvidovic, Detecting Event Anomalies in Event-Based Systems
+Simon Holm Jensen, Manu Sridharan, Koushik Sen and Satish Chandra, MemInsight: Platform-Independent Memory Debugging for JavaScript
+Ben Hermann, Michael Reif, Michael Eichberg and Mira Mezini, Getting to know you... Towards a Capability Model for Java
+Yuting Chen and Zhendong Su, Guided Differential Testing of Certificate Validation in SSL/TLS Implementations
+Shahar Maoz and Jan Oliver Ringert, GR(1) Synthesis for LTL Specification Patterns
+Fan Long and Martin Rinard, Staged Program Repair in SPR
+Mateus Borges, Marcelo d'Amorim, Antonio Filieri and Corina Pasareanu, Iterative Distribution-Aware Sampling for Probabilistic Symbolic Execution
+Stefan Heule, Manu Sridharan and Satish Chandra, Mimic: Computing Models for Opaque Code
+Kevin Moran, Mario Linares-Vásquez, Carlos Bernal-Cárdenas and Denys Poshyvanyk, Auto-Completing Bug Reports for Android Applications
+Lucas Bang, Abdulbaki Aydin and Tevfik Bultan, Automatically Computing Path Complexity of Programs
+Malavika Samak and Murali Krishna Ramanathan, Synthesizing Tests for Detecting Atomicity Violations
+Dirk Beyer, Matthias Dangl,Daniel Dietsch, Matthias Heizmann and Andreas Stahlbauer, Witness Validation and Step-Wise Testification across Software Verifiers
+Yanick Fratantonio, Aravind Machiry, Antonio Bianchi, Christopher Kruegel and Giovanni Vigna, CLAPP: Characterizing Loops in Android Applications
+Erdal Mutlu, Serdar Tasiran and Benjamin Livshits<, Detecting JavaScript Races that Matter
+Matthieu Foucault,Marc Palyart, Xavier Blanc, Gail Murphy and Jean-Rémy Falleri, Developer Turnover in Open-Source Software
+Replication Packages Evaluation Chairs
+Giuliano Casale (Imperial College London, UK)
+Martin Nordio (ETH, Switzerland)
+Replication Packages Evaluation Committee
+Nazareno Aguirre, CONICET, Argentina
+Tiberiu Chis, Imperial College London, UK
+Maria Christakis, ETH Zurich
+Michele Ciavotta, Politecnico di Milano, Italy
+Nicolas D’Ippolito, Universidad de Buenos Aires, Argentina
+Alessandra Gorla, IMDEA Software Institute, Spain
+Georgios Gousios, TU Delft, Netherlands
+Vojtěch Horký, Charles University in Prague, Czech Republic
+Wei Jin, Georgia Institute of Technology, USA
+Karsten Molka, SAP Research, UK
+Nadia Polikarpova, MIT, USA
+Damian Tamburri, Politecnico di Milano, Italy
+Feng Yan, College of William & Mary, USA
+Bogdan Irimie, IEAT, Romania
+Detailed guidelines
+Below we outline guidelines on how to package and submit artifacts.
+
+In all cases, the artifacts should be accompanied by suitable documentation, to save committee members the burden of reverse-engineering what the authors intended (e.g., a dataset is useless without some explanation on how to browse the data; a tool without a quick tutorial will be very hard to use). In particular, please make concrete what claims you are making of the artifact, if these differ from the expectations set up by the paper. This documentation is a place where you can tell us about difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper. We are still going to evaluate the artifact relative to the paper, but this helps set expectations up front, especially in cases that might frustrate the reviewers without prior notice.
+
+Submission
+Create a submission in EasyChair with the same title as the paper. In the abstract field, include:
+the paper's abstract (to help with bidding)
+a URL pointing to the artifact site
+any credentials required to access the files
+There is no “paper” to submit. The artifact site should be a single webpage (either on authors' site or on a third-party service) and should contain:
+the artifact
+instructions
+if it would be helfpul, please feel free to include a video (or a pointer to a video) that demonstrates the artifact running or explaining how it should be run.
+Non-Code Artifacts Format
+We invite the authors to submit experimental data and results in CSV (preferred option), JSON, or XML file formats. In the special case that authors have to submit non-standard data formats, they should also provide suitable readers.
+Software Artifacts Packaging
+Authors should strongly consider one of the following methods to package the software components of their artifacts (though the Replication Packages committee is open to other reasonable formats as well):
+A VM (Virtualbox/VMWare) image containing software application already setup in the intended run-time environment (e.g., Mobile phone emulator, Real time OS). This is the preferred option: It avoids installation and compatibility problems, and provides the best guarantees for reproducibility of the results by the committee. Authors using Linux might find the CDE tool useful for automatically creating a VM image from existing software without needing to manually re-install all dependencies within a VM.
+A binary installable package. We invite the authors to use CDE (Linux) or MSI Installer (Windows) to package the binary application.
+A live instance running on the Web.
+A detailed screencast of the tool along with the results, especially if one of the following special cases applies:
+the application needs proprietary/commercial software that is not easily available or cannot be distributed to the committee;
+the application requires significant computation resources (e.g., > 24 hours of execution time to produce the results);
+An installation or update repository for the tool (e.g., Eclipse update site or a Debian APT repository). However, we urge the authors to test their repository on standard environments to avoid installation problems by the committee members.
+Confidentiality
+In all cases, authors should make a genuine effort to not learn the identity of the reviewers. This may mean turning off “call home” features or analytics, or only using systems with high enough usage that Replication Packages accesses will not stand out. In all cases where tracing is unavoidable, the authors should warn the reviewers in advance so the reviewers can try to take adequate safeguards.
+Conflicts
+If one of the authors is a Replication Packages chair, you may not submit an artifact. You can, however, indicate in your paper that you were unable to submit an artifact due to the conflict-of-interest.
+If you have a conflict-of-interest with anyone on the committee (including the two chairs), please indicate this in both the Web page and in your submitted abstract.

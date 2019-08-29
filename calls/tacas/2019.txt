@@ -1,0 +1,111 @@
+Artifact Evaluation
+As in 2018, TACAS’19 will include artifact evaluation for all types of papers. For regular tool papers and tool demonstration papers, artifact evaluation is compulsory (see the TACAS’19 call for papers), for research and case-study papers, it is voluntary (papers with accepted artifacts will receive a badge).
+
+Important Dates
+Tool papers:
+9 November 2018: deadline for abstract submission
+16 November 2018: deadline for paper submission
+30 November 2018: request for clarification (if AEC members encounter technical problems evaluating the artifact, authors will be asked to submit clarifying instructions)
+7 December 2018: clarification submission deadline
+25 January 2019: TACAS author notification
+Research and case study papers:
+30 January 2019: deadline for artifact submission
+14 February 2019: Notification of authors
+15 February 2019: Deadline camera-ready version of TACAS paper
+Compulsary Artifact Evaluation for Regular Tool Papers and Tool Demonstration Papers
+In TACAS’19, regular tool papers and tool-demonstration papers are required to be accompanied by an artifact for evaluation by the Artifact Evaluation Committee (AEC). An artifact is any additional material (software, data sets, machine-checkable proofs, etc.) that substantiates the claims made in the paper and ideally makes them fully replicable. As an example, a typical artifact would consist of the tool (in binary or source code form) and its documentation, the input files (e.g., models analysed or programs verified) used for the tool evaluation in the paper, and a configuration file or document describing the parameters used in the experiments. The AEC will read the submitted paper and evaluate the submitted artifact w.r.t. the following criteria:
+
+consistency with and replicability of results presented in the paper,
+completeness,
+documentation, and
+ease of use.
+Results of the evaluation will be taken into consideration during the review phase of TACAS’19. Papers that succeed in artifact evaluation and are accepted will receive a badge. The fact that not all experiments are reproducible (e.g., due to high computational demands) does not mean automatic rejection of the paper.
+
+Artifact Evaluation for Research and Case-Study Papers
+Authors of all accepted research papers and case-study papers for TACAS’19 will also be invited to submit an artifact (in this case, the submission is voluntary). The artifact will be evaluated using the same criteria as above. Authors of artifacts that are accepted by the AEC will receive a badge that can be shown on the title page of the corresponding paper. Due to the very short time for reviewing the artifacts, there will be no rebuttal (difference from TACAS’18). Therefore, please make the review process as easy for the reviewers as possible, preferably using easy-to-use scripts that, e.g., run the experiments that you report on in the paper and draw tables/graphs from the results that are similar to the tables and graphs in your paper (the reviewers will not study your paper and artifact in detail to know how to interpret the output data).
+
+Artifact Submission
+An artifact submission consists of
+
+an abstract that summarizes the artifact and its relation to the paper,
+[for research and case-study papers] a .pdf file of the accepted paper (uploaded via EasyChair), which may be modified from the submitted version to take reviewers’ comments into account (for tool papers, the submitted .pdf file will be used),
+a link to a .zip file (available for download) containing
+a directory with the artifact itself,
+a text file LICENSE that contains the license for the artifact (it is required that the license at least allows the AEC to evaluate the artifact w.r.t. the criteria mentioned above),
+a text file README that contains detailed, step-by-step instructions on how to use the artifact to replicate the results in the paper, and
+SHA-256 hash of the zip file.
+Tool paper artifacts are submitted using the TACAS 2019 author interface of EasyChair (into the TACAS 2019 AE for non-tool papers track). When submitting, please fill in the same information as for the submitted paper.
+
+Guidelines for Artifacts
+We expect artifact submissions to package their artifact and write their instructions such that AEC members can evaluate the artifact using the TACAS 2019 Artifact Evaluation Virtual Machine for VirtualBox available here (login/password: “tacas19” / “a”, same password for root access). The virtual machine is based on Ubuntu 18.04.1 LTS GNU/Linux operating system with the following additional packages: build-essential, cmake, clang, mono-complete, openjdk-8-jdk, ruby, and a 32-bit libc. Moreover, VirtualBox guest additions are installed on the VM, it is therefore possible to connect a shared folder from the host computer (see a how-to file in the HOME directory).
+
+If the artifact requires additional software or libraries that are not part of the virtual machine, these need to be included in the .zip file (e.g. in the form of Debian packages) and the instructions must include all necessary steps for their installation and setup (see the FAQ below for hints). AEC members will not download software or data from external sources, and the artifact must work without a network connection. In case you feel that this VM will not allow an adequate replication of the results in your paper, please contact the AEC co-chairs prior to artifact submission.
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the AEC. Some guidelines:
+
+Document in detail how to replicate most, or ideally all, of the (experimental) results of the paper using the artifact.
+Keep the evaluation process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.
+For experiments that require a large amount of resources (hardware or time), it is recommended to provide a way to replicate a subset of the results of the paper with reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops, and in a reasonable amount of time.
+State the resource requirements, or the environment in which you successfully tested the artifact, in the instructions file (RAM, number of cores, CPU frequency).
+Members of the AEC will use the submitted artifact for the sole purpose of artifact evaluation, We do, however, encourage authors to make their artifacts publicly and permanently available.
+
+FAQ
+Q: So, I am supposed to install our tool in the provided VM and then provide a link to the modified VM, right?
+
+A: No, you are supposed to create a .zip file with the tool and all dependencies. The reviewers will download the vanilla TACAS’19 VM, copy your .zip file there, and setup your tool according to the README file.
+
+Q: How can I install packages without an Internet connection?
+
+A: For Debian packages (.deb files), you can just add them to the .zip file and install them using
+
+$ sudo dpkg -i <file>
+For instance, to download Octave with all dependencies, you can proceed, e.g., as follows:
+
+$ mkdir packages
+$ cd packages
+$ sudo apt-get update
+$ apt-get --print-uris install octave | grep "^'" | sed "s/^'\([^']*\)'.*$/\1/g" > octave.deps
+$ for i in $(cat octave.deps) ; do wget -nv $i ; done
+The downloaded packages can then be installed using
+
+$ cd packages
+$ sudo dpkg -i *.deb
+For Python, you can, e.g., use pip to download the packages. For instance, to download the bitarray package, you can run (we assume you have pip installed)
+
+$ pip download bitarray
+The downloaded package can then be installed using
+
+$ pip install bitarray-0.8.3.tar.gz
+
+Artifact Evaluation Co-Chairs
+Ernst Moritz Hahn, Queen’s University Belfast, United Kingdom
+Ondřej Lengál, Brno University of Technology, Czech Republic
+Artifact Evaluation Committee
+Pranav Ashok, TU Munich, Germany
+Gabriele Costa, IMT Lucca, Italy
+Maryam Dabaghchian, University of Utah, United States
+Bui Phi Diep, Uppsala, Sweden
+Daniel Dietsch, University of Freiburg, Germany
+Tom van Dijk, Johannes Kepler University, Austria
+Tomáš Fiedor, Brno University of Technology, Czech Republic
+Daniel Fremont, UC Berkeley, United States
+Sam Huang, University of Maryland, United States
+Marek Chalupa, Masaryk University, Czech Republic
+Martin Jonáš, Masaryk University, Czech Republic
+Sean Kauffman, University of Waterloo, Canada
+Yong Li, Chinese Academy of Sciences, China
+Le Quang Loc, Teesside University, United Kingdom
+Rasool Maghareh, National University of Singapore, Singapore
+Tobias Meggendorfer, TU Munich, Germany
+Malte Mues, TU Dortmund, Germany
+Tuan Phong Ngo, Uppsala, Sweden
+Chris Novakovic, University of Birmingham, United Kingdom
+Thai M. Trinh, Advanced Digital Sciences Center, Illinois at Singapore, Singapore
+Wytse Oortwijn, University of Twente, Netherlands
+Aleš Smrčka, Brno University of Technology, Czech Republic
+Daniel Stan, Saarland University, Germany
+Ilina Stoilkovska, TU Wien, Austria
+Ming-Hsien Tsai, Academia Sinica, Taiwan
+Jan Tušil, Masaryk University, Czech Republic
+Pedro Valero, IMDEA, Spain
+Maximilian Weininger, TU Munich, Germany

@@ -1,0 +1,106 @@
+body {
+	max-width: 768pt; 
+	margin: 0 auto; 
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	overflow-y: scroll;
+}
+#header {position: relative; font-size: 15pt; background-color: white; color: white}
+#name {float: right; padding: 6pt; text-align: right}
+#links {display: inline; padding: 0}
+#links>li {display: inline-block}
+#links>li>a {display: block; padding: 5pt 5pt; color: #494949}
+#links>li>a:hover {background-color: lightblue; color: #494949}
+#cur {padding: 6pt 6pt; background-color: #D1C8B7; color: white}
+#disabled {display: inline-block; padding: 0pt 6pt; color: #7F7F7F}
+#header:after {content: ""; display: block; height: 6pt; padding: 0; background-color: #D1C8B7}
+
+a:link {color: #a00000}
+a:visited {color: #494949}
+
+h1, h2, h3 {color: #494949;}
+h3 {margin: 3ex 0 1ex}
+h1, h2, h3 a:link {text-decoration:none;}
+h1, h2, h3 a:visited {text-decoration:none;}
+h1, h2, h3 a:hover {text-decoration:none;}
+h1, h2, h3 a:active {text-decoration:none;} 
+p, ul {margin: 2ex 0}
+p {text-align: justify}
+ol li {margin-bottom: 10px;}
+
+.main_image_block {background-color: #AA0000; padding: 6pt 12pt}
+.main_image_header {text-align: right; color: white; font-size: 16pt}
+
+.publicity_column {float: right; width: 335px; margin-left: 20px;}
+.important_dates {background-color: #D1C8B7; padding: 6pt 0pt 0pt 6pt}
+.important_dates h3 {margin-top: 0px;}
+.important_dates table {font-size: 14px; width: 100%;}
+
+.code_snippet {background-color: lightgrey; padding: 2pt 1pt 4pt 6pt;}
+
+.vertical_menu_column {float:left; margin-right:20px; margin-top:20px; padding-right:12pt;}
+
+.v_menu {margin-top: 0px;}
+.v_menu li {height: 30px;}
+.v_menu a:link {color: #494949; text-decoration:none;}
+.v_menu a:visited {color: #494949; text-decoration:none;}
+.v_menu a:hover {color: #494949; text-decoration:underline;}
+.v_menu a:active {color: #494949; text-decoration:underline;}
+
+.faq_question {background-color: #D1C8B7; margin-top: 20px;}
+.faq_answer { }
+
+.colocated_item {}
+.colocated_item h3 {}
+.colocated_item h3 a {}
+
+.announce {color: red}
+
+.event_logo { float: right; margin-right: 40px; max-width: 200px; max-height: 50px; }
+
+.platinum_logo { max-width: 400px; max-height: 320px; }
+.gold_logo { max-width: 300px; max-height: 240px; }
+.silver_logo  { max-width: 200px; max-height: 160px; }
+.infopartner_logo { max-width: 100px; max-height: 80px; }
+
+.right_column {overflow:hidden;}
+.program_overview_table {text-align:center; width: 100%; border-collapse: collapse; }
+.program_overview_table a:link {color: #494949; text-decoration:none;}
+.program_overview_table a:visited {color: #494949; text-decoration:none;}
+.program_overview_table a:hover {color: #AA0000; text-decoration:none;}
+.program_overview_table a:active {color: #AA0000; text-decoration:none;}
+.supporting_packages_table {text-align:center; width: 100%; border-collapse: collapse;}
+.attachment_table { border-collapse: collapse;}
+.attachment_row {padding-left: 5px; padding-top: 5px; padding-bottom: 5px; padding-right: 200px; border: 1px solid lightgray; background-color: #ffffee;}
+.attachment_size {padding-left: 5px; padding-top: 5px; padding-bottom: 5px; padding-right: 5px; border: 1px solid lightgray; background-color: #ffffee;}
+.tutorial_list a:link {color: #494949; text-decoration:none;}
+.tutorial_list a:visited {color: #494949; text-decoration:none;}
+.tutorial_list a:hover {color: #494949; text-decoration:underline;}
+.tutorial_list a:active {color: #494949; text-decoration:underline;}
+.session_list a:link {color: #494949; text-decoration:none;}
+.session_list a:visited {color: #494949; text-decoration:none;}
+.session_list a:hover {color: #494949; text-decoration:underline;}
+.session_list a:active {color: #494949; text-decoration:underline;}
+
+.article_icon {margin-left: 10px;}
+
+.bordered {border: 1px solid lightgray; padding:0px;}
+.light_yellow {border: 1px solid lightgray; background-color: #fff2cc;}
+.light_orange {border: 1px solid lightgray; background-color: #fce5cd;}
+.light_red {border: 1px solid lightgray; background-color: #e6b8af;}
+.light_red1 {border: 1px solid lightgray; background-color: #f4cccc;}
+.light_green {border: 1px solid lightgray; background-color: #b5ffbb;}
+.light_yelgreen {border: 1px solid lightgray; background-color: #e1ffbb;}
+.light_turquoise {border: 1px solid lightgray; background-color: #d0e0e3;}
+.light_pink {border: 1px solid lightgray; background-color: #ead1dc;}
+.light_violet {border: 1px solid lightgray; background-color: #d9d2e9;}
+.light_blue {border: 1px solid lightgray; background-color: #c9daf8;}
+.light_blue1 {border: 1px solid lightgray; background-color: #cfe2f3;}
+.light_gray {border: 1px solid lightgray; background-color: #efefef;}
+.white {border: 1px solid lightgray; background-color: #ffffff;}
+
+.committees_header {background-color: lightgray; padding-left: 10px;}
+
+dl {margin: .5ex 0 .5ex 2em}
+dt {font-weight: bold}
+dd {margin: 0}

@@ -1,0 +1,39 @@
+https://esec-fse19.ut.ee/calls/artifacts/
+
+Call For Papers
+Authors of accepted research papers are invited to submit an artifact to the ESEC/FSE Artifact Track.  Note that any such artifact can also be submitted to the ESEC/FSE demonstration track (and vice versa).
+
+Research papers with “artifacts” receive a “badge” on the front page of their paper in the proceedings. These badges certify that the paper has an associated artifact of the following form:
+
+Functional	Reusable	Available	Replicated	Reproduced
+No Badge
+Artifacts documented, consistent, complete, exercisable, and include appropriate evidence of verification and validation.	Functional + very carefully documented and well-structured to the extent that reuse and repurposing is facilitated. In particular, norms and standards of the research community for artifacts of this type are strictly adhered to.	Functional + Placed on a publicly accessible archival repository. A DOI or link to this repository along with a unique identifier for the object is provided.	Available + main results of the paper have been obtained in a subsequent study by a person or team other than the authors, using, in part, artifacts provided by the author.	Available + The main results of the paper have been independently obtained in a subsequent study by a person or team other than the authors, without the use of author-supplied artifacts.
+Papers with such badges contain reusable products that other researchers can use to bootstrap their own research. Such papers earn increased citations and greater prestige in the research community.  Artifacts of interest include (but are not limited to) the following. This list is not exhaustive, but if your proposed artifact is not on this list, please email the chairs before submitting.
+
+Software, i.e., implementations of systems or algorithms potentially useful in other studies. This category also comprises tools/services illustrating new approaches to software engineering that could be used by other researchers in different contexts.
+Data repositories, i.e., data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.
+Selection Criteria
+The ESEC/FSE artifacts track will be evaluated using the criteria in the last row of the above table.
+
+The goal of this track is to encourage reusable research products.
+
+Hence, no “functional” badges will be awarded
+Note that for “replicated” and “reproduced” badges, authors will need to offer appropriate documentation that their artifacts have reached that stage.
+
+So it is anticipated that most of our artifacts will be “reusable” and “available”.
+Review Process
+Artifacts will be reviewed via a double blinded GitHub-based process.  All reviews will be Github issues.
+Artifacts will be checked for their “badge worthiness” by two reviewers. In case of disagreement, one of the chairs will perform an additional check.
+Reviewers will be assigned an anonymous GitHub ID.
+And authors will interact with the reviewers using their real name (non-anonymously).
+Reviewers will have 14 days to assess the artifacts.
+Reviewers and authors will then have one week to  interact such that (e.g.) if there is one line missing in a config file, then that bug can be fixed and the artifact declared “reusable”.
+Track chairs will then meet to write a “decisions.md” list written to the http://github.com/researchart/fse18 that contains a table of submissions and their associated badge (if any).
+Important Dates (tentative)
+All dates are 23:59:59 AoE (UTC-12h).
+
+May 27: FSE Research paper notification
+June 10: Artifact Evaluation submission deadline
+June 22: Start of discussion period with reviewers.
+July 1: Chairs will provide notification over the Github repo (including the suggested type of badge)
+July 1: ESEC/FSE camera ready version

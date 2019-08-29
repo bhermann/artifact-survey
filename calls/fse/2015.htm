@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://esec-fse15.dei.polimi.it/replicationPack.html -->
+<html class="global"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="user-scalable=yes,width=device-width,initial-scale=1"><style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}</style><meta name="viewport" content="initial-scale=1">
+	<title>ESEC/FSE 2015</title>
+	
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script async="" src="./2015_files/analytics.js"></script><script id="twitter-wjs" src="./2015_files/widgets.js"></script><script src="./2015_files/jquery.min.js"></script>
+	<script src="./2015_files/jquery.dropotron.min.js"></script>
+	<style type="text/css">.row{border-bottom:solid 1px transparent}.row>*{float:left}.row:after,.row:before{content:"";display:block;clear:both;height:0}.row.uniform>*>:first-child{margin-top:0}.row.uniform>*>:last-child{margin-bottom:0}.\31 2u,.\31 2u\24{width:100%;clear:none;margin-left:0}.\31 1u,.\31 1u\24{width:91.6666666667%;clear:none;margin-left:0}.\31 0u,.\31 0u\24{width:83.3333333333%;clear:none;margin-left:0}.\39 u,.\39 u\24{width:75%;clear:none;margin-left:0}.\38 u,.\38 u\24{width:66.6666666667%;clear:none;margin-left:0}.\37 u,.\37 u\24{width:58.3333333333%;clear:none;margin-left:0}.\36 u,.\36 u\24{width:50%;clear:none;margin-left:0}.\35 u,.\35 u\24{width:41.6666666667%;clear:none;margin-left:0}.\34 u,.\34 u\24{width:33.3333333333%;clear:none;margin-left:0}.\33 u,.\33 u\24{width:25%;clear:none;margin-left:0}.\32 u,.\32 u\24{width:16.6666666667%;clear:none;margin-left:0}.\31 u,.\31 u\24{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24+*,.\31 1u\24+*,.\31 0u\24+*,.\39 u\24+*,.\38 u\24+*,.\37 u\24+*,.\36 u\24+*,.\35 u\24+*,.\34 u\24+*,.\33 u\24+*,.\32 u\24+*,.\31 u\24+*{clear:left;}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}</style><style type="text/css">.container{margin-left:auto;margin-right:auto;width:1400px}.container.\31 25\25{width:100%;max-width:1750px;min-width:1400px}.container.\37 5\25{width:1050px}.container.\35 0\25{width:700px}.container.\32 5\25{width:350px}</style><style type="text/css">.row>*{padding:50px 0 0 50px}.row{margin:-50px 0 -1px -50px}.row.uniform>*{padding:50px 0 0 50px}.row.uniform{margin:-50px 0 -1px -50px}.row.\32 00\25>*{padding:100px 0 0 100px}.row.\32 00\25{margin:-100px 0 -1px -100px}.row.uniform.\32 00\25>*{padding:100px 0 0 100px}.row.uniform.\32 00\25{margin:-100px 0 -1px -100px}.row.\31 50\25>*{padding:75px 0 0 75px}.row.\31 50\25{margin:-75px 0 -1px -75px}.row.uniform.\31 50\25>*{padding:75px 0 0 75px}.row.uniform.\31 50\25{margin:-75px 0 -1px -75px}.row.\35 0\25>*{padding:25px 0 0 25px}.row.\35 0\25{margin:-25px 0 -1px -25px}.row.uniform.\35 0\25>*{padding:25px 0 0 25px}.row.uniform.\35 0\25{margin:-25px 0 -1px -25px}.row.\32 5\25>*{padding:12.5px 0 0 12.5px}.row.\32 5\25{margin:-12.5px 0 -1px -12.5px}.row.uniform.\32 5\25>*{padding:12.5px 0 0 12.5px}.row.uniform.\32 5\25{margin:-12.5px 0 -1px -12.5px}.row.\30 \25>*{padding:0}.row.\30 \25{margin:0 0 -1px 0}</style><style type="text/css">.\31 2u\28 global\29,.\31 2u\24\28 global\29{width:100%;clear:none;margin-left:0}.\31 1u\28 global\29,.\31 1u\24\28 global\29{width:91.6666666667%;clear:none;margin-left:0}.\31 0u\28 global\29,.\31 0u\24\28 global\29{width:83.3333333333%;clear:none;margin-left:0}.\39 u\28 global\29,.\39 u\24\28 global\29{width:75%;clear:none;margin-left:0}.\38 u\28 global\29,.\38 u\24\28 global\29{width:66.6666666667%;clear:none;margin-left:0}.\37 u\28 global\29,.\37 u\24\28 global\29{width:58.3333333333%;clear:none;margin-left:0}.\36 u\28 global\29,.\36 u\24\28 global\29{width:50%;clear:none;margin-left:0}.\35 u\28 global\29,.\35 u\24\28 global\29{width:41.6666666667%;clear:none;margin-left:0}.\34 u\28 global\29,.\34 u\24\28 global\29{width:33.3333333333%;clear:none;margin-left:0}.\33 u\28 global\29,.\33 u\24\28 global\29{width:25%;clear:none;margin-left:0}.\32 u\28 global\29,.\32 u\24\28 global\29{width:16.6666666667%;clear:none;margin-left:0}.\31 u\28 global\29,.\31 u\24\28 global\29{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24\28 global\29+*,.\31 1u\24\28 global\29+*,.\31 0u\24\28 global\29+*,.\39 u\24\28 global\29+*,.\38 u\24\28 global\29+*,.\37 u\24\28 global\29+*,.\36 u\24\28 global\29+*,.\35 u\24\28 global\29+*,.\34 u\24\28 global\29+*,.\33 u\24\28 global\29+*,.\32 u\24\28 global\29+*,.\31 u\24\28 global\29+*{clear:left;}.\-11u\28 global\29{margin-left:91.6666666667%}.\-10u\28 global\29{margin-left:83.3333333333%}.\-9u\28 global\29{margin-left:75%}.\-8u\28 global\29{margin-left:66.6666666667%}.\-7u\28 global\29{margin-left:58.3333333333%}.\-6u\28 global\29{margin-left:50%}.\-5u\28 global\29{margin-left:41.6666666667%}.\-4u\28 global\29{margin-left:33.3333333333%}.\-3u\28 global\29{margin-left:25%}.\-2u\28 global\29{margin-left:16.6666666667%}.\-1u\28 global\29{margin-left:8.3333333333%}</style><style type="text/css">.not-global{display:none!important}.only-wide,.only-normal,.only-narrow,.only-narrower,.only-mobile,.only-mobilep{display:none!important}</style><link rel="stylesheet" type="text/css" href="./2015_files/style.css"><script src="./2015_files/skel.min.js"></script>
+	<script src="./2015_files/skel-layers.min.js"></script>
+	<script src="./2015_files/init.js"></script>
+	<script type="text/javascript">
+	window.onload = function() {
+				// Set the current page
+				document.getElementById('nav-calls').setAttribute('class', 'current'); 
+			};
+			</script>
+			<noscript>
+				<link rel="stylesheet" href="css/skel.css" />
+				<link rel="stylesheet" href="css/style.css" />
+				<link rel="stylesheet" href="css/style-wide.css" />
+			</noscript>
+			<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+		<script charset="utf-8" src="./2015_files/button.509719336ca39171c37a321231ccaf83.js"></script></head>
+		<body class=""><div id="skel-layers-parent" style="position: absolute; left: 0px; top: 0px; min-height: 100%; width: 100%;"><div id="skel-layers-wrapper" style="position: absolute; left: 0px; right: 0px; top: 0px; transition: top 0.5s ease 0s, right 0.5s ease 0s, bottom 0.5s ease 0s, left 0.5s ease 0s, opacity 0.5s ease 0s;">
+			<!-- Header -->
+			<script type="text/javascript" src="./2015_files/header.js"></script>		<header id="header">			<!-- Logo -->			<h1><a href="http://esec-fse15.dei.polimi.it/index.html" id="logo">ESEC/FSE 2015</a></h1>			<!-- Nav -->           <nav id="nav" class="">				<ul>					<li id="nav-home" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/index.html">Home</a></li>					<li id="nav-program" class="opener" style="user-select: none; cursor: pointer; white-space: nowrap;">                       <a href="http://esec-fse15.dei.polimi.it/program.html">Program</a>						                   <ul class="" style="user-select: none; display: none; position: absolute;">                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#oview" style="display: block;">Overview</a></li>                       	<li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#aug30" style="display: block;">Pre Conference Events</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#sep2" style="display: block;">Main Conference</a></li>						</ul></li>					<li id="nav-registration" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/registration.html">Registration &amp; Accommodation</a></li>					<li id="nav-venue" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/venue.html">Venue</a></li>                                       <li id="nav-travel" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/travel.html">Travel</a></li>					<li id="nav-calls" class="current" style="user-select: none; cursor: pointer; white-space: nowrap;">						<a href="http://esec-fse15.dei.polimi.it/calls.html">Calls</a>											<ul class="" style="user-select: none; display: none; position: absolute;">						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/research.html" style="display: block;">Research papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/workshops.html" style="display: block;">Workshops</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/DS.html" style="display: block;">Doctoral symposium</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/tutorials.html" style="display: block;">Tutorials</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/industry.html" style="display: block;">Industrial papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/newIdeas.html" style="display: block;">New ideas papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/tools.html" style="display: block;">Tool demonstrations</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/replicationPack.html" style="display: block;">Replication packages</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/SRC.html" style="display: block;">Student Research Competition</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/volunteers.html" style="display: block;">Student Volunteers</a></li>						</ul></li>					<li id="nav-team" class="opener" style="user-select: none; cursor: pointer; white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html">Team</a>											<ul class="" style="user-select: none; display: none; position: absolute;">						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#oc" style="display: block;">Organization Committee</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#pc" style="display: block;">Program Committee</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#sc" style="display: block;">Steering Committee</a></li>						</ul></li>					<li id="nav-colocated" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/colocated.html">Colocated</a></li>					<li id="nav-supporters" style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/supporters.html">Supporters</a></li>				</ul>			</nav>		</header>		<!-- Banner -->		<div id="banner">			<header>				<h2><em>10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering BERGAMO, ITALY, August 30 – September 4</em></h2>			</header>		</div>       <div class="12u" style="font-size: smaller; font-style: italic; background-color: white; text-align: left">"Sunrise at Bergamo old town, Lombardy, Italy" by Eric Hossinger. With license CC BY 2.0 through Wikimedia Commons [<a href="http://commons.wikimedia.org/wiki/File:Sunrise_at_Bergamo_old_town,_Lombardy,_Italy.jpg#/media/File:Sunrise_at_Bergamo_old_town,_Lombardy,_Italy.jpg">source</a>] </div>
+
+			<!-- Main -->
+			<section class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="3u not-narrower">
+							<div class="sidebar" style="margin-top: 0px;">
+								<!-- Sidebar -->
+								<!-- News -->
+								<section>
+									<script type="text/javascript" src="./2015_files/calls-sidebar.js"></script><h2 class="major"><span><br></span></h2><ul class="divided">   <li><a href="http://esec-fse15.dei.polimi.it/replicationPack.html#">▲ Top of the page</a></li>	<li><a href="http://esec-fse15.dei.polimi.it/research.html">Research papers</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/workshops.html">Workshops</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/DS.html">Doctoral symposium</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/tutorials.html">Tutorials</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/industry.html">Industrial papers</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/newIdeas.html">New ideas papers</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/tools.html">Tool demonstrations</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/replicationPack.html">Replication packages</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/SRC.html">Student Research Competition</a></li>    <li><a href="http://esec-fse15.dei.polimi.it/volunteers.html">Student Volunteers</a></li></ul>
+								</section>
+							</div>
+						</div>
+						<div class="9u 12u(narrower) important(narrower)">
+							<section>
+								<h2 class="major"><span>Call for Replication Packages</span></h2>
+								<p>
+									Results presented in technical papers are often
+									validated or supported by software artifacts,
+									including tools, models, and datasets. 
+									To reward the effort of creating these artifacts and enhance
+									reproducibility of results presented at the
+									conference, authors of accepted full papers at
+									ESEC/FSE 2015 will be given the opportunity to
+									submit their artifacts to the Replication Packages
+									Evaluation Committee. 
+								</p>
+								<p>
+									Papers
+			associated to accepted replication packages
+			will benefit from:
+						  </p><ul class="bullet-list">
+						    <li>Five more minutes of presentation at the conference;</li>
+						    <li>An extra page
+			dedicated to the presentation of the
+			replication package in the conference
+			proceedings;</li> 
+			<li>The replication package itself stored on
+			the ACM digital library. </li>
+			</ul>
+This continues a practice started with ESEC/FSE 2011 and that is
+			becoming increasingly popular across software
+			engineering conferences.<p></p>
+			<p>
+			All authors of accepted full research papers
+			will be contacted to submit their artifact for
+			evaluation. Authors will be notified the
+			results of the evaluation before the camera
+			ready deadline.</p>
+			<p>
+			After the research paper notification, authors
+			of accepted papers will be able to submit
+			their artifact for evaluation. Evaluation of
+			the artifact will be based on the following
+			criteria (in alphabetical order):</p>
+			<ul class="bullet-list">
+			  <li>
+			  Consistency with the accepted paper</li>
+			  <li>Completeness</li>
+			  <li>Ease of reuse </li>
+			  <li>Potential to facilitate further research</li>
+			  <li>Quality of the documentation</li>
+			  </ul>
+			  <h3>How to submit</h3>
+
+			  Please read the <a href="http://esec-fse15.dei.polimi.it/replicationPack.html#guidelines">guidelines</a> below
+			  for detailed submission instructions. 
+
+								<p></p>           
+								<h3>Important Dates</h3>
+								<p>
+									</p><ul class="bullet-list">
+										<li>Deadline for Replication Packages Submission: <span class="deadline-past"><span style="color: #940004;text-decoration:line-through"><span style="color: #474747;"><b>June 7 2015</b></span></span></span><b>, Deadline is Past!</b></li>
+										<li>Deadline for notification: <span class="deadline-past"><span style="color: #940004;text-decoration:line-through"><span style="color: #474747;"><b>July 1, 2015</b></span></span></span><b>, Deadline is Past!</b></li>
+										<li>Deadline for camera ready: <b>July 15, 2015</b></li>
+									</ul>
+								<p></p>
+								<p>
+									<b>ACM SIGSOFT will make the conference proceedings in the ACM Digital Library fully open for download two weeks prior to the conference.</b>
+								</p>
+								<h3>List
+								of
+								accepted
+								replication
+								packages</h3>
+									<ul class="bullet-list">
+									  <li> Jongse Park, Hadi Esmaeilzadeh, Xin Zhang, Mayur Naik and William Harris, FlexJava: Language Support for Safe and Modular Approximate Programming</li>
+<li>Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy and Rukma Talwadker, Hey, You Have Given Me Too Many Knobs! ---Understanding and Dealing with Over-Designed Configuration in System Software</li>
+<li>Gholamreza Safi, Arman Shahbazian, William G.J. Halfond and Nenad Medvidovic, Detecting Event Anomalies in Event-Based Systems</li>
+<li>Simon Holm Jensen, Manu Sridharan, Koushik Sen and Satish Chandra, MemInsight: Platform-Independent Memory Debugging for JavaScript</li>
+<li>Ben Hermann, Michael Reif, Michael Eichberg and Mira Mezini, Getting to know you... Towards a Capability Model for Java</li>
+<li>Yuting Chen and Zhendong Su, Guided Differential Testing of Certificate Validation in SSL/TLS Implementations</li>
+<li>Shahar Maoz and Jan Oliver Ringert, GR(1) Synthesis for LTL Specification Patterns</li>
+<li>Fan Long and Martin Rinard, Staged Program Repair in SPR</li>
+<li>Mateus Borges, Marcelo d'Amorim, Antonio Filieri and Corina Pasareanu, Iterative Distribution-Aware Sampling for Probabilistic Symbolic Execution</li>
+<li>Stefan Heule, Manu Sridharan and Satish Chandra, Mimic: Computing Models for Opaque Code</li>
+<li>Kevin Moran, Mario Linares-Vásquez, Carlos Bernal-Cárdenas and Denys Poshyvanyk, Auto-Completing Bug Reports for Android Applications</li>
+<li>Lucas Bang, Abdulbaki Aydin and Tevfik Bultan, Automatically Computing Path Complexity of Programs</li>
+<li>Malavika Samak and Murali Krishna Ramanathan, Synthesizing Tests for Detecting Atomicity Violations</li>
+<li>Dirk Beyer, Matthias Dangl,Daniel Dietsch, Matthias Heizmann and Andreas Stahlbauer, Witness Validation and Step-Wise Testification across Software Verifiers</li>
+<li>Yanick Fratantonio, Aravind Machiry, Antonio Bianchi, Christopher Kruegel and Giovanni Vigna, CLAPP: Characterizing Loops in Android Applications</li>
+<li>Erdal Mutlu, Serdar Tasiran and Benjamin Livshits&lt;, Detecting JavaScript Races that Matter</li>
+<li>Matthieu Foucault,Marc Palyart, Xavier Blanc, Gail Murphy and Jean-Rémy Falleri, Developer Turnover in Open-Source Software</li>
+
+									  </ul>
+								<h3>Replication Packages Evaluation Chairs</h3>
+								<p>
+									</p><ul class="bullet-list">
+										<li>Giuliano Casale (Imperial College London, UK)</li>
+										<li>Martin Nordio (ETH, Switzerland)</li>
+									</ul>
+								<p></p>
+									<h3>Replication Packages Evaluation Committee</h3>
+								<p>
+									</p><ul class="bullet-list">
+									  <li>Nazareno Aguirre, CONICET, Argentina </li>
+									<li>Tiberiu Chis, Imperial College London, UK</li>
+									<li>Maria Christakis, ETH Zurich</li>
+									<li>Michele Ciavotta, Politecnico di Milano, Italy</li>
+									<li>Nicolas D’Ippolito, Universidad de Buenos Aires, Argentina</li>
+									<li>Alessandra Gorla, IMDEA Software Institute, Spain</li>
+									<li>Georgios Gousios, TU Delft, Netherlands</li>
+									<li>Vojtěch Horký, Charles University in Prague, Czech Republic</li>
+									<li>Wei Jin, Georgia Institute of Technology, USA</li>
+									<li>Karsten Molka, SAP Research, UK</li>
+									<li>Nadia Polikarpova, MIT, USA</li>
+									<li>Damian Tamburri, Politecnico di Milano, Italy</li>
+									<li>Feng Yan, College of William &amp; Mary, USA</li>
+									<li>Bogdan Irimie, IEAT, Romania</li>
+</ul>
+</section>
+<section id="guidelines">
+<h3> Detailed guidelines</h3>
+<p>
+Below we outline guidelines on how to package and submit artifacts. </p>
+<p>
+In all cases, the artifacts should be accompanied by suitable
+								documentation, to save committee members the burden of reverse-engineering what the authors intended (e.g., a dataset is useless without some explanation on how to browse the data; a tool without a quick tutorial will be very hard to use). In particular, please make concrete what claims you are making of the artifact, if these differ from the expectations set up by the paper. This documentation is a place where you can tell us about difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper. We are still going to evaluate the artifact relative to the paper, but this helps set expectations up front, especially in cases that might frustrate the reviewers without prior notice.</p>
+
+<h4>Submission</h4>
+Create a submission in <a href="https://easychair.org/conferences/?conf=esecfse2015replicati">EasyChair</a>
+ with the same title as the paper. In the abstract field, include:
+<ul class="bullet-list">
+<li>the paper's abstract (to help with bidding)</li>
+<li>a URL pointing to the artifact site</li>
+<li>any credentials required to access the files</li>
+</ul>
+
+There is no “paper” to submit. The artifact site should be a single
+webpage (either on authors' site or on a third-party service) and should contain:
+<ul class="bullet-list">
+<li>  the artifact</li>
+<li> instructions</li>
+<li>if it would be helfpul, please feel free to include a video (or a
+pointer to a video) that demonstrates the artifact running or explaining how it should be run.</li>
+</ul>
+
+<h4> Non-Code Artifacts Format</h4>
+
+We invite the authors to submit experimental data and results in CSV
+(preferred option), JSON, or XML file formats. In the special case
+that authors have to submit non-standard data formats, they should
+also provide suitable readers.
+
+<h4> Software Artifacts Packaging </h4>
+
+Authors should strongly consider one of the following methods to
+package the software components of their artifacts (though the
+Replication Packages committee is open to other reasonable formats as
+well):
+<ul class="bullet-list">
+  <li>A VM (Virtualbox/VMWare) image containing software application already setup in the intended run-time environment (e.g., Mobile phone emulator, Real time OS). This is the preferred option: It avoids installation and compatibility problems, and provides the best guarantees for reproducibility of the results by the committee. Authors using Linux might find the <a href="http://www.pgbovine.net/cde.html">CDE</a> tool useful for automatically creating a VM image from existing software without needing to manually re-install all dependencies within a VM.</li>
+<li>A binary installable package. We invite the authors to use CDE (Linux) or MSI Installer (Windows) to package the binary application.</li>
+<li>A live instance running on the Web.</li>
+<li>A detailed screencast of the tool along with the results,
+especially if one of the following special cases applies:
+<ul class="bullet-list">
+<li>the application needs proprietary/commercial software that is not easily available or cannot be distributed to the committee;</li>
+<li>the application requires significant computation resources (e.g.,
+&gt; 24 hours of execution time to produce the results);</li>
+</ul>
+</li><li>An installation or update repository for the tool (e.g., Eclipse
+update site or a Debian APT repository). However, we urge the authors
+to test their repository on standard environments to avoid
+installation problems by the committee members.</li>
+</ul>
+
+<h4>Confidentiality</h4>
+In all cases, authors should make a genuine effort to not learn the identity of the reviewers. This may mean turning off “call home” features or analytics, or only using systems with high enough usage that Replication Packages accesses will not stand out. In all cases where tracing is unavoidable, the authors should warn the reviewers in advance so the reviewers can try to take adequate safeguards.
+
+<h4>Conflicts</h4>
+If one of the authors is a Replication Packages chair, you may not submit an artifact. You can, however, indicate in your paper that you were unable to submit an artifact due to the conflict-of-interest.<p></p>
+<p>
+If you have a conflict-of-interest with anyone on the committee
+(including the two chairs), please indicate this in both the Web page
+and in your submitted abstract.
+</p>
+</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Footer -->
+			<script type="text/javascript" src="./2015_files/footer.js"></script>		<div id="footer">				<div class="container">					<div class="row">						<section class="3u -2u 6u(narrower) 12u$(mobilep)">							<a class="image fit" href="http://www.acm.org/" target="_blank">								<img src="./2015_files/acm.png">							</a>						</section>						<section class="3u -2u 6u$(narrower) 12u$(mobilep)">							<a class="image fit" href="http://www.sigsoft.org/" target="_blank">								<img src="./2015_files/sigsoft.png">							</a>						</section>					</div>				</div>				<!-- Icons -->					<ul class="icons">						<li><a href="https://twitter.com/esecfse" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li><li><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 199px; height: 20px;" title="Twitter Follow Button" src="./2015_files/follow_button.097c1f5038f9e8a0d62a39a892838d66.en.html" data-screen-name="esecfse"></iframe><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>						<li><a href="http://www.facebook.com/esecfse" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li><li><iframe src="./2015_files/like.html" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; height:21px;"></iframe></li>					</ul>				<!-- Copyright -->					<div class="copyright">						<ul class="menu">							<li>© 2015 <strong>ESEC/FSE Organization</strong></li><li>Design: <a href="http://html5up.net/" target="_blank">HTML5 UP</a></li>						</ul>					</div>			</div>
+		
+		<!-- our custom js file -->
+		<script type="text/javascript" src="./2015_files/my.js"></script>
+		
+		</div><div id="skel-layers-hiddenWrapper" style="height: 100%;"></div><div id="skel-layers-visibleWrapper" style="position: relative;"></div></div><ul class="dropotron level-0" style="user-select: none; display: none; position: absolute; z-index: 1000;">                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#oview" style="display: block;">Overview</a></li>                       	<li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#aug30" style="display: block;">Pre Conference Events</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/program.html#sep2" style="display: block;">Main Conference</a></li>						</ul><ul class="dropotron level-0" style="user-select: none; display: none; position: absolute; z-index: 1000;">						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/research.html" style="display: block;">Research papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/workshops.html" style="display: block;">Workshops</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/DS.html" style="display: block;">Doctoral symposium</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/tutorials.html" style="display: block;">Tutorials</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/industry.html" style="display: block;">Industrial papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/newIdeas.html" style="display: block;">New ideas papers</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/tools.html" style="display: block;">Tool demonstrations</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/replicationPack.html" style="display: block;">Replication packages</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/SRC.html" style="display: block;">Student Research Competition</a></li>                           <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/volunteers.html" style="display: block;">Student Volunteers</a></li>						</ul><ul class="dropotron level-0" style="user-select: none; display: none; position: absolute; z-index: 1000;">						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#oc" style="display: block;">Organization Committee</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#pc" style="display: block;">Program Committee</a></li>						    <li style="white-space: nowrap;"><a href="http://esec-fse15.dei.polimi.it/team.html#sc" style="display: block;">Steering Committee</a></li>						</ul><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./2015_files/widget_iframe.097c1f5038f9e8a0d62a39a892838d66.html" title="Twitter settings iframe" style="display: none;"></iframe></body></html>

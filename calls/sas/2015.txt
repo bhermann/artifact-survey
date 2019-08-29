@@ -1,0 +1,43 @@
+ARTEFACT SUBMISSION
+As last year, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machine images accompanying accepted papers will be archived on the permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work. Virtual machines from last year's SAS can be found here.
+
+Artifact submission is optional. We accept only virtual machine images that can be processed with Virtual Box. Details on what to submit and how will be sent to the corresponding authors by mail shortly after the paper submission deadline.
+
+The submitted artifacts will be used by the program committee as a secondary evaluation criteria whose sole purpose is to find additional positive arguments for the paper's acceptance. Submissions without artifacts are welcome and will not be penalized.
+
+IMPORTANT DATES
+Abstract submission deadline:
+March 9th, 2015 (anywhere on earth)
+Paper submission deadline:
+March 13rd March 17th, 2015 (anywhere on earth)
+Artifact submission deadline:
+March 27th, 2015 (anywhere on earth)
+Rebuttal:
+May 18th-20th, 2015
+Author notification:
+June 1st, 2015
+Camera-ready paper versions due:
+June 22nd, 2015
+
+WARNING! This is NOT a sole artifact evaluation committee.
+
+Program Committee
+Elvira Albert, University of Madrid, Spain
+Josh Berdine, Microsoft Research, United Kingdom
+Sandrine Blazy, University of Rennes 1, France (co-chair)
+Liqian Chen, National University of Defense Technology, China
+Roberto Giacobazzi, University of Verona, Italy
+Fritz Henglein, University of Copenhagen, Denmark
+Thomas Jensen, Inria Rennes, France (co-chair)
+Ranjit Jhala, University of California at San Diego, USA
+Andy King, University of Kent at Canterbury, United Kingdom
+Björn Lisper, Mälardalen University, Sweden
+Matt Might, University of Utah, USA
+Antoine Miné, CNRS, France
+Francesco Ranzato, University of Padova, Italy
+Sukyong Ryu, Korea Advanced Institute of Science and Technology, Korea
+Dave Sands, Chalmers University of technology, Sweden
+Axel Simon, University of Munich, Germany
+Arnaud Venet, NASA Ames Research Center, USA
+Dimitrios Vytiniotis, Microsoft Research, United Kingdom
+Hongseok Yang, University of Oxford, United Kingdom

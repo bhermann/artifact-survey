@@ -1,0 +1,36 @@
+Artifacts
+As in previous years, we encourage authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field’s scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work.
+
+Artifact submission is optional. We accept only virtual machine images that can be processed with VirtualBox. The artifact should come with a virtual machine (VM) image and step-by-step instructions:
+
+Virtual machine image: The VM image must be bootable and contain all the necessary libraries installed. Please ensure that the VM image can be processed with VirtualBox. When preparing your artifact, please make it light as possible.
+Step-by-step instructions: It should clearly explain how to reproduce the results that support your paper’s conclusions. We encourage the authors to have easy-to-run scripts. Also, you should explain how to interpret the output of the artifact. Please provide an estimated execution time for each instruction.
+Please follow the instructions below to submit your artifact:
+
+Make the VM image and the instruction document into single compressed archive file using zip or gzip. Use your paper number for the name of the archive file.
+Upload the archive file to well-known storage service such as Dropbox or Google Drive and get the sharable link of it.
+Run a checksum function with the archive file and make a text file that contains the link to the archive file and the checksum the result.
+Submit the text file via the submission page. The submission form has a place for the artifact submission.
+
+Artifact Evaluation Chair
+Hakjoo Oh (Korea University)
+Artifact Evaluation Committee
+Francois Bidet (LIX, École polytechnique)
+Liqian Chen (National University of Defense Technology)
+Mehmet Emre (University of California, Santa Barbara)
+John K. Feser (Massachusetts Institute of Technology)
+Kihong Heo (University of Pennsylvania)
+Maxime Jacquemin (LIX, École polytechnique)
+Sehun Jeong (Korea University)
+Matthieu Journault (Sorbonne Université)
+Yue Li (Aarhus University)
+Viktor Malik (Brno University of Technlogy)
+Suvam Mukherjee (Microsoft Research)
+Abdelraouf Ouadjaout (Sorbonne Université)
+Saswat Padhi (University of California, Los Angeles)
+Jiasi Shen (Massachusetts Institute of Technology)
+Gagandeep Singh (ETH Zurich)
+Benno Stein (University of Colorado Boulder)
+Yulei Sui (University of Technology Sydney)
+Tian Tan (Aarhus University)
+Xinyu Wang (University of Texas at Austin)

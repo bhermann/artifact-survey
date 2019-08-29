@@ -1,0 +1,41 @@
+https://conf.researchr.org/track/issta-2019/issta-2019-Artifact-Evaluation-#Call-for-Submissions
+Call for Submissions
+The Artifact Evaluation process is a service provided by the community to help authors of accepted papers provide more substantial supplements to their papers so that future researchers can more effectively build on and compare with previous work.
+
+
+Scope of Artifacts
+Artifacts include (but are not limited to):
+Tools, which are implementations of systems or algorithms potentially useful in other studies.
+Data repositories, which are data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.
+Frameworks, which are tools and services illustrating new approaches that could be used by other researchers in different contexts.
+This list is not exhaustive, but if your proposed artifact is not on this list, please email the chairs before submitting.
+Submission Website
+https://issta19ae.hotcrp.com/
+Evaluation Process
+The Artifact Evaluation Committee will assess how well paper authors prepare artifacts in support of claims made in the paper and future use of the artifacts. Authors of papers who wish to participate are invited to submit an artifact by May 8th, which is 7 days after the final author notification for the paper. Note that submissions for artifact evaluation track are not double-blind any more.The artifact evaluation thus does not influence the paper review process, but positively evaluated artifacts will be taken into account for selection of Distinguished Paper Awards. The artifact will only be reviewed by the AEC if the paper for the artifact is accepted.
+The AEC will follow the terminology from the ACM Artifact Review and Badging policy.
+Specifically, artifacts will be evaluated under the following criteria:
+
+Consistency with the paper
+Completeness
+Quality of documentation
+Ease of reuse (depending on self assessment during submission)
+To review an artifact, the Artifact Evaluation Committee will read the paper and explore the artifact to give the authors feedback about how well the artifact supports the paper and how easy it is, in the committee’s opinion, for future researchers to use the artifact.
+Badging
+Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the first page of the paper in the ISSTA proceedings and the ACM Digital Library. The seal will be one of the following:
+
+Artifacts Evaluated - Functional: The artifacts are complete, well-documented and allow to obtain the same results as the paper.
+Artifacts Evaluated - Reusable: Same as above, but the artifacts are of such high quality that they can be reused as is on other data sets, or for other purposes.
+Distinguished Artifact Awards
+Artifacts that go above and beyond the expectations of the Artifact Evaluation Committee will receive a Distinguished Artifact Award.
+
+Submission Guidelines
+Artifacts must be packaged for easy evaluation. Ideally, there should be no dependencies and no installation; if at all possible, we recommend submitting a self-contained virtual machine image or container (VirtualBox, Docker). Otherwise, please ensure that the total installation and configuration time is kept as low as possible. Artifacts that require more than 30 minutes of installation/configuration may not be evaluated.
+The root directory of the submission must contain a README.html or README.txt file with complete, easy-to-follow instructions on how to use the artifact. We strongly recommend providing examples that make it easy for the reviewers to get started, and scripts that automate the task of launching the tool and reproducing the experiments (if applicable).
+
+Publishing
+Authors of papers with accepted artifacts are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+AEC Chairs:
+Michael Pradel, TU Darmstadt, Germany
+Dan Hao, Peking University, China

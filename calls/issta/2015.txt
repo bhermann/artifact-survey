@@ -1,0 +1,60 @@
+https://issta2015.cs.uoregon.edu/artifacts.php
+
+ISSTA 2015 Artifact Evaluation
+
+ISSTA 2015 will allow authors of accepted research papers to submit artifacts along with their papers. An artifact can be any kind of content related to a paper, e.g., detailed experimental data, complete experimental setup, test suites, or tools. Submitting an artifact is optional.
+
+Two members of the Artifact Evaluation Committee (AEC) will review an artifact with respect to the following criteria (if applicable):
+
+How easy is it to use the provided artifact? (Easy to reuse)
+Does the artifact help to reproduce the results from the paper? (Consistent)
+What is the percentage of the results that can be reproduced? (Complete)
+Does the artifact describe and demonstrate how to apply the presented method to a new input? (Well documented)
+Accepted artifacts will get an official badge of approval, which can be shown in the proceedings and in presentations. It will be up to the authors whether they make the results of the evaluation process public or not.
+
+We encourage authors to make accepted artifacts available online!
+
+Important Dates
+Submission Deadline	April 17, 2015 (Friday)
+Notification	May 22th, 2015 (Friday)
+
+Submission Instructions
+Submission will by via EasyChair: https://easychair.org/conferences/?conf=dsissta15
+
+We expect the authors to submit only a link to a single file containing all the information needed to evaluate the submitted artifact (see the following section). The artifact evaluation chairs will download the artifact and distribute it to the reviewers (in order to hide the identity of the reviewers from the authors). The authors should additionally make an effort not to learn the identity of the reviewers, e.g., through logging.
+
+Packaging Guidelines
+High quality packaging of an artifact is as important as the quality of the artifact itself. Please keep in mind that the committee members will have limited time to review each artifact. We have some requirements for the artifact submission that will expedite the review process.
+
+Please submit a single zip archive, containing a README text file with instructions, the paper, and the artifact itself. Additionally, you may submit a video with a demo and/or instructions. The name of the file should be <paper #>.zip.
+We provide a template for the README file. Fill it out without modifying the lines starting with "#".
+In case you want to submit a running setup of your tool, please provide an installation script to simplify the reviewing process.
+If obtaining all the results takes significant amount of time, please also include a script to reproduce only subset of the results.
+Previous Artifact Evaluations
+ISSTA is not the first venue to offer an artifact evaluation process but continues a recent trend in Software Engineering conferences (cf. FSE 2011, ECOOP 2013, and OOPSLA 2013). The motivation for such an extension of the submission and review process is twofold.
+
+Submitting artifacts (e.g., tools or detailed experimental results) allows for a more thorough assessment of the claims made in a paper.
+Publishing artifacts (e.g., test suites or an executable experimental setup) makes it easier for other researchers to reproduce results from a paper or to compare their own techniques with the one presented in a paper.
+Previous artifact evaluation committees have put some thought into how to introduce artifact evaluation without scaring potential authors from submissions. Detailed accounts can be found here and here. We generally follow these considerations and hope that the authors will submit their results for the evaluation.
+
+Artifact Evaluation Chairs
+Milos Gligoric, University of Illinois at Urbana-Champaign, USA.
+Sai Zhang, Google, USA.
+
+Artifact Evaluation Committee
+Baishakhi Ray, UC Davis, USA
+Dacong Yan, Google, USA
+Ding Li, University of Southern California, USA
+Filip Niksic, Max Planck Institute for Software Systems, Germany
+Genaína Nunes Rodrigues, University of Brasilia, Brazil
+Heila-Marie van der Merwe, Stellenbosch University, South Africa
+Jon Bell, Columbia University, USA
+Marcel Bohme, Saarland University, Germany
+Meixian Chen, University of Lugano, Switzerland
+Petr Hosek, Imperial College London, UK
+Pranav Garg, UIUC, USA
+Rongxin Wu, Hong Kong University Science and Technology, Hong Kong
+Shabnam Mirshokraie, University of British Columbia, Canada
+Shin Hong, KAIST, South Korea
+Xi Ge, North Carolina State University, USA
+Yulei Sui, The University of New South Wales, Australia

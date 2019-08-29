@@ -1,0 +1,73 @@
+Call for Artifacts
+Authors of all accepted research papers, case-study papers, tool papers, and tool-demonstration papers for TACAS 2018 are invited to submit (but are not required to submit) an artifact for evaluation by the artifact evaluation committee (AEC).
+
+An artifact is any additional material (software, data sets, machine-checkable proofs, etc.) that substantiates the claims made in the paper and ideally makes them fully replicable. As an example, a typical artifact for a tool paper would consist of
+
+the tool (in binary or source code form) and its documentation,
+the input files (e.g., models analysed or programs verified) used for the tool evaluation in the paper, and
+a configuration file or document describing the parameters used in the experiments.
+The AEC will read the accepted paper and evaluate the submitted artifact w.r.t. the following criteria:
+
+consistency with and replicability of results presented in the paper,
+completeness,
+documentation, and
+ease of use.
+Every artifact will be reviewed by at least two AEC members. Authors of artifacts that are accepted by the AEC will receive a badge that can be shown on the title page of the corresponding paper and an extra page for the paper to describe the artifact.
+An artifact submission consists of
+
+an abstract that summarizes the artifact and its relation to the paper,
+a .pdf file of the accepted paper (uploaded via EasyChair), which may be modified from the submitted version to take reviewers' comments into account,
+a .zip file (available for download) containing
+the artifact itself,
+the license, and
+a .txt file with detailed, step-by-step instructions on how to use the artifact to replicate the results in the paper, and
+an indication whether the artifact will be publicly available and archived permanently (cf. below).
+Guidelines for Artifacts
+We expect tool-artifact submissions to package their artifact and write their instructions such that AEC members can evaluate the artifact using the TACAS 2018 Artifact Evaluation Virtual Machine (Arnd Hartmanns and Philipp Wendler. figshare. 2018) for VirtualBox. This machine consists of an installation of Ubuntu 16.04 64-bit with Linux 4.10 and the following additional packages: build-essential (this includes gcc), cmake, clang, mono-complete, openjdk-8-jdk, ruby. Additionally, a 32-bit libc is installed. The password for the user tacasart is tacasart. If the artifact requires additional software or libraries that are not part of the virtual machine, the instructions must include all necessary steps for their installation and setup. Any software that is not already part of the virtual machine must be included in the .zip file. AEC members will not download software or data from external sources, and the artifact must work without a network connection. In case you feel that this VM will not allow an adequate replication of the results in your paper, please contact the AEC co-chairs prior to artifact submission.
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the AEC. Some guidelines:
+
+Document in detail how to replicate most, or ideally all, of the (experimental) results of the paper using the artifact.
+Keep the evaluation process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.
+For experiments that require a large amount of resources (hardware or time), it is recommended to provide a way to replicate a subset of the results of the paper with reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops, and in a reasonable amount of time.
+State the resource requirements, or the environment in which you successfully tested the artifact, in the instructions file (RAM, number of cores, CPU frequency).
+Permanent Archiving and Public Availability
+Members of the AEC will use the submitted artifact for the sole purpose of the artifact evaluation, and delete all associated data after the end of the evaluation process. However, we encourage authors to make their artifact publicly and permanently available. In cooperation with Springer, TACAS offers the possibility to permanently archive accepted artifacts free of charge at a TACAS-specific part of figshare.com. Such archived artifacts will be assigned a DOI and be available publicly under one of these open licenses. As part of the submission, authors indicate the license of the artifact and whether it
+
+will be archived on figshare.com if accepted,
+is already permanently archived and available under a DOI (please mention DOI in description),
+is or will be archived in a non-permanent way by the authors (e.g. on a personal website, without a DOI), or
+will not be openly accessible and archived.
+Important Dates
+06 January 2018
+Extended:
+12 January 2018	Deadline for artifact submission, via EasyChair
+January 21, 2018	Request for clarification: if and only if AEC members encounter technical problems evaluating a particular artifact, authors will be asked to submit clarifying instructions to enable artifact review
+January 29, 2018	Clarification submission deadline
+February 18, 2018	Author notification
+February 23, 2018	Camera-ready versions of ETAPS papers: authors of accepted artifacts include an artifact evaluation badge on the title page of their paper
+All deadlines are 23:56 "anywhere on Earth" (= GMT-12).
+Artifact Evaluation Co-chairs
+Arnd Hartmanns (Universiteit Twente, The Netherlands)
+Philipp Wendler (LMU Munich, Germany)
+
+Artifact Evaluation Committee
+Pranav Ashok
+Maryam Dabaghchian
+Daniel Dietsch
+Rohit Dureja
+Felix Freiberger
+Karlheinz Friedberger
+Frederik Gossen
+Samuel Huang
+Antonio Iannopollo
+Omar Inverso
+Nils Jansen
+Sebastiaan Joosten
+Eunsuk Kang
+Sean Kauffman
+Ondrej Lengal
+Tobias Meggendorfer
+Malte Mues
+Chris Novakovic
+David Sanán

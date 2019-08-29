@@ -1,0 +1,42 @@
+Artifact Submission
+As in previous years, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work.
+
+Artifact submission is optional. We accept only virtual machine images that can be processed with Virtual Box. Details on what to submit and how will be sent to the corresponding authors by mail shortly after the paper submission deadline.
+
+The submitted artifacts will be used by the program committee as a secondary evaluation criteria whose sole purpose is to find additional positive arguments for the paper's acceptance. Submissions without artifacts are welcome and will not be penalized.
+
+Important dates
+Abstract Submission	Extended: April 10th, 2016 (anywhere on earth) April 3rd, 2016 (anywhere on earth)
+Paper Submission	Extended: April 17th, 2016 (anywhere on earth) April 10th, 2016 (anywhere on earth)
+Artifact submission	Extended: April 24th, 2016 (anywhere on earth) April 17th, 2016 (anywhere on earth)
+Notification	June 10th, 2016
+Final version due	July 3rd, 2016
+Conference	September 8-10, 2016
+
+WARNING! This is NOT a sole artifact evaluation committee.
+
+Program Committee Chair
+Xavier Rival, (CNRS & ENS Paris & INRIA Paris, France)
+Program Committee
+Bor-Yuh Evan Chang (University of Colorado Boulder, USA)
+Patrick Cousot (New York University, USA and CNRS/ENS/INRIA Paris, France)
+Vijay D'Silva (Google Inc., USA)
+Javier Esparza (Technische Universität München, Germany)
+Jérôme Feret (CNRS/ENS/INRIA Paris)
+Pierre Ganty (IMDEA Software Institute, Spain)
+Roberto Giacobazzi (University of Verona, Italy and IMDEA Software Institute, Spain)
+Atsushi Igarashi (University of Kyoto, Japan)
+Andy King (University of Kent, UK)
+Francesco Logozzo (Facebook, USA)
+Roman Manevich (Ben-Gurion University of the Negev, Israel)
+Mathieu Martel (Université de Perpignan - LAMPS, France)
+Jan Midtgaard (Technical University of Denmark, Denmark)
+Ana Milanova (Rensselaer Polytechnic Institute, USA)
+Mayur Naik (Georgia Tech, USA)
+Francesco Ranzato (University of Padova, Italy)
+Xavier Rival, (CNRS & ENS Paris & INRIA Paris, France, PC Chair)
+Sukyoung Ryu (KAIST, Korea)
+Francesca Scozzari (Università di Chieti-Pescara, Italy)
+Caterina Urban (ETH Zurich, Switzerland)
+Bow-Yaw Wang (Academia Sinica, Taiwan)
+Kwangkeun Yi (Seoul National University, Korea)

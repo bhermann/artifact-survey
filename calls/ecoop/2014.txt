@@ -1,0 +1,71 @@
+ECOOP 2014 Evaluated Artifacts
+For ECOOP 2014 technical papers, please go here.
+
+Background
+Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. They support the repeatability of experiments and precise comparison with alternative approaches, thus enabling higher quality in the research area as a whole. They may also make it easier for other researchers to perform their own experiments, thus helping the original authors disseminating their ideas in detail. Hence, artifacts should be taken seriously and recognized separately.
+
+The AE process at ECOOP 2014 is a continuation of the AE process at ECOOP 2013, OOPSLA 2013, and ESEC/FSE 2011. See also the highly influential personal point of view on the matter by Shriram Krishnamurthi.
+
+Call For Artifacts
+Authors of accepted research papers at ECOOP 2014 can have their artifacts evaluated by an Artifact Evaluation Committee. Artifacts that live up to the expectations created by the paper will be marked with a badge in the proceedings. Furthermore, they will be invited for inclusion in SpringerLink as freely downloadable supplementary material of the accompanying papers, ensuring permanent and durable storage. Although there is no obligation for accepted artifacts to be included in SpringerLink, readers of accepted papers will greatly benefit from having access to those artifacts, and the attention that the authors' work will get may likely increase if their artifacts are made publicly available. Artifacts that are deemed especially meritorious will be singled out for special recognition in the proceedings and at the conference.
+
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. The submission of an artifact is voluntary and will not influence the final decision regarding the papers (which is obviously enforced because the artifacts are submitted after the notification of acceptance has been sent out). Notification about the outcome of the Artifact Evaluation and reviews including suggestions for improving the artifacts will be distributed about two weeks before the deadline for the final version of the research paper, such that the outcome can be mentioned in the paper and the final artifact can be uploaded for inclusion in SpringerLink along with the papers.
+
+A submitted artifact should be consistent with the associated paper. It should be so well documented that it is accessible for a general computer scientist with an interest in the research area, who has read your paper.
+
+A submitted artifact is treated as confidential, just like a submitted research paper. However, it is strongly recommended that artifacts are made available to the research community afterwards, thus enabling the abovementioned effects such as improved reproducibility etc.
+
+Packaging Guidelines
+When packaging your artifact for submission, please take the following into consideration: Your artifact should be as accessible to the AE committee member as possible, and it should be possible for the AE member to quickly make progress in the investigation of your artifact. Please provide some simple scenarios describing concretely how the artifact is intended to be used; for a tool, this would include specific inputs to provide or actions to take, and expected output or behavior in response to this input. In addition to these very tightly controlled scenarios that you prepare for the AE committee member to try out, it may be very useful if you suggest some variations along the way, such that the AE committee member will be able to see that the artifact is robust enough to tolerate a few experiments.
+
+For artifacts that are tools, one very convenient way for reviewers to learn about your artifact is to include a video showing you using the artifact in a simple scenario, along with verbal comments explaining what is going on.
+
+In order to avoid problems with software dependencies and installation, it may be very useful if you provide the artifact installed and ready to use on a virtual machine (for VirtualBox, VMware, or a similar widely available platform).
+
+The artifact must be made available as a single, self-contained archive file, using a widely supported archive format such as zip or a compressed tar format (e.g., .tgz). The archive must contain a file index.html, to be rendered by a Web browser, working as a starting point for reading your documentation, and possibly pointing to external resources. We can of course not enforce it, but we strongly recommend that you do not make any attempts to use such external links to discover who is reviewing your artifact.
+
+Please use widely supported open formats for documents, and preferably the CSV or JSON format for data.
+
+The submission of the artifact involves a CyberChair submission of the metadata (author information, etc.) and an upload of the artifact archive file itself. The CyberChair submission form requests a short description of the artifact, to be used for assignments of artifacts to reviewers ('bidding'); it would be a good idea to write the first few paragraphs of your index.html in such a way that it will serve as the short description as well. Detailed instructions on how to submit the artifact will be given along with acceptance notifications for accepted technical papers.
+
+Committee
+Please see the separate page containing the Artifact Evaluation Committee.
+
+Reviewing Process
+Submitted artifacts will go through a two-phase evaluation:
+
+Kicking-the-tires: reviewers check the artifact integrity and look for any possible setup problems that may prevent it from being properly evaluated (e.g., corrupted or missing files, VM won't start, immediate crashes on the simplest example, etc.). Authors are informed of the outcome and, in case of technical problems, they can help solve them during a brief author response period.
+Artifact assessment: reviewers evaluate the artifacts, checking if they live up to the expectations created by the papers.
+Important Dates for ECOOP 2014 Evaluated Artifacts
+All deadlines are 23:59 Anywhere on Earth, i.e. Howland Island/Baker Island (GMT/UTC-12 hours).
+
+Submission deadline:	14 March 2014
+Kicking-the-tires author response period:	22-23 March 2014
+Acceptance notification:	27 Apr 2014
+Final artifact upload (optional):	12 May 2014
+Authors of ECOOP 2014 accepted papers will be invited by email to submit artifacts. Submission instructions will be included in the invitation email.
+
+For More Information
+For additional information, clarification, or answers to questions: Please contact the ECOOP Artifact Evaluation Co-Chairs Camil Demetrescu and Erik Ernst at ecoop14aec@dis.uniroma1.it.
+
+Artifact Evaluation Committee Chairs
+Camil Demetrescu, Sapienza University of Rome, Italy
+Erik Ernst, Aarhus University, Denmark
+Artifact Evaluation Committee
+Adriana E. Chis, University College Dublin (Ireland)
+Alberto Bacchelli, Delft University of Technology (The Netherlands)
+Carl Ritson, University of Kent (UK)
+Dominic Orchard, University of Cambridge (UK)
+Dominique Devriese, Katholieke Universiteit Leuven (Belgium)
+Emilio Coppa, Sapienza University of Rome (Italy)
+George Kastrinis, University of Athens (Greece)
+Georgios Gousios, Delft University of Technology (The Netherlands)
+Ilya Sergey, IMDEA Software Institute (Spain)
+Karim Ali, University of Waterloo (Canada)
+Mahdi Eslamimehr, Viewpoints Research Institute (USA)
+Mike Rainey, INRIA-Rocquencourt (France)
+Oscar E. A. Callaú, PLEIAD, University of Chile (Chile)
+Valentin Wüstholz, ETH Zurich (Switzerland)
+Valerio Panzica La Manna, Politecnico di Milano (Italy)
+Veselin Raychev, ETH Zurich (Switzerland)
+Wei Huang, Rensselaer Polytechnic Institute (USA)

@@ -1,0 +1,93 @@
+POPL 2015 Artifact Evaluation
+Artifact Submission Guidelines
+
+Below we outline guidelines on how to package artifacts for submission. We are open to possibilities that we have not considered below; however, in cases where systems ought to fit these options, we suggest authors use them.
+
+In all cases, the artifacts should be accompanied by suitable documentation, to save committee members the burden of reverse-engineering what the authors intended (e.g., a dataset is useless without some explanation on how to browse the data; a tool without a quick tutorial will be very hard to use). In particular, please make concrete what claims you are making of the artifact, if these differ from the expectations set up by the paper. This is a place where you can tell us about difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper. We are still going to evaluate the artifact relative to the paper, but this helps set expectations up front, especially in cases that might frustrate the reviewers without prior notice.
+
+TL;DR
+Create a submission with the same title as the paper. In the abstract field, include two things:
+
+the paper’s abstract (to help with bidding)
+a URL pointing to the artifact site
+There is no “paper” to submit.
+
+At this URL, give us access to:
+
+the artifact (preferably packaged in a virtual machine)
+the accepted version of the paper
+instructions
+See below for additional details.
+
+Conflicts
+If one of the authors is an AEC chair, you may not submit an artifact. You can, however, indicate in your paper that you were unable to submit an artifact due to the conflict-of-interest.
+
+If you have a conflict-of-interest with anyone on the program committee (including the AEC chairs), please indicate this in both the Web page and in your submission email.
+
+Artifact Submission
+Irrespective of the nature of the artifacts, authors should create a single Web page (whether on their site or a third-party file upload service) that contains the artifact, the paper, and all necessary instructions.
+
+For artifacts where this would be appropriate, it would be helpful to also provide a self-contained bundle (including instructions) as a single file (.tgz or .zip; please avoid exotic compressors) for convenient offline use: imagine the reviewer who wants to download a single file to expand and work with during a train or bus commute.
+
+If it would be helpful, please feel free to include a video that demonstrates the artifact running or explaining how it should be run.
+
+The artifact submission thus consists of just the URL and any credentials required to access the files.
+
+Confidentiality
+We ask that, during the evaluation period, you not embed any analytics or other tracking in the Web site for the artifact or, if you cannot control this, that you not access this data. This is important for maintaining the confidentiality of reviewers. If for some reason you cannot comply with this, please notify the chairs immediately.
+
+Packaging Artifacts
+Authors should strongly consider one of the following methods to package the software components of their artifacts (though the AEC is open to other reasonable formats as well):
+
+A virtual machine containing software application already setup with the right tool-chain and intended runtime environment. For example:
+
+For mechanized proofs, the VM would have the right version of the theorem prover used.
+
+For a mobile phone application, the VM would have a phone emulator installed.
+
+For raw data, the VM would contain the data and the scripts used to analyze it.
+
+We recommend using VirtualBox, since it is freely available on several platforms.
+
+This is the preferred option: It avoids installation and compatibility problems, and provides the best guarantees for reproducibility of the results by the committee. Authors using Linux might find the CDE tool useful for automatically creating a VM image from existing software without needing to manually re- install all dependencies within a VM.
+
+A binary installable package. We invite the authors to use CDE (Linux) or MSI Installer (Windows) to package the binary application.
+
+A live instance running on the Web.
+
+A detailed screen-cast of the tool along with the results, especially if one of the following special cases applies:
+
+the application needs proprietary/commercial software that is not easily available or cannot be distributed to the committee;
+
+the application requires significant computation resources (e.g., more than 24 hours of execution time to produce the results);
+
+An installation or update repository for the tool (e.g., Eclipse update site or a Debian APT repository). However, we urge the authors to test their repository on standard environments to avoid installation problems by the committee members.
+
+In all cases, authors should make a genuine effort to not learn the identity of the reviewers. This may mean turning off “call home” features or analytics, or only using systems with high enough usage that AEC accesses will not stand out. In all cases where tracing is unavoidable, the authors should warn the reviewers in advance so the reviewers can try to take adequate safeguards.
+
+Chairs
+Arjun Guha - University of Massachusetts Amherst
+Jan Vitek - Northeastern University
+
+Committee
+Andrew Cave - McGill University
+Chris Martens - Carnegie Mellon University
+Christos Dimoulas - Harvard University
+Cristian Gherghina - Singapore University of Technology and Design
+Duc-Hiep Chu -National Univerity of Singapore
+Emma F. Tosch - University of Massachusetts Amherst
+Gregory Malecha - Harvard University
+Heather Miller - EPFL
+Jean Yang - MIT CSAIL
+Jed Liu - Cornell University
+Joel Galenson - University of California Berkeley
+John Wickerson - Imperial College London
+Mahdi Eslamimehr - SAP Labs
+Marc Brockschmidt - Microsoft Research
+Nada Amin - EPFL
+Nathan Chong - Imperial College London
+Neil Toronto - Brigham Young University
+Olle Fredriksson - The University of Birmingham
+Vijayaraghavan Murali - National University of Singapore
+Vincent Laporte - Université Rennes
+Yulei Sui - UNSW

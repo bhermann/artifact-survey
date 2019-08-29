@@ -1,0 +1,132 @@
+Artifact Evaluation for CGO'15
+
+[ Back to CGO'15 conference website ]
+
+Prizes for 2 highest ranked artifacts
+
+1st place sponsored by
+NVLogo 2D resize.jpg
+
+2nd place sponsored by
+CTuning foundation logo1a.png
+
+"Nvidia Quadro K6000" for
+"The SprayList: A scalable relaxed priority queue"
+Justin Kopinsky, Dan Alistarh, Jerry Li  and Nir Shavit
+
+"Acer C720P" for
+"A graph-based higher-order intermediate representation"
+Roland Leißa, Marcel Köster and Sebastian Hack
+
+Important dates
+
+CGO paper decision:
+10 Nov 2014
+Artifact submission:
+18 Nov 2014 AoE
+Technical clarification:
+10-12 Dec 2014
+Decision announced:
+16 Dec 2014
+Public discussion:
+9 Feb 2015 [ Slides ]
+Packaging guidelines
+
+We use the following guidelines for artifacts. Because we want to encourage as many of you as possible to submit, these are only guidelines, not hard rules. Of course, if the material you want us to evaluate is fairly standard, following these suggestions will greatly simplify our lives. After all, remember: You want us to be able to evaluate your artifact, don't you?
+
+How to submit
+
+Please read the guidelines on what to submit. Please upload your submission to EasyChair (common with PPoPP).
+
+Review process
+
+The review process is described in detail here.
+
+Artifact Evaluation Committee (AEC)
+
+Chairs:
+
+Grigori Fursin, cTuning foundation, France
+Bruce R. Childers, University of Pittsburgh, USA
+Advisory board:
+
+ Shriram Krishnamurthi, Brown University, USA
+Committee members:
+
+David Boehme, LLNL, USA
+Santiago Bock, University of Pittsburgh, USA
+Lingda Li, Rutgers University, USA
+Lin Ma, Huawei America Research Lab, USA
+Yiannis Nikolakopulos, Chalmers University, Sweden
+Jeeva Paudel, University of Alberta, Canada
+Paul Thomson, Imperial College London, UK
+Peter Libic, Charles University in Prague, Czech Republic
+Dave Wilkinson, University of Pittsburgh, USA
+Weiwei Chen, Qualcomm, USA
+Riyadh Baghdadi, ENS and University Pierre et Marie Curie, Paris, France
+Na Meng, University of Texas Austin, USA
+Arun Raman, Qualcomm, USA
+Bapi Chatterjee, Chalmers University, Sweden
+Martin Maas, University of California Berkeley, USA
+Vojtech Horky, Charles University in Prague, Czech Republic
+Vasileios Trigonakis, EPFL, Switzerland
+Mahdi Eslamimehr, SAP Labs, USA
+Yuhao Zhu, University of Texas Austin, USA
+Melanie Kambadur, Columbia University, USA
+Michael Laurenzano, UMich, USA
+Above threshold
+
+List of papers with artifacts above threshold:
+
+Locality-Centric Thread Scheduling for Bulk-synchronous Programming Models on CPU Architectures
+Hee-Seok Kim, Izzat El Hajj, John Stratton, Steven Lumetta and Wen-Mei Hwu
+MemorySanitizer: fast detector of uninitialized memory use in C++
+Evgeniy Stepanov and Konstantin Serebryany
+A Parallel Abstract Interpreter for JavaScript
+Kyle Dewey, Vineeth Kashyap and Ben Hardekopf
+A Graph-Based Higher-Order Intermediate Representation
+Roland Leißa, Marcel Köster and Sebastian Hack
+Optimizing the flash-RAM energy trade-off in deeply embedded systems
+James Pallister, Kerstin Eder and Simon J. Hollis
+Scalable Conditional Induction Variable (CIV) Analysis
+Cosmin E. Oancea and Lawrence Rauchwerger
+Discussions
+
+We consider AE as a continuous learning curve. If you have questions or comments and suggestions on how to improve packaging and reviewing process, please get in touch or use our public Google or LinkedIn groups. We will hold a joint public CGO/PPoPP AE discussion session on February 9th, 2015.
+
+Prior Artifact Evaluation
+
+Artifacts have been already evaluated at several conferences and workshops including recent PLDI 2014, OOPSLA 2014 and ADAPT 2014. Our eventual goal is to develop common evaluation methodology gradually and collaboratively. See artifact-eval.org, cknowledge.org/reproducibility and mailing list for more details.
+
+
+Sponsors and supporters
+
+NVLogo 2D resize.jpgCTuning foundation logo1a.png
+
+Chairs
+Grigori Fursin, cTuning foundation, France
+Bruce R. Childers, University of Pittsburgh, USA
+
+
+Commitee
+Riyadh Baghdadi	ENS and University Pierre et Marie Curie, Paris (France)
+Santiago Bock	University of Pittsburgh (USA)
+David Boehme	LLNL (USA)
+Bapi Chatterjee	Chalmers University (Sweden)
+Weiwei Chen	Qualcomm (USA)
+Mahdi Eslamimehr	SAP Labs (USA)
+Vojtech Horky	Charles University in Prague (Czech Republic)
+Melanie Kambadur	Columbia University (USA)
+Michael Laurenzano	University of Michigan (USA)
+Lingda Li	Rutgers University (USA)
+Peter Libic	Google ; Charles University in Prague (Czech Republic)
+Lin Ma	Huawei America Research Lab (USA)
+Martin Maas	University of California Berkeley (USA)
+Na Meng	University of Texas at Austin (USA)
+Yiannis Nikolakopulos	Chalmers University (Sweden)
+Jeeva Paudel	University of Alberta (Canada)
+Arun Raman	Qualcomm (USA)
+Paul Thomson	Imperial College London (UK)
+Vasileios Trigonakis	EPFL (Switzerland)
+David Wilkinson	University of Pittsburgh (USA)
+Yuhao Zhu	University of Texas at Austin (USA)

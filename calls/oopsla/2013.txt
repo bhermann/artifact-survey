@@ -1,0 +1,88 @@
+SPLASH 2013 OOPSLA Artifacts
+Authors of OOPSLA research papers accepted in the first reviewing phase are invited to formally submit supporting materials to the Artifact Evaluation process. The high level goal of the Artifact Evaluation (AE) process is to empower others to build upon the contributions of a paper. The AE process, new this year, is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves.
+
+Call for Contributions
+Authors of OOPSLA research papers accepted in the first reviewing phase are invited to formally submit supporting materials to the Artifact Evaluation process. The high level goal of the Artifact Evaluation (AE) process is to empower others to build upon the contributions of a paper. The AE process, new this year, is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves.
+
+Authors of accepted papers are encouraged to make these materials publicly available upon publication of the proceedings, by including them as "source materials" in the ACM Digital Library.
+
+Submission Summary
+Due on:	June 01, 2013
+Artifact Evaluation Notification:	July 29, 2013
+Camera-ready copy (of OOPSLA Research Paper) due:	August 05, 2013
+Format:	As specified in the AE packaging guidelines
+Contact:	Matthias Hauswirth and Steve Blackburn (chair)
+The ACM International Conference on Systems, Programming, Languages and Applications: Software for Humanity (SPLASH) is sponsored by ACM SIGPLAN.
+
+SPLASH is the home of OOPSLA Research Papers, Onward!, and the Dynamic Languages Symposium, among other events.
+
+CALL FOR ARTIFACTS
+ Artifact evaluation is open only to authors of OOPSLA research papers accepted by the first paper reviewing phase. Submission of artifacts is entirely optional for the authors and is absolutely independent from and has absolutely no bearing on the process of accepting papers. Since the goal of the AE process is to empower others to build upon the contributions of a paper, the artifacts should be of a quality that enables and simplifies reproduction and extension.
+
+Artifacts should be:
+
+consistent with the paper,
+as complete as possible,
+well documented, and
+easy to reuse, facilitating further research.
+Authors intending to submit their artifacts for evaluation by the AE are encouraged to begin preparing their artifacts for evaluation as soon as practical, following the packaging guidelines below. Because the evaluation process is ‘single blind’ (the authors are blinded as to who has evaluated their artifact), we will ask the authors to provide their artifacts on a website, from where the AE committee (AEC) chairs will upload the artifact to a separate site accessible to the whole AEC. The authors should make a real effort not to learn the identity of their reviewers. If it is necessary for tracing to occur, the authors must warn the reviewers in advance.
+
+This process is new to OOPSLA and was directly inspired by the artifact evaluation process established for ECOOP 2013 by Jan Vitek, Erik Ernst, and Shriram Krishnamurthi. The processes for ECOOP and OOPSLA are similar but not identical. We have borrowed from the ECOOP AEC heavily.
+
+Packaging Guidelines
+When packaging your artifact, please keep in mind: a) how accessible you are making your artifact to other researchers, and b) the fact that the OOPSLA AEC members will have very limited time in which to make an assessment of each artifact. The setup for your artifact should take less than 30 minutes or it is unlikely to be endorsed simply because the AEC will not have sufficient time to evaluate it. To expedite the evaluation process it may be appropriate to include a virtual machine image as part of your package.
+
+You should make your artifact available as a single archive file and use the naming convention <paper #>.<suffix>, where the appropriate suffix is used for the given archive format. Please use a widely available compressed archive format such as ZIP (.zip), tar and gzip (.tgz), or tar and bzip2 (.tbz2).
+
+The archive must:
+
+be self-contained (with the exception of pointers to external tools or libraries; which we will not consider being part of the evaluated artifact, but which we will try to use when evaluating the artifact);
+contain a HTML file called index.html, which shall fully describe the artifact and include (relative) links to the files (included in the archive) that constitute the artifact;
+include a Getting Started Guide (a section within index.html, see below);
+include Step-by-Step Instructions (another section within index.html) for how you propose to evaluate your artifact;
+where appropriate, include descriptions of and links to files (included in the archive) that represent expected outputs (e.g., the log files expected to be generated by your tool on the given inputs).
+The artifact may include, but is not limited to code, executables, data, a virtual machine image, and documents.
+
+Please use open formats for documents and we prefer experimental data to be submitted in csv format.
+
+Within your index.html, you must include a section with a basic Getting Started guide. Reviewers will follow all steps in the Getting Started guide at the beginning of the evaluation period and if necessary we can relay questions if they run into difficulties. You should write your Getting Started guide to be as simple and straightforward as possible, and yet it should stress the key elements of your artifact. If well written, anyone who has successfully completed the Getting Started guide should not have any technical difficulties with the rest of your artifact. The Getting Started guide is your only opportunity to allow ‘debugging’ of your artifact. Once the reviewers have completed this phase, there will be no further opportunity for interaction with you, the authors.
+
+Selection Criteria
+The AEC will endorse artifacts on the basis of the following criteria:
+
+The artifact will be evaluated in relation to the expectations set by the paper. Thus, in addition to just running the artifact, the evaluators will read the paper and may try to tweak provided inputs and create new ones, to test the limits of the system.
+
+Submission
+Note that there can be different kinds of artifacts, such as software tools, data sets (such as raw data from experiments), proofs, or anything else that is relevant for supporting the paper. You may want to include multiple artifacts (e.g., a tool and the data set used in its evaluation) in your submission. Please bundle everything into a single archive file.
+
+Please perform your artifact submission via this CyberChair link. Note that you can only submit an artifact if your OOPSLA research paper submission passed the first phase. In that case you are already known to the CyberChair artifact submission system, and the artifact submission will automatically be connected to your OOPSLA research paper submission. If you encounter any problems submitting, please don't hesitate to contact us.
+
+For More Information
+For additional information, clarification, or answers to questions please contact the OOPSLA Artifacts Chair, Matthias Hauswirth and Steve Blackburn.
+
+Steve Blackburn
+Matthias Hauswirth
+Craig Anslow
+Benjamin Delaware
+Robert Dyer
+Milos Gligoric
+Alessandra Gorla
+Jeff Huang
+Vu Le
+Du Li
+Sasa Misailovic
+Todd Mytkowicz
+Stas Negara
+Baishakhi Ray
+Christoph Reichenbach
+Hitesh Sajnani
+Marco Servetto
+Andreas Sewe
+Norbert Siegmund
+Vincent St-Amour
+Bo Wu
+Dacong Yan
+Xi Yang
+Haitao Zhu
+Augusto Born de Oliveira
+Johan Östlund

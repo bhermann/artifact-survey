@@ -1,0 +1,81 @@
+Artifact Evaluation for CGO 2017
+
+[ Back to CGO 2017 conference website ]
+
+Artifact evaluation is over - see accepted artifacts (with awards) here !
+News:
+Distinguished artifact implemented using Collective Knowledge Workflow Framework: "Software Prefetching for Indirect Memory Accesses", Sam Ainsworth and Timothy M. Jones
+[ GitHub , Paper with AE appendix and CK workflow , PDF snapshot of the interactive CK dashboard , CK concepts ]
+($500 from dividiti)
+6 February 2017 (Mon) 17:15-17:45 (room 400/402, Hilton Austin, Texas, USA) - public CGO-PPoPP AE discussion: program
+This year we saw a considerable increase in the amount of submitted artifacts: 27 versus 18 two years ago. The Artifact Evaluation Committee assembled of 41 researcher and engineer spent two weeks validating artifacts. Each artifact received at least three reviews and only 8 artifacts fell significantly below acceptance criteria.
+Since our philosophy is that AE should act as a mechanism to help authors prepare their materials and replicate or reproduce experimental results, we spent one more week shepherding these artifacts. During this process we allowed back-and-forth anonymous communication between evaluators and authors to resolve concerns, documentation issues and bugs. At the same time, we also successfully tried an "open reviewing model", when we asked the community to publicly evaluate several artifacts already available at GitHub, GitLab and other project hosting services. This allowed us to find external reviewers who had access to very rare HPC servers or proprietary benchmarks and tools. With the help of such shepherding, a 100% success rate for all 27 artifacts was achieved, which reflects a significant achievement and effort by both authors and evaluators. We thank them all for their hard work!
+
+All papers with evaluated artifacts received an AE seal and were allowed to add up to 2 pages of Artifact Appendix to let readers better understand what was evaluated and how.
+
+Authors of accepted CGO 2017 papers will be invited to formally submit their supporting materials to the Artifact Evaluation process. The Artifact Evaluation process is run by a separate committee whose task is to reproduce (at least some) experiments and assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers.
+
+Papers that successfully go through the Artifact Evaluation process will receive a seal of approval printed on the papers themselves. Authors of such papers will have an option to include their Artifact Appendix to the final paper (up to 2 pages). Authors are also encouraged (though not obliged) to make these materials publicly available upon publication of the proceedings, by including them as "source materials" in the Digital Library.
+
+If you have any questions, please check AE FAQs and do not hesitate to contact AE chair and the steering committee or post your question to our LinkedIn group.
+
+How to submit
+Please prepare your artifacts for submission using the following guide. Then, register your submission at the joint PPoPP/CGO EasyChair website - you will be asked to submit your paper title, author list, artifact abstract, pdf of your paper with an appendix describing how to access and validate your artifacts, and possible conflicts of interests with AE members.
+To encourage reproducible experimentation and participation in artifact evaluation, NVIDIA will give a high-end GPGPU card for the highest ranked artifact! To promote sharing of artifacts and experimental workflows as reusable and customizable components cTuning foundation and dividiti will give $500 for the highest ranked experimental workflow implemented using Collective Knowledge framework.
+
+Reviewing process
+Your artifacts will be reviewed according to the following guidelines. Artifacts receiving "met expectations" or above score will pass evaluation and will receive a stamp of approval. The highest ranked artifacts will receive prizes.
+Feedback
+We consider Artifact Evaluation as a continuous learning curve - our eventual goal is to develop a common methodology for experiment sharing and evaluation in computer system's research. Therefore, based on encountered issues during past AE and your feedback, we are currently developing the following open-source supporting technology for Artifact Evaluation:
+OCCAM infrastructure to enable open curation for computer architecture modeling.
+Open-source Collective Knowledge framework to simplify sharing and reuse of experimental workflows and all related artifacts with the possibility to customize, crowdsource, analyze and compare empirical experiments (see an example of a public repository with the results from collaborative program optimization);
+If you have questions, comments and suggestions on how to improve artifact submission, reviewing, customization and reuse, please do not hesitate to get in touch with the AE steering committee!
+
+CGO or PPoPP prizes
+
+High-end GPGPU card for the distinguished artifact	  	$500 for the top experimental workflow in CK format
+
+CGO AE Chair:
+Joseph Devietti (University of Pennsylvania, USA)
+
+Committee
+Raghesh Aloor	Indian Institute of Technology Madras (India)
+Tariq Alturkestani	King Abdullah University of Science and Technology (Saudi Arabia)
+Gergo Barany	CEA (France)
+Tal Ben-Nun	Hebrew University of Jerusalem (Israel)
+Man Cao	Ohio State University (USA)
+Prasanth Chatarasi	Rice University (USA)
+Guoyang Chen	The College of William and Mary (USA)
+Tiago Cogumbreiro	Rice University (USA)
+Wenzhi Cui	University of Texas at Austin (USA)
+Grigori Fursin	dividiti (UK) / cTuning foundation (France)
+Anshuman Goswami	Georgia Institute of Technology (USA)
+Johann Hauswald	University of Michigan (USA)
+Shiyou Huang	Texas A&M University (USA)
+Yihe Huang	Harvard University (USA)
+Joseph Izraelevitz	University of Rochester (USA)
+Gangwon Jo	Seoul National University (Korea)
+Rashid Kaleem	University of Texas at Austin (USA)
+Yuriy Kashnikov	Xored (Russia)
+Sanidhya Kashyap	Georgia Institute of Technology (USA)
+Martin Kong	Rice University (USA)
+Qingrui Liu	Virginia Tech University (USA)
+Anton Lokhmotov	dividiti (UK)
+Karthik Murthy	Rice University (USA)
+Abdulqawi Saif	University of Lorraine (France)
+Malavika Samak	IIS (India)
+Aritra Sengupta	Ohio State University (USA)
+Isaac Sheff	Cornell University (USA)
+Jyothish Soman	Cambridge University (UK)
+Michel Steuwer	University of Edinburgh (UK)
+Yulei Sui	University of New South Wales (Australia)
+Lili Sun	Institute of Computing Technology, Chinese Academy of Science (China)
+Rishi Surendran	Rice University (USA)
+Adilla Susungi	MINES ParisTech, PSL Research University (France)
+Thiago S. F. X. Teixeira	University of Illinois at Urbana-Champaign (USA)
+Robert Utterback	Washington University in St. Louis (USA)
+Shasha Wen	University of Washington (USA)
+Qiuping Yi	Institute of Software, Chinese Academy of Sciences (China)
+Adarsh Yoga	Rutgers University (USA)
+Faisal Zaghloul	Yale University (USA)
+Chi Zhang	University of Pittsburgh (USA)
