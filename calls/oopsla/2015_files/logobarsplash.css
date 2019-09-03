@@ -1,0 +1,53 @@
+/*div.logobar {
+  border-bottom : 2px solid black;
+  padding: 24px 0px;
+  background: url("http://2015.splashcon.org/getImage/orig/Splash2015-header.png") repeat-x 0 0px;
+}*/
+
+.brand-text{
+  visibility: hidden;
+}
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+ /* http://2015.splashcon.org/getImage/orig/Splash-logo.png */
+.navbar-brand {
+  font-size: 40px;
+  background: url("http://2015.splashcon.org/getImage/orig/Splash2015-header.png") no-repeat 0 0px;
+  background-size: 500px; /* 406*/
+  background-color: rgba(255,255,255); */
+  background-position: 0px 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 150px;
+  width: 500px;
+  margin-top: 0px;
+}
+.place {
+  padding: 78px 0 0 3px;
+  margin-bottom: -23px;
+  color: black;
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    background-size: 100%; /* 406*/
+    width: 250px;
+    height: 75px;
+  }
+  .place {
+    margin-bottom: 0px;
+  }
+}

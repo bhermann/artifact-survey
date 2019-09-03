@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Latin Modern Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/lmroman10-regular.otf') format('opentype');
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-weight: normal;
+  src: url('/fonts/lmroman10-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/lmroman10-bold.otf') format('opentype');
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-weight: bold;
+  src: url('/fonts/lmroman10-bolditalic.otf') format('opentype');
+}
+
+body {
+  font-family: /*"Computer Modern Serif",*/ "Latin Modern Roman", "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+  font-size: 11pt;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+img.sponsor {
+    width: 100px;
+}
+
+span.head {
+    /* background-color:rgba(66%, 88%, 100%, .75);  */
+    /* padding: 2px; */
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,.9);
+    font-variant:small-caps;
+}
+
+span.lead {
+    color: white;
+    font-variant:small-caps;
+    text-shadow: 2px 2px 4px rgb(1,0,0);
+}
+
+span.r {
+    color: #FDe038;
+}
+
+span.y {
+    color: #F4C148;
+}
+
+span.b {
+    color: #22aaff;
+}
+
+#ecoop_members {
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    float:right;
+}
+
+#ecoop_left {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#ecoop_main {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+div.col-with-pad {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.checked li:before {
+    content: "";
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 4px 6px 0 0;
+    background: url("../img/glyphicons-halflings.png") -288px 0;
+    opacity: .5;
+}
+
+ul.checked {
+    list-style-type: none;
+    /* list-style-image: url("../img/glyphicons-halflings.png"); */
+    /* list-style-image-position: */
+}
+
+ul.dashed {
+    list-style-type: none;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul.dashed li:before {
+    content: " \2013  ";
+}
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.75), 0 0 30px rgba(0,0,0,.075);
+background: #fceabb; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmNlYWJiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y5Y2I1NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(-45deg,  #fceabb 0%, #f9cb57 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fceabb), color-stop(100%,#f9cb57)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #fceabb 0%,#f9cb57 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #fceabb 0%,#f9cb57 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #fceabb 0%,#f9cb57 100%); /* IE10+ */
+background: linear-gradient(135deg,  #fceabb 0%,#f9cb57 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#f9cb57',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.jumbotron:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-origin: padding-box; */
+  /* background-image: url(../img/swe_flag.jpg); */
+  /* background-size:100% 330%; */
+
+  /* opacity: .85; */
+
+  background-repeat: repeat;
+  background-position: 15% 55%;
+  /* background-image: url(../img/dalahast.gul.jpg); */
+  /* background-image: url(../img/horse-outside-mic.png); */
+  background-image: url(../img/horse-outside-mic-uncropped.jpg);
+  background-size: 115%;
+
+  opacity: 1;
+}
+
+
+a.dropdown-toggle { 
+    cursor: hand; 
+    cursor: pointer; 
+}
+
+th {
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: 200;
+}
+
+td {
+    border: thin solid #999;
+}
+
+.wrapper {
+  margin: 50px auto;
+  width: 280px;
+  height: 370px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 90;
+}
+
+.ribbon-wrapper-green {
+  width: 285px;
+  height: 285px;
+  overflow: hidden;
+  position: absolute;
+  top: -60px;
+  right: 0px;
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #FFD143;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: 35px;
+  top: 145px;
+  width: 380px;
+  background-color: #FFD143;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD143), to(#FFD143)); 
+  background-image: -webkit-linear-gradient(top, #FFD143, #FFD143); 
+  background-image:    -moz-linear-gradient(top, #FFD143, #FFD143); 
+  background-image:     -ms-linear-gradient(top, #FFD143, #FFD143); 
+  background-image:      -o-linear-gradient(top, #FFD143, #FFD143); 
+  color: #FFD143;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-green:before {
+  left: 0;
+}
+
+.ribbon-green:after {
+  right: 0;
+}​

@@ -1,3 +1,5 @@
+http://www.staticanalysis.org/sas2014/index.html#artifactSubmission
+
 Artifact Submission
 As last year, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machine images accompanying accepted papers will be archived on the permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work.
 Artifact submission is optional. We accept only virtual machine images that can be processed with Virtual Box. Details on what to submit and how will be sent to the corresponding authors by mail shortly after the paper submission deadline.

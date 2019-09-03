@@ -1,0 +1,59 @@
+/**
+ * @package   Crystalline Template - RocketTheme
+* @version   $Id$
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+[class*="menu-fusionmenu-position-content-"] #rt-content-top, [class*="menu-fusionmenu-position-content-"] #rt-content-bottom {overflow: visible;}
+
+/* Global Settings */
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;}
+.menutop em {font-size:80%;font-weight:normal;display:block;font-style:normal;}
+.menutop li .item, .menutop li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+.menutop li .fusion-submenu-wrapper {float: none;left: -999em;position: absolute;z-index: 500;}
+.menutop li:hover li ul, .menutop li.sfHover li ul {top: -999em;}
+.menutop li:hover ul, .menutop li.sfHover ul {top: 0;}
+
+/* Dropdowns */
+.menutop ul {width: 188px;padding: 0 0 15px 0;margin: 0;float: left;}
+.menutop .drop-top {height: 1px;}
+.menutop ul.columns2 {width: 362px;padding: 0 0 15px 0;}
+.menutop .columns2 > .drop-top {width:362px;}
+.menutop ul li {width: 186px;padding: 0 0 15px 0;height: 42px;margin-bottom: -13px;}
+.menutop ul.columns2 li {width: 179px;float: left;height: 42px;margin-left: 1px;}
+.menutop li > .item {padding: 0;height: auto;display: block;font-size: 12px;line-height: 42px;}
+.menutop li > .bullet {padding-left: 18px;}
+.menutop li > .item.image {padding: 0;}
+.menutop li > .item img {float: left;margin: 10px 6px 0 8px;}
+.menutop li > .item span {display: block;padding: 0;width: 100%;}
+.menutop li a.item {cursor: pointer;}
+.menutop li span.item {cursor:default;outline:none;}
+.menutop .subtext span {line-height: 19px;}
+.menutop ul li .subtext span {line-height: 26px;}
+.menutop .subtext em {line-height: 13px;}
+.menutop ul li .subtext em {line-height: 8px;}
+.menutop ul li .item.image em {padding-left: 30px;}
+.menutop ul, .menutop ul.columns2 {background-position: 50% 100% !important;background-repeat: no-repeat;}
+.menutop .drop-top, .menutop .columns2 > .drop-top {background-position: 50% 0;background-repeat: no-repeat;}
+
+/* Root Items */
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1.0;}
+.menutop li.root {float: left;margin: 0 -5px 0 0;}
+body .menutop li.root > .item {white-space: nowrap;display: block;font-weight: normal;padding: 0;font-size: 15px;z-index: 100;cursor: pointer;position:relative;margin: 0 4px 0 0;outline: none;text-align: center;line-height: 32px;text-transform: uppercase;}
+body .menutop li.root > .bullet {background: none;}
+.menutop li.root > .item span {display: block;margin: 0;outline: none;padding: 10px 20px;width: auto;}
+.menutop li.root > .item em {font-size:11px;font-weight:normal;display:block;font-style:normal;text-transform: lowercase;}
+
+/* No JS */
+.menutop li.root:hover > .fusion-submenu-wrapper {top: 51px;left: 0;}
+.menutop ul.columns1 li:hover > .fusion-submenu-wrapper {left: 182px;top: 0;}
+.menutop ul.columns2 li:hover > .fusion-submenu-wrapper {left: 180px;top: 0;}
+
+/* Fusion Pill */
+.fusion-pill-l {height: 60px;margin:0 0 0 -6px;top:0;position:absolute;left:0;}
+.fusion-pill-r {height: 60px;}
+
+/* Fusion JS */
+.fusion-js-container {display:block;height:0;left:0;overflow:visible;position:absolute;top:0;z-index:50000!important;background:transparent !important;}
+.fusion-js-subs {display:none;margin:0;overflow:hidden;padding:0;position:absolute;}

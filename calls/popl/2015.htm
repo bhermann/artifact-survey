@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://web.archive.org/web/20150710050851/http://popl15-aec.cs.umass.edu/for-authors/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./2015_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app103.us.archive.org';v.server_ms=154;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./2015_files/ait-client-rewrite.js" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init("https://web.archive.org/web/", "20150710050851", "popl15-aec.cs.umass.edu:80");
+</script>
+<script type="text/javascript" src="./2015_files/wbhack.js" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="./2015_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./2015_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+    
+    <title>Artifact Submission Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./2015_files/bootstrap.min.css">
+  </head>
+
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="./2015_files/timestamp.js" charset="utf-8"></script>
+<script type="text/javascript" src="./2015_files/graph-calc.js" charset="utf-8"></script>
+<script type="text/javascript" src="./2015_files/auto-complete.js" charset="utf-8"></script>
+<script type="text/javascript" src="./2015_files/toolbar.js" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><script type="text/javascript">
+__wm.bt(600,27,25,2,"web","http://popl15-aec.cs.umass.edu/for-authors/","2015-07-10",1996,"/_static/",['css/banner-styles.css','css/iconochive.css']);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3">
+<img height="150px" width="150px" src="./2015_files/aec-badge-popl.png">
+</div>
+
+<div class="col-md-6">
+
+<h1>POPL 2015 Artifact Evaluation</h1>
+
+<p>Artifact Submission Guidelines</p>
+
+<a href="https://web.archive.org/web/20150710050851/http://popl15-aec.cs.umass.edu/home/" class="btn btn-primary btn-lg active" role="button">Home</a>
+
+</div>
+
+<div class="col-md-3"></div>
+
+</div>
+
+<hr>
+
+<div class="row">
+
+<div class="col-md-3"></div>
+<div class="col-md-6">
+
+<p>Below we outline guidelines on how to package artifacts for submission.  We are
+open to possibilities that we have not considered below; however, in cases where
+systems ought to fit these options, we suggest authors use them.</p>
+
+<p>In all cases, the artifacts should be accompanied by suitable documentation, to
+save committee members the burden of reverse-engineering what the authors
+intended (e.g., a dataset is useless without some explanation on how to browse
+the data; a tool without a quick tutorial will be very hard to use).  In
+particular, please make concrete what claims you are making of the artifact, if
+these differ from the expectations set up by the paper.  This is a place where
+you can tell us about difficulties we might encounter in using the artifact, or
+its maturity relative to the content of the paper.  We are still going to
+evaluate the artifact relative to the paper, but this helps set expectations up
+front, especially in cases that might frustrate the reviewers without prior
+notice.</p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>Create a submission with the same title as the paper. In the abstract field,
+include two things:</p>
+
+<ul>
+  <li>the paper’s abstract (to help with bidding)</li>
+  <li>a <strong>URL</strong> pointing to the artifact site</li>
+</ul>
+
+<p>There is no “paper” to submit.</p>
+
+<p>At this URL, give us access to:</p>
+
+<ul>
+  <li>the artifact (preferably packaged in a virtual machine)</li>
+  <li>the <em>accepted version of the paper</em></li>
+  <li>instructions</li>
+</ul>
+
+<p>See below for additional details.</p>
+
+<h2 id="conflicts">Conflicts</h2>
+
+<p>If one of the authors is an AEC chair, you may <em>not</em> submit an artifact.
+You can, however, indicate in your paper that you were unable to submit an
+artifact due to the conflict-of-interest.</p>
+
+<p>If you have a conflict-of-interest with anyone on the program committee
+(including the AEC chairs), please indicate this in both the Web page and in
+your submission email.</p>
+
+<h2 id="artifact-submission">Artifact Submission</h2>
+
+<p>Irrespective of the nature of the artifacts, authors should create a <em>single
+Web page</em> (whether on their site or a third-party file upload service) that
+contains <em>the artifact, the paper, and all necessary instructions</em>.</p>
+
+<p>For artifacts where this would be appropriate, it would be helpful to also
+provide a self-contained bundle (including instructions) as a single file
+(<tt>.tgz</tt> or <tt>.zip</tt>; please avoid exotic compressors) for convenient
+offline use: imagine the reviewer who wants to download a single file to expand
+and work with during a train or bus commute.</p>
+
+<p>If it would be helpful, please feel free to include a video that
+demonstrates the artifact running or explaining how it should be run.</p>
+
+<p>The artifact submission thus consists of just the URL and any
+credentials required to access the files.</p>
+
+<h2 id="confidentiality">Confidentiality</h2>
+
+<p>We ask that, during the evaluation period, you not embed any analytics
+or other tracking in the Web site for the artifact or, if you cannot
+control this, that you not access this data. This is important for
+maintaining the confidentiality of reviewers. If for some reason you
+cannot comply with this, please notify the chairs immediately.</p>
+
+<h2 id="packaging-artifacts">Packaging Artifacts</h2>
+
+<p>Authors should strongly consider one of the following methods to
+package the software components of their artifacts (though the AEC is
+open to other reasonable formats as well):</p>
+
+<ol>
+  <li>
+    <p>A virtual machine containing software application already setup with
+the right tool-chain and intended runtime environment. For example:</p>
+
+    <ul>
+      <li>
+        <p>For mechanized proofs, the VM would have the right version
+of the theorem prover used.</p>
+      </li>
+      <li>
+        <p>For a mobile phone application, the VM would have a phone emulator
+installed.</p>
+      </li>
+      <li>
+        <p>For raw data, the VM would contain the data and the scripts used to
+analyze it.</p>
+      </li>
+    </ul>
+
+    <p>We recommend using VirtualBox, since it is freely available on several
+platforms.</p>
+
+    <p>This is the preferred option: It avoids installation and compatibility
+problems, and provides the best guarantees for reproducibility of the results
+by the committee.  Authors using Linux might find the <a href="https://web.archive.org/web/20150710050851/http://www.pgbovine.net/cde.html">CDE</a> tool useful for automatically
+creating a VM image from existing software without needing to manually re-
+install all dependencies within a VM.</p>
+  </li>
+  <li>
+    <p>A binary installable package. We invite the authors to use CDE
+(Linux) or MSI Installer (Windows) to package the binary
+application.</p>
+  </li>
+  <li>
+    <p>A live instance running on the Web.</p>
+  </li>
+  <li>
+    <p>A detailed screen-cast of the tool along with the results,
+especially if one of the following special cases applies:</p>
+
+    <ul>
+      <li>
+        <p>the application needs proprietary/commercial software that is not
+easily available or cannot be distributed to the committee;</p>
+      </li>
+      <li>
+        <p>the application requires significant computation resources (e.g.,
+more than 24 hours of execution time to produce the results);</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>An installation or update repository for the tool (e.g., Eclipse
+update site or a Debian APT repository). However, we urge the
+authors to test their repository on standard environments to avoid
+installation problems by the committee members.</p>
+  </li>
+</ol>
+
+<p><em>In all cases</em>, authors should make a genuine effort to not learn the identity
+of the reviewers.  This may mean turning off “call home” features or
+analytics, or only using systems with high enough usage that AEC accesses will
+not stand out.  In all cases where tracing is unavoidable, the authors should
+warn the reviewers in advance so the reviewers can try to take adequate
+safeguards.</p>
+
+
+</div>
+
+<div class="col-md-3"></div>
+</div>
+
+</div>
+
+<script src="./2015_files/jquery.js"></script>
+<script src="./2015_files/bootstrap.min.js"></script>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 05:08:51 Jul 10, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:45:42 Sep 03, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 52.595 (5)
+  exclusion.robots.policy: 0.247
+  LoadShardBlock: 21.357 (3)
+  exclusion.robots: 0.261
+  esindex: 0.013
+  load_resource: 94.439 (2)
+  CDXLines.iter: 12.097 (3)
+  RedisCDXSource: 14.325
+  captures_list: 50.918
+  PetaboxLoader3.resolve: 24.439
+--></body></html>

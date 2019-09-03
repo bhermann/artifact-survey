@@ -1,0 +1,53 @@
+
+.brand-text{
+  visibility: hidden;
+}
+
+div.logobar {
+    background: url("http://conf.researchr.org/getImage/sle-2016/orig/sle16-banner.png") no-repeat 0 0px;
+    background-size: auto 180px;
+    height: 150px;	
+}
+
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar-brand {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 700px;
+   height: 150px;
+}
+.place {
+    visibility: hidden;
+  padding: 78px 0 0 3px;
+  margin-bottom: -23px;
+  color: black;
+}
+.place2 {
+  right:  10px;
+  top: 124px;
+  position: absolute;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+@media (max-width: 767px) {
+  div.logobar {
+    background-size: auto 100px;
+    height: 86px;
+  }
+  .navbar-brand{
+    height: 86px;
+  }
+  .place2{
+      top: 0px;
+  }
+}

@@ -1,0 +1,59 @@
+div, body, ul.Navigation, ul.Navigation li, #head * { /*just to be sure*/
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size:100.01%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Navigation */
+#Navigation {
+	/*Abstand links definiert durch body.padding-left,
+	  Abstand rechts definiert durch div#main.padding-left*/
+	float:left;
+	max-width: 12em;
+	width: 12em;
+	line-height:150%;
+}
+ul.Navigation {
+	margin: 3ex 0; /*vertikaler Abstand zwischen den Listen*/
+	list-style: none;
+}
+* html ul.Navigation li { padding-bottom: 1px; } /* IE 6 Hack */
+
+ul.Navigation a, span.NavCurrent { /* Listelemente zu Boxen machen */
+	display:block;
+	margin: 3px;
+	padding: 0.5em;
+}
+
+/* Submenue */
+ul.Navigation li.NavCurrent ul.Navigation {
+	margin: 0; /* vertikalen Abstand zwischen Listen eliminieren */
+}
+
+/* Inhaltsspalte */
+div#main{
+	text-align: center;
+	margin-left: 12em; /*exakt rechts-buendig an div#navigation*/
+	padding: 0 30px; /*der Abstand links und rechts vom Text*/
+}
+
+div#content{
+	max-width: 45em;
+	text-align: left;
+	margin: 6ex auto 0 auto; /*Abstand zwischen Text und Kopf, Zentrierung*/
+}
+
+/* Sonstiges */
+.text	{ text-align: justify; }
+.center	{ text-align: center; }
+.left	{ text-align: left; }
+.right	{ text-align: right; }
+
+img.float	{ float:left; margin-right: 1em; margin-bottom: 0.5ex; }
+img.floatright	{ float:right; margin-left: 1em; margin-bottom: 0.5ex; }
+img		{ vertical-align:middle; }

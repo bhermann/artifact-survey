@@ -1,0 +1,133 @@
+body {
+  position: relative;
+}
+
+#dates{
+padding-top: 20px;
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:105px; /* fixed header height*/
+  margin:-105px 0 0; /* negative fixed header height */
+}
+/*:target {
+  padding-top: 90px;
+}*/
+.photo-credit {
+  padding-top: 0.3em;
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.thumbnail > img {
+    height:40px;
+
+    }
+}
+
+@media (max-width: 767px) {
+  img.keynote-face {
+    max-width: 45%;
+    height: auto;
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  img.keynote-face {
+    max-width: 45%;
+    height: auto;
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  img.keynote-face {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.diamond {
+   background-color:#4ee2ec;
+   /* color:#b9f2ff; */
+}
+.platinum {
+   background-color:#e5e4e2;
+}
+.gold {
+   background-color:#ffd700;
+}
+.silver {
+   background-color:#c0c0c0;
+}
+.bronze {
+   background-color:#cd7f32;
+}
+.copper {
+   background-color:#b87333;
+}
+.platinum-text {
+   color:#e5e4e2;
+}
+.gold-text {
+   color:#ffd700;
+}
+.bronze-text {
+   color:#cd7f32;
+}
+.sublead {
+  margin-bottom: 11px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .sublead {
+    font-size: 18px;
+  }
+}
+
+.team-face{
+  border-radius: 40%;
+  object-fit:cover;
+  height: 12vw;
+  width: 12vw;
+   padding-left: 0em;
+    padding-top: 0px;
+}
+
+.committee-face{
+  margin-right:20px;
+  width:125px;
+  float: left;
+  border-radius: 40%;
+  object-fit:cover;
+  height: 6vw;
+  width:6vw;
+}
+
+.keynote-face{
+  border-radius: 40%;
+  object-fit:cover;
+  height: 10vw;
+  width: 10vw;
+  
+}
+
+.logo {
+  width: 13vw;
+  min-width: 150px;
+}
+
+.navbar-nav a { 
+  font-weight: 400; 
+  font-size: 18px; 
+  padding-top: 2px;
+  }
+
+.navbar-nav > li > a {
+   line-height: 50px;
+}
+

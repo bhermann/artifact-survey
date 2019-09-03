@@ -1,3 +1,5 @@
+http://vissoft18.etsii.urjc.es/submissions.html
+
 Artifacts:
 Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. Following the effort initiated at ESEC/FSE’11, authors of accepted technical papers at VISSOFT 2018 can have their artifacts evaluated by the program committee. Positively evaluated artifacts will be reflected in the paper publication, presentation, and be formally announced during the conference. A paper with an accepted artifact will have five extra minutes of presentation which can be used to present the artifact. The authors will also be invited to demo the artifact during the interactive informal demo session organized for the tool demo track.
 

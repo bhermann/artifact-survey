@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>POPL 2017 Artifact Evaluation - POPL 2017</title>
+<link href="https://conf.researchr.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" rel="shortcut icon" type="image/x-icon">
+<link href="./2017_files/common_.css" rel="stylesheet" type="text/css">
+<script async="" src="./2017_files/analytics.js"></script><script type="text/javascript">var show_webdsl_debug=false;</script>
+<script type="text/javascript">var contextpath="https://conf.researchr.org";</script>
+<link rel="stylesheet" href="./2017_files/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="./2017_files/conf.css" type="text/css"><link rel="stylesheet" href="./2017_files/custom.css" type="text/css"><link rel="stylesheet" href="./2017_files/theme.bootstrap.min.css" type="text/css"><script type="text/javascript" src="./2017_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./2017_files/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="./2017_files/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="./2017_files/tablesorter-init.js"></script>
+<script type="text/javascript" src="./2017_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./2017_files/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+  font-weight: bold;
+  padding: 8px 15px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+  color: #C09853;
+  background-color: #FCF8E3;
+  border-color: #FBEED5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
+<script type="text/javascript" src="./2017_files/ajax.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var GATids = [];GATids.push('t0'); ga('create', 'UA-9607501-2', 'auto', 't0');ga('t0.set', 'anonymizeIp', true);ga('t0.send', 'pageview');</script>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="POPL 2017 Artifact Evaluation - POPL 2017">
+<meta name="description" content="A paper consists of a constellation of artifacts that extend beyond the document itself: software, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet our conferences offer no formal means to submit and evaluate anything but the paper. To address this, POPL has run an optional artifact evaluation process since POPL 2015. 
+Goals 
+The goal of the artifact evaluation process is two-fold: to both reward and probe. Our primary goal is to reward authors who take the trouble to create usef ...">
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="A paper consists of a constellation of artifacts that extend beyond the document itself: software, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet our conferences offer no formal means to submit and evaluate anything but the paper. To address this, POPL has run an optional artifact evaluation process since POPL 2015. 
+Goals 
+The goal of the artifact evaluation process is two-fold: to both reward and probe. Our primary goal is to reward authors who take the trouble to create usef ...">
+<script type="text/javascript">function hashChangeFunc(){
+      // show active tab on hash in url
+      if (window.location.hash !== ''){
+        var hashTarget = $('a[href="' + window.location.hash + '"]');
+        if(hashTarget.length){
+          if( hashTarget.attr('data-toggle') === 'tab' ){
+            hashTarget.tab('show');
+          }
+          // and open parent tabs in case the target element is nested in a tab
+          var parentPane = hashTarget.closest( '.tab-pane' );
+          if(parentPane.length){
+            $('.nav a[href=#'+ parentPane.attr('id') +']').tab('show');
+          }
+          var parentCollapse = hashTarget.closest( '.panel-collapse:not(.in)' ).collapse('show');
+        }
+      }
+      return false;
+    }
+    
+    $(document).ready(function(){
+      var tabFromRequestUrl = window.location.hash !== '' ? $('a[href="' + window.location.hash + '"][data-toggle="tab"]') : [];
+      var initUrlHash = window.location.hash;
+      hashChangeFunc()
+      if( tabFromRequestUrl.length ){
+        //Prevent the browser to auto-scroll to the anchor of the tab
+        window.location.hash = "";
+      }
+      if ($._data( $(window)[0], 'events' ).hashchange == undefined){
+        $(window).on('hashchange', hashChangeFunc);
+      }
+      setTimeout( function(){
+        if(tabFromRequestUrl.length){
+          history.replaceState(null, null, initUrlHash);
+        }
+      }, 10 );
+    });
+    var autoTabFunction = function(node){
+      // remember the hash in the URL without jumping
+      $('a[data-toggle="tab"]:not(.bound)').addClass('bound').on('shown.bs.tab', function(e){
+        var newhash = '#' + $(e.target).attr('href').substr(1);
+        if(history.replaceState){
+          history.replaceState(null, null, newhash);
+        } else{
+          location.hash = newhash;
+        }
+      });
+      
+      //When no tab is active, set the first one to active
+      $(node).find('.nav-tabs:not(.bound), .nav-pills:not(.bound)').addClass('bound').each(function(){
+        if( $(this).children().length > 0 && 1 > $(this).find('.active').length){
+          $(this).children().first().addClass('active');
+        }
+      });
+      $(node).find('.tab-content:not(.bound)').addClass('bound').each(function(){
+        if( $(this).children().length > 0 && 1 > $(this).children('.active').length){
+          $(this).children('.tab-pane').first().addClass('active');
+        }
+      });
+    }
+  </script>
+<style type="text/css" id="core-notify">.notifyjs-corner {
+  position: fixed;
+  margin: 5px;
+  z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+  position: relative;
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin: 3px;
+}
+
+.notifyjs-wrapper {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.notifyjs-container {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.notifyjs-hidable {
+  cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+  position: relative;
+}
+
+.notifyjs-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+}</style></head>
+<body id="track"><div class="frame"><div class="logobar" style="background-image: url(&quot;https://conf.researchr.org/getImage/POPL-2017/orig/banner-notredame2b.png&quot;); position: relative;"><div class="container"><a href="https://popl17.sigplan.org/" class="navbar-brand navigate" style="opacity: 0;"><span class="brand-text">POPL 2017</span></a><div class="place">Sun 15 - Sat 21 January 2017 <a href="https://popl17.sigplan.org/venue/paris-jussieu" class="navigate"></a></div><div style="position: absolute; right: 10px; bottom: 0px"><p><a style="background: white; opacity: 0.5; border-radius: 5px" href="http://popl17.sigplan.org/attending/banner-image-credits">&nbsp;Credits&nbsp;</a></p></div></div></div><div class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div id="navigationbar" class="navigationbar collapse navbar-collapse"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/venue/paris-jussieu" class="navigate">Campus: Paris Jussieu</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/proceedings" class="navigate">Proceedings</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/student-support" class="navigate">Students</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/registration" class="navigate">Registration</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/practical-information" class="navigate">Practical information</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/visas" class="navigate">Visas</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/accommodation" class="navigate">Accommodation</a></li><li class="block"><a href="https://popl17.sigplan.org/attending/banner-image-credits" class="navigate">Banner image credits</a></li></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017" class="navigate">Complete Program</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?prog=Your%20Program" class="navigate"><span class="glyphicon glyphicon-star"></span> Your Program</a></li><li class="block divider"></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Sun%2015%20Jan%202017" class="navigate">Sun 15 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Mon%2016%20Jan%202017" class="navigate">Mon 16 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Tue%2017%20Jan%202017" class="navigate">Tue 17 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Wed%2018%20Jan%202017" class="navigate">Wed 18 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Thu%2019%20Jan%202017" class="navigate">Thu 19 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Fri%2020%20Jan%202017" class="navigate">Fri 20 Jan</a></li><li class="block"><a href="https://popl17.sigplan.org/program/program-POPL-2017?date=Sat%2021%20Jan%202017" class="navigate">Sat 21 Jan</a></li></ul></li><li id="tracks-in-navbar" class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-3"><div class="row"><div class="col-sm-5"><ul class="block multi-column-dropdown"><li class="block dropdown-header">POPL 2017</li><li class="block"><a href="https://popl17.sigplan.org/track/POPL-2017-Tutorials" class="navigate">Tutorials</a></li><li class="block"><a href="https://popl17.sigplan.org/track/POPL-2017-src" class="navigate">Student Research Competition</a></li><li class="block"><a href="https://popl17.sigplan.org/track/POPL-2017-papers" class="navigate">POPL</a></li><li class="block"><a href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="navigate">Artifact Evaluation</a></li></ul></div><div class="col-sm-7"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>CPP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/CPP-2017" class="navigate"><span class="glyphicon glyphicon-home"></span> CPP</a></li><li class="block"><a href="https://popl17.sigplan.org/track/CPP-2017" class="navigate"><strong>CPP</strong> </a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>VMCAI</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/VMCAI-2017" class="navigate"><span class="glyphicon glyphicon-home"></span> VMCAI</a></li><li class="block"><a href="https://conf.researchr.org/track/VMCAI-2017/VMCAI-2017-papers" class="navigate"><strong>VMCAI</strong> </a></li></ul></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="block"><a href="https://popl17.sigplan.org/track/pps-2017" class="navigate"><strong> PPS</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/main" class="navigate"><strong>CoqPL</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/N40AI" class="navigate"><strong>N40AI</strong> Next 40 years of Abstract Interpretation</a></li><li class="block"><a href="https://popl17.sigplan.org/track/OBT-2017" class="navigate"><strong>Off the Beaten Track</strong> OBT</a></li><li class="block"><a href="https://conf.researchr.org/track/pepm-2017/pepm-workshop" class="navigate"><strong>PEPM</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/PLMW-2017" class="navigate"><strong>PLMW</strong>  PLMW</a></li><li class="block"><a href="https://popl17.sigplan.org/track/PiP-2017" class="navigate"><strong>PiP</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/RDP-2017" class="navigate"><strong>RDP</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/SCM-2017" class="navigate"><strong>SCM</strong> </a></li><li class="block"><a href="https://popl17.sigplan.org/track/TTT-2017" class="navigate"><strong>TTT</strong> </a></li><li class="block dropdown-header">Co-hosted Symposiums</li><li class="block"><a href="https://popl17.sigplan.org/track/PADL-2017" class="navigate"><strong>PADL</strong> </a></li></ul></div></div></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle">Organization <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-2"><div class="row"><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">POPL 2017</li><li class="block"><a href="https://popl17.sigplan.org/committee/popl-2017-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://popl17.sigplan.org/committee/popl-2017-steering-committee" class="navigate">Steering Committee</a></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>Student Research Competition</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/popl-2017-src-selection-committee" class="navigate">Selection Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>POPL</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/popl-2017-papers-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://popl17.sigplan.org/committee/popl-2017-papers-external-review-committee" class="navigate">External Review Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>Artifact Evaluation</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/artifactevaluation-committee" class="navigate">Artifact Evaluation Committee</a></li></ul></li><li class="block dropdown-header">Contributors</li><li class="block"><a href="https://popl17.sigplan.org/people-index" class="navigate"><span class="glyphicon glyphicon-search"></span><sub><span class="glyphicon glyphicon-user"></span></sub> People Index</a></li></ul></div><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>CPP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/cpp-2017-papers-program-committee" class="navigate"><strong>CPP</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>VMCAI</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/VMCAI-2017/vmcai-2017-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/VMCAI-2017/vmcai-2017-program-committee" class="navigate">Program committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/VMCAI-2017/vmcai-2017-steering-committee" class="navigate">Steering Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/VMCAI-2017/vmcai-2017-papers-program-chairs" class="navigate"><strong>VMCAI</strong> <small>Program Chairs</small></a></li></ul></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong> PPS</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/pps-2017-papers-program-committee" class="navigate"><strong>PPS</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>CoqPL</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/coqpl-2017-papers-program-committee" class="navigate"><strong>CoqPL 2017</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>N40AI</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/n40ai-2017-papers-program-committee" class="navigate"><strong>Next 40 years of Abstract Interpretation</strong> <small>Organizer</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>Off the Beaten Track</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/obt-2017-organizing-committee" class="navigate"><strong>OBT</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://popl17.sigplan.org/committee/obt-2017-papers-program-committee" class="navigate"><strong>OBT</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PEPM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/pepm-2017/pepm-2017-programme-committee" class="navigate">Programme Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/pepm-2017/pepm-workshop-programme-committee" class="navigate"><strong>PEPM 2017</strong> <small>Programme Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PLMW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/plmw-2017-speaker" class="navigate"><strong> PLMW</strong> <small>Speaker</small></a></li><li class="block"><a href="https://popl17.sigplan.org/committee/plmw-2017-papers-program-committee" class="navigate"><strong> PLMW</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PiP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/pip2-2017-papers-program-committee" class="navigate"><strong>PiP 2017</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>RDP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/rdp-2017-papers-program-committee" class="navigate"><strong>RDP</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>SCM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/scm-2017-papers-program-committee" class="navigate"><strong>SCM</strong> <small>Organizing Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>TTT</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/ttt-2017-papers-program-committee" class="navigate"><strong>TTT</strong> <small>Program Committee</small></a></li></ul></li><li class="block dropdown-header">Co-hosted Symposiums</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PADL</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://popl17.sigplan.org/committee/padl-2017-organizing-committee" class="navigate"><strong>PADL</strong> <small>Organizing Committee</small></a></li></ul></li></ul></div></div></ul></li><li class="block"><a href="https://popl17.sigplan.org/search//all" class="navigate"><span class="glyphicon glyphicon-search"></span><span class="hidden-sm"> Search</span></a></li><li class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-sm">Series <span class="caret"></span></span><span title="" class="visible-sm" data-original-title="Series"><span class="glyphicon glyphicon-repeat"></span> <span class="caret"></span></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/series/POPL" class="navigate">Series</a></li><li class="block divider"></li><li class="block"><a href="https://popl20.sigplan.org/" class="navigate">POPL 2020</a></li><li class="block"><a href="https://popl19.sigplan.org/" class="navigate">POPL 2019</a></li><li class="block"><a href="https://popl18.sigplan.org/" class="navigate">POPL 2018</a></li><li class="block"><span class="text-muted"><span class="glyphicon glyphicon-chevron-right"></span> POPL 2017</span></li><li class="block"><a href="https://popl16.sigplan.org/" class="navigate">POPL 2016</a></li></ul></li></ul><script type="text/javascript">(function($){
+      $(document).ready(function(){
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+        });
+      });
+    })(jQuery);
+    </script><div class="navbar-right"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#" data-toggle="dropdown" class="dropdown-toggle"><img alt="Ben Hermann" src="./2017_files/micro-avatar.jpg" class="outputimage navbar-image"></a><ul class="block dropdown-menu"><li class="block dropdown-header">Ben Hermann</li><li class="block divider"></li><li class="block"><a href="https://popl17.sigplan.org/profile/benhermann1" class="navigate">My Profile</a></li><li class="block"><a href="https://popl17.sigplan.org/manageProfile/8d5d764e-6408-48bb-9ead-c1c016c62297#Account-Data" class="navigate">My Account</a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;POPL-2017&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;ArtifactEvaluation&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(this device only)</small></a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;POPL-2017&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;ArtifactEvaluation&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(all devices)</small></a></li><li class="block divider"></li><li class="block dropdown-header"><span class="glyphicon glyphicon-cog"></span> Management</li><li class="block"><a href="https://popl17.sigplan.org/manage" class="navigate"><span class="glyphicon glyphicon-dashboard"></span> Manage dashboard</a></li></ul></li></ul></div></div></div></div><div id="content" class="container"><div class="page-header"><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://popl17.sigplan.org/" class="navigate">POPL 2017</a> (<a href="https://conf.researchr.org/series/POPL" class="navigate">series</a>) / </span><h1>POPL 2017 Artifact Evaluation</h1></div><div class="row"><div class="col-sm-8"><ul id="tab" class="nav nav-pills bound"><li class="active"><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#About" data-toggle="tab" class="bound">About</a></li><li><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#Artifact-Submission-Guidelines" data-toggle="tab" class="bound">Artifact Submission Guidelines</a></li><li><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#Submit-an-Artifact" data-toggle="tab" class="bound">Submit an Artifact</a></li><li><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#Information-for-Committee-Members" data-toggle="tab" class="bound">Information for Committee Members</a></li><li><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#Accepted-Artifacts" data-toggle="tab" class="bound">Accepted Artifacts</a></li></ul><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; autoTabFunction(node); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><div class="tab-content bound"><div id="About" class="tab-pane  active"><p></p><p>A paper consists of a constellation of artifacts that extend beyond the document itself: software, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet our conferences offer no formal means to submit and evaluate anything but the paper. To address this, POPL has run an optional artifact evaluation process since POPL 2015.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#goals" id="goals" class="anchor-link">Goals</a></h3>
+<p>The goal of the artifact evaluation process is two-fold: to both reward and probe.  Our primary goal is to reward authors who take the trouble to create useful artifacts beyond the paper. Sometimes the software tools that accompany the paper take years to build; in many such cases, authors who go to this trouble should be rewarded for setting high standards and creating systems that others in the community can build on. Conversely, authors sometimes take liberties in describing the status of their artifacts—claims they would temper if they knew the artifacts are going to be scrutinized.  This leads to more accurate reporting.</p>
+<p>Our hope is that eventually, the assessment of a paper’s accompanying artifacts will guide the decision-making about papers: that is, the AEC would inform and advise the Program Committee (PC).  This would, however, represent a radical shift in our conference evaluation processes; we would rather proceed gradually.  Thus, in our process, artifact evaluation is optional, and authors choose to undergo evaluation only after their paper has been accepted. Nonetheless, feedback from the Artifact Evaluation Committee can help improve the both the final version of the paper and any publicly released artifacts.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#criteria" id="criteria" class="anchor-link">Criteria</a></h3>
+<p>The evaluation criteria are ultimately simple. A paper sets up certain expectations of its artifacts based on its content. The AEC will read the paper and then judge how well the artifact matches these criteria. Thus the AEC’s decision will be that the artifact <em>does</em> or <em>does not</em> “conform to the expectations set by the paper”. Ultimately, we expect artifacts to be:</p>
+<ul>
+<li>consistent with the paper,</li>
+<li>as complete as possible,</li>
+<li>documented well, and</li>
+<li>easy to reuse, facilitating further research.</li>
+</ul>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#benefits" id="benefits" class="anchor-link">Benefits</a></h3>
+<p>We believe the dissemination of artifacts benefits our science and engineering as a whole. Their availability improves <a href="http://www.acm.org/publications/policies/artifact-review-badging">replicability and reproducibility</a>, and enables authors to build on top of each others’ work.  It can also help more unambiguously resolve questions about cases not considered by the original authors.</p>
+<p>Beyond helping the community as a whole, it confers several direct and indirect benefits to the authors themselves.  The most direct benefit is, of course, the recognition that the authors accrue.  But the very act of creating a bundle that can be used by the AEC confers several benefits:</p>
+<ul>
+<li>
+<p>The same bundle can be distributed to third-parties.</p>
+</li>
+<li>
+<p>A  bundle can be used subsequently for later experiments (e.g., on new parameters).</p>
+</li>
+<li>
+<p>The bundle simplifies having to re-run the system subsequently when, say, having to respond to a journal reviewer’s questions.</p>
+</li>
+<li>
+<p>The bundle is more likely to survive being put in storage between the departure of one student and the arrival of the next.</p>
+</li>
+</ul>
+<p>However, creating a bundle that meets all these properties can be onerous. Therefore, the process we describe below does not require an artifact to have all these properties.  It offers a route to evaluation that confers fewer benefits for vastly less effort.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#process" id="process" class="anchor-link">Process</a></h3>
+<p>To maintain a wall of separation between paper review and the artifacts, authors will be asked to upload their artifacts only after their papers have been accepted.  Of course, they can (and should!) prepare their artifacts well in advance, and can provide the artifacts to the PC via supplemental materials, as many authors already do.</p>
+<p>The authors of all accepted papers will be asked whether they intend to have their artifact evaluated and, if so, to upload the artifact. They are welcome to indicate that they do not.</p>
+<p>After artifact submission, the AEC will download and install the artifact (where relevant), and evaluate it. Since we anticipate small glitches with installation and use, the AEC Chairs may communicate with authors to help resolve glitches. The AEC will complete its evaluation and notify authors of the outcome. There is approximately one week between feedback from the AEC and the deadline for the final versions of accepted papers. This is intended to allow authors sufficient time to include the feedback from the AEC as they deem fit.</p>
+<p>The PC Chair’s report will include a discussion of the artifact evaluation process. Papers with artifacts that “meet expectations” may indicate that they do with the following badge (courtesy Matthias Hauswirth):</p>
+<center>
+  <img src="./2017_files/aec-badge-popl.svg" width="300px" alt="POPL Artifact Badge">
+</center>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#artifact-details" id="artifact-details" class="anchor-link">Artifact Details</a></h3>
+<p>To avoid excluding some papers, the AEC will try to accept <em>any</em> artifact that authors wish to submit. These can be software, mechanized proofs, test suites, data sets, and so on. Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it.</p>
+<p>Submission of an artifact does not contain tacit permission to make its content public.  AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation.  Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact.  We do strongly encourage that you anonymize any data files that you submit.</p>
+<p>We recognize that some artifacts may attempt to perform malicious operations by design.  These cases should be boldly and explicitly flagged in detail in the readme so AEC members can take appropriate precautions before installing and running these artifacts.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#aec-membership" id="aec-membership" class="anchor-link">AEC Membership</a></h3>
+<p>The AEC will consist of about 20-25 members.  We intend for other members to be a combination of senior graduate students, postdocs, and researchers, identified with the help of the POPL Program Committee and External Review Committee.</p>
+<p>Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations we will encounter.  In addition, these graduate students represent the future of the community, so involving them in this process early will help push this process forward. However, participation in the AEC can provide useful insight into both the value of artifacts, the process of artifact evaluation, and help establish community norms for artifacts. We therefore seek to include a broad cross-section of the POPL community on the AEC.</p>
+<p>Naturally, the AEC chairs will devote considerable attention to both mentoring and monitoring the junior members of the AEC, helping to educate the students on their responsibilities and privileges.</p>
+<p></p></div><div id="Artifact-Submission-Guidelines" class="tab-pane "><h2>Artifact Submission Guidelines</h2><p></p><h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#summary" id="summary" class="anchor-link">Summary</a></h3>
+<ul>
+<li>Artifact registration deadline: <strong>Friday, 7 October 2016</strong></li>
+<li>Artifact submission deadline: <strong>Monday, 10 October 2016</strong></li>
+</ul>
+<p>The AEC Chairs may contact you if any problems arise setting up your artifact.</p>
+<ul>
+<li>Artifact evaluation decisions announced: <strong>Monday, 31 October 2016</strong></li>
+<li>POPL camera-ready deadline: Monday, November 7 2016</li>
+</ul>
+<h4><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#step-1-registration" id="step-1-registration" class="anchor-link">Step 1. Registration</a></h4>
+<p>By the registration deadline, please submit the accepted version of your paper and the URL where your artifact will be available at the artifact registration site: <a href="https://popl17ae.hotcrp.com/">https://popl17ae.hotcrp.com/</a>.</p>
+<h4><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#step-2-package-and-submit-artifact" id="step-2-package-and-submit-artifact" class="anchor-link">Step 2. Package and Submit Artifact</a></h4>
+<p>By the artifact submission deadline, please create a single web page that contains the artifact and instructions for installing and using the artifact.</p>
+<p>The committee will read your accepted paper before evaluating the artifact. But, it is quite likely that the artifact needs more documentation to use. In particular, please make concrete what claims you are making of the artifact, if these differ from the expectations set up by the paper. This is a place where you can tell us about difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper.  We are still going to evaluate the artifact relative to the paper, but this helps set expectations up front, especially in cases that might frustrate the reviewers without prior notice.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#confidentiality" id="confidentiality" class="anchor-link">Confidentiality</a></h3>
+<p>We ask that, during the evaluation period, you not embed any analytics or other tracking in the Web site for the artifact or, if you cannot control this, that you not access this data. This is important for maintaining the confidentiality of reviewers. If for some reason you cannot comply with this, please notify the chairs immediately.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#packaging-artifacts" id="packaging-artifacts" class="anchor-link">Packaging Artifacts</a></h3>
+<p>Authors should consider one of the following methods to package the software components of their artifacts (though the AEC is open to other reasonable formats as well):</p>
+<ol>
+<li> <b>Source code</b>: If your artifact has very few dependencies and can be
+   installed easily on several operating systems, you may submit source code and
+   build scripts. However, if your artifact has a long list of dependencies,
+   please use one of the other formats below.
+
+</li><li> <b>Virtual Machine</b>: A virtual machine containing software application already
+   setup with the right tool-chain and intended runtime environment. For
+   example:
+   <ul>
+   <li> For mechanized proofs, the VM would have the right version
+     of the theorem prover used.
+   </li><li>  For a mobile phone application, the VM would have a phone emulator
+      installed.
+   </li><li> For raw data, the VM would contain the data and the scripts used to
+     analyze it.
+</li></ul>
+      We recommend using VirtualBox, since it is freely available on several
+   platforms. An Amazon EC2 instance is also possible.
+
+</li><li> <b>Binary Installer</b>: please indicate exactly which platform and other
+   runtime dependencies your artifact requires.
+
+</li><li> <b>Live instance on the Web</b>: Ensure that it is available for the duration of
+   the artifact evaluation process.
+
+</li><li> <b>Screencast</b>: A detailed screen-cast of the tool along with the results,
+   especially if one of the following special cases applies:
+  <ul>
+   <li> The application needs proprietary/commercial software that is not
+     easily available or cannot be distributed to the committee.
+   </li><li>The application requires significant computation resources (e.g.,
+     more than 24 hours of execution time to produce the results).
+ </li></ul>
+</li></ol>
+<p>Remember that the AEC is attempting to determine whether the artifact meets the expectations set by the paper. (The instructions to the committee are available <a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#Information-for-Committee-Members">here</a>.) If possible, package your artifact to help the committee easily evaluate this.</p>
+<p>If you have any questions about how best to package your artifact, please don’t hesitate to contact the AEC chairs, at <a href="mailto:popl17aec-chairs@seas.harvard.edu">popl17aec-chairs@seas.harvard.edu</a>.</p>
+<p></p></div><div id="Submit-an-Artifact" class="tab-pane "><div class="page-header"><h3>Submit an Artifact</h3></div><p>After your paper has been accepted, please go to the website <a href="https://popl17ae.hotcrp.com/">https://popl17ae.hotcrp.com/</a> to register and submit an artifact.</p>
+<ul>
+<li>Artifact registration deadline: <strong>Friday, 7 October 2016</strong></li>
+<li>Artifact submission deadline: <strong>Monday, 10 October 2016</strong></li>
+</ul>
+</div><div id="Information-for-Committee-Members" class="tab-pane "><div class="page-header"><h1>Information for Committee Members</h1></div><h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#reviewing-website" id="reviewing-website" class="anchor-link">Reviewing Website</a></h3>
+<p><a href="https://popl17ae.hotcrp.com/">https://popl17ae.hotcrp.com/</a></p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#deadlines" id="deadlines" class="anchor-link">Deadlines</a></h3>
+<ul>
+<li>Artifact registration (for authors): Friday, 7 October 2016</li>
+<li>Artifact bidding deadline (for AEC): <strong>Sunday, 9 October 2016</strong></li>
+<li>Artifact submission deadline (for authors): Monday, 10 October 2016</li>
+<li>Reviews due (for AEC): <strong>Monday, 24 October 2016</strong></li>
+<li>Artifact decisions announced: Monday, 31 October 2016</li>
+<li>POPL camera-ready deadline: Monday, November 7 2016</li>
+</ul>
+<p>Please don’t leave tasks to the last minute! Please try to install the artifacts early so we have time to contact the authors and troubleshoot if needed. Please submit your reviews early. This will give us more time to read each others’ reviews and understand the relative quality of the artifacts.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#installation" id="installation" class="anchor-link">Installation</a></h3>
+<p>Immediately after authors submit the artifacts, please try to install/setup the artifact. Please do this as soon as you can, so we have time to troubleshoot any issues. The AEC Chairs can reach out to the authors to help resolve any technical issues.</p>
+<h3><a href="https://conf.researchr.org/track/POPL-2017/ArtifactEvaluation#artifact-evaluation-guidelines" id="artifact-evaluation-guidelines" class="anchor-link">Artifact Evaluation Guidelines</a></h3>
+<p>Once you have installed the artifact, you can start evaluating it!</p>
+<p>Two main things to keep in mind:</p>
+<ol>
+<li>
+<p>Read the paper and write a review that discusses the following: <em>Does the artifact meet the expectations set by the paper?</em></p>
+</li>
+<li>
+<p>The paper has already been accepted, so don’t review the paper. Review the artifact.</p>
+</li>
+</ol>
+<p>The only real rubric is what’s on the review form. Every artifact is different and a more fine-grained rubric wouldn’t make sense. This is not a completely objective process and that’s okay. We want to know if the artifact meets <em>your expectations</em> as a researcher. Does something in the artifact annoy you or delight you? You should say so in your review. Note that while the ideal may be <a href="http://www.acm.org/publications/policies/artifact-review-badging">replicability</a> (i.e., obtaining the same results using the authors’ artifact), there are many reasons why we as a committee may be unable to replicate the results yet still deem the artifact as meeting expectations. For example, it may be difficult or impossible for the authors to provide a bundled artifact that allows replication.</p>
+<p>We encourage you to try your own tests. But, don’t be a true adversary. This is research software so stuff will break. Assume the authors acted in good faith and aren’t trying to hoodwink us. Instead, suppose you had to use/modify the artifact for your own research. Do you think you could? You’ll have to imagine and extrapolate, but that’s okay.</p>
+<p>You may find it easier to adjust scores once you’ve reviewed all 2-3 of your artifacts. Moreover, once you read others’ reviews, you’ll get a better sense of average artifact quality. Don’t hesitate to change your scores later.</p>
+<p>Finally, if the paper says “we have software/data for X and Y”, but the artifact is only “X” that’s okay. But, it should be crystal clear from the paper that the artifact that was evaluated only did “X”. Say so in your review. Free free to say, “I wish you’d also provided Y as an artifact”, but know that it won’t affect this paper.</p>
+</div><div id="Accepted-Artifacts" class="tab-pane "><div class="page-header"><h3>Accepted Artifacts</h3></div><ol>
+<li>
+<p><em>Dijkstra Monads for Free</em> <br>Danel Ahman, Catalin Hritcu, Guido Martínez, Gordon Plotkin, Jonathan Protzenko, Aseem Rastogi, Nikhil Swamy</p>
+</li>
+<li>
+<p><em>Type Soundness Proofs with Definitional Interpreters</em> <br>Nada Amin, Tiark Rompf</p>
+</li>
+<li>
+<p><em>Typed Self-Evaluation via Intensional Type Functions</em> <br>Matt Brown, Jens Palsberg</p>
+</li>
+<li>
+<p><em>Serializability for Eventual Consistency: Criterion, Analysis and Applications</em> <br>Lucas Brutschy, Dimitar Dimitrov, Peter Müller, Martin Vechev</p>
+</li>
+<li>
+<p><em>Type Systems as Macros</em> <br>Stephen Chang, Alex Knauth, Ben Greenman</p>
+</li>
+<li>
+<p><em>Rigorous Floating-point Mixed Precision Tuning</em> <br>Wei-Fan Chiang, Ganesh Gopalakrishnan, Zvonimir Rakamaric, Ian Briggs, Mark Baranowski, Alexey Solovyev, Wei-Fan Chiang</p>
+</li>
+<li>
+<p><em>Modules, Abstraction, and Parametric Polymorphism</em> <br> Karl Crary</p>
+</li>
+<li>
+<p><em>Monadic second-order logic on finite sequences</em> <br>Loris D’Antoni, Margus Veanes</p>
+</li>
+<li>
+<p><em>Polymorphism, subtyping and type inference in MLsub</em> <br>Stephen Dolan, Alan Mycroft</p>
+</li>
+<li>
+<p><em>Thread Modularity on the Next Level</em> <br>Jochen Hoenicke, Rupak Majumdar, Andreas Podelski, Jochen Hoenicke</p>
+</li>
+<li>
+<p><em>Towards Automatic Resource Bound Analysis for OCaml</em> <br>Jan Hoffmann, Ankush Das, Shu-Chun Weng</p>
+</li>
+<li>
+<p><em>The exp-log normal form of types: Decomposing extensional equality and representing terms compactly</em> <br>Danko Ilik</p>
+</li>
+<li>
+<p><em>A Promising Semantics for Relaxed-Memory Concurrency</em> <br>Jeehoon Kang, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis, Derek Dreyer</p>
+</li>
+<li>
+<p><em>Stream Fusion to Perfection</em> <br>Oleg Kiselyov, Aggelos Biboudis, Nick Palladinos, Yannis Smaragdakis</p>
+</li>
+<li>
+<p><em>A Short Counterexample Property for Safety and Liveness Verification of Fault-tolerant Distributed Algorithms</em> <br>Igor Konnov, Marijana Lazic, Helmut Veith, Josef Widder</p>
+</li>
+<li>
+<p><em>LOIS: syntax and semantics</em> <br>Eryk Kopczyński, Szymon Toruńczyk</p>
+</li>
+<li>
+<p><em>Interactive Proofs in Higher-Order Concurrent Separation Logic</em> <br>Robbert Krebbers, Amin Timany, Lars Birkedal</p>
+</li>
+<li>
+<p><em>Fencing off Go: Liveness and Safety for Channel-based Programming</em> <br>Julien Lange, Nicholas Ng, Bernardo Toninho, Nobuko Yoshida, Bernardo Toninho</p>
+</li>
+<li>
+<p><em>Semantic-Directed Clumping of Disjunctive Abstract States</em> <br>Huisong Li, Francois Berenger, Bor-Yuh Evan Chang, Xavier Rival</p>
+</li>
+<li>
+<p><em>Dynamic Race Detection For C++11</em> <br>Christopher Lidbury, Alastair Donaldson</p>
+</li>
+<li>
+<p><em>Contract-based Resource Verification for Higher-order Functions with Memoization</em> <br>Ravichandhran Madhavan, Sumith Kulal, Viktor Kuncak</p>
+</li>
+<li>
+<p><em>Learning Nominal Automata</em> <br>Joshua Moerman, Matteo Sammartino, Alexandra Silva, Bartek Klin, Michał Szynwelski</p>
+</li>
+<li>
+<p><em>Hazelnut: A Bidirectionally Typed Structure Editor Calculus</em> <br>Cyrus Omar, Ian Voysey, Michael Hilton, Jonathan Aldrich, Matthew A. Hammer</p>
+</li>
+<li>
+<p><em>A Program Optimization for Automatic Database Result Caching</em> <br>Ziv Scully, Adam Chlipala</p>
+</li>
+<li>
+<p><em>Fast Polyhedra Abstract Domain</em> <br>Gagandeep Singh, Markus Püschel, Martin Vechev, Gagandeep Singh</p>
+</li>
+<li>
+<p><em>Cantor meets Scott: A Domain-Theoretic Foundation for Probabilistic Network Programming</em> <br>Steffen Smolka, Praveen Kumar, Nate Foster, Dexter Kozen, Alexandra Silva</p>
+</li>
+<li>
+<p><em>Genesis: Data Plane Synthesis in Multi-Tenant Networks</em> <br>Kausik Subramanian, Loris D’Antoni, Aditya Akella</p>
+</li>
+<li>
+<p><em>Big Types in Little Runtime</em> <br>Michael M. Vitousek, Cameron Swords, Jeremy G. Siek</p>
+</li>
+<li>
+<p><em>Automatically Comparing Memory Consistency Models</em> <br>John Wickerson, Mark Batty, Tyler Sorensen, George A. Constantinides</p>
+</li>
+</ol>
+</div></div></div><div class="col-sm-4 sidebar"><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title">Important Dates</div></div><table class="table table-hover important-dates-in-sidebar"><tbody><tr href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="clickable-row past"><td>Mon 7 Nov 2016<br>POPL camera-ready deadline</td></tr><tr href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="clickable-row past"><td>Mon 31 Oct 2016<br>Artifact notification</td></tr><tr href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="clickable-row past"><td>Mon 10 Oct 2016<br>Artifact submission deadline</td></tr><tr href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="clickable-row past"><td>Fri 7 Oct 2016<br>Artifact registration deadline</td></tr><tr href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="clickable-row past"><td>Mon 3 Oct 2016<br>POPL author notification</td></tr></tbody></table></div><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title"><a href="https://popl17.sigplan.org/committee/artifactevaluation-committee" class="navigate">Artifact Evaluation Committee</a></div></div><ul class="list-group"><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/jeanyang" class="navigate"><div class="media"><span class="pull-left"><img alt="Jean Yang" src="./2017_files/micro-avatar(1).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Jean Yang<span class="pull-right"><small>Artifact Evaluation Co-Chair</small></span></h5><h5 class="media-heading"><span class="text-black">Carnegie Mellon University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/stephenchong" class="navigate"><div class="media"><span class="pull-left"><img alt="Stephen Chong" src="./2017_files/micro-avatar(2).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Stephen Chong<span class="pull-right"><small>Artifact Evaluation Co-Chair</small></span></h5><h5 class="media-heading"><span class="text-black">Harvard University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/arthurazevedodeamorim" class="navigate"><div class="media"><span class="pull-left"><img alt="Arthur Azevedo de Amorim" src="./2017_files/micro-avatar(3).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Arthur Azevedo de Amorim<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Pennsylvania, USA</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/thibautbalabonski" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Thibaut Balabonski<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Université Paris-Sud</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/alesbizjak" class="navigate"><div class="media"><span class="pull-left"><img alt="Aleš Bizjak" src="./2017_files/micro-avatar(4).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Aleš Bizjak<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Aarhus University</span></h5><h5 class="media-heading"><small>Denmark</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/davidchristiansen" class="navigate"><div class="media"><span class="pull-left"><img alt="David Thrane Christiansen" src="./2017_files/micro-avatar(5).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">David Thrane Christiansen<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Indiana University</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/ezgicicek" class="navigate"><div class="media"><span class="pull-left"><img alt="Ezgi Çiçek" src="./2017_files/micro-avatar(6).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Ezgi Çiçek<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">MPI-SWS, Germany</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/pantazisdeligiannis" class="navigate"><div class="media"><span class="pull-left"><img alt="Pantazis Deligiannis" src="./2017_files/micro-avatar(7).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Pantazis Deligiannis<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Microsoft Research</span></h5><h5 class="media-heading"><small>United Kingdom</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/nickgiannarakis" class="navigate"><div class="media"><span class="pull-left"><img alt="Nick Giannarakis" src="./2017_files/micro-avatar(8).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Nick Giannarakis<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Princeton University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/ralfjung" class="navigate"><div class="media"><span class="pull-left"><img alt="Ralf Jung" src="./2017_files/micro-avatar(9).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Ralf Jung<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">MPI-SWS, Germany</span></h5><h5 class="media-heading"><small>Germany</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/heidykhlaaf" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Heidy Khlaaf<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University College London</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/robbertkrebbers" class="navigate"><div class="media"><span class="pull-left"><img alt="Robbert Krebbers" src="./2017_files/micro-avatar(10).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Robbert Krebbers<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Delft University of Technology, Netherlands</span></h5><h5 class="media-heading"><small>Netherlands</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/tomerlibal" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Tomer Libal<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">INRIA Saclay and LIX</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/matthewmilano" class="navigate"><div class="media"><span class="pull-left"><img alt="Matthew Milano" src="./2017_files/micro-avatar(11).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Matthew Milano<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Cornell University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/odedpadon" class="navigate"><div class="media"><span class="pull-left"><img alt="Oded Padon" src="./2017_files/micro-avatar(12).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Oded Padon<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Tel Aviv University</span></h5><h5 class="media-heading"><small>Israel</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/zoeparaskevopoulou" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Zoe Paraskevopoulou<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Princeton University, USA</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/nadiapolikarpova" class="navigate"><div class="media"><span class="pull-left"><img alt="Nadia Polikarpova" src="./2017_files/micro-avatar(13).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Nadia Polikarpova<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">MIT CSAIL, USA</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/damienpous" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Damien Pous<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">CNRS</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/stevenramsay" class="navigate"><div class="media"><span class="pull-left"><img alt="Steven Ramsay" src="./2017_files/micro-avatar(14).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Steven Ramsay<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Oxford</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/aseemrastogi" class="navigate"><div class="media"><span class="pull-left"><img alt="Aseem Rastogi" src="./2017_files/micro-avatar(15).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Aseem Rastogi<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Microsoft Research India</span></h5><h5 class="media-heading"><small>India</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/gisellereis" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Giselle Reis<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Carnegie Mellon University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/matteosammartino" class="navigate"><div class="media"><span class="pull-left"><img alt="Matteo Sammartino" src="./2017_files/micro-avatar(16).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Matteo Sammartino<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University College London</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/tetsuyasato" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Tetsuya Sato<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Kyoto University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/steffensmolka" class="navigate"><div class="media"><span class="pull-left"><img alt="Steffen Smolka" src="./2017_files/micro-avatar(17).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Steffen Smolka<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Cornell University</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/thorstentarrach" class="navigate"><div class="media"><span class="pull-left"><img alt="Thorsten Tarrach" src="./2017_files/micro-avatar(18).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Thorsten Tarrach<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Austrian Institute of Technology</span></h5><h5 class="media-heading"><small>Austria</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/andreavandin" class="navigate"><div class="media"><span class="pull-left"><img alt="Andrea Vandin" src="./2017_files/micro-avatar(19).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Andrea Vandin<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">IMT School for Advanced Studies Lucca, Italy</span></h5><h5 class="media-heading"><small>Italy</small></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/pengwang" class="navigate"><div class="media"><span class="pull-left"><img alt="Peng Wang" src="./2017_files/micro-avatar(20).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Peng Wang<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">MIT CSAIL</span></h5></div></div></a></li><li class="list-group-item"><a href="https://popl17.sigplan.org/profile/danielwinogradcort1" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2017_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Daniel Winograd-Cort<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Pennsylvania</span></h5></div></div></a></li></ul></div></div></div><div id="messages-placeholder" class="alert alert-warning" style="display:none;"><a data-dismiss="alert" class="close">x</a><em>Tue 3 Sep 10:43</em></div></div><div id="notifications-ph" class="webdsl-placeholder"></div><footer class="footer"><div class="container"><div class="footer-box"><div class="row"><div class="col-sm-3"><h3><a href="https://popl17.sigplan.org/" class="navigate"><span class="glyphicon glyphicon-home"></span> POPL 2017</a></h3><hr>using <a href="https://conf.researchr.org/" class="navigate">conf.researchr.org</a> (<a href="http://yellowgrass.org/roadmap/conf.researchr.org" class="navigate">v1.17.0</a>)<br><small><a href="https://popl17.sigplan.org/support" target="_blank" class="navigate"><span class="glyphicon glyphicon-question-sign"></span> Support page</a></small><br><small></small></div><div class="col-sm-5"><div class="row"><div class="col-sm-6"><h4>Tracks</h4><a href="https://popl17.sigplan.org/track/POPL-2017-Tutorials" class="navigate">Tutorials</a><br><a href="https://popl17.sigplan.org/track/POPL-2017-src" class="navigate">Student Research Competition</a><br><a href="https://popl17.sigplan.org/track/POPL-2017-papers" class="navigate">POPL</a><br><a href="https://popl17.sigplan.org/track/ArtifactEvaluation" class="navigate">Artifact Evaluation</a></div><div class="col-sm-6"><h4>Co-hosted Conferences</h4><a href="https://conf.researchr.org/home/CPP-2017" class="navigate">CPP 2017</a><br><a href="https://conf.researchr.org/home/VMCAI-2017" class="navigate">VMCAI 2017</a><br><h4>Co-hosted Workshops</h4><a href="https://popl17.sigplan.org/track/pps-2017" class="navigate"> PPS 2017</a><br><a href="https://popl17.sigplan.org/track/main" class="navigate">CoqPL 2017</a><br><a href="https://popl17.sigplan.org/track/N40AI" class="navigate">N40AI 2017</a><br><a href="https://popl17.sigplan.org/track/OBT-2017" class="navigate">Off the Beaten Track 2017</a><br><a href="https://conf.researchr.org/track/pepm-2017/pepm-workshop" class="navigate">PEPM 2017</a><br><a href="https://popl17.sigplan.org/track/PLMW-2017" class="navigate">PLMW</a><br><a href="https://popl17.sigplan.org/track/PiP-2017" class="navigate">PiP 2017</a><br><a href="https://popl17.sigplan.org/track/RDP-2017" class="navigate">RDP 2017</a><br><a href="https://popl17.sigplan.org/track/SCM-2017" class="navigate">SCM 2017</a><br><a href="https://popl17.sigplan.org/track/TTT-2017" class="navigate">TTT 2017</a><br><h4>Co-hosted Symposiums</h4><a href="https://popl17.sigplan.org/track/PADL-2017" class="navigate">PADL 2017</a></div></div></div><div class="col-sm-2"><h4>Attending</h4><a href="https://popl17.sigplan.org/venue/paris-jussieu" class="navigate">Campus: Paris Jussieu</a><br><a href="https://popl17.sigplan.org/attending/proceedings" class="navigate">Proceedings</a><br><a href="https://popl17.sigplan.org/attending/student-support" class="navigate">Students</a><br><a href="https://popl17.sigplan.org/attending/registration" class="navigate">Registration</a><br><a href="https://popl17.sigplan.org/attending/practical-information" class="navigate">Practical information</a><br><a href="https://popl17.sigplan.org/attending/visas" class="navigate">Visas</a><br><a href="https://popl17.sigplan.org/attending/accommodation" class="navigate">Accommodation</a><br><a href="https://popl17.sigplan.org/attending/banner-image-credits" class="navigate">Banner image credits</a></div><div class="col-sm-2"><!-- preload -->
+<div style="display:none">
+<img src="./2017_files/banner-eiffel.png">
+<img src="./2017_files/banner-notredame.png">
+<img src="./2017_files/banner-garguille.png">
+</div>
+<script>
+function customizeHeader() {
+
+  // Select banner image
+  var banner = 'banner-eiffel.png';
+  if (document.URL.includes("attending"))
+    banner = 'banner-notredame.png';
+  if (document.URL.includes("track"))
+    banner = 'banner-notredame2b.png';
+  if (document.URL.includes("program"))
+    banner = 'banner-garguille.png';
+  if (document.URL.includes("venue"))
+    banner = 'banner-metro.png';
+  banner = 'https://conf.researchr.org/getImage/POPL-2017/orig/'+banner;
+
+  // Hide logo since it is included in banner image
+  document.getElementsByClassName("navbar-brand")[0].style.opacity=0;
+
+  // Change banner image, adjust style
+  var bar = document.getElementsByClassName("logobar")[0];
+  bar.style.backgroundImage = "url('"+banner+"')";
+  bar.style.position = "relative";
+
+  // Add credits
+  bar
+  .getElementsByClassName("container")[0]
+  .innerHTML += "<div style='position: absolute; right: 10px; bottom: 0px'><p><a style='background: white; opacity: 0.5; border-radius: 5px' href='http://popl17.sigplan.org/attending/banner-image-credits'>&nbsp;Credits&nbsp;</a></p></div>";
+}
+customizeHeader();
+</script>
+</div></div></div></div></footer></div><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; $(node).find('[title]').tooltip({placement: 'auto top', container: 'body'}); $('.tooltip.fade.in, .ui-tooltip-content').remove(); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><script type="text/javascript">jQuery(document).ready(function($) {
+	      $(".clickable-row").click(function() {
+	      	if(window.location.href.indexOf($(this).attr("href")) < 0){
+	            window.document.location = $(this).attr("href");
+	        }
+	      });
+		});
+		</script>
+<style>body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }</style></body></html>

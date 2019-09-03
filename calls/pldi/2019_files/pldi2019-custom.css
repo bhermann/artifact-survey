@@ -1,0 +1,150 @@
+.important-dates-in-sidebar .text-success {
+    background-color: #fff !important;
+}
+
+.navbar-brand {
+    position: relative;
+    background-image: url('https://pldi19.sigplan.org/getImage/orig/pldi-2019-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 294px;
+    height: 100px;
+    z-index: 3;
+    margin-top: 20px;    
+}
+.brand-text {
+     opacity: 0;
+}
+
+div.logobar {
+    padding: 10px 15px;
+    background-color: rgb(256, 256, 256);
+    color: #777777;
+}
+.logobar .container{
+	border-bottom: 1px solid #e7e7e7;
+}
+.logobar a {
+    color: #4e5e6b;
+}
+.navbar{
+  border-top: none !important;
+}
+.navbar-brand {
+  font-size : 36px;
+}
+.navbar{
+  border-radius: 0px !important;
+}
+.place {
+  float: left;
+  padding : 50px 0 0 40px
+}
+.place a {
+    display: block;
+}
+.place:before{
+    content: "@ACM FCRC";
+    display: block;
+    color: black;
+}
+.place.no-before:before{
+    display: none;
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}
+
+.panel-primary {
+    border-color: #ff8c00
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ff8c00
+}
+
+.panel-primary > .panel-heading .badge {
+    color: #ff8c00;
+    background-color: #fff
+}
+
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ff8c00
+}
+
+.panel-warning {
+    border-color: #ff8c00
+}
+
+.panel-warning > .panel-heading {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: ##ff8c00
+}
+
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: ##ff8c00
+}
+
+.panel-warning > .panel-heading .badge {
+    color: #ff8c00;
+    background-color: #8a6d3b
+}
+
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color:#ff8c00
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+    background-color: #ff8c00;
+    border-color: #ff8c00
+}
+
+.btn-primary .badge {
+    color: #ff8c00;
+    background-color: #fff
+}

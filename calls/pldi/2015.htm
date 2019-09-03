@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#About -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>PLDI 2015  Artifact Evaluation - PLDI 2015</title>
+<link href="https://conf.researchr.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" rel="shortcut icon" type="image/x-icon">
+<link href="./2015_files/common_.css" rel="stylesheet" type="text/css">
+<script async="" src="./2015_files/analytics.js"></script><script type="text/javascript">var show_webdsl_debug=false;</script>
+<script type="text/javascript">var contextpath="https://conf.researchr.org";</script>
+<link rel="stylesheet" href="./2015_files/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="./2015_files/conf.css" type="text/css"><link rel="stylesheet" href="./2015_files/pldi2015-logobar.css" type="text/css"><link rel="stylesheet" href="./2015_files/theme.bootstrap.min.css" type="text/css"><script type="text/javascript" src="./2015_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./2015_files/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="./2015_files/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="./2015_files/tablesorter-init.js"></script>
+<script type="text/javascript" src="./2015_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./2015_files/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+  font-weight: bold;
+  padding: 8px 15px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+  color: #C09853;
+  background-color: #FCF8E3;
+  border-color: #FBEED5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
+<script type="text/javascript" src="./2015_files/ajax.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var GATids = [];GATids.push('t0'); ga('create', 'UA-9607501-2', 'auto', 't0');ga('t0.set', 'anonymizeIp', true);ga('t0.send', 'pageview');</script>
+<meta name="description" content="PLDI 2015 is continuing the novel experiment that began at PLDI 2014: giving authors the opportunity to submit for evaluation any artifacts that accompany their papers. Similar experiments ran successfully for ESEC/FSE 2011 and 2013, ECOOP 2013 and 2014, OOPSLA 2013 and 2014, and POPL 2015. PLDI 2015 wants to build on this success.  
+Background 
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet ...">
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="PLDI 2015 is continuing the novel experiment that began at PLDI 2014: giving authors the opportunity to submit for evaluation any artifacts that accompany their papers. Similar experiments ran successfully for ESEC/FSE 2011 and 2013, ECOOP 2013 and 2014, OOPSLA 2013 and 2014, and POPL 2015. PLDI 2015 wants to build on this success.  
+Background 
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet ...">
+<script type="text/javascript">function hashChangeFunc(){
+      // show active tab on hash in url
+      if (window.location.hash !== ''){
+        var hashTarget = $('a[href="' + window.location.hash + '"]');
+        if(hashTarget.length){
+          if( hashTarget.attr('data-toggle') === 'tab' ){
+            hashTarget.tab('show');
+          }
+          // and open parent tabs in case the target element is nested in a tab
+          var parentPane = hashTarget.closest( '.tab-pane' );
+          if(parentPane.length){
+            $('.nav a[href=#'+ parentPane.attr('id') +']').tab('show');
+          }
+          var parentCollapse = hashTarget.closest( '.panel-collapse:not(.in)' ).collapse('show');
+        }
+      }
+      return false;
+    }
+    
+    $(document).ready(function(){
+      var tabFromRequestUrl = window.location.hash !== '' ? $('a[href="' + window.location.hash + '"][data-toggle="tab"]') : [];
+      var initUrlHash = window.location.hash;
+      hashChangeFunc()
+      if( tabFromRequestUrl.length ){
+        //Prevent the browser to auto-scroll to the anchor of the tab
+        window.location.hash = "";
+      }
+      if ($._data( $(window)[0], 'events' ).hashchange == undefined){
+        $(window).on('hashchange', hashChangeFunc);
+      }
+      setTimeout( function(){
+        if(tabFromRequestUrl.length){
+          history.replaceState(null, null, initUrlHash);
+        }
+      }, 10 );
+    });
+    var autoTabFunction = function(node){
+      // remember the hash in the URL without jumping
+      $('a[data-toggle="tab"]:not(.bound)').addClass('bound').on('shown.bs.tab', function(e){
+        var newhash = '#' + $(e.target).attr('href').substr(1);
+        if(history.replaceState){
+          history.replaceState(null, null, newhash);
+        } else{
+          location.hash = newhash;
+        }
+      });
+      
+      //When no tab is active, set the first one to active
+      $(node).find('.nav-tabs:not(.bound), .nav-pills:not(.bound)').addClass('bound').each(function(){
+        if( $(this).children().length > 0 && 1 > $(this).find('.active').length){
+          $(this).children().first().addClass('active');
+        }
+      });
+      $(node).find('.tab-content:not(.bound)').addClass('bound').each(function(){
+        if( $(this).children().length > 0 && 1 > $(this).children('.active').length){
+          $(this).children('.tab-pane').first().addClass('active');
+        }
+      });
+    }
+  </script>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="PLDI 2015  Artifact Evaluation - PLDI 2015">
+<style type="text/css" id="core-notify">.notifyjs-corner {
+  position: fixed;
+  margin: 5px;
+  z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+  position: relative;
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin: 3px;
+}
+
+.notifyjs-wrapper {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.notifyjs-container {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.notifyjs-hidable {
+  cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+  position: relative;
+}
+
+.notifyjs-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+}</style></head>
+<body id="track"><div class="frame"><div class="logobar"><div class="container"><a href="https://pldi15.sigplan.org/" class="navbar-brand navigate"><span class="brand-text">PLDI 2015</span></a><div class="place">Sat 13 - Wed 17 June 2015 <a href="https://pldi15.sigplan.org/venue/portland-occ" class="navigate">Portland, Oregon, United States</a></div></div></div><div class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div id="navigationbar" class="navigationbar collapse navbar-collapse"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/venue/portland-occ" class="navigate">Venue: Oregon Convention Center</a></li><li class="block"><a href="https://pldi15.sigplan.org/venue/ExchangeBallroom" class="navigate">Venue: Exchange Ballroom</a></li><li class="block"><a href="https://pldi15.sigplan.org/attending/Hotels" class="navigate">Hotel and Travel Information</a></li><li class="block"><a href="https://pldi15.sigplan.org/attending/student-travel-support" class="navigate">Student Travel Support</a></li><li class="block"><a href="https://pldi15.sigplan.org/attending/Registration" class="navigate">Registration</a></li><li class="block"><a href="https://pldi15.sigplan.org/attending/sigplan-conference-anti-harassment-policy" class="navigate">SIGPLAN Conference Anti-Harassment Policy</a></li><li class="block"><a href="https://pldi15.sigplan.org/attending/Student+Volunteers" class="navigate">Student Volunteers</a></li></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015" class="navigate">Complete Program</a></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?prog=Your%20Program" class="navigate"><span class="glyphicon glyphicon-star"></span> Your Program</a></li><li class="block divider"></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?date=Sat%2013%20Jun%202015" class="navigate">Sat 13 Jun</a></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?date=Sun%2014%20Jun%202015" class="navigate">Sun 14 Jun</a></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?date=Mon%2015%20Jun%202015" class="navigate">Mon 15 Jun</a></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?date=Tue%2016%20Jun%202015" class="navigate">Tue 16 Jun</a></li><li class="block"><a href="https://pldi15.sigplan.org/program/program-pldi2015?date=Wed%2017%20Jun%202015" class="navigate">Wed 17 Jun</a></li></ul></li><li id="tracks-in-navbar" class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-3"><div class="row"><div class="col-sm-5"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2015</li><li class="block"><a href="https://pldi15.sigplan.org/track/FCRC+Plenary+Speakers" class="navigate">FCRC Plenary Speakers</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/PLDI+2015+Artifact+Evaluation" class="navigate">Artifact Evaluation</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/pldi2015-workshops" class="navigate">Tutorials</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/pldi2015-papers" class="navigate">Research Papers</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/Student+Research+Competition" class="navigate">Student Research Competition</a></li></ul></div><div class="col-sm-7"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>ARRAY</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/ARRAY-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> ARRAY</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/ARRAY-2015-papers" class="navigate"><strong>ARRAY</strong> </a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>CHIUW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/CHIUW-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> CHIUW</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/CHIUW-2015-papers" class="navigate"><strong>CHIUW</strong> </a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PLOOC</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/PLOOC-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> PLOOC</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/PLOOC-2015-papers" class="navigate"><strong>PLOOC</strong> </a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>SOAP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/SOAP-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> SOAP</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/SOAP-2015-papers" class="navigate"><strong>SOAP</strong> </a></li></ul></li><li class="block"><a href="https://pldi15.sigplan.org/track/wax2015" class="navigate"><strong>WAX</strong> </a></li><li class="block"><a href="https://pldi15.sigplan.org/track/WOW-2015-papers" class="navigate"><strong>WOW</strong> </a></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>X10</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/X10-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> X10</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/X10-2015-papers" class="navigate"><strong>X10</strong> </a></li></ul></li><li class="block dropdown-header">Co-hosted Symposiums</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>Scala</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/scala-2015" class="navigate"><span class="glyphicon glyphicon-home"></span> Scala</a></li><li class="block"><a href="https://pldi15.sigplan.org/track/scala-2015-papers" class="navigate"><strong>Scala</strong> </a></li></ul></li></ul></div></div></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle">Organization <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-2"><div class="row"><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2015</li><li class="block"><a href="https://pldi15.sigplan.org/committee/pldi2015-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://pldi15.sigplan.org/committee/pldi-2015-artifact-evaluation-committee" class="navigate"><strong>Artifact Evaluation</strong> <small>Artifact Evaluation Committee</small></a></li><li class="block"><a href="https://pldi15.sigplan.org/committee/pldi2015-papers-program-committee" class="navigate"><strong>Research Papers</strong> <small>Program Committee</small></a></li><li class="block"><a href="https://pldi15.sigplan.org/committee/pldi2015-papers-external-review-committee" class="navigate"><strong>Research Papers</strong> <small>External Review Committee</small></a></li><li class="block dropdown-header">Contributors</li><li class="block"><a href="https://pldi15.sigplan.org/people-index" class="navigate"><span class="glyphicon glyphicon-search"></span><sub><span class="glyphicon glyphicon-user"></span></sub> People Index</a></li></ul></div><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>ARRAY</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/array-2015-papers-program-committee" class="navigate"><strong>ARRAY</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>CHIUW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/chiuw-2015-papers-program-committee" class="navigate"><strong>CHIUW</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>PLOOC</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/plooc-2015-papers-program-committee" class="navigate"><strong>PLOOC 2015</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>SOAP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/soap-2015-papers-program-committee" class="navigate"><strong>SOAP</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>WAX</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/wax-2015-papers-organizers" class="navigate"><strong>WAX</strong> <small>Organizers</small></a></li><li class="block"><a href="https://pldi15.sigplan.org/committee/wax-2015-papers-program-committee" class="navigate"><strong>WAX</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>WOW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/wow-2015-papers-program-committee" class="navigate"><strong>WOW</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>X10</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/x10-2015-papers-program-committee" class="navigate"><strong>X10</strong> <small>Program Committee</small></a></li></ul></li><li class="block dropdown-header">Co-hosted Symposiums</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><strong>Scala</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi15.sigplan.org/committee/scala-2015-papers-program-committee" class="navigate"><strong>Scala</strong> <small>Program Committee</small></a></li></ul></li></ul></div></div></ul></li><li class="block"><a href="https://pldi15.sigplan.org/search//all" class="navigate"><span class="glyphicon glyphicon-search"></span><span class="hidden-sm"> Search</span></a></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-sm">Series <span class="caret"></span></span><span title="" class="visible-sm" data-original-title="Series"><span class="glyphicon glyphicon-repeat"></span> <span class="caret"></span></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/series/pldi" class="navigate">Series</a></li><li class="block divider"></li><li class="block"><a href="https://pldi20.sigplan.org/" class="navigate">PLDI 2020</a></li><li class="block"><a href="https://pldi19.sigplan.org/" class="navigate">PLDI 2019</a></li><li class="block"><a href="https://pldi18.sigplan.org/" class="navigate">PLDI 2018</a></li><li class="block"><a href="https://pldi17.sigplan.org/" class="navigate">PLDI 2017</a></li><li class="block"><a href="https://pldi16.sigplan.org/" class="navigate">PLDI 2016</a></li><li class="block"><span class="text-muted"><span class="glyphicon glyphicon-chevron-right"></span> PLDI 2015</span></li></ul></li></ul><script type="text/javascript">(function($){
+      $(document).ready(function(){
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+        });
+      });
+    })(jQuery);
+    </script><div class="navbar-right"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#" data-toggle="dropdown" class="dropdown-toggle"><img alt="Ben Hermann" src="./2015_files/micro-avatar.jpg" class="outputimage navbar-image"></a><ul class="block dropdown-menu"><li class="block dropdown-header">Ben Hermann</li><li class="block divider"></li><li class="block"><a href="https://pldi15.sigplan.org/profile/benhermann1" class="navigate">My Profile</a></li><li class="block"><a href="https://pldi15.sigplan.org/manageProfile/8d5d764e-6408-48bb-9ead-c1c016c62297#Account-Data" class="navigate">My Account</a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;pldi2015&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;PLDI 2015 Artifact Evaluation&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(this device only)</small></a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;pldi2015&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;PLDI 2015 Artifact Evaluation&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(all devices)</small></a></li><li class="block divider"></li><li class="block dropdown-header"><span class="glyphicon glyphicon-cog"></span> Management</li><li class="block"><a href="https://pldi15.sigplan.org/manage" class="navigate"><span class="glyphicon glyphicon-dashboard"></span> Manage dashboard</a></li></ul></li></ul></div></div></div></div><div id="content" class="container"><div class="page-header"><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://pldi15.sigplan.org/" class="navigate">PLDI 2015</a> (<a href="https://conf.researchr.org/series/pldi" class="navigate">series</a>) / </span><h1>PLDI 2015  Artifact Evaluation</h1></div><div class="row"><div class="col-sm-8"><ul id="tab" class="nav nav-pills bound"><li class="active"><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#About" data-toggle="tab" class="bound" aria-expanded="true">About</a></li><li class=""><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#Submit-an-Artifact" data-toggle="tab" class="bound" aria-expanded="false">Submit an Artifact</a></li><li class=""><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#Artifact-Submission-Guidelines" data-toggle="tab" class="bound" aria-expanded="false">Artifact Submission Guidelines</a></li><li class=""><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#Accepted-Artifacts" data-toggle="tab" class="bound" aria-expanded="false">Accepted Artifacts</a></li></ul><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; autoTabFunction(node); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><div class="tab-content bound"><div id="About" class="tab-pane active"><p></p><p>PLDI 2015 is continuing the novel experiment that began at PLDI 2014: giving authors the opportunity to submit for evaluation any artifacts that accompany their papers.  Similar experiments ran successfully for ESEC/FSE 2011 and 2013, ECOOP 2013 and 2014, OOPSLA 2013 and 2014, and POPL 2015.  PLDI 2015 wants to build on this success.</p>
+<!-- If you're just looking for the packaging guidelines, go directly to them. -->
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#background" id="background" class="anchor-link">Background</a></h2>
+<p>A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet most of our conferences offer no formal means to submit and evaluate anything but the paper.  PLDI 2015 has created an Artifact Evaluation Committee (AEC) to remedy this situation.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#goals" id="goals" class="anchor-link">Goals</a></h2>
+<p>The AEC’s goal is twofold: to reward and probe.  The primary goal is to reward authors who take the trouble to create useful artifacts beyond the paper. Sometimes the software tools that accompany the paper take years to build; in many such cases, authors who go to this trouble should be rewarded for setting high standards and creating systems that others in the community can build on. Conversely, authors sometimes take liberties in describing the status of their artifacts—claims they would temper if they knew the artifacts are going to be scrutinized.  This leads to more accurate reporting.</p>
+<p>The organizers of the AEC hope that eventually, the assessment of a paper’s accompanying artifacts will guide the decision-making about papers: that is, the AEC will inform and advise the Program Committee (PC).  This would, however, represent a radical shift in our conference evaluation processes; the organizers of the PLDI 2015 AEC would rather proceed gradually.  Thus, at PLDI 2015, artifact evaluation is optional, and authors choose to undergo evaluation only after their paper has been accepted.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#criteria" id="criteria" class="anchor-link">Criteria</a></h2>
+<p>The evaluation criteria are simple.  A paper sets up certain expectations of its artifacts based on its content.  The AEC will read the paper and then judge how well the artifact matches these criteria.  Thus the AEC’s decision will be that the artifact does or does not “conform to the expectations set by the paper.”  Ultimately, the AEC expects artifacts to be:</p>
+<ul>
+<li>consistent with the paper,</li>
+<li>as complete as possible,</li>
+<li>documented well, and</li>
+<li>easy to reuse, facilitating further research.</li>
+</ul>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#benefits" id="benefits" class="anchor-link">Benefits</a></h2>
+<p>The dissemination of artifacts benefits our science and engineering as a whole. Their availability improves reproducibility, and enables authors to build on top of each others’ work.  It can also help to more unambiguously resolve questions about cases not considered by the original authors.</p>
+<p>Beyond helping the community as a whole, the evaluation and dissemination of artifacts confers several direct and indirect benefits to the authors themselves.  The most direct benefit is, of course, the recognition that the authors accrue.  But the very act of creating a bundle that can be used by the AEC also confers important benefits:</p>
+<ul>
+<li>The same bundle can be distributed to third parties.</li>
+<li>A reproducible bundle can be used subsequently for later experiments (e.g., on new parameters).</li>
+<li>The bundle simplifies subsequent re-executions of the system when, say, having to respond to a journal reviewer’s questions.</li>
+<li>The bundle is more likely to survive being put in storage between the departure of one student and the arrival of the next.</li>
+</ul>
+<p>However, creating a bundle that meets all these properties can be onerous. Therefore, the AEC process described below does not require an artifact to have all these properties.  It offers a route to evaluation that confers fewer benefits for vastly less effort.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#process" id="process" class="anchor-link">Process</a></h2>
+<p>To maintain a wall of separation between paper review and the artifacts, authors will only be asked to upload their artifacts after their papers have been accepted.  Of course, they can (and should!) prepare their artifacts well in advance, and can provide the artifacts to the PC through unofficial URLs contained in their papers, as many authors already do.</p>
+<p>The authors of all accepted papers will be asked whether they intend to have their artifact evaluated and, if so, to upload the artifact.  They are welcome to indicate that they do not.  Since we anticipate small glitches with installation and use, the AEC reserves the right to send a one-time message to the authors requesting clarification.  Authors can submit a one-time response, focusing solely on the questions of the AEC; we do not impose a word-limit (since, e.g., a code attachment may be needed), but strongly suggest that the prose be no longer than 1000 words.  Based on these inputs, the AEC will complete its evaluation and notify authors of the outcome.  Authors are welcome to ignore the feedback or to include it in their paper as they deem fit (as a footnote, a section, etc.).</p>
+<p>The conference proceedings will include a discussion of the artifact evaluation process.  Papers with artifacts that “meet expectations” may indicate that they do with the following badge (courtesy Matthias Hauswirth):</p>
+<div align="center">
+<img src="./2015_files/aec-badge-pldi.svg" width="300px" alt="PLDI 2015 Artifact Evaluated Badge">
+</div>
+<!-- (See also the PDF version.) -->
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#artifact-details" id="artifact-details" class="anchor-link">Artifact Details</a></h2>
+<p>To avoid excluding some papers, the AEC will accept any artifact that authors wish to submit.  These can be software, mechanized proofs, test suites, data sets, and so on.  Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it.</p>
+<p>In all cases, the AEC will accept a video of the artifact in use.  These may include screencasts of the software being run on the examples in the paper, traversals of models using modeling tools, stepping through a proof script, etc.  The video is, of course, not a substitute for the artifact itself, but this provides an evolutionary path that imposes minimal burden on authors.</p>
+<!-- The details of packaging the artifact will be published separately. -->
+<p>Submission of an artifact does not contain tacit permission to make its content public.  AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation.  Thus, you are free to include models, data files, proprietary binaries, and similar items in your artifact.  The AEC organizers strongly encourage you to anonymize any data files that you submit.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#membership" id="membership" class="anchor-link">Membership</a></h2>
+<p>The AEC consists of about two dozen members.  Other than the chairs, all other members are senior graduate students, postdocs, or recent graduates, identified with the help of current, active researchers.</p>
+<p>Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations that the AEC will encounter.  In addition, graduate students represent the future of the community, so involving them in the AEC process early will help push this process forward.</p>
+<p>The AEC chairs devote considerable attention to both mentoring and monitoring, helping to educate the students on their responsibilities and privileges.</p>
+<p>[Last modified Thu Jan 22 2015.]</p>
+<p></p></div><div id="Submit-an-Artifact" class="tab-pane"><h2>Submit an Artifact</h2><p></p><p>Before submitting an artifact for evaluation, be sure to read:</p>
+<ul>
+<li>
+<p>about the artifact evaluation process and criteria</p>
+</li>
+<li>
+<p>the artifact submission and packaging guidelines</p>
+</li>
+</ul>
+<p>Click on the appropriate tabs above to review these topics.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#ready" id="ready" class="anchor-link">Ready?</a></h2>
+<p>Go to the PLDI 2015 artifact submission web site:</p>
+<ul>
+<li><a href="https://easychair.org/conferences/?conf=pldiaec2015">https://easychair.org/conferences/?conf=pldiaec2015</a></li>
+</ul>
+<p>[Last modified Wed Jan 21 2015.]</p>
+<p></p></div><div id="Artifact-Submission-Guidelines" class="tab-pane"><div class="page-header"><h1>Artifact Submission Guidelines</h1></div><p>This page provides guidelines on how to package artifacts for submission.  The AEC chairs are open to possibilities that are not considered below.  However, in cases where artifacts ought to fit these options, authors are strongly encouraged to follow the guidelines.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#tldr" id="tldr" class="anchor-link">TL;DR</a></h2>
+<p>Create a submission with the same title as the paper.  In the submission form fields, be sure to include:</p>
+<ul>
+<li>the paper’s abstract (to help with bidding)</li>
+<li>a <strong>URL</strong> pointing to the artifact web site</li>
+</ul>
+<p>There is no “paper” to submit via the submission form.</p>
+<p>If the artifact web site is access-protected, then in the appropriate form field, enter the credentials needed to access the URL.</p>
+<p>At the artifact web site, give the AEC access to:</p>
+<ul>
+<li>the artifact (preferably packaged in a virtual machine)</li>
+<li><em>the accepted version of the paper</em></li>
+<li>instructions</li>
+</ul>
+<p>See below for additional details.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#artifact-submission" id="artifact-submission" class="anchor-link">Artifact Submission</a></h2>
+<p>Irrespective of the nature of the artifacts, authors should create a <em>single Web page</em> (whether on the authors’ site or a third-party file upload service) that contains <em>the artifact, the paper, and all necessary instructions</em>.</p>
+<p>The artifact itself should be <strong>complete and packaged</strong> in a way that makes it as easy as possible for the Artifact Evaluation Committee (AEC) members to inspect, understand, and—if applicable—execute the artifact.</p>
+<p>The artifact must be accompanied by the <strong>accepted version of the paper</strong>.</p>
+<p>The artifact must also be accompanied by <strong>suitable instructions and documentation</strong>, to save committee members the burden of reverse-engineering what the authors intended.  (For example, a tool without a quick tutorial is generally very difficult to use.  Similarly, a dataset is useless without some explanation on how to browse the data.)  If it would be helpful, please feel free to include a video that demonstrates the artifact running or explaining how it should be run.</p>
+<p>Please make concrete what <strong>claims</strong> you are making of the artifact, if these differ from the expectations set up by the paper.  This is a place where you can tell the AEC about difficulties we might encounter in using the artifact, or its maturity relative to the content of the paper.  The AEC will still evaluate the artifact relative to the paper, but this helps set expectations up front, especially in cases that might frustrate the reviewers without prior notice.</p>
+<p>Some artifacts may attempt to perform malicious operations by design.  These cases should be boldly and explicitly flagged in detail in the instructions so that AEC members can take appropriate precautions before installing and running these artifacts.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#packaging-artifacts" id="packaging-artifacts" class="anchor-link">Packaging Artifacts</a></h2>
+<p>Authors should strongly consider one of the following methods to package the software components of their artifacts (though the AEC is open to other reasonable formats as well):</p>
+<ul>
+<li>
+<p>A virtual machine image containing the software application, already set up in the intended run-time environment.  For example:</p>
+<ul>
+<li>
+<p>For a compiled application, the VM would contain the program executable(s) and all of the necessary shared libraries.</p>
+</li>
+<li>
+<p>For a mobile phone application, the VM would have a phone emulator installed.</p>
+</li>
+<li>
+<p>For mechanized proofs, the VM would have the actual version of the theorem prover used.</p>
+</li>
+<li>
+<p>For raw data, the VM would contain the data and the scripts used to analyze it.</p>
+</li>
+</ul>
+<p>We recommend using VirtualBox because it is freely available on several platforms.</p>
+<p>Virtual machine images are the preferred option for packaging software artifacts.  A VM image avoids installation and compatibility problems, and it provides the best guarantees for reproducibility of the results by the committee.  Authors using Linux might find the <a href="http://www.pgbovine.net/cde.html">CDE</a> tool useful for automatically creating a VM image from existing software without needing to manually re-install all dependencies within a VM.</p>
+</li>
+<li>
+<p>A binary installable package.  We invite the authors to use CDE (Linux) or MSI Installer (Windows) to package the binary application.</p>
+</li>
+<li>
+<p>A live instance running on the web.</p>
+</li>
+<li>
+<p>A detailed screencast of the tool along with the results, especially if one of the following special cases applies:</p>
+<ul>
+<li>
+<p>the application needs proprietary/commercial software that is not easily available or cannot be distributed to the committee;</p>
+</li>
+<li>
+<p>the application requires significant computation resources (e.g., more than 24 hours of execution time to produce the results).</p>
+</li>
+</ul>
+</li>
+<li>
+<p>An installation or update repository for the tool (e.g., an Eclipse update site or a Debian APT repository).  However, we urge the authors to test their repository on standard environments to avoid installation problems by the committee members.</p>
+</li>
+</ul>
+<p>If you wish, you may provide your artifacts in more than one form.  For example, as an <em>accompaniment</em> to your ready-to-run VM image, you might choose to include a copy of your application’s source code and build scripts.  We <strong>strongly discourage source-only artifacts</strong> because of the extra work they cause for the Artifact Evaluation Committee and the extra risk that they pose to the evaluation process.  However, source code is an excellent <em>companion</em> to a ready-to-run artifact, because it can help to answer questions that might arise.</p>
+<!--
+For artifacts where this would be appropriate, it would be helpful to also
+provide a self-contained bundle (including instructions) as a single file
+(`.tgz` or `.zip`; please avoid exotic compressors) for convenient offline use:
+imagine the reviewer who wants to download a single file to expand and work
+with during a train or bus commute.
+-->
+<p>Non-code artifacts should preferably be in open document formats.  For documents and reports, we invite the authors to use PDF, ODF, or RTF.  We invite the authors to submit experimental data and results in CSV (preferred option), JSON, or XML file formats.  In the special case that authors need to submit non-standard data formats, they should also provide suitable readers.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#confidentiality" id="confidentiality" class="anchor-link">Confidentiality</a></h2>
+<p><em>In all cases</em>, authors should make a genuine effort to not learn the identity of the reviewers.  This may mean turning off “call home” features or analytics, or only using systems with high enough usage that AEC accesses will not stand out.</p>
+<p>We ask that, during the evaluation period, you not embed any analytics or other tracking in the web site for the artifact or, if you cannot control this, that you not access this data.  This is important for maintaining the confidentiality of reviewers.  If for some reason you cannot comply with this, please notify the chairs immediately.</p>
+<h2><a href="https://conf.researchr.org/track/pldi2015/PLDI+2015+Artifact+Evaluation#conflicts" id="conflicts" class="anchor-link">Conflicts</a></h2>
+<p>If you have a conflict of interest with anyone on the committee (including the AEC chairs), please indicate this in both the artifact submission system and on your artifact’s web site.</p>
+<p>If one of the authors of your paper is an AEC chair, then you may <em>not</em> submit an artifact.  You can, however, indicate in your paper that you were unable to submit an artifact due to the conflict of interest.</p>
+<p>[Last modified Sat Jan 24 2015.]</p>
+</div><div id="Accepted-Artifacts" class="tab-pane"><div class="page-header"><h1>Accepted Artifacts</h1></div><p>The following 27 papers had artifacts that “meet or exceed the expectations set by the paper.”</p>
+<ul>
+<li>
+<p><strong>FlashRelate: Extracting Relational Data from Semi-Structured Spreadsheets Using Examples</strong><br> Dan Barowy, Sumit Gulwani, Ted Hart, and Benjamin Zorn<br> <em>Recipient of the <strong>Distinguished Artifact Award</strong></em><br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-flashrelate-extracting-relational-data-from-semi-structured-spreadsheets-using-examples">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Compositional Certified Resource Bounds</strong><br> Quentin Carbonneaux, Jan Hoffmann, and Zhong Shao<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-compositional-certified-resource-bounds">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Many-Core Compiler Fuzzing</strong><br> Nathan Chong, Alastair&nbsp;F. Donaldson, Andrei Lascu, and Christopher Lidbury<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-many-core-compiler-fuzzing">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Asynchronous Programming, Analysis and Testing with State Machines</strong><br> Pantazis Deligiannis, Alastair Donaldson, Jeroen Ketema, Akash Lal, and Paul Thomson<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-asynchronous-programming-analysis-and-testing-with-state-machines">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Monitoring Refinement via Symbolic Reasoning</strong><br> Michael Emmi, Constantin Enea, and Jad Hamza<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-monitoring-refinement-via-symbolic-reasoning">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Algorithmic Debugging of Real-World Haskell Programs: Deriving Dependencies from the Cost Centre Stack</strong><br> Maarten Faddegon and Olaf Chitil<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-algorithmic-debugging-of-real-world-haskell-programs-deriving-dependencies-from-the-cost-centre-stack">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Relaxing Safely: Verified On-the-Fly Garbage Collection for x86-TSO</strong><br> Peter Gammie, Tony Hosking, and Kai Engelhardt<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-verification-of-on-the-fly-garbage-collection-for-x86-tso-relaxed-memory">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>A Formal C Memory Model Supporting Integer-Pointer Casts</strong><br> Jeehoon Kang, Chung-Kil Hur, William Mansky, Dmitri Garbuzov, Steve Zdancewic, and Viktor Vafeiadis<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-a-formal-c-memory-model-supporting-integer-pointer-casts">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Termination and Non-Termination Specification Inference</strong><br> Ton Chanh Le, Shengchao Qin, and Wei Ngan Chin<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-termination-and-non-termination-specification-inference">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Interactive Parser Synthesis by Example</strong><br> Alan Leung, John Sarracino, and Sorin Lerner<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-interactive-parser-synthesis-by-example">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Preventing Glitches and Short Circuits in High-Level Self-Timed Chip Specifications</strong><br> Stephen Longfield, Brittany Nkounkou, Rajit Manohar, and Ross Tate<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-preventing-glitches-and-short-circuits-in-high-level-self-timed-chip-specifications">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Concurrency Debugging with Differential Schedule Projections</strong><br> Nuno Machado, Brandon Lucia, and Luís Rodrigues<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-concurrency-debugging-with-differential-schedule-projections">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Zero-Overhead Metaprogramming: Reflection and Metaobject Protocols Fast and without Compromises</strong><br> Stefan Marr, Chris Seaton, and Stephane Ducasse<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-zero-overhead-metaprogramming-reflection-and-metaobject-protocols-fast-and-without-compromises">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Efficient Synthesis of Network Updates</strong><br> Jedidiah McClurg, Hossein Hojjat, Pavol Cerny, and Nate Foster<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-efficient-synthesis-of-network-updates">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Relatively Complete Counterexamples for Higher-order Programs</strong><br> Phúc Nguyễn and David Van Horn<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-relatively-complete-counterexamples-for-higher-order-programs">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Type-and-Example-Directed Program Synthesis</strong><br> Peter-Michael Osera and Steve Zdancewic<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-type-and-example-directed-program-synthesis">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Automatically Improving Accuracy for Floating Point Expressions</strong><br> Pavel Panchekha, Alex Sanchez-Stern, James&nbsp;R. Wilcox, and Zachary Tatlock<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-automatically-improving-accuracy-for-floating-point-expressions">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>KJS: A Complete Formal Semantics of JavaScript</strong><br> Daejun Park, Andrei Stefanescu, and Grigore Rosu<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-kjs-a-complete-formal-semantics-of-javascript">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Efficient Execution of Recursive Programs on Commodity Vector Hardware</strong><br> Bin Ren, Youngjoon Jo, Sriram Krishnamoorthy, Kunal Agrawal, and Milind Kulkarni<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-efficient-execution-of-recursive-programs-on-commodity-vector-hardware">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Synthesizing racy tests</strong><br> Malavika Samak, Murali Krishna Ramanathan, and Suresh Jagannathan<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-synthesizing-racy-tests">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Mechanized Verification of Fine-grained Concurrent Programs</strong><br> Ilya Sergey, Aleksandar Nanevski, and Anindya Banerjee<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-mechanized-verification-of-fine-grained-concurrent-programs">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Verification of Producer-Consumer Synchronization in GPU Programs</strong><br> Rahul Sharma, Michael Bauer, and Alex Aiken<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-verification-of-producer-consumer-synchronization-in-gpu-programs">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Making Numerical Program Analysis Fast</strong><br> Gagandeep Singh, Markus Püschel, and Martin Vechev<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-making-numerical-program-analysis-fast">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Declarative Programming over Eventually Consistent Data Stores</strong><br> KC Sivaramakrishnan, Gowtham Kaki, and Suresh Jagannathan<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-declarative-programming-over-eventually-consistent-data-stores">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Tree Dependence Analysis</strong><br> Yusheng Weijiang, Shruthi Balakrishna, Jianqiao Liu, and Milind Kulkarni<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-tree-dependence-analysis">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Verdi: A Framework for Formally Verifying Distributed System Implementations</strong><br> James&nbsp;R. Wilcox, Doug Woos, Pavel Panchekha, Zachary Tatlock, Xi Wang, Michael&nbsp;D. Ernst, and Thomas Anderson<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-verdi-a-framework-for-formally-verifying-distributed-system-implementations">[presentation details]</a></p>
+</li>
+<li>
+<p><strong>Lightweight, Flexible Object-Oriented Generics</strong><br> Yizhou Zhang, Andrew Myers, Barbara Liskov, Guido Salvaneschi, and Matt Loring<br> <a href="https://conf.researchr.org/event/pldi2015/pldi2015-papers-lightweight-flexible-object-oriented-generics">[presentation details]</a></p>
+</li>
+</ul>
+<p>[Last modified Wed Jun 17 2015.]</p>
+</div></div></div><div class="col-sm-4 sidebar"><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title">Important Dates</div></div><table class="table table-hover important-dates-in-sidebar"><tbody><tr href="https://pldi15.sigplan.org/track/PLDI+2015+Artifact+Evaluation" class="clickable-row past"><td>Fri 3 Apr 2015<br>Artifact Decisions Announced</td></tr><tr href="https://pldi15.sigplan.org/track/PLDI+2015+Artifact+Evaluation" class="clickable-row past"><td>Fri 13 Feb 2015<br>Artifacts Due</td></tr></tbody></table></div><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title"><a href="https://pldi15.sigplan.org/committee/pldi-2015-artifact-evaluation-committee" class="navigate">Artifact Evaluation Committee</a></div></div><ul class="list-group"><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/ericeide" class="navigate"><div class="media"><span class="pull-left"><img alt="Eric Eide" src="./2015_files/micro-avatar(1).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Eric Eide<span class="pull-right"><small>Co-chair</small></span></h5><h5 class="media-heading"><span class="text-black">University of Utah</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/johnregehr" class="navigate"><div class="media"><span class="pull-left"><img alt="John Regehr" src="./2015_files/micro-avatar(2).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">John Regehr<span class="pull-right"><small>Co-chair</small></span></h5><h5 class="media-heading"><span class="text-black">University of Utah</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/karimali" class="navigate"><div class="media"><span class="pull-left"><img alt="Karim Ali" src="./2015_files/micro-avatar(3).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Karim Ali<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Technical University at Darmstadt, Germany </span></h5><h5 class="media-heading"><small>Egypt</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/danbarowy" class="navigate"><div class="media"><span class="pull-left"><img alt="Dan Barowy" src="./2015_files/micro-avatar(4).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Dan Barowy<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Massachusetts Amherst</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/pavolbielik" class="navigate"><div class="media"><span class="pull-left"><img alt="Pavol Bielik" src="./2015_files/micro-avatar(5).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Pavol Bielik<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">ETH Zurich</span></h5><h5 class="media-heading"><small>Slovakia</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/swarnendubiswas" class="navigate"><div class="media"><span class="pull-left"><img alt="Swarnendu Biswas" src="./2015_files/micro-avatar(6).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Swarnendu Biswas<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Ohio State University</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/jamesbornholt" class="navigate"><div class="media"><span class="pull-left"><img alt="James Bornholt" src="./2015_files/micro-avatar(7).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">James Bornholt<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Washington</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/charliecurtsinger" class="navigate"><div class="media"><span class="pull-left"><img alt="Charlie Curtsinger" src="./2015_files/micro-avatar(8).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Charlie Curtsinger<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Massachusetts Amherst</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/mahdieslamimehr" class="navigate"><div class="media"><span class="pull-left"><img alt="Mahdi Eslamimehr" src="./2015_files/micro-avatar(9).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Mahdi Eslamimehr<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">SAP Labs</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/jinseongjeon" class="navigate"><div class="media"><span class="pull-left"><img alt="Jinseong Jeon" src="./2015_files/micro-avatar(10).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Jinseong Jeon<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Maryland, College Park</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/vineethkashyap" class="navigate"><div class="media"><span class="pull-left"><img alt="Vineeth Kashyap" src="./2015_files/micro-avatar(11).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Vineeth Kashyap<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">GrammaTech, Inc.</span></h5><h5 class="media-heading"><small>India</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/madhukarkedlaya" class="navigate"><div class="media"><span class="pull-left"><img alt="Madhukar Kedlaya" src="./2015_files/micro-avatar(12).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Madhukar Kedlaya<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of California, Santa Barbara</span></h5><h5 class="media-heading"><small>India</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/vule" class="navigate"><div class="media"><span class="pull-left"><img alt="Vu Le" src="./2015_files/micro-avatar(13).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Vu Le<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of California, Davis</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/nameng" class="navigate"><div class="media"><span class="pull-left"><img alt="Na Meng" src="./2015_files/micro-avatar(14).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Na Meng<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Texas at Austin</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/khanhnguyen" class="navigate"><div class="media"><span class="pull-left"><img alt="Khanh Nguyen" src="./2015_files/micro-avatar(15).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Khanh Nguyen<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of California, Irvine</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/carlritson" class="navigate"><div class="media"><span class="pull-left"><img alt="Carl Ritson" src="./2015_files/micro-avatar(16).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Carl Ritson<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Kent</span></h5><h5 class="media-heading"><small>United Kingdom</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/malteschwarzkopf" class="navigate"><div class="media"><span class="pull-left"><img alt="Malte Schwarzkopf" src="./2015_files/micro-avatar(17).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Malte Schwarzkopf<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Cambridge</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/kcsivaramakrishnan" class="navigate"><div class="media"><span class="pull-left"><img alt="KC Sivaramakrishnan" src="./2015_files/micro-avatar(18).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">KC Sivaramakrishnan<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Cambridge</span></h5><h5 class="media-heading"><small>India</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/steffensmolka" class="navigate"><div class="media"><span class="pull-left"><img alt="Steffen Smolka" src="./2015_files/micro-avatar(19).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Steffen Smolka<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Cornell University</span></h5><h5 class="media-heading"><small>Germany</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/linhaisong" class="navigate"><div class="media"><span class="pull-left"><img alt="micro-avatar" src="./2015_files/no-image-50.png" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Linhai Song<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Wisconsin–Madison</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/emmatosch" class="navigate"><div class="media"><span class="pull-left"><img alt="Emma Tosch" src="./2015_files/micro-avatar(20).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Emma Tosch<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Massachusetts, Amherst</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/johnvilk" class="navigate"><div class="media"><span class="pull-left"><img alt="John Vilk" src="./2015_files/micro-avatar(21).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">John Vilk<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Massachusetts, Amherst</span></h5><h5 class="media-heading"><small>United States</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/haichuanwang" class="navigate"><div class="media"><span class="pull-left"><img alt="Haichuan Wang" src="./2015_files/micro-avatar(22).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Haichuan Wang<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Illinois at Urbana-Champaign</span></h5><h5 class="media-heading"><small>China</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/davidrwhite" class="navigate"><div class="media"><span class="pull-left"><img alt="David R. White" src="./2015_files/micro-avatar(23).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">David R. White<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">University of Glasgow</span></h5><h5 class="media-heading"><small>United Kingdom</small></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/dacongyan" class="navigate"><div class="media"><span class="pull-left"><img alt="Dacong Yan" src="./2015_files/micro-avatar(24).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Dacong Yan<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Google Inc.</span></h5></div></div></a></li><li class="list-group-item"><a href="https://pldi15.sigplan.org/profile/minjiazhang" class="navigate"><div class="media"><span class="pull-left"><img alt="Minjia Zhang" src="./2015_files/micro-avatar(25).jpg" class="outputimage media-object thumbnail no-bottom-margin"></span><div class="media-body"><h5 class="media-heading">Minjia Zhang<span class="pull-right"><small></small></span></h5><h5 class="media-heading"><span class="text-black">Ohio State University</span></h5></div></div></a></li></ul></div></div></div><div id="messages-placeholder" class="alert alert-warning" style="display:none;"><a data-dismiss="alert" class="close">x</a><em>Tue 3 Sep 10:36</em></div></div><div id="notifications-ph" class="webdsl-placeholder"></div><footer class="footer"><div class="container"><div class="footer-box"><div class="row"><div class="col-sm-3"><h3><a href="https://pldi15.sigplan.org/" class="navigate"><span class="glyphicon glyphicon-home"></span> PLDI 2015</a></h3><div></div><hr>using <a href="https://conf.researchr.org/" class="navigate">conf.researchr.org</a> (<a href="http://yellowgrass.org/roadmap/conf.researchr.org" class="navigate">v1.17.0</a>)<br><small><a href="https://pldi15.sigplan.org/support" target="_blank" class="navigate"><span class="glyphicon glyphicon-question-sign"></span> Support page</a></small><br><small></small></div><div class="col-sm-5"><div class="row"><div class="col-sm-6"><h4>Tracks</h4><a href="https://pldi15.sigplan.org/track/FCRC+Plenary+Speakers" class="navigate">FCRC Plenary Speakers</a><br><a href="https://pldi15.sigplan.org/track/PLDI+2015+Artifact+Evaluation" class="navigate">Artifact Evaluation</a><br><a href="https://pldi15.sigplan.org/track/pldi2015-workshops" class="navigate">Tutorials</a><br><a href="https://pldi15.sigplan.org/track/pldi2015-papers" class="navigate">Research Papers</a><br><a href="https://pldi15.sigplan.org/track/Student+Research+Competition" class="navigate">Student Research Competition</a></div><div class="col-sm-6"><h4>Co-hosted Workshops</h4><a href="https://conf.researchr.org/home/ARRAY-2015" class="navigate">ARRAY 2015</a><br><a href="https://conf.researchr.org/home/CHIUW-2015" class="navigate">CHIUW 2015</a><br><a href="https://conf.researchr.org/home/PLOOC-2015" class="navigate">PLOOC 2015</a><br><a href="https://conf.researchr.org/home/SOAP-2015" class="navigate">SOAP 2015</a><br><a href="https://pldi15.sigplan.org/track/wax2015" class="navigate">WAX 2015</a><br><a href="https://pldi15.sigplan.org/track/WOW-2015-papers" class="navigate">WOW 2015</a><br><a href="https://conf.researchr.org/home/X10-2015" class="navigate">X10 2015</a><br><h4>Co-hosted Symposiums</h4><a href="https://conf.researchr.org/home/scala-2015" class="navigate">Scala 2015</a></div></div></div><div class="col-sm-2"><h4>Attending</h4><a href="https://pldi15.sigplan.org/venue/portland-occ" class="navigate">Venue: Oregon Convention Center</a><br><a href="https://pldi15.sigplan.org/venue/ExchangeBallroom" class="navigate">Venue: Exchange Ballroom</a><br><a href="https://pldi15.sigplan.org/attending/Hotels" class="navigate">Hotel and Travel Information</a><br><a href="https://pldi15.sigplan.org/attending/student-travel-support" class="navigate">Student Travel Support</a><br><a href="https://pldi15.sigplan.org/attending/Registration" class="navigate">Registration</a><br><a href="https://pldi15.sigplan.org/attending/sigplan-conference-anti-harassment-policy" class="navigate">SIGPLAN Conference Anti-Harassment Policy</a><br><a href="https://pldi15.sigplan.org/attending/Student+Volunteers" class="navigate">Student Volunteers</a></div><div class="col-sm-2"></div></div></div></div></footer></div><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; $(node).find('[title]').tooltip({placement: 'auto top', container: 'body'}); $('.tooltip.fade.in, .ui-tooltip-content').remove(); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><script type="text/javascript">jQuery(document).ready(function($) {
+	      $(".clickable-row").click(function() {
+	      	if(window.location.href.indexOf($(this).attr("href")) < 0){
+	            window.document.location = $(this).attr("href");
+	        }
+	      });
+		});
+		</script>
+<style>body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }</style></body></html>

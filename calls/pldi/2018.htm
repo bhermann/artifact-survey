@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>PLDI 2018 PLDI Research Artifacts - PLDI 2018</title>
+<link href="https://pldi18.sigplan.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" rel="shortcut icon" type="image/x-icon">
+<link href="./2018_files/common_.css" rel="stylesheet" type="text/css">
+<script async="" src="./2018_files/analytics.js"></script><script type="text/javascript">var show_webdsl_debug=false;</script>
+<script type="text/javascript">var contextpath="https://pldi18.sigplan.org";</script>
+<link rel="stylesheet" href="./2018_files/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="./2018_files/conf.css" type="text/css"><link rel="stylesheet" href="./2018_files/pldi18-custom.css" type="text/css"><link rel="stylesheet" href="./2018_files/theme.bootstrap.min.css" type="text/css"><script type="text/javascript" src="./2018_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./2018_files/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="./2018_files/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="./2018_files/tablesorter-init.js"></script>
+<script type="text/javascript" src="./2018_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./2018_files/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+  font-weight: bold;
+  padding: 8px 15px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+  color: #C09853;
+  background-color: #FCF8E3;
+  border-color: #FBEED5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
+<script type="text/javascript" src="./2018_files/ajax.js"></script>
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="PLDI 2018 includes an artifact evaluation process, following a trend that began at PLDI 2014 and which has been employed for PLDI 2015, 2016, and 2017. The artifact evaluation gives authors the opportunity to submit for evaluation any artifacts that accompany their papers. 
+Submit the artifact for your accepted paper to the artifact evaluation using HotCRP 
+Background 
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of  ...">
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var GATids = [];GATids.push('t0'); ga('create', 'UA-9607501-2', 'auto', 't0');ga('t0.set', 'anonymizeIp', true);ga('t0.send', 'pageview');</script>
+<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://pldi18.sigplan.org/getImage/carousel/1280px-Philadelphia_skyline_from_the_southwest_2015.jpg?1514836976000">
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="PLDI 2018 PLDI Research Artifacts - PLDI 2018">
+<meta name="description" content="PLDI 2018 includes an artifact evaluation process, following a trend that began at PLDI 2014 and which has been employed for PLDI 2015, 2016, and 2017. The artifact evaluation gives authors the opportunity to submit for evaluation any artifacts that accompany their papers. 
+Submit the artifact for your accepted paper to the artifact evaluation using HotCRP 
+Background 
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of  ...">
+<style type="text/css" id="core-notify">.notifyjs-corner {
+  position: fixed;
+  margin: 5px;
+  z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+  position: relative;
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin: 3px;
+}
+
+.notifyjs-wrapper {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.notifyjs-container {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.notifyjs-hidable {
+  cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+  position: relative;
+}
+
+.notifyjs-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+}</style></head>
+<body id="track"><div class="frame"><div class="logobar"><div class="container"><a href="https://pldi18.sigplan.org/" class="navbar-brand navigate"><span class="brand-text">PLDI 2018</span></a><div class="place">Mon 18 - Fri 22 June 2018 <a href="https://pldi18.sigplan.org/venue/pldi-2018-venue" class="navigate">Philadelphia, Pennsylvania, United States</a></div></div></div><div class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div id="navigationbar" class="navigationbar collapse navbar-collapse"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/venue/pldi-2018-venue" class="navigate">Venue: Hilton Philadelphia at Penn's Landing</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/registration" class="navigate">Registration</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/Sponsorship" class="navigate">Sponsorship</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/Students" class="navigate">Students</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/accessibility-faq" class="navigate">Accessibility FAQ</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/visas" class="navigate">Visas</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/Code+of+Conduct" class="navigate">Code of Conduct</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/Childcare" class="navigate">Childcare</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/travel" class="navigate">Tourist Information</a></li><li class="block"><a href="https://pldi18.sigplan.org/attending/Remote+Participation" class="navigate">Remote Participation</a></li></ul></li><li class="dropdown"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018" class="navigate">Complete Program</a></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?prog=Your%20Program" class="navigate"><span class="glyphicon glyphicon-star"></span> Your Program</a></li><li class="block divider"></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?date=Mon%2018%20Jun%202018" class="navigate">Mon 18 Jun</a></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?date=Tue%2019%20Jun%202018" class="navigate">Tue 19 Jun</a></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?date=Wed%2020%20Jun%202018" class="navigate">Wed 20 Jun</a></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?date=Thu%2021%20Jun%202018" class="navigate">Thu 21 Jun</a></li><li class="block"><a href="https://pldi18.sigplan.org/program/program-pldi-2018?date=Fri%2022%20Jun%202018" class="navigate">Fri 22 Jun</a></li></ul></li><li id="tracks-in-navbar" class="dropdown"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-3"><div class="row"><div class="col-sm-5"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2018</li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-papers" class="navigate">PLDI Research Papers</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Invited-Speakers" class="navigate">PLDI Invited Speakers</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-src" class="navigate">Student Research Competition (SRC)</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-Student-Volunteers" class="navigate">Student Volunteers</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts" class="navigate">PLDI Research Artifacts</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Workshops" class="navigate">PLDI Workshops</a></li><li class="block"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Tutorials" class="navigate">PLDI Tutorials</a></li></ul></div><div class="col-sm-7"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>ISMM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/ismm-2018" class="navigate"><span class="glyphicon glyphicon-home"></span> ISMM</a></li><li class="block"><a href="https://conf.researchr.org/track/ismm-2018/ismm-2018-papers" class="navigate"><strong>ISMM</strong> </a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>LCTES</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/LCTES-2018" class="navigate"><span class="glyphicon glyphicon-home"></span> LCTES</a></li><li class="block"><a href="https://conf.researchr.org/track/LCTES-2018/LCTES-2018-papers" class="navigate"><strong>LCTES</strong> </a></li></ul></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="block"><a href="https://pldi18.sigplan.org/track/ARRAY-2018-papers" class="navigate"><strong>ARRAY</strong> </a></li><li class="block"><a href="https://pldi18.sigplan.org/track/deepspec-2018-papers" class="navigate"><strong>DeepSpec</strong> </a></li><li class="block"><a href="https://pldi18.sigplan.org/track/FMS-2018-papers" class="navigate"><strong>FMS</strong> </a></li><li class="block"><a href="https://pldi18.sigplan.org/track/mapl-2018-papers" class="navigate"><strong>MAPL</strong> </a></li><li class="block"><a href="https://pldi18.sigplan.org/track/PLMW-PLDI-2018" class="navigate"><strong>PLMW @ PLDI</strong> </a></li></ul></div></div></ul></li><li class="dropdown"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle">Organization <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-2"><div class="row"><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2018</li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-external-program-committee" class="navigate">External Program Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-external-review-committee" class="navigate">External Review Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-src-committee" class="navigate">Student Research Competition Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-artifact-evaluation-committee" class="navigate">Artifact Evaluation Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-distinguished-paper-committee" class="navigate">Distinguished Paper Committee</a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/pldi-2018-steering-committee" class="navigate">Steering Committee</a></li><li class="block dropdown-header">Contributors</li><li class="block"><a href="https://pldi18.sigplan.org/people-index" class="navigate"><span class="glyphicon glyphicon-search"></span><sub><span class="glyphicon glyphicon-user"></span></sub> People Index</a></li></ul></div><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>ISMM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/ismm-2018/ismm-2018-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2018/ismm-2018-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2018/ismm-2018-external-review-committee" class="navigate">External Review Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2018/ismm-2018-steering-committee" class="navigate">Steering Committee</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>LCTES</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2018/lctes-2018-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2018/lctes-2018-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2018/lctes-2018-steering-committee" class="navigate">Steering Committee</a></li></ul></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>ARRAY</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/committee/array-2018-papers-organizing-committee" class="navigate"><strong>ARRAY 2018</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/array-2018-papers-program-committee" class="navigate"><strong>ARRAY 2018</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>DeepSpec</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/committee/deepspec-2018-papers-organizing-committee" class="navigate"><strong>DeepSpec 2018</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/deepspec-2018-papers-program-committee" class="navigate"><strong>DeepSpec 2018</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>FMS</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/committee/fms-2018-papers-organizing-committee" class="navigate"><strong>FMS 2018</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/fms-2018-papers-program-committee" class="navigate"><strong>FMS 2018</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>MAPL</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/committee/mapl-2018-papers-organizing-committee" class="navigate"><strong>MAPL 2018</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/mapl-2018-papers-program-committee" class="navigate"><strong>MAPL 2018</strong> <small>Program Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/mapl-2018-papers-steering-committee" class="navigate"><strong>MAPL 2018</strong> <small>Steering Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><strong>PLMW @ PLDI</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/committee/plmw-pldi-2018-papers-organizing-committee" class="navigate"><strong>PLMW @ PLDI 2018</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi18.sigplan.org/committee/plmw-pldi-2018-speakers" class="navigate"><strong>PLMW @ PLDI 2018</strong> <small>Speakers</small></a></li></ul></li></ul></div></div></ul></li><li class="block"><a href="https://pldi18.sigplan.org/search//all" class="navigate"><span class="glyphicon glyphicon-search"></span><span class="hidden-sm"> Search</span></a></li><li class="dropdown"><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-sm">Series <span class="caret"></span></span><span title="" class="visible-sm" data-original-title="Series"><span class="glyphicon glyphicon-repeat"></span> <span class="caret"></span></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi18.sigplan.org/series/pldi" class="navigate">Series</a></li><li class="block divider"></li><li class="block"><a href="https://pldi20.sigplan.org/" class="navigate">PLDI 2020</a></li><li class="block"><a href="https://pldi19.sigplan.org/" class="navigate">PLDI 2019</a></li><li class="block"><span class="text-muted"><span class="glyphicon glyphicon-chevron-right"></span> PLDI 2018</span></li><li class="block"><a href="https://pldi17.sigplan.org/" class="navigate">PLDI 2017</a></li><li class="block"><a href="https://pldi16.sigplan.org/" class="navigate">PLDI 2016</a></li><li class="block"><a href="https://pldi15.sigplan.org/" class="navigate">PLDI 2015</a></li></ul></li></ul><script type="text/javascript">(function($){
+      $(document).ready(function(){
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+        });
+      });
+    })(jQuery);
+    </script><div class="navbar-right"><ul class="block nav navbar-nav"><li class="block"><a href="https://conf.researchr.org/signin/pldi-2018/https%3A%5Es%5Espldi18.sigplan.org%5Estrack%5Espldi-2018-PLDI-Research-Artifacts" rel="nofollow" class="navigate">Sign in</a></li><li class="block"><a href="https://pldi18.sigplan.org/signup" class="navigate">Sign up</a></li></ul></div></div></div></div><div id="content" class="container"><div class="page-header"><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://pldi18.sigplan.org/" class="navigate">PLDI 2018</a> (<a href="https://pldi18.sigplan.org/series/pldi" class="navigate">series</a>) / </span><h1>PLDI 2018 PLDI Research Artifacts</h1></div><div class="row"><div class="col-sm-8"><p></p><p>PLDI 2018 includes an artifact evaluation process, following a trend that began at PLDI 2014 and which has been employed for PLDI 2015, 2016, and 2017.  The artifact evaluation gives authors the opportunity to submit for evaluation any artifacts that accompany their papers.</p>
+<p><strong>Submit the artifact for your accepted paper to the artifact evaluation using <a href="https://pldi18ae.hotcrp.com/">HotCRP</a></strong></p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#background" id="background" class="anchor-link">Background</a></h2>
+<p>A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet most of our conferences offer no formal means to submit and evaluate anything but the paper. PLDI 2018 has created an Artifact Evaluation Committee (AEC) to remedy this situation.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#goals" id="goals" class="anchor-link">Goals</a></h2>
+<p>The goal of artifact evaluation is twofold: to reward and probe. The artifact evaluation rewards authors who take the trouble to create useful artifacts to accompany the work in their paper.</p>
+<p>The aspirational goal of the artifact evaluation process is to accept every artifact that is submitted, provided it meets the evaluation criteria listed below. <strong>Artifact evaluation is optional and authors choose to undergo evaluation only after their paper has been accepted</strong>.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#criteria" id="criteria" class="anchor-link">Criteria</a></h2>
+<p>The artifact evaluation committee will read each artifact’s paper and judge how well the artifact conforms to the expectations set by the paper.  The specific artifact evaluation criteria are:</p>
+<ul>
+<li>consistency with the paper</li>
+<li>completeness</li>
+<li>documentation</li>
+<li>ease of reuse</li>
+</ul>
+<p>Note that artifacts will be evaluated with respect to the claims and presentation in the submitted version of the paper, not the camera-ready version.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#benefits" id="benefits" class="anchor-link">Benefits</a></h2>
+<p>The evaluation and dissemination of artifacts improves reproducibility, and enables authors to build on top of each others’ work. Beyond helping the community as a whole, the evaluation and dissemination of artifacts confers several direct and indirect benefits to the authors themselves.   Authors of papers with accepted artifacts will be assigned an official ACM <a href="https://www.acm.org/publications/policies/artifact-review-badging">artifact evaluation badge</a>, indicating that they have taken the extra time and have undergone the extra scrutiny to prepare a useful artifact.  The badge will appear on the first page of the camera-ready version of the paper, indicating that the artifact was evaluated and functional.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#process" id="process" class="anchor-link">Process</a></h2>
+<p>To maintain the separation of paper and artifact review, authors will only be asked to upload their artifacts after their papers have been accepted. Authors planning to submit to the artifact evaluation should prepare their artifacts well in advance of this date, however, to ensure adequate time for packaging and documentation.</p>
+<p>Throughout the artifact review period, submitted reviews will be (approximately) continuously visible to authors.  Reviewers will be able to continuously interact (anonymously) with authors for clarifications, system-specific patches, and other logistics help to make the artifact evaluable. The goal of continuous interaction is to prevent rejecting artifacts for a “wrong library version”-type problem. The conference proceedings will include a discussion of the continuous artifact evaluation process.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#artifact-details" id="artifact-details" class="anchor-link">Artifact Details</a></h2>
+<p>The artifact evaluation will accept any artifact that authors wish to submit, broadly defined. A submitted artifact might be:</p>
+<ul>
+<li>software</li>
+<li>mechanized proofs</li>
+<li>test suites</li>
+<li>data sets</li>
+<li>hardware (if absolutely necessary)</li>
+<li>a video of a difficult- or impossible-to-share system in use</li>
+<li>any other artifact described in a paper</li>
+</ul>
+<p>A well-packaged artifact is more likely to be easily usable by the reviewers, saving them time and frustration, and more clearly conveying the value of your work during evaluation.  A great way to package an artifact is as a Docker image or in a virtual machine that runs “out of the box” with very little system-specific configuration.</p>
+<p>Submission of an artifact does not contain tacit permission to make its content public. AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, and similar items in your artifact. <del>The AEC organizers strongly encourage you to anonymize artifacts – if your VM has a default username that reveals your identity, the anonymity of the review process is compromised.</del> Artifact evaluation is single-blind. Please take precautions (e.g. turning off analytics, logging) to help prevent accidentally learning the identities of reviewers.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#artifact-evaluation-committee" id="artifact-evaluation-committee" class="anchor-link">Artifact Evaluation Committee</a></h2>
+<p>Other than the chairs, the AEC members are senior graduate students, postdocs, or recent PhD graduates, identified with the help of current, active researchers.</p>
+<p>Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations that the AEC will encounter. In addition, graduate students represent the future of the community, so involving them in the AEC process early will help push this process forward. The AEC chairs devote considerable attention to both mentoring and monitoring, helping to educate the students on their responsibilities and privileges.</p>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#highlights-of-the-2018-artifact-evaluation-process" id="highlights-of-the-2018-artifact-evaluation-process" class="anchor-link">Highlights of the 2018 Artifact Evaluation Process</a></h2>
+<ul>
+<li>
+<p>The goal of the AEC is to accept every artifact submitted.  While some artifacts may not pass muster and may be rejected, we will evaluate in earnest and make our best attempt to follow authors’ evaluation instructions.</p>
+</li>
+<li>
+<p>Throughout the review period, submitted reviews will be (approximately) continuously visible to authors.  AEC reviewers will be able to continuously interact (anonymously) with authors for clarifications, system-specific patches, and other logistics help to make the artifact evaluable.    The goal of continuous interaction is to prevent rejecting artifacts for a “wrong library version”-type problem.</p>
+</li>
+<li>
+<p>We expect each artifact to receive 3-4 reviews.</p>
+</li>
+<li>
+<p>Reviews will be submitted via <a href="https://pldi18ae.hotcrp.com/">HotCRP</a>.</p>
+</li>
+</ul>
+<h2><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts#important-dates" id="important-dates" class="anchor-link">Important Dates</a></h2>
+<ul>
+<li><del>February 20th</del> <strong>February 27th</strong>: Author artifact submission deadline</li>
+<li><del>March 5th</del> <strong>March 9th</strong>: Basic artifact functionality evaluation deadline</li>
+<li><strong>April 3rd</strong>: Final artifact evaluation review deadline</li>
+<li><strong>April 10th</strong>: Acceptance notification</li>
+</ul>
+<p></p></div><div class="col-sm-4 sidebar"></div></div><div id="messages-placeholder" class="alert alert-warning" style="display:none;"><a data-dismiss="alert" class="close">x</a><em>Tue 3 Sep 10:36</em></div></div><div id="notifications-ph" class="webdsl-placeholder"></div><footer class="footer"><div class="container"><div class="footer-box"><div class="row"><div class="col-sm-3"><h3><a href="https://pldi18.sigplan.org/" class="navigate"><span class="glyphicon glyphicon-home"></span> PLDI 2018</a></h3><div><a href="https://pldi18.sigplan.org/contact" class="navigate"><span class="glyphicon glyphicon-envelope"></span> contact form</a></div><hr>using <a href="https://conf.researchr.org/" class="navigate">conf.researchr.org</a> (<a href="http://yellowgrass.org/roadmap/conf.researchr.org" class="navigate">v1.17.0</a>)<br><small><a href="https://pldi18.sigplan.org/support" target="_blank" class="navigate"><span class="glyphicon glyphicon-question-sign"></span> Support page</a></small><br><small></small></div><div class="col-sm-5"><div class="row"><div class="col-sm-6"><h4>Tracks</h4><a href="https://pldi18.sigplan.org/track/pldi-2018-papers" class="navigate">PLDI Research Papers</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Invited-Speakers" class="navigate">PLDI Invited Speakers</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-src" class="navigate">Student Research Competition (SRC)</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-Student-Volunteers" class="navigate">Student Volunteers</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Research-Artifacts" class="navigate">PLDI Research Artifacts</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Workshops" class="navigate">PLDI Workshops</a><br><a href="https://pldi18.sigplan.org/track/pldi-2018-PLDI-Tutorials" class="navigate">PLDI Tutorials</a></div><div class="col-sm-6"><h4>Co-hosted Conferences</h4><a href="https://conf.researchr.org/home/ismm-2018" class="navigate">ISMM 2018</a><br><a href="https://conf.researchr.org/home/LCTES-2018" class="navigate">LCTES 2018</a><br><h4>Co-hosted Workshops</h4><a href="https://pldi18.sigplan.org/track/ARRAY-2018-papers" class="navigate">ARRAY 2018</a><br><a href="https://pldi18.sigplan.org/track/deepspec-2018-papers" class="navigate">DeepSpec 2018</a><br><a href="https://pldi18.sigplan.org/track/FMS-2018-papers" class="navigate">FMS 2018</a><br><a href="https://pldi18.sigplan.org/track/mapl-2018-papers" class="navigate">MAPL 2018</a><br><a href="https://pldi18.sigplan.org/track/PLMW-PLDI-2018" class="navigate">PLMW @ PLDI 2018</a></div></div></div><div class="col-sm-2"><h4>Attending</h4><a href="https://pldi18.sigplan.org/venue/pldi-2018-venue" class="navigate">Venue: Hilton Philadelphia at Penn's Landing</a><br><a href="https://pldi18.sigplan.org/attending/registration" class="navigate">Registration</a><br><a href="https://pldi18.sigplan.org/attending/Sponsorship" class="navigate">Sponsorship</a><br><a href="https://pldi18.sigplan.org/attending/Students" class="navigate">Students</a><br><a href="https://pldi18.sigplan.org/attending/accessibility-faq" class="navigate">Accessibility FAQ</a><br><a href="https://pldi18.sigplan.org/attending/visas" class="navigate">Visas</a><br><a href="https://pldi18.sigplan.org/attending/Code+of+Conduct" class="navigate">Code of Conduct</a><br><a href="https://pldi18.sigplan.org/attending/Childcare" class="navigate">Childcare</a><br><a href="https://pldi18.sigplan.org/attending/travel" class="navigate">Tourist Information</a><br><a href="https://pldi18.sigplan.org/attending/Remote+Participation" class="navigate">Remote Participation</a></div><div class="col-sm-2"><a href="https://pldi18.sigplan.org/signup" class="navigate">Sign Up</a></div></div></div></div></footer></div><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; $(node).find('[title]').tooltip({placement: 'auto top', container: 'body'}); $('.tooltip.fade.in, .ui-tooltip-content').remove(); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><script type="text/javascript">jQuery(document).ready(function($) {
+	      $(".clickable-row").click(function() {
+	      	if(window.location.href.indexOf($(this).attr("href")) < 0){
+	            window.document.location = $(this).attr("href");
+	        }
+	      });
+		});
+		</script>
+<style>body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }</style></body></html>

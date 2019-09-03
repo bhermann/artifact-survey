@@ -1,0 +1,203 @@
+/* based on SAS 2010 style, by Albertine Martel */
+
+
+body{
+font-family: 'Arial', 'Verdana','Helvetica', 'Gulim', sans-serif;
+color: #000;
+font-size: 0.9em;
+margin:0px;
+padding:0px;
+
+background-image:url("fond.gif");
+background-repeat:repeat-x;
+background-attachment:fixed;
+
+background-color: #FFFFFF; /*#FFFFFF;*//* #CAE4FF; */ /* #AFD7D7; */
+text-align: center; /* correction of IE centering bug */
+}
+
+/***** page style ****/
+h2, h3 {
+color:#777777;
+border-bottom: 1px solid #777777;
+}
+
+h1 {
+    font-size: 2.5em;
+    color:#777777;
+}
+h2 {
+    font-size: 1.4em;
+}
+h3 {
+    font-size: 1.3em;
+}
+h4, h5, h6 {
+    font-size: 1em;
+}
+
+prsession {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(2,2,150);
+}
+prbreak {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(2,2,150);
+}
+prtitle {
+    font-size: 1.1em;
+    color: rgb(20,2,150);
+}
+prauthor {
+    font-size: 1.2em;
+    color: rgb(50,50,100);
+}
+
+table, pre, input, textarea {
+    font-size: 1em;
+}
+
+pre, tt, textarea {
+    font-family: 'Lucida Console', 'Lucida Typewriter', 'GulimChe', monospace;
+}
+
+a img {
+    border-style: none;
+}
+
+a {
+    color: #7d7b85;
+	text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:link:hover, a:visited:hover {
+    color: #7d7b85;
+    
+
+}
+
+
+/*** navigation style ***/
+
+#nav {
+        font-size: 0.9em;
+        margin-left:5px;
+        margin-right:5px;
+        padding:5px;
+        padding-top:0px;
+}
+
+#ack {
+        font-size: 0.9em;
+        margin-left:5px;
+        margin-right:5px;
+        padding:5px;
+        padding-top:0px;
+}
+
+#nav h3, #ack h3 {
+    font-size: 1.1em;
+    margin: 0em;
+}
+#nav ul, ul#nav {
+    list-style: none;
+    display: block;
+    padding: 0em;
+    margin: 0em;
+    margin-bottom: 1em;
+}
+ul#nav {
+    padding: 0em;!important
+}
+#nav li {
+    font-size:1.1em;
+    list-style: none;
+    display: block;
+    margin-bottom: 0.4em;
+}
+
+#nav, #ack {
+    color: #409bc2;
+}
+
+body #nav a, #ack a {
+    color: #135b96;
+}
+
+body a {
+    color: #409bc2;
+}
+
+body a:link:hover, body a:visited:hover,
+#nav a:link:hover, #nav a:visited:hover,
+#ack a:link:hover, #ack a:visited:hover {
+    color:  #409bc2; <!-- 6E3F10; -->
+}
+
+#nav h2, #nav h3, #nav h4, #ack h2, #ack h3, #ack h4 {
+    color: #777777;
+}
+#nav h2, #nav h3, #ack h2, #ack h3  {
+    border-color: #777777;
+}
+
+a:hover {
+    color:#777777;text-decoration:underline;
+}
+
+/*** margin padding for content ***/
+
+
+#text{
+    padding:10px;
+}
+
+/*** for positioning ***/
+
+#container{
+    background-color:#99dbfa;
+    width:1020px;
+
+    /*** for centering ***/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    /*********************/
+}
+
+#nav{
+    margin-left:0px;
+    background-color:#99dbfa;
+    width:150px;
+    padding:10px;
+}
+
+html>body #nav {
+    position: fixed;
+    top:0;
+}
+
+#ack{
+    margin-left:0px;
+    background-color:#99dbfa;
+    width:150px;
+    padding:10px;
+}
+
+html>body #ack {
+    position: fixed;
+    bottom:0;
+}
+
+#content{
+    background-color:white;
+    margin-left:170px;
+}
+
+
+

@@ -1,0 +1,31 @@
+/*
+ * -----------------------------------
+ * Print version for GuMax
+ * -----------------------------------
+ */
+ 
+@import url("main.css");
+@import url("gumax_template.css");
+
+
+body
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#gumax-header,
+#gumax-p-login,
+#gumax_mainmenu_spacer,
+#gumax-p-navigation,
+#gumax-article-picture,
+#gumax-content-actions,
+#gumax_footer_spacer,
+#gumax-footer,
+#gumax-f-list {
+	display: none; /* Hides all the elements irrelevant for printing */
+}
+
+.gumax-rbcontentwrap { background: none; }
+.gumax-rbcontent { background: none; }
+* html .gumax-page { border: none; }

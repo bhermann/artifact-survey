@@ -1,3 +1,5 @@
+https://staticanalysis.org/sas2019/
+
 Artifacts
 As in previous years, we encourage authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field’s scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work.
 

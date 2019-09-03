@@ -1,0 +1,179 @@
+.footer {
+    background: #231f20 !important;
+    display: block !important;
+    color: #525252 !important;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    padding: 0 0 30px !important;
+    border-top: 5px solid #7B7A7B !important;
+    height: auto !important;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5 {
+    color: #7B7A7B !important;
+    border-bottom: 2px solid #272727 !important;
+    padding-bottom: 10px !important;
+    margin-top: 22px;
+}
+
+footer hr 
+{
+    display: none;
+}
+
+footer small
+{   
+    font-size: 100% !important;
+    line-height: 21px !important;
+}
+
+footer a {
+    line-height: 18px !important;
+    -webkit-transition: all 500ms ease !important;
+    -moz-transition: all 500ms ease !important;
+    -ms-transition: all 500ms ease !important;
+    -o-transition: all 500ms ease !important;
+    transition: all 500ms ease !important;
+}
+
+footer a:hover, footer a:focus {
+    color:  #7B7A7B !important;
+}
+
+ .navbar-brand {
+    position: relative !important;
+    background-image: url('http://conf.researchr.org/getImage/POPL-2016/orig/logo.png') !important;
+    background-repeat: no-repeat !important;
+    height: 150px !important;
+    width: 115px !important;
+    z-index: 3 !important;
+    
+}
+ .carousel {
+    top: -290px !important;
+}
+ .carousel-inner {
+    overflow: initial !important;
+}                                          
+ .navbar-default {
+    top: 180px !important;
+    background-color: #EBA226 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+ .brand-text {
+     opacity: 0 !important;
+}
+
+ .navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+    padding-top: 25px  !important;
+    padding-bottom: 25px !important;
+    top: 1px !important;
+    -webkit-transition: 0.2s !important;
+    transition: 0.2s !important; 
+    font-weight: bold !important; 
+    font-size: 18px !important; 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;                             
+}  
+
+ .navbar-default .navbar-nav>.open>a {
+    background-color: #fff !important; 
+    color: #000 !important;
+}
+ .navbar-default .navbar-nav>li {
+    top: 1px !important;
+}
+ .navbar-default .navbar-nav>li>a:hover {
+    background-color: #fff !important; 
+    color: #000 !important;            
+    
+}
+
+
+ .place {
+    z-index: 2 !important;
+    position: relative !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    text-shadow: 2px 2px 4px #000 !important; 
+    min-width: 340px;
+}
+
+
+ .place a {
+    display: block !important;
+    color: #fff !important;
+}
+ .carousel .left .glyphicon  {
+     display:none;
+ }
+ 
+ .carousel .right .glyphicon  {
+     display:none;
+ }
+ .carousel .carousel-indicators {
+     display:none;
+ }
+
+@media (max-width: 1439px) {
+     .navbar-default {
+        top: 119px !important
+        }
+}
+@media (max-width: 767px) {
+     .navbar-default {
+        top: 25px !important;
+        margin-top: 60px !important;
+    }
+      .carousel {
+       position: absolute !important;
+       width: 100% !important;
+       top: 0px !important;
+     }
+      .frame {
+       position: absolute;
+     } 
+      .place {
+       font-size: 14px !important;  
+     }
+     
+      .navigationbar {
+       margin-top: 25px;
+     }
+}
+@media (max-width: 440px) {
+     .place {
+       font-size: 10px !important;
+    } 
+}
+
+@media (min-width: 767px) {
+     .navbar-default {
+        padding-top: 57px !important;
+        background: url('http://conf.researchr.org/getImage/POPL-2016/orig/menu-pelicans.png') !important;
+        background-repeat: repeat-x !important;
+        background-position:top !important;
+        z-index: 2 !important;
+        } 
+     #content {
+        margin-top: -250px !important;
+    }    
+}
+@media screen\0 {
+    .navbar-default .navbar-nav>li>a {
+    font-family: sans-serif;
+    } /* IE8,IE9, IE10 */
+}
+@media all and (-ms-high-contrast:none) {
+     *::-ms-backdrop, .navbar-default .navbar-nav>li>a {
+    font-family: sans-serif;                             
+    }  /* IE11 */
+     }
+
+@-moz-document {
+     .navbar-default {
+        top: 199px !important;
+    }
+}
+

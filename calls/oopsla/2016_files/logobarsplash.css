@@ -1,0 +1,49 @@
+
+.brand-text{
+  visibility: hidden;
+}
+
+div.logobar {
+    background: url("http://2016.splashcon.org/getImage/orig/banner-large.png") no-repeat 0 0px;
+    background-size: auto 180px;
+    height: 150px;
+}
+
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar-brand {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 150px;
+}
+.place {
+    visibility: hidden;
+  padding: 78px 0 0 3px;
+  margin-bottom: -23px;
+  color: black;
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+@media (max-width: 767px) {
+  div.logobar {
+    background-size: auto 100px;
+    height: 86px;
+  }
+  .navbar-brand{
+    height: 86px;
+  }
+}

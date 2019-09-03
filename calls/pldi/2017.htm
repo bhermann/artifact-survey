@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>PLDI 2017 PLDI Research Artifacts - PLDI 2017</title>
+<link href="https://conf.researchr.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" rel="shortcut icon" type="image/x-icon">
+<link href="./2017_files/common_.css" rel="stylesheet" type="text/css">
+<script id="twitter-wjs" src="./2017_files/widgets.js"></script><script async="" src="./2017_files/analytics.js"></script><script type="text/javascript">var show_webdsl_debug=false;</script>
+<script type="text/javascript">var contextpath="https://conf.researchr.org";</script>
+<link rel="stylesheet" href="./2017_files/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="./2017_files/conf.css" type="text/css"><link rel="stylesheet" href="./2017_files/PLDI.css" type="text/css"><link rel="stylesheet" href="./2017_files/theme.bootstrap.min.css" type="text/css"><script type="text/javascript" src="./2017_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./2017_files/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="./2017_files/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="./2017_files/tablesorter-init.js"></script>
+<script type="text/javascript" src="./2017_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./2017_files/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+  font-weight: bold;
+  padding: 8px 15px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+  color: #C09853;
+  background-color: #FCF8E3;
+  border-color: #FBEED5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
+<script type="text/javascript" src="./2017_files/ajax.js"></script>
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Welcome to Barcelona! PLDI is the premier forum in the field of programming languages and programming systems research, covering the areas of design, implementation, theory, applications, and performance. The co-located conferences take place in 
+Barcelona, June 18-23, 2017. 
+ 
+The report of the PLDI 2017 Program Chair, presented at the SIGPLAN townhall meeting, is available here. 
+All of the videos for PLDI are now online. 
+Distinguished paper awards 
+
+  
+ Low Overhead Dynamic Binary Translation on ARM 
+ Repairing Sequential Consistency in C/C++11 
+ Compiling Without Continuations 
+ Bring ...">
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var GATids = [];GATids.push('t0'); ga('create', 'UA-9607501-2', 'auto', 't0');ga('t0.set', 'anonymizeIp', true);ga('t0.send', 'pageview');</script>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="PLDI 2017 PLDI Research Artifacts - PLDI 2017">
+<meta name="description" content="Welcome to Barcelona! PLDI is the premier forum in the field of programming languages and programming systems research, covering the areas of design, implementation, theory, applications, and performance. The co-located conferences take place in 
+Barcelona, June 18-23, 2017. 
+ 
+The report of the PLDI 2017 Program Chair, presented at the SIGPLAN townhall meeting, is available here. 
+All of the videos for PLDI are now online. 
+Distinguished paper awards 
+
+  
+ Low Overhead Dynamic Binary Translation on ARM 
+ Repairing Sequential Consistency in C/C++11 
+ Compiling Without Continuations 
+ Bring ...">
+<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://pldi17.sigplan.org/getImage/carousel/tour_img-323023-90.jpg?1474577784000">
+<style type="text/css" id="core-notify">.notifyjs-corner {
+  position: fixed;
+  margin: 5px;
+  z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+  position: relative;
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin: 3px;
+}
+
+.notifyjs-wrapper {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.notifyjs-container {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.notifyjs-hidable {
+  cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+  position: relative;
+}
+
+.notifyjs-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+}</style><script charset="utf-8" src="./2017_files/button.509719336ca39171c37a321231ccaf83.js"></script></head>
+<body id="track"><div class="frame"><a href="https://pldi17.sigplan.org/blogposts" class="blog-link btn btn-xs btn-default navigate">Write a Blog &gt;&gt;</a><div class="logobar"><div class="container"><a href="https://pldi17.sigplan.org/" class="navbar-brand navigate"><span class="brand-text">PLDI 2017</span></a><div class="place">Sun 18 - Fri 23 June 2017 <a href="https://pldi17.sigplan.org/venue/upc" class="navigate">Barcelona, Spain</a></div><div class="place2">co-located with <a href="https://conf.researchr.org/home/pldi-ecoop-2017" class="navigate">ECOOP '17 and others <span class="glyphicon glyphicon-arrow-right"></span></a></div></div></div><div class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div id="navigationbar" class="navigationbar collapse navbar-collapse"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/venue/upc" class="navigate">Venue: Universitat Politècnica de Catalunya</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/sponsoring" class="navigate">Sponsoring</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/registration" class="navigate">Registration</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/visas" class="navigate">Visas</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/hotels" class="navigate">Hotels</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/student-traverl-support" class="navigate">Student Travel Support</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/wifi" class="navigate">Internet on site</a></li><li class="block"><a href="https://pldi17.sigplan.org/attending/social" class="navigate">Social Event</a></li></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017" class="navigate">PLDI Program</a></li><li class="block"><a href="http://pldi17.sigplan.org/program/program-pldi-2017?track=PLDI%20Research%20Papers%2CPLDI%20Student%20Research%20Competition%2CPLDI%20Invited%20Speakers#Detailed-Table" class="navigate">PLDI Main Tracks</a></li><li class="block"><a href="https://conf.researchr.org/program/pldi-ecoop-2017/program-pldi-ecoop-2017#session-timeline" class="navigate">Full Program</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?prog=Your%20Program" class="navigate"><span class="glyphicon glyphicon-star"></span> Your Program</a></li><li class="block divider"></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Sun%2018%20Jun%202017" class="navigate">Sun 18 Jun</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Mon%2019%20Jun%202017" class="navigate">Mon 19 Jun</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Tue%2020%20Jun%202017" class="navigate">Tue 20 Jun</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Wed%2021%20Jun%202017" class="navigate">Wed 21 Jun</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Thu%2022%20Jun%202017" class="navigate">Thu 22 Jun</a></li><li class="block"><a href="https://pldi17.sigplan.org/program/program-pldi-2017?date=Fri%2023%20Jun%202017" class="navigate">Fri 23 Jun</a></li></ul></li><li id="tracks-in-navbar" class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-3"><div class="row"><div class="col-sm-5"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2017</li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-keynotes" class="navigate">PLDI Invited Speakers</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-papers" class="navigate">PLDI Research Papers</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-artifact" class="navigate">PLDI Research Artifacts</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-student-research-competition" class="navigate">PLDI Student Research Competition</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-Student-Volunteers" class="navigate">Student Volunteers</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-Workshops" class="navigate">PLDI Workshops</a></li><li class="block"><a href="https://pldi17.sigplan.org/track/pldi-2017-workshops-and-tutorials" class="navigate">PLDI Tutorials</a></li></ul></div><div class="col-sm-7"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>ISMM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/home/ismm-2017" class="navigate"><span class="glyphicon glyphicon-home"></span> ISMM</a></li><li class="block"><a href="https://conf.researchr.org/track/ismm-2017/ismm-2017-papers" class="navigate"><strong>ISMM</strong> </a></li></ul></li><li class="block"><a href="https://conf.researchr.org/track/LCTES-2017/LCTES-2017-papers" class="navigate"><strong>LCTES</strong> </a></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="block"><a href="https://pldi17.sigplan.org/track/array-2017" class="navigate"><strong>ARRAY</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/dsw-2017-papers" class="navigate"><strong>DSW</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/ic-2017-papers" class="navigate"><strong>IC</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/mapl-2017-papers" class="navigate"><strong>MAPL</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/PLMW-PLDI-2017" class="navigate"><strong>PLMW</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/SOAP-2017-papers" class="navigate"><strong>SOAP</strong> </a></li><li class="block"><a href="https://pldi17.sigplan.org/track/WCIRE-2017-2-papers" class="navigate"><strong>WCIRE</strong> </a></li></ul></div></div></ul></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle">Organization <span class="caret"></span></a><ul class="block dropdown-menu multi-column columns-2"><div class="row"><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">PLDI 2017</li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-external-program-committee" class="navigate">External Program Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-external-review-committee" class="navigate">External Review Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-steering-committee" class="navigate">Steering Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-artifact-evaluation-committee" class="navigate">Artifact Evaluation Committee</a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/pldi-2017-src-panel" class="navigate">SRC Panel</a></li><li class="block dropdown-header">Contributors</li><li class="block"><a href="https://pldi17.sigplan.org/people-index" class="navigate"><span class="glyphicon glyphicon-search"></span><sub><span class="glyphicon glyphicon-user"></span></sub> People Index</a></li></ul></div><div class="col-sm-6"><ul class="block multi-column-dropdown"><li class="block dropdown-header">Co-hosted Conferences</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>ISMM</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/ismm-2017/ismm-2017-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2017/ismm-2017-steering-committee" class="navigate">Steering Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2017/ismm-2017-papers-program-committee" class="navigate"><strong>ISMM 2017</strong> <small>Program Committee</small></a></li><li class="block"><a href="https://conf.researchr.org/committee/ismm-2017/ismm-2017-papers-external-review-committee" class="navigate"><strong>ISMM 2017</strong> <small>External Review Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>LCTES</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2017/lctes-2017-organizing-committee" class="navigate">Organizing Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2017/lctes-2017-program-committee" class="navigate">Program Committee</a></li><li class="block"><a href="https://conf.researchr.org/committee/LCTES-2017/lctes-2017-steering-committee" class="navigate">Steering Committee</a></li></ul></li><li class="block dropdown-header">Co-hosted Workshops</li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>ARRAY</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/array-2017-papers-organizing-committee" class="navigate"><strong>ARRAY 2017</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/array-2017-papers-program-committee" class="navigate"><strong>ARRAY 2017</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>DSW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/dsw-2017-papers-organizing-committee" class="navigate"><strong>DSW 2017</strong> <small>Organizing Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>IC</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/ic-2017-papers-keynote-speaker" class="navigate"><strong>IC 2017</strong> <small>Keynote speaker</small></a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/ic-2017-papers-organizing-committee" class="navigate"><strong>IC 2017</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/ic-2017-papers-program-committee" class="navigate"><strong>IC 2017</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>MAPL</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/mapl-2017-papers-organizing-committee" class="navigate"><strong>MAPL 2017</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/mapl-2017-papers-program-committee" class="navigate"><strong>MAPL 2017</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>PLMW</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/plmw-pldi-2017-papers-organizing-committee" class="navigate"><strong>PLMW</strong> <small>Mentors</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>SOAP</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/soap-2017-papers-organizing-committee" class="navigate"><strong>SOAP</strong> <small>Organizing Committee</small></a></li><li class="block"><a href="https://pldi17.sigplan.org/committee/soap-2017-papers-program-committee" class="navigate"><strong>SOAP</strong> <small>Program Committee</small></a></li></ul></li><li class="dropdown dropdown-submenu"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><strong>WCIRE</strong></a><ul class="block dropdown-menu"><li class="block"><a href="https://pldi17.sigplan.org/committee/wcire-pldi-2017-papers-organizing-committee" class="navigate"><strong>WCIRE 2017</strong> <small>Organizing Committee</small></a></li></ul></li></ul></div></div></ul></li><li class="block"><a href="https://pldi17.sigplan.org/search//all" class="navigate"><span class="glyphicon glyphicon-search"></span><span class="hidden-sm"> Search</span></a></li><li class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-sm">Series <span class="caret"></span></span><span title="" class="visible-sm" data-original-title="Series"><span class="glyphicon glyphicon-repeat"></span> <span class="caret"></span></span></a><ul class="block dropdown-menu"><li class="block"><a href="https://conf.researchr.org/series/pldi" class="navigate">Series</a></li><li class="block divider"></li><li class="block"><a href="https://pldi20.sigplan.org/" class="navigate">PLDI 2020</a></li><li class="block"><a href="https://pldi19.sigplan.org/" class="navigate">PLDI 2019</a></li><li class="block"><a href="https://pldi18.sigplan.org/" class="navigate">PLDI 2018</a></li><li class="block"><span class="text-muted"><span class="glyphicon glyphicon-chevron-right"></span> PLDI 2017</span></li><li class="block"><a href="https://pldi16.sigplan.org/" class="navigate">PLDI 2016</a></li><li class="block"><a href="https://pldi15.sigplan.org/" class="navigate">PLDI 2015</a></li></ul></li></ul><script type="text/javascript">(function($){
+      $(document).ready(function(){
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+        });
+      });
+    })(jQuery);
+    </script><div class="navbar-right"><ul class="block nav navbar-nav"><li class="dropdown"><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#" data-toggle="dropdown" class="dropdown-toggle"><img alt="Ben Hermann" src="./2017_files/micro-avatar.jpg" class="outputimage navbar-image"></a><ul class="block dropdown-menu"><li class="block dropdown-header">Ben Hermann</li><li class="block divider"></li><li class="block"><a href="https://pldi17.sigplan.org/profile/benhermann1" class="navigate">My Profile</a></li><li class="block"><a href="https://pldi17.sigplan.org/manageProfile/8d5d764e-6408-48bb-9ead-c1c016c62297#Account-Data" class="navigate">My Account</a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;pldi-2017&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;pldi-2017-artifact&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser1129d1467cb4c48f8dabac5c5f9f85c93" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(this device only)</small></a></li><li class="block"><button style="position: absolute; left: -9999px; width: 1px; height: 1px;" onclick="javascript:serverInvoke(&quot;https://conf.researchr.org/track&quot;,&quot;signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab&quot;, [{&quot;name&quot;:&quot;context&quot;, &quot;value&quot;:&quot;pldi-2017&quot;},{&quot;name&quot;:&quot;tr&quot;, &quot;value&quot;:&quot;pldi-2017-artifact&quot;},],&quot;&quot;, this.nextSibling, true,&quot;1&quot;); return false;"></button><a submitid="signoffLinkBool_Bool_signoutuser177b0c3bc2258923f8649cff9c67156ab" href="javascript:void(0)" onclick="javascript:loadImageElem=this;$(this.previousSibling).click()">Sign Off <small>(all devices)</small></a></li><li class="block divider"></li><li class="block dropdown-header"><span class="glyphicon glyphicon-cog"></span> Management</li><li class="block"><a href="https://pldi17.sigplan.org/manage" class="navigate"><span class="glyphicon glyphicon-dashboard"></span> Manage dashboard</a></li></ul></li></ul></div></div></div></div><div id="content" class="container"><div class="page-header"><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://conf.researchr.org/home/pldi-ecoop-2017" class="navigate">PLDI, ECOOP, Curry On, DEBS, LCTES and ISMM</a> (<a href="https://conf.researchr.org/series/pldi-ecoop" class="navigate">series</a>) / </span><span class="text-muted small"><span class="glyphicon glyphicon-home"></span> <a href="https://pldi17.sigplan.org/" class="navigate">PLDI 2017</a> (<a href="https://conf.researchr.org/series/pldi" class="navigate">series</a>) / </span><h1>PLDI 2017 PLDI Research Artifacts</h1></div><div class="row"><div class="col-sm-8"><p></p><h2>Call for Research Artifacts</h2><p></p><p>PLDI 2017 is continuing the novel experiment that began at PLDI 2014 and which has been employed for PLDI 2015 and 2016: <strong>giving authors the opportunity to submit for evaluation any artifacts that accompany their papers</strong>. Similar experiments ran successfully for OOPSLA, POPL, ESEC/FSE and ECOOP.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#background" id="background" class="anchor-link">Background</a></h2>
+<p>A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet most of our conferences offer no formal means to submit and evaluate anything but the paper. PLDI 2017 has created an <a href="http://pldi17.sigplan.org/committee/pldi-2017-artifact-evaluation-committee">Artifact Evaluation Committee</a> (AEC) to remedy this situation.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#goals" id="goals" class="anchor-link">Goals</a></h2>
+<p>The AEC’s goal is twofold: to reward and probe. The primary goal is to reward authors who take the trouble to create useful artifacts beyond the paper. Sometimes the software tools that accompany the paper take years to build; in many such cases, authors who go to this trouble should be rewarded for setting high standards and creating systems that others in the community can build on. Conversely, authors sometimes take liberties in describing the status of their artifacts—claims they would temper if they knew the artifacts are going to be scrutinized. This leads to more accurate reporting.</p>
+<p>The organizers of the AEC hope that eventually, the assessment of a paper’s accompanying artifacts will guide the decision-making about papers: that is, the AEC will inform and advise the Program Committee (PC). This would, however, represent a radical shift in our conference evaluation processes; the organizers of the PLDI 2017 AEC would rather proceed gradually. Thus, at PLDI 2017, artifact evaluation is optional, and authors choose to undergo evaluation <strong>only after their paper has been accepted</strong>.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#criteria" id="criteria" class="anchor-link">Criteria</a></h2>
+<p>The evaluation criteria are simple. A paper sets up certain expectations of its artifacts based on its content. The AEC will read the paper and then judge how well the artifact matches these criteria. Thus the AEC’s decision will be that the artifact does or does not “conform to the expectations set by the paper.” Ultimately, the AEC expects artifacts to be:</p>
+<ul>
+<li>consistent with the paper,</li>
+<li>as complete as possible,</li>
+<li>documented well, and</li>
+<li>easy to reuse, facilitating further research.</li>
+</ul>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#benefits" id="benefits" class="anchor-link">Benefits</a></h2>
+<p>The dissemination of artifacts benefits our science and engineering as a whole. Their availability improves reproducibility, and enables authors to build on top of each others’ work. It can also help to more unambiguously resolve questions about cases not considered by the original authors.</p>
+<p>Beyond helping the community as a whole, the evaluation and dissemination of artifacts confers several direct and indirect benefits to the authors themselves. The most direct benefit is, of course, the recognition that the authors accrue. But the very act of creating a bundle that can be used by the AEC also confers important benefits:</p>
+<ul>
+<li>The same bundle can be distributed to third parties.</li>
+<li>A reproducible bundle can be used subsequently for later experiments (e.g., on new parameters).</li>
+<li>The bundle simplifies subsequent re-executions of the system when, say, having to respond to a journal reviewer’s questions.</li>
+<li>The bundle is more likely to survive being put in storage between the departure of one student and the arrival of the next.</li>
+</ul>
+<p>However, creating a bundle that meets all these properties can be onerous. Therefore, the AEC process described below does not require an artifact to have all these properties. It offers a route to evaluation that confers fewer benefits for vastly less effort.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#process" id="process" class="anchor-link">Process</a></h2>
+<p>To maintain a wall of separation between paper review and the artifacts, authors will only be asked to upload their artifacts after their papers have been accepted. Of course, they can (and should!) prepare their artifacts well in advance, and can provide the artifacts to the PC through unofficial URLs contained in their papers, as many authors already do.</p>
+<p>The authors of all accepted papers will be asked whether they intend to have their artifact evaluated and, if so, to upload the artifact. They are welcome to indicate that they do not. Since we anticipate small glitches with installation and use, the AEC reserves the right to send a one-time message to the authors requesting clarification. Authors can submit a one-time response, focusing solely on the questions of the AEC; we do not impose a word-limit (since, e.g., a code attachment may be needed), but strongly suggest that the prose be no longer than 1000 words. Based on these inputs, the AEC will complete its evaluation and notify authors of the outcome. Authors are welcome to ignore the feedback or to include it in their paper as they deem fit (as a footnote, a section, etc.).</p>
+<p>The conference proceedings will include a discussion of the artifact evaluation process. Papers with artifacts that “meet expectations” may indicate that they do with the now standard AEC badge that accompany papers.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#artifact-details" id="artifact-details" class="anchor-link">Artifact Details</a></h2>
+<p>To avoid excluding some papers, the AEC will accept any artifact that authors wish to submit. These can be software, mechanized proofs, test suites, data sets, and so on. Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it.</p>
+<p>In all cases, the AEC will accept a video of the artifact in use. These may include screencasts of the software being run on the examples in the paper, traversals of models using modeling tools, stepping through a proof script, etc. The video is, of course, not a substitute for the artifact itself, but this provides an evolutionary path that imposes minimal burden on authors.</p>
+<p>Submission of an artifact does not contain tacit permission to make its content public. AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, and similar items in your artifact. The AEC organizers strongly encourage you to anonymize any data files that you submit.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#membership" id="membership" class="anchor-link">Membership</a></h2>
+<p>Other than the chairs, the AEC members are senior graduate students, postdocs, or recent graduates, identified with the help of current, active researchers. Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations that the AEC will encounter. In addition, graduate students represent the future of the community, so involving them in the AEC process early will help push this process forward. The AEC chairs devote considerable attention to both mentoring and monitoring, helping to educate the students on their responsibilities and privileges.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#how-to" id="how-to" class="anchor-link">How-To</a></h2>
+<p>This <a href="http://bit.ly/HOWTO-AEC">HOWTO document</a>, written by a group that has both reviewed and won Distinguished Artifact Awards, provides useful advice on how best to prepare your artifact for review. We highly recommend that you read it.</p>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#highlights-of-the-aec-process-in-2017" id="highlights-of-the-aec-process-in-2017" class="anchor-link">Highlights of the AEC Process in 2017</a></h2>
+<ul>
+<li><strong>The goal of the AEC is to accept every artifact submitted.</strong>  While some artifacts may not pass muster and may be rejected, we will evaluate in earnest and make our best attempt to follow authors’ evaluation instructions.</li>
+<li>Throughout the review period, submitted reviews will be (approximately) continuously visible to authors.  <strong>AEC reviewers will be able to continuously interact (anonymously) with authors</strong> for clarifications, system-specific patches, and other logistics help to make the artifact evaluable.    The goal of continuous interaction is to prevent rejecting artifacts for a “wrong library version”-type problem.</li>
+<li>We expect each artifact to receive <strong>3-4 reviews</strong>.</li>
+<li><strong>Reviews will be submitted via HotCRP</strong> and we will provide more information as the deadline approaches.</li>
+</ul>
+<h2><a href="https://conf.researchr.org/track/pldi-2017/pldi-2017-artifact#important-dates" id="important-dates" class="anchor-link">Important Dates</a></h2>
+<ul>
+<li><strong>February 20th: Author artifact submission deadline</strong></li>
+<li><strong>March 1st</strong>: Basic artifact functionality evaluation deadline</li>
+<li><strong>April 10th</strong>: Acceptance notification</li>
+</ul>
+<p></p></div><div class="col-sm-4 sidebar"><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title">Important Dates<span class="pull-right"><small><span class="glyphicon glyphicon-globe"></span><span class="glyphicon glyphicon-time"></span> AoE (UTC-12h)</small></span></div></div><table class="table table-hover important-dates-in-sidebar"><tbody><tr href="https://pldi17.sigplan.org/track/pldi-2017-artifact" class="clickable-row past"><td>Mon 10 Apr 2017<br>Research artifact acceptance notification</td></tr><tr href="https://pldi17.sigplan.org/track/pldi-2017-artifact" class="clickable-row past"><td>Wed 1 Mar 2017<br>Basic artifact functionality evaluation deadline</td></tr><tr href="https://pldi17.sigplan.org/track/pldi-2017-artifact" class="clickable-row past"><td><strong>Mon 20 Feb 2017</strong><br><strong>Research artifact submission deadline</strong></td></tr></tbody></table></div><div class="panel panel-primary"><div class="panel-heading clearfix"><div class="panel-title">Submission Link</div></div><div class="panel-body"><small><span class="text-muted"><span class="glyphicon glyphicon-new-window"></span></span> <a href="https://pldi17ae.hotcrp.com/" title="" target="_blank" class="navigate" data-original-title="Submission link for Call for Research Artifacts">https://pldi17ae.hotcrp.com</a></small></div></div></div></div><div id="messages-placeholder" class="alert alert-warning" style="display:none;"><a data-dismiss="alert" class="close">x</a><em>Tue 3 Sep 10:37</em></div></div><div id="notifications-ph" class="webdsl-placeholder"></div><footer class="footer"><div class="container"><div class="footer-box"><div class="row"><div class="col-sm-3"><h3><a href="https://pldi17.sigplan.org/" class="navigate"><span class="glyphicon glyphicon-home"></span> PLDI 2017</a></h3><div><a href="https://pldi17.sigplan.org/contact" class="navigate"><span class="glyphicon glyphicon-envelope"></span> contact form</a></div><hr>using <a href="https://conf.researchr.org/" class="navigate">conf.researchr.org</a> (<a href="http://yellowgrass.org/roadmap/conf.researchr.org" class="navigate">v1.17.0</a>)<br><small><a href="https://pldi17.sigplan.org/support" target="_blank" class="navigate"><span class="glyphicon glyphicon-question-sign"></span> Support page</a></small><br><small></small></div><div class="col-sm-5"><div class="row"><div class="col-sm-6"><h4>Tracks</h4><a href="https://pldi17.sigplan.org/track/pldi-2017-keynotes" class="navigate">PLDI Invited Speakers</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-papers" class="navigate">PLDI Research Papers</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-artifact" class="navigate">PLDI Research Artifacts</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-student-research-competition" class="navigate">PLDI Student Research Competition</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-Student-Volunteers" class="navigate">Student Volunteers</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-Workshops" class="navigate">PLDI Workshops</a><br><a href="https://pldi17.sigplan.org/track/pldi-2017-workshops-and-tutorials" class="navigate">PLDI Tutorials</a></div><div class="col-sm-6"><h4>Co-hosted Conferences</h4><a href="https://conf.researchr.org/home/ismm-2017" class="navigate">ISMM 2017</a><br><a href="https://conf.researchr.org/track/LCTES-2017/LCTES-2017-papers" class="navigate">LCTES 2017</a><br><h4>Co-hosted Workshops</h4><a href="https://pldi17.sigplan.org/track/array-2017" class="navigate">ARRAY 2017</a><br><a href="https://pldi17.sigplan.org/track/dsw-2017-papers" class="navigate">DSW 2017</a><br><a href="https://pldi17.sigplan.org/track/ic-2017-papers" class="navigate">IC 2017</a><br><a href="https://pldi17.sigplan.org/track/mapl-2017-papers" class="navigate">MAPL 2017</a><br><a href="https://pldi17.sigplan.org/track/PLMW-PLDI-2017" class="navigate">PLMW 2017</a><br><a href="https://pldi17.sigplan.org/track/SOAP-2017-papers" class="navigate">SOAP 2017</a><br><a href="https://pldi17.sigplan.org/track/WCIRE-2017-2-papers" class="navigate">WCIRE 2017</a></div></div></div><div class="col-sm-2"><h4>Attending</h4><a href="https://pldi17.sigplan.org/venue/upc" class="navigate">Venue: Universitat Politècnica de Catalunya</a><br><a href="https://pldi17.sigplan.org/attending/sponsoring" class="navigate">Sponsoring</a><br><a href="https://pldi17.sigplan.org/attending/registration" class="navigate">Registration</a><br><a href="https://pldi17.sigplan.org/attending/visas" class="navigate">Visas</a><br><a href="https://pldi17.sigplan.org/attending/hotels" class="navigate">Hotels</a><br><a href="https://pldi17.sigplan.org/attending/student-traverl-support" class="navigate">Student Travel Support</a><br><a href="https://pldi17.sigplan.org/attending/wifi" class="navigate">Internet on site</a><br><a href="https://pldi17.sigplan.org/attending/social" class="navigate">Social Event</a></div><div class="col-sm-2"><style>
+.page-header .text-muted.small:first-child{
+  display: none;
+}
+</style>
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 187px; height: 20px;" title="Twitter Follow Button" src="./2017_files/follow_button.097c1f5038f9e8a0d62a39a892838d66.en.html" data-screen-name="pldi"></iframe>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<script>
+function isCarousel()
+{
+	var isManage;
+	var $id = document.getElementsByTagName('body')[0].id;
+	if($id.indexOf("manage") === 0) {
+          isManage = true;
+	} 
+	else{
+    	isManage = false;
+	}
+	var isCarousel = document.getElementsByClassName('carousel');
+
+        if (isCarousel.length === 1) {
+        $('body').addClass("with-carousel");
+        }
+}
+
+isCarousel();
+
+$('.carousel').carousel({ interval: 10000});
+</script>
+
+<script>
+// Get rid of the "Series" in the menu
+$(".navbar-nav>li.dropdown:has(a:contains('Editions'))>ul>li").slice(0, 2).hide();
+$("span.text-muted:has(a[href=\"http://pldi17.sigplan.org/series/pldi\"])").html('<span class="glyphicon glyphicon-home"></span> <a href="http://pldi17.sigplan.org/home" class="navigate">PLDI 2017</a>')
+$(".clickable-row.text-success:contains('visa')>td>em").css("display","none")
+$(".clickable-row.text-success:contains('registration')>td>em").css("display","none")
+$(".clickable-row.text-success:contains('visa')").attr("href","http://pldi17.sigplan.org/attending/visas")
+// do not say co-located with PLDI
+$(".place2>a").html("ECOOP '17 and others <span class=\"glyphicon glyphicon-arrow-right\"></span>")
+// force session timeline view by default
+if (location.href.indexOf("program-pldi-2017") != -1 && location.hash === "") location.hash = "session-timeline";
+// add incomplete program warning
+/*
+if (location.href.indexOf("program-pldi-2017") != -1) {
+  $(".program-wrap>p:first").html("<span style=\"color: red; font-width: bold;\">The detailed schedule is not yet complete.  Please refer to the Session Timeline for the list of conferences, workshops and sessions offered.</span>")
+  let tabs = $("ul#tab>li").detach();
+  let sessionTab = tabs[1];
+  tabs[1] = tabs[0];
+  tabs[0] = sessionTab;
+  $("ul#tab").html(tabs);
+}
+*/
+
+// link Curry-on Talk in session timelnine
+$("div.timeline-elem:contains('Curry-On Keynote')").parent().attr('href','http://www.curry-on.org/2017/sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html');
+// same in detailed table
+$("div.session-info-in-table:contains('Curry-On Keynote')>a:contains('Invited')").attr('href','http://www.curry-on.org/2017/sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html');
+
+// Reorder "Actes, Civil Engineering after Aula Master"
+var civ = $(".timeline-table>tbody>tr:has(td.timeline-first-col:contains('Civil Engineering'))").filter(function(idx, elem) { return $(elem).closest("#session-timeline").length; });
+var aula = $(".timeline-table>tbody>tr:has(td.timeline-first-col:contains('Aula Master'))").filter(function(idx, elem) { return $(elem).closest("#session-timeline").length; });
+
+for (let i = 0; i < civ.length; ++i) {
+  let tx = $(civ[i]).parents("div.timeline-wrap-outer").parent().children(".day-header").text();
+  let aul = aula.filter(function(idx, elem) { return $(elem).parents("div.timeline-wrap-outer").parent().children(".day-header:contains('" + tx + "')").length; });	
+  let elem = $(civ[i]);
+  aul.after(elem);
+}
+
+var civ = $(".timeline-table>tbody>tr:has(td.timeline-first-col:contains('Civil Engineering'))").filter(function(idx, elem) { return $(elem).closest("#Detailed-Timeline").length; });
+var aula = $(".timeline-table>tbody>tr:has(td.timeline-first-col:contains('Aula Master'))").filter(function(idx, elem) { return $(elem).closest("#Detailed-Timeline").length; });
+
+for (let i = 0; i < civ.length; ++i) {
+  let tx = $(civ[i]).parents("div.timeline-wrap-outer").parent().children(".day-header").text();
+  let aul = aula.filter(function(idx, elem) { return $(elem).parents("div.timeline-wrap-outer").parent().children(".day-header:contains('" + tx + "')").length; });	
+  let elem = $(civ[i]);
+  aul.after(elem);
+}
+
+// Add a link to the full program to the Program menu
+var prg = $("ul.navbar-nav>li>ul>li>a:contains('Complete Program')").parent().clone();
+$(prg).children("a").text("Full Program");
+$(prg).children("a").attr("href", "https://conf.researchr.org/program/pldi-ecoop-2017/program-pldi-ecoop-2017#session-timeline");
+$("ul.navbar-nav>li>ul>li>a:contains('Complete Program')").parent().after(prg);
+
+// Add "PLDI Main Tracks to the Program menu
+prg = $("ul.navbar-nav>li>ul>li>a:contains('Complete Program')").parent().clone();
+$(prg).children("a").text("PLDI Main Tracks");
+$(prg).children("a").attr("href", "http://pldi17.sigplan.org/program/program-pldi-2017?track=PLDI%20Research%20Papers%2CPLDI%20Student%20Research%20Competition%2CPLDI%20Invited%20Speakers#Detailed-Table");
+$("ul.navbar-nav>li>ul>li>a:contains('Complete Program')").parent().after(prg);
+
+// Rename Complete Program to PLDI Program
+prg = $("ul.navbar-nav>li>ul>li>a:contains('Complete Program')").text("PLDI Program");
+
+</script></div></div></div></div></footer></div><script type="text/javascript">(function(){
+    var post_process_function = function(n){ var node=(n&&n.nodeType === 1)?n:document; $(node).find('[title]').tooltip({placement: 'auto top', container: 'body'}); $('.tooltip.fade.in, .ui-tooltip-content').remove(); };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function(){
+      original_post_process_func.apply(this,arguments);
+      post_process_function.apply(this,arguments);
+    };
+    $(document).ready( post_process_function );
+  })();   
+  </script><script type="text/javascript">jQuery(document).ready(function($) {
+	      $(".clickable-row").click(function() {
+	      	if(window.location.href.indexOf($(this).attr("href")) < 0){
+	            window.document.location = $(this).attr("href");
+	        }
+	      });
+		});
+		</script>
+<style>body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }</style><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./2017_files/widget_iframe.097c1f5038f9e8a0d62a39a892838d66.html" title="Twitter settings iframe" style="display: none;"></iframe></body></html>

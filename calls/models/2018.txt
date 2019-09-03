@@ -1,3 +1,5 @@
+https://modelsconf2018.github.io/calls/artifact-evaluation/
+
 Artifact Evaluation
 For the second year, MODELS will implement a separate evaluation process to assess the quality of the artifacts supporting the work presented in accepted papers. With the artifact evaluation process, we want to acknowledge the considerable effort required to obtain high-quality artifacts, to foster a culture of experimental reproducibility, and to provide a peer review and archiving process for artifacts similar to that of research papers.
 

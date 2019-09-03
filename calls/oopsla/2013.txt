@@ -1,3 +1,5 @@
+https://2013.splashcon.org/track/splash-2013-OOPSLA-Artifacts
+
 SPLASH 2013 OOPSLA Artifacts
 Authors of OOPSLA research papers accepted in the first reviewing phase are invited to formally submit supporting materials to the Artifact Evaluation process. The high level goal of the Artifact Evaluation (AE) process is to empower others to build upon the contributions of a paper. The AE process, new this year, is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves.
 

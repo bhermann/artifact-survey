@@ -1,0 +1,55 @@
+.brand-text {
+    visibility: hidden;
+}
+
+div.logobar {
+    padding: 22px 48px;
+    background-image: url(https://2019.splashcon.org/getImage/orig/parthenon-web.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 264px, 259px, auto;
+    height: 150px;
+    border-bottom: 18px solid #1a1919;
+}
+
+@media screen and (max-width: 600px) {
+    div.logobar {
+        background-image: none;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        margin: 0px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        left: 0;
+    }
+}
+
+.navbar-brand {
+    position: absolute;
+    background: url(https://2019.splashcon.org/getImage/orig/splash19-logo-web.png) no-repeat;
+    background-size: auto 103px;
+    top: 45px;
+    right: 45px;
+    height: 122px;
+    width: 322px;
+    z-index: 100;
+}
+
+.place {
+    position: absolute;
+    left: 91px;
+    top: 131px;
+    color: #cecece;
+}
+
+div.frame .carousel {
+    margin-bottom: 10px;
+}

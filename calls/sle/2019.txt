@@ -1,3 +1,5 @@
+https://conf.researchr.org/home/sle-2019#Artifact-Evaluation
+
 Artifact Evaluation
 SLE will, for the fourth year, use an evaluation process for assessing the quality of artifacts on which papers are based. The aim of this evaluation process is to foster a culture of experimental reproducibility and to provide a peer review process for artifacts as well as papers.
 

@@ -1,3 +1,5 @@
+https://www.etaps.org/user-profile/archive/33-uncategorised/390-artifact-evaluation-tacas19
+
 Artifact Evaluation
 As in 2018, TACAS’19 will include artifact evaluation for all types of papers. For regular tool papers and tool demonstration papers, artifact evaluation is compulsory (see the TACAS’19 call for papers), for research and case-study papers, it is voluntary (papers with accepted artifacts will receive a badge).
 

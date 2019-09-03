@@ -1,0 +1,50 @@
+div.logobar {
+  border-bottom : 2px solid black;
+  padding: 10px 0px;
+  background: url("http://conf.researchr.org/getImage/pldi-2016/orig/pldi-brand.png") no-repeat;
+  background-position: right 10px center;
+  background-size: 100px;
+  background-color: white;  
+  padding-bottom: 25px;
+}
+.brand-text{
+  visibility: hidden;
+}
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar-brand {
+  float: left;
+  background: url("http://conf.researchr.org/getImage/pldi-2016/orig/pldi16logo.png") no-repeat 0 2px;
+  background-size: 100%;
+  background-position: 0px 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 205px;
+  margin-top: -12px;
+  border-radius: 5px;
+  height: 72px;
+}
+
+.place {
+  padding: 65px 0 0 10px;
+  margin-bottom: -23px;
+  color: black;
+  font-size: 12px;
+  max-height: 98px;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+
+h3 {
+   font-size: 20px;
+   color: black;
+}
+

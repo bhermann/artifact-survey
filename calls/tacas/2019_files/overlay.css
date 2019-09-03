@@ -1,0 +1,48 @@
+.header-graphic-header-1 {background: url(/templates/rt_crystalline/images/overlays/headers/header-1.png) 50% 0 no-repeat;}
+.header-graphic-header-2 {background: url(/templates/rt_crystalline/images/overlays/headers/header-2.png) 50% 0 no-repeat;}
+.header-graphic-header-3 {background: url(/templates/rt_crystalline/images/overlays/headers/header-3.png) 50% 0 no-repeat;}
+.header-graphic-header-4 {background: url(/templates/rt_crystalline/images/overlays/headers/header-4.png) 50% 0 no-repeat;}
+.header-graphic-header-5 {background: url(/templates/rt_crystalline/images/overlays/headers/header-5.png) 50% 0 no-repeat;}
+.header-graphic-header-6 {background: url(/templates/rt_crystalline/images/overlays/headers/header-6.png) 50% 0 no-repeat;}
+.header-graphic-header-7 {background: url(/templates/rt_crystalline/images/overlays/headers/header-7.png) 50% 0 no-repeat;}
+.header-graphic-header-8 {background: url(/templates/rt_crystalline/images/overlays/headers/header-8.png) 50% 0 no-repeat;}
+.header-graphic-header-9 {background: url(/templates/rt_crystalline/images/overlays/headers/header-9.png) 50% 0 no-repeat;}
+.header-overlay-bark, .main-overlay-bark, .feature-overlay-bark, .body-overlay-bark, .bottom-overlay-bark {background: url(/templates/rt_crystalline/images/overlays/patterns/bark.png) 50% 0;}
+.header-overlay-blocks, .main-overlay-blocks, .feature-overlay-blocks, .body-overlay-blocks, .bottom-overlay-blocks {background: url(/templates/rt_crystalline/images/overlays/patterns/blocks.png) 50% 0;}
+.header-overlay-burlap, .main-overlay-burlap, .feature-overlay-burlap, .body-overlay-burlap, .bottom-overlay-burlap {background: url(/templates/rt_crystalline/images/overlays/patterns/burlap.png) 50% 0;}
+.header-overlay-carbon, .main-overlay-carbon, .feature-overlay-carbon, .body-overlay-carbon, .bottom-overlay-carbon {background: url(/templates/rt_crystalline/images/overlays/patterns/carbon.png) 50% 0;}
+.header-overlay-circles, .main-overlay-circles, .feature-overlay-circles, .body-overlay-circles, .bottom-overlay-circles {background: url(/templates/rt_crystalline/images/overlays/patterns/circles.png) 50% 0;}
+.header-overlay-cracked, .main-overlay-cracked, .feature-overlay-cracked, .body-overlay-cracked, .bottom-overlay-cracked {background: url(/templates/rt_crystalline/images/overlays/patterns/cracked.png) 50% 0;}
+.header-overlay-digital, .main-overlay-digital, .feature-overlay-digital, .body-overlay-digital, .bottom-overlay-digital {background: url(/templates/rt_crystalline/images/overlays/patterns/digital.png) 50% 0;}
+.header-overlay-elegant-1, .main-overlay-elegant-1, .feature-overlay-elegant-1, .body-overlay-elegant-1, .bottom-overlay-elegant-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/elegant-1.png) 50% 0;}
+.header-overlay-elegant-2, .main-overlay-elegant-2, .feature-overlay-elegant-2, .body-overlay-elegant-2, .bottom-overlay-elegant-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/elegant-2.png) 50% 0;}
+.header-overlay-elegant-3, .main-overlay-elegant-3, .feature-overlay-elegant-3, .body-overlay-elegant-3, .bottom-overlay-elegant-3 {background: url(/templates/rt_crystalline/images/overlays/patterns/elegant-3.png) 50% 0;}
+.header-overlay-elegant-4, .main-overlay-elegant-4, .feature-overlay-elegant-4, .body-overlay-elegant-4, .bottom-overlay-elegant-4 {background: url(/templates/rt_crystalline/images/overlays/patterns/elegant-4.png) 50% 0;}
+.header-overlay-gatorskin, .main-overlay-gatorskin, .feature-overlay-gatorskin, .body-overlay-gatorskin, .bottom-overlay-gatorskin {background: url(/templates/rt_crystalline/images/overlays/patterns/gatorskin.png) 50% 0;}
+.header-overlay-grunge-1, .main-overlay-grunge-1, .feature-overlay-grunge-1, .body-overlay-grunge-1, .bottom-overlay-grunge-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-1.png) 50% 0;}
+.header-overlay-grunge-2, .main-overlay-grunge-2, .feature-overlay-grunge-2, .body-overlay-grunge-2, .bottom-overlay-grunge-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-2.png) 50% 0;}
+.header-overlay-grunge-3, .main-overlay-grunge-3, .feature-overlay-grunge-3, .body-overlay-grunge-3, .bottom-overlay-grunge-3 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-3.png) 50% 0;}
+.header-overlay-grunge-4, .main-overlay-grunge-4, .feature-overlay-grunge-4, .body-overlay-grunge-4, .bottom-overlay-grunge-4 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-4.png) 50% 0;}
+.header-overlay-grunge-5, .main-overlay-grunge-5, .feature-overlay-grunge-5, .body-overlay-grunge-5, .bottom-overlay-grunge-5 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-5.png) 50% 0;}
+.header-overlay-grunge-6, .main-overlay-grunge-6, .feature-overlay-grunge-6, .body-overlay-grunge-6, .bottom-overlay-grunge-6 {background: url(/templates/rt_crystalline/images/overlays/patterns/grunge-6.png) 50% 0;}
+.header-overlay-isometric, .main-overlay-isometric, .feature-overlay-isometric, .body-overlay-isometric, .bottom-overlay-isometric {background: url(/templates/rt_crystalline/images/overlays/patterns/isometric.png) 50% 0;}
+.header-overlay-lines-1, .main-overlay-lines-1, .feature-overlay-lines-1, .body-overlay-lines-1, .bottom-overlay-lines-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/lines-1.png) 50% 0;}
+.header-overlay-lines-2, .main-overlay-lines-2, .feature-overlay-lines-2, .body-overlay-lines-2, .bottom-overlay-lines-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/lines-2.png) 50% 0;}
+.header-overlay-lines-3, .main-overlay-lines-3, .feature-overlay-lines-3, .body-overlay-lines-3, .bottom-overlay-lines-3 {background: url(/templates/rt_crystalline/images/overlays/patterns/lines-3.png) 50% 0;}
+.header-overlay-lines-4, .main-overlay-lines-4, .feature-overlay-lines-4, .body-overlay-lines-4, .bottom-overlay-lines-4 {background: url(/templates/rt_crystalline/images/overlays/patterns/lines-4.png) 50% 0;}
+.header-overlay-lines-5, .main-overlay-lines-5, .feature-overlay-lines-5, .body-overlay-lines-5, .bottom-overlay-lines-5 {background: url(/templates/rt_crystalline/images/overlays/patterns/lines-5.png) 50% 0;}
+.header-overlay-overlapping-targets, .main-overlay-overlapping-targets, .feature-overlay-overlapping-targets, .body-overlay-overlapping-targets, .bottom-overlay-overlapping-targets {background: url(/templates/rt_crystalline/images/overlays/patterns/overlapping-targets.png) 50% 0;}
+.header-overlay-paper, .main-overlay-paper, .feature-overlay-paper, .body-overlay-paper, .bottom-overlay-paper {background: url(/templates/rt_crystalline/images/overlays/patterns/paper.png) 50% 0;}
+.header-overlay-perforation, .main-overlay-perforation, .feature-overlay-perforation, .body-overlay-perforation, .bottom-overlay-perforation {background: url(/templates/rt_crystalline/images/overlays/patterns/perforation.png) 50% 0;}
+.header-overlay-plusses-1, .main-overlay-plusses-1, .feature-overlay-plusses-1, .body-overlay-plusses-1, .bottom-overlay-plusses-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/plusses-1.png) 50% 0;}
+.header-overlay-plusses-2, .main-overlay-plusses-2, .feature-overlay-plusses-2, .body-overlay-plusses-2, .bottom-overlay-plusses-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/plusses-2.png) 50% 0;}
+.header-overlay-spirals-1, .main-overlay-spirals-1, .feature-overlay-spirals-1, .body-overlay-spirals-1, .bottom-overlay-spirals-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/spirals-1.png) 50% 0;}
+.header-overlay-spirals-2, .main-overlay-spirals-2, .feature-overlay-spirals-2, .body-overlay-spirals-2, .bottom-overlay-spirals-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/spirals-2.png) 50% 0;}
+.header-overlay-square-wave, .main-overlay-square-wave, .feature-overlay-square-wave, .body-overlay-square-wave, .bottom-overlay-square-wave {background: url(/templates/rt_crystalline/images/overlays/patterns/square-wave.png) 50% 0;}
+.header-overlay-tape-worm, .main-overlay-tape-worm, .feature-overlay-tape-worm, .body-overlay-tape-worm, .bottom-overlay-tape-worm {background: url(/templates/rt_crystalline/images/overlays/patterns/tape-worm.png) 50% 0;}
+.header-overlay-triangle, .main-overlay-triangle, .feature-overlay-triangle, .body-overlay-triangle, .bottom-overlay-triangle {background: url(/templates/rt_crystalline/images/overlays/patterns/triangle.png) 50% 0;}
+.header-overlay-weave, .main-overlay-weave, .feature-overlay-weave, .body-overlay-weave, .bottom-overlay-weave {background: url(/templates/rt_crystalline/images/overlays/patterns/weave.png) 50% 0;}
+.header-overlay-wood-1, .main-overlay-wood-1, .feature-overlay-wood-1, .body-overlay-wood-1, .bottom-overlay-wood-1 {background: url(/templates/rt_crystalline/images/overlays/patterns/wood-1.png) 50% 0;}
+.header-overlay-wood-2, .main-overlay-wood-2, .feature-overlay-wood-2, .body-overlay-wood-2, .bottom-overlay-wood-2 {background: url(/templates/rt_crystalline/images/overlays/patterns/wood-2.png) 50% 0;}
+.header-overlay-wood-3, .main-overlay-wood-3, .feature-overlay-wood-3, .body-overlay-wood-3, .bottom-overlay-wood-3 {background: url(/templates/rt_crystalline/images/overlays/patterns/wood-3.png) 50% 0;}
+.header-overlay-wood-4, .main-overlay-wood-4, .feature-overlay-wood-4, .body-overlay-wood-4, .bottom-overlay-wood-4 {background: url(/templates/rt_crystalline/images/overlays/patterns/wood-4.png) 50% 0;}

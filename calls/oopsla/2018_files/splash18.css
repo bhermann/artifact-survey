@@ -1,0 +1,280 @@
+.footer {
+    background: #231f20 !important;
+    display: block !important;
+    color: #525252 !important;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    padding: 0 0 30px !important;
+    border-top: 5px solid #7B7A7B !important;
+    height: auto !important;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5 {
+    color: #7B7A7B !important;
+    border-bottom: 2px solid #272727 !important;
+    padding-bottom: 10px !important;
+    margin-top: 22px;
+}
+
+footer hr
+{
+    display: none;
+}
+
+footer small
+{
+    font-size: 100% !important;
+    line-height: 21px !important;
+}
+
+footer a {
+    line-height: 18px !important;
+    -webkit-transition: all 500ms ease !important;
+    -moz-transition: all 500ms ease !important;
+    -ms-transition: all 500ms ease !important;
+    -o-transition: all 500ms ease !important;
+    transition: all 500ms ease !important;
+}
+
+footer a:hover, footer a:focus {
+    color:  #7B7A7B !important;
+}
+
+div.logobar {
+  border-bottom : 20px solid #1a1919;
+  background: url("https://conf.researchr.org/getImage/splash-2018/orig/boston-skyline-4.png") no-repeat 0 0px;
+  background-size: auto 60px;
+  background-position-y: 10px;
+  background-color: rgb(235,255,255);
+  height: 90px;
+}
+
+.brand-text{
+  visibility: hidden;
+}
+
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar {
+  background-color: transparent;
+  border: none;
+  top: 10px;
+  padding-right: 15px;
+}
+
+.navbar .container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  background-color:white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #e7e7e7;
+    color: #555;
+}
+
+.navbar-default .navbar-nav>li>a {
+    -webkit-transition: 0.2s !important;
+    transition: 0.2s !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  background-color: rgb(245,255,255);
+}
+
+.page-header {
+    margin-top: 25px;
+}
+
+.col-sm-12 {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.panel {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 25px 25px 15px 15px;
+}
+
+.panel-heading {
+  border-radius: 20px 20px 0px 0px;
+}
+
+#tab {
+  border-top: 0px
+}
+
+.active a.bound {
+  border: 0px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-tabs {
+  border: 0px;
+}
+
+.nav-tabs>li>a:hover {
+  border: 0px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  -webkit-transition: 0.2s !important;
+    transition: 0.2s !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  background: url("https://conf.researchr.org/getImage/splash-2018/orig/splash-logo-2.png") no-repeat;
+  background-size: auto 70px;
+  top: 30px;
+  right: 10px;
+  height: 80px;
+  width: 310px;
+  z-index: 100;
+}
+
+.place {
+  position: absolute;
+  left: 10px;
+  top: 72px;
+  font-size: x-small;
+  color: white;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+
+h3 {
+   font-size: 20px;
+   color: black;
+}
+
+.carousel-caption h3 {
+  color: white;
+}
+
+#home .navbar {
+  top: 450px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navigationbar {
+  border: none;
+}
+
+.carousel {
+  top: -52px;
+}
+
+.carousel-inner {
+    border-bottom: 1px black solid;
+}
+
+.tab-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    padding: 15px;
+    background-color: white;
+}
+
+.tab-pane td, .tab-pane th {
+       border-top: 0px;
+}
+
+td, th {
+  border: 0px !important;
+}
+
+td.btn-primary {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.col-sm-12 table {
+  margin: 15px 0px 15px 0px;
+}
+
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.list-group {
+    padding-left: 3px;
+    padding-bottom: 4px;
+    padding-right: 3px;
+
+}
+
+.important-dates-in-sidebar .text-success {
+   background-color: inherit;
+}
+
+@media (max-width:1439px){
+  #home .navbar {
+    top: 385px;
+  }
+}
+
+@media (max-width:991px){
+  #home .navbar {
+    top: 385px;
+  }
+}
+
+@media (max-width: 767px) {
+  #home .navbar {
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .navbar {
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .navbar-brand {
+    right: 0px;
+    top: 20px;
+  }
+
+  .navbar .container {
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+  }
+
+  .carousel {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  div.logobar {
+    background: none;
+  }
+
+  #home #content {
+    margin-top: -20px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #track #content {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

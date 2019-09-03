@@ -1,3 +1,5 @@
+http://sas2015.inria.fr/
+
 ARTEFACT SUBMISSION
 As last year, we are encouraging authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field's scientific approach to evaluations and reproducibility of results. The virtual machine images accompanying accepted papers will be archived on the permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work. Virtual machines from last year's SAS can be found here.
 

@@ -1,0 +1,48 @@
+div.logobar {
+  border-bottom : 2px solid black;
+  padding: 24px 0px;
+  background: url("http://2014.splashcon.org/getImage/orig/treesAlpha.png") repeat-x 0 0px;
+}
+.brand-text{
+  visibility: hidden;
+}
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar-brand {
+  font-size: 23px;
+  background: url("http://2014.splashcon.org/getImage/orig/splashLogo.png") no-repeat 0 2px;
+  background-size: 207px;
+  background-color: rgba(233,233,233,0.85);
+  background-position: 2px 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 73px;
+  width: 213px;
+  margin-top: 0px;
+  border-radius: 5px;
+  /* browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff'); /* IE */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://2014.splashcon.org/getImage/orig/splashLogo.png', sizingMethod='scale'); /* IE */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://2014.splashcon.org/getImage/orig/splashLogo.png', sizingMethod='scale')"; /* IE */
+}
+
+.place {
+  padding: 78px 0 0 3px;
+  margin-bottom: -23px;
+  color: white;
+  max-height: 98px;
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}

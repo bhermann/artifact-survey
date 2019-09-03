@@ -1,3 +1,5 @@
+https://2019.ecoop.org/track/ecoop-2019-artifacts
+
 Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. They support the repeatability of experiments and precise comparison with alternative approaches, thus enabling higher quality in the research area as a whole. They may also make it easier for other researchers to perform their own experiments, thus helping the original authors disseminating their ideas in detail. Hence, artifacts should be taken seriously and recognized separately.
 
 The AE process at ECOOP 2019 is a continuation of the AE process at previous ECOOP editions, and several other conferences, including ESEC/FSE, OOPSLA, PLDI, ISSTA, HSCC, and SAS: see the authoritative Artifact Evaluation for Software Conferences web site.

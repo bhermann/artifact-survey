@@ -1,0 +1,53 @@
+div.logobar {
+  border-bottom : 2px solid black;
+  padding: 24px 0px;
+  background: url("http://conf.researchr.org/getImage/ecoop15/orig/logo.jpg") no-repeat 0 0px;
+  background-size: 100% 100%;
+  
+}
+.brand-text{
+  visibility: hidden;
+}
+div.logobar > div > div > a{
+  color: inherit;
+}
+
+.navbar-brand {
+  float: right;
+  font-size: 18px;
+  background: url("http://conf.researchr.org/getImage/ecoop15/orig/brand.png") no-repeat 0 2px;
+  background-size: 85%;
+  background-position: 0px 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 78px;
+  width: 180px;
+  margin-top: -12px;
+  border-radius: 5px;
+}
+
+.place {
+  padding: 72px 0 0 0;
+  float: left;
+  margin-bottom: -100px;
+  font-size: x-small;
+  color: white;
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #DDD;
+}
+
+div.navigationbar {
+  border-bottom: 1px solid #BBB;
+}
+
+h3 {
+   font-size: 20px;
+   color: black;
+}
+

@@ -1,3 +1,5 @@
+https://icfp17.sigplan.org/track/icfp-2017-Artifacts#Artifact-Submission-Instructions
+
 Artifact Submission Instructions
 The goal of artifact evaluation is to support future researchers in their ability to reproduce and build on today’s work.
 
