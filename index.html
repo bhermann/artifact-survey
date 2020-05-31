@@ -127,6 +127,70 @@
             <dt class="col-sm-1"><span class="badge badge-primary">Output</span></dt>
             <dd class="col-sm-11">Script output</dd>
           </dl>
+
+          <h3>Requirements</h3>
+          <p>
+            The analysis script provided in this artifact require <a href="https://www.r-project.org/">R</a> to run.
+            We were using <a href="https://cran.r-project.org/src/base/R-3/">R version 3.6.1 (2019-07-05)</a> at the time of the study.
+            The scripts make use of the following packages and were executed with the following versions of these packages:
+          </p>
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Package name</th>
+                <th>Version used</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>dplyr</td>
+                <td>0.8.3</td>
+              </tr>
+              <tr>
+                <td>ggplot2</td>
+                <td>3.2.0</td>
+              </tr>
+              <tr>
+                <td>readxl</td>
+                <td>1.3.1</td>
+              </tr>
+              <tr>
+                <td>stringr</td>
+                <td>1.4.0</td>
+              </tr>
+              <tr>
+                <td>svglite</td>
+                <td>1.2.3</td>
+              </tr>
+              <tr>
+                <td>tibble</td>
+                <td>2.1.3</td>
+              </tr>
+              <tr>
+                <td>tidyr</td>
+                <td>0.8.3 </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            All scripts will automatically install the necessary packages if not present in the current environment.
+            However, there were cases in the past when functions were deprecated by the package authors.
+            During the time of the study we did not experience such a case, but they might appear in the future.
+          </p>
+
+          <p>Data files are provided as CSV or Excel files. They can be read and processed with R or other capable environments (e.g. pandas, Excel itself, ...)</p>
+
+          <h3>Executing scripts</h3>
+
+          <p>
+            To create the scripts and inspect results, we used <a href="https://rstudio.com/">RStudio</a>.
+            Thus, the scripts may either be executed in RStudio or directly on the command-line.
+            For the latter, please use the following format:
+            <code>
+R < scriptname.R --vanilla
+</code> to avoid interference with other projects. The <code>analysis/survey</code> folder contains a convenient <code>runAll.R</code> script to run all scripts for the analysis of survey results. Their output will be placed in the <code>analysis/survey/output</code> folder. Warnings may occur, but were checked during development. 
+          </p>
       </div>
     </main>
     <footer>
