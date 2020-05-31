@@ -1,0 +1,2661 @@
+---- G4   ----
+g4: In your words, what is the purpose of artifact evaluation?
+For question code g4 we received 147 answers.
+Top 1000 tags were:
+# A tibble: 158 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 "Foster reproducibility"                                                  32
+  2 "Foster reusability"                                                      26
+  3 "Verify results"                                                          19
+  4 "Verify claims"                                                           18
+  5 "Availability"                                                            16
+  6 "Artifact Quality"                                                        13
+  7 "Check claims"                                                             6
+  8 "Check reproducibility"                                                    6
+  9 "Check reusability"                                                        6
+ 10 "Foster comparability"                                                     5
+ 11 "Foster repeatability"                                                     5
+ 12 "Foster replicability"                                                     5
+ 13 "Foster usability"                                                         4
+ 14 "Validate claims"                                                          4
+ 15 "Check existence"                                                          3
+ 16 "Check replicability"                                                      3
+ 17 "Check usability"                                                          3
+ 18 "Ensure reproducibility"                                                   3
+ 19 "Foster availability"                                                      3
+ 20 "Validate results"                                                         3
+ 21 "Archived properly"                                                        2
+ 22 "Assess reproducability"                                                   2
+ 23 "Can other researchers build upon results"                                 2
+ 24 "Check completeness"                                                       2
+ 25 "Check reproducability"                                                    2
+ 26 "Feedback to authors"                                                      2
+ 27 "Foster understandability"                                                 2
+ 28 "Properly Documented"                                                      2
+ 29 "Reproduce results"                                                        2
+ 30 "Research quality"                                                         2
+ 31 "Reusability"                                                              2
+ 32 "Sanity check for validity"                                                2
+ 33 "Trust in the results"                                                     2
+ 34 "Allow future researchers to understand past results"                      1
+ 35 "Allow replication"                                                        1
+ 36 "Also helps authors"                                                       1
+ 37 "Artifact conforms to paper"                                               1
+ 38 "Artifact corresponds to promises from the paper"                          1
+ 39 "Artifacts need to be heavily documented for parts described in the p…     1
+ 40 "Badges encourage submission"                                              1
+ 41 "Check applicability to other inputs"                                      1
+ 42 "Check arguments from the paper"                                           1
+ 43 "Check easy reusability"                                                   1
+ 44 "Check existence of tools and/or experiments"                              1
+ 45 "Check expectations set by the paper"                                      1
+ 46 "Check experiment quality"                                                 1
+ 47 "Check experiment validity"                                                1
+ 48 "Check for easy installation"                                              1
+ 49 "Check for formalisation mistakes in core definitions"                     1
+ 50 "Check for robustness"                                                     1
+ 51 "Check functionality"                                                      1
+ 52 "Check if artifact is functional"                                          1
+ 53 "Check if artifacts match descriptions"                                    1
+ 54 "Check if artifacts work as advertised"                                    1
+ 55 "Check if conclusions made in the paper generalize"                        1
+ 56 "Check if practical aspects withstand review"                              1
+ 57 "Check if software works"                                                  1
+ 58 "Check repeatability"                                                      1
+ 59 "Check results"                                                            1
+ 60 "Check that algorithms described in the paper are implemented"             1
+ 61 "Check that artifact implements protocols from the paper"                  1
+ 62 "Check that implementations follows technical contributions from the …     1
+ 63 "Check that software exists"                                               1
+ 64 "Check usefulness"                                                         1
+ 65 "Check validity"                                                           1
+ 66 "Check with similar inputs"                                                1
+ 67 "Clarify experimental setup"                                               1
+ 68 "Coherent implementation exists"                                           1
+ 69 "Complete as described"                                                    1
+ 70 "Confirm results"                                                          1
+ 71 "Consistency"                                                              1
+ 72 "Contribute to the research community"                                     1
+ 73 "Demonstrate that theory is correct"                                       1
+ 74 "Enables comparability"                                                    1
+ 75 "Encourage availability"                                                   1
+ 76 "Encourage open source"                                                    1
+ 77 "Ensure artifact robustness"                                               1
+ 78 "Ensure availability"                                                      1
+ 79 "Ensure reproducability"                                                   1
+ 80 "Ensure reusability"                                                       1
+ 81 "Ensure usability in reasonable timeframe"                                 1
+ 82 "Error margins"                                                            1
+ 83 "Evaluation determines badge"                                              1
+ 84 "Examine reusability"                                                      1
+ 85 "Experiments can be recreated"                                             1
+ 86 "Facilitate technology transfer"                                           1
+ 87 "Feedback to authors on missing components, crashes, and documentatio…     1
+ 88 "Foster distribution"                                                      1
+ 89 "Foster further research"                                                  1
+ 90 "Foster implementations"                                                   1
+ 91 "Foster improvements in accessibility"                                     1
+ 92 "Foster more caution in making claims"                                     1
+ 93 "Foster reproducability"                                                   1
+ 94 "Foster trust"                                                             1
+ 95 "Fosters comparability"                                                    1
+ 96 "Fosters reusability"                                                      1
+ 97 "Freeze one version"                                                       1
+ 98 "Functional representations of research reduces integration effort"        1
+ 99 "Future-proof"                                                             1
+100 "Helpful for future researchers"                                           1
+101 "Higher quality of future research"                                        1
+102 "Immitate concept of replicability"                                        1
+103 "Improve quality of research"                                              1
+104 "Is of academic interest"                                                  1
+105 "Long-lasting witness"                                                     1
+106 "Longer review process with more interaction necessary"                    1
+107 "Machine dependency"                                                       1
+108 "Major issues are documented"                                              1
+109 "Make assumptions explicit"                                                1
+110 "Make results replicable"                                                  1
+111 "Only artifacts central to the publication should be evaluated"            1
+112 "Other people repeat experiments"                                          1
+113 "Papers cannot provide full detail in text"                                1
+114 "Presented artifacts work as expected"                                     1
+115 "Prevent fraud"                                                            1
+116 "Prevent over-promising"                                                   1
+117 "Promotion of artifacts as first-class scientific contributions"           1
+118 "Provide evidence for the claims in the paper"                             1
+119 "Quality of practical papers"                                              1
+120 "Reduce gap between expectations from industry and delivery from acad…     1
+121 "Reflect findings of the paper"                                            1
+122 "Reflects positively on the conference"                                    1
+123 "Repeatable Experiments"                                                   1
+124 "Replicate Experiments"                                                    1
+125 "Reproduce claims"                                                         1
+126 "Reproduce results claimed"                                                1
+127 "Research/result quality"                                                  1
+128 "Results are replicable"                                                   1
+129 "Review only gives than artifact is runnable"                              1
+130 "Reviews/Badged artifacts are more useful"                                 1
+131 "Reward extra effort"                                                      1
+132 "Reward for packaging and documenting code or data"                        1
+133 "Serving on an AEC can prepare junior researchers for serving on a PC"     1
+134 "Should be part of regular paper submission"                               1
+135 "Start point for new students"                                             1
+136 "Stronger validation of results"                                           1
+137 "Support empirical claims"                                                 1
+138 "Techniques can be applied to new problems"                                1
+139 "Test artifact"                                                            1
+140 "Theory can be implemented"                                                1
+141 "Transparency for the evaluation"                                          1
+142 "Try out different configurations"                                         1
+143 "Useful for other researchers"                                             1
+144 "Useful for the research community"                                        1
+145 "Validate quality"                                                         1
+146 "Validate scripts producing data"                                          1
+147 "Validating results and procedure is out of scope for review"              1
+148 "Value for future research"                                                1
+149 "Verify conclusions"                                                       1
+150 "Verify existence"                                                         1
+151 "Verify experiment correctness"                                            1
+152 "Verify experiments"                                                       1
+153 "Verify information from the paper"                                        1
+154 "Verify reproducability"                                                   1
+155 "Verify reproducibility"                                                   1
+156 "Verify reusability"                                                       1
+157 "Verify statements"                                                        1
+158 "Verify that \"it works\""                                                 0
+
+g4: In your words, what is the purpose of artifact evaluation?
+For question code g4 in the pl community we received 107 answers.
+Top 1000 tags were:
+# A tibble: 118 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 Foster reproducibility                                                    25
+  2 Foster reusability                                                        19
+  3 Verify claims                                                             17
+  4 Verify results                                                            11
+  5 Availability                                                               9
+  6 Artifact Quality                                                           8
+  7 Check claims                                                               5
+  8 Check reusability                                                          4
+  9 Foster usability                                                           4
+ 10 Check replicability                                                        3
+ 11 Check reproducibility                                                      3
+ 12 Check usability                                                            3
+ 13 Foster availability                                                        3
+ 14 Foster comparability                                                       3
+ 15 Foster repeatability                                                       3
+ 16 Foster replicability                                                       3
+ 17 Validate claims                                                            3
+ 18 Archived properly                                                          2
+ 19 Assess reproducability                                                     2
+ 20 Ensure reproducibility                                                     2
+ 21 Foster understandability                                                   2
+ 22 Reproduce results                                                          2
+ 23 Research quality                                                           2
+ 24 Sanity check for validity                                                  2
+ 25 Validate results                                                           2
+ 26 Allow future researchers to understand past results                        1
+ 27 Allow replication                                                          1
+ 28 Also helps authors                                                         1
+ 29 Artifact corresponds to promises from the paper                            1
+ 30 Artifacts need to be heavily documented for parts described in the pa…     1
+ 31 Badges encourage submission                                                1
+ 32 Can other researchers build upon results                                   1
+ 33 Check applicability to other inputs                                        1
+ 34 Check arguments from the paper                                             1
+ 35 Check completeness                                                         1
+ 36 Check existence                                                            1
+ 37 Check experiment validity                                                  1
+ 38 Check for easy installation                                                1
+ 39 Check for formalisation mistakes in core definitions                       1
+ 40 Check functionality                                                        1
+ 41 Check if artifact is functional                                            1
+ 42 Check if artifacts match descriptions                                      1
+ 43 Check if artifacts work as advertised                                      1
+ 44 Check if conclusions made in the paper generalize                          1
+ 45 Check if software works                                                    1
+ 46 Check repeatability                                                        1
+ 47 Check reproducability                                                      1
+ 48 Check results                                                              1
+ 49 Check that algorithms described in the paper are implemented               1
+ 50 Check that artifact implements protocols from the paper                    1
+ 51 Check that implementations follows technical contributions from the p…     1
+ 52 Check that software exists                                                 1
+ 53 Check usefulness                                                           1
+ 54 Check with similar inputs                                                  1
+ 55 Clarify experimental setup                                                 1
+ 56 Consistency                                                                1
+ 57 Contribute to the research community                                       1
+ 58 Demonstrate that theory is correct                                         1
+ 59 Encourage availability                                                     1
+ 60 Encourage open source                                                      1
+ 61 Ensure artifact robustness                                                 1
+ 62 Ensure availability                                                        1
+ 63 Ensure reproducability                                                     1
+ 64 Error margins                                                              1
+ 65 Evaluation determines badge                                                1
+ 66 Foster distribution                                                        1
+ 67 Foster implementations                                                     1
+ 68 Foster improvements in accessibility                                       1
+ 69 Foster more caution in making claims                                       1
+ 70 Foster reproducability                                                     1
+ 71 Foster trust                                                               1
+ 72 Fosters comparability                                                      1
+ 73 Fosters reusability                                                        1
+ 74 Freeze one version                                                         1
+ 75 Future-proof                                                               1
+ 76 Helpful for future researchers                                             1
+ 77 Higher quality of future research                                          1
+ 78 Immitate concept of replicability                                          1
+ 79 Improve quality of research                                                1
+ 80 Is of academic interest                                                    1
+ 81 Long-lasting witness                                                       1
+ 82 Longer review process with more interaction necessary                      1
+ 83 Machine dependency                                                         1
+ 84 Major issues are documented                                                1
+ 85 Make assumptions explicit                                                  1
+ 86 Make results replicable                                                    1
+ 87 Only artifacts central to the publication should be evaluated              1
+ 88 Papers cannot provide full detail in text                                  1
+ 89 Presented artifacts work as expected                                       1
+ 90 Prevent fraud                                                              1
+ 91 Prevent over-promising                                                     1
+ 92 Promotion of artifacts as first-class scientific contributions             1
+ 93 Provide evidence for the claims in the paper                               1
+ 94 Quality of practical papers                                                1
+ 95 Reflect findings of the paper                                              1
+ 96 Repeatable Experiments                                                     1
+ 97 Reproduce results claimed                                                  1
+ 98 Research/result quality                                                    1
+ 99 Results are replicable                                                     1
+100 Reusability                                                                1
+101 Reward extra effort                                                        1
+102 Reward for packaging and documenting code or data                          1
+103 Serving on an AEC can prepare junior researchers for serving on a PC       1
+104 Start point for new students                                               1
+105 Support empirical claims                                                   1
+106 Techniques can be applied to new problems                                  1
+107 Test artifact                                                              1
+108 Theory can be implemented                                                  1
+109 Trust in the results                                                       1
+110 Useful for the research community                                          1
+111 Validate quality                                                           1
+112 Verify conclusions                                                         1
+113 Verify existence                                                           1
+114 Verify experiment correctness                                              1
+115 Verify experiments                                                         1
+116 Verify reproducability                                                     1
+117 Verify reproducibility                                                     1
+118 Verify statements                                                          1
+
+g4: In your words, what is the purpose of artifact evaluation?
+For question code g4 in the se community we received 30 answers.
+Top 1000 tags were:
+# A tibble: 54 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Foster reproducibility                                                     10
+ 2 Foster reusability                                                          7
+ 3 Availability                                                                4
+ 4 Check reproducibility                                                       3
+ 5 Artifact Quality                                                            2
+ 6 Feedback to authors                                                         2
+ 7 Foster repeatability                                                        2
+ 8 Foster replicability                                                        2
+ 9 Verify claims                                                               2
+10 Verify results                                                              2
+11 Artifact conforms to paper                                                  1
+12 Check claims                                                                1
+13 Check completeness                                                          1
+14 Check easy reusability                                                      1
+15 Check existence of tools and/or experiments                                 1
+16 Check expectations set by the paper                                         1
+17 Check experiment quality                                                    1
+18 Check for robustness                                                        1
+19 Check reproducability                                                       1
+20 Check reusability                                                           1
+21 Check validity                                                              1
+22 Complete as described                                                       1
+23 Enables comparability                                                       1
+24 Ensure reproducibility                                                      1
+25 Ensure reusability                                                          1
+26 Ensure usability in reasonable timeframe                                    1
+27 Examine reusability                                                         1
+28 Facilitate technology transfer                                              1
+29 Feedback to authors on missing components, crashes, and documentation       1
+30 Foster comparability                                                        1
+31 Foster further research                                                     1
+32 Foster more caution in making claims                                        1
+33 Functional representations of research reduces integration effort           1
+34 Major issues are documented                                                 1
+35 Other people repeat experiments                                             1
+36 Presented artifacts work as expected                                        1
+37 Promotion of artifacts as first-class scientific contributions              1
+38 Reduce gap between expectations from industry and delivery from academ…     1
+39 Reflects positively on the conference                                       1
+40 Reproduce claims                                                            1
+41 Research quality                                                            1
+42 Review only gives than artifact is runnable                                 1
+43 Reviews/Badged artifacts are more useful                                    1
+44 Reward extra effort                                                         1
+45 Should be part of regular paper submission                                  1
+46 Stronger validation of results                                              1
+47 Transparency for the evaluation                                             1
+48 Trust in the results                                                        1
+49 Validate claims                                                             1
+50 Validate quality                                                            1
+51 Validate scripts producing data                                             1
+52 Validating results and procedure is out of scope for review                 1
+53 Value for future research                                                   1
+54 Verify information from the paper                                           1
+
+[1] "g4 differs across communities"
+--------------
+
+---- AE1  ----
+ae1: What is your minimum requirement to accept an artifact in an artifact evaluation process in general? (e.g., reproducibility of article results, easy setup, documentation)
+For question code ae1 we received 124 answers.
+Top 1000 tags were:
+# A tibble: 118 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 Reproducibility of results                                                45
+  2 Good documentation                                                        43
+  3 Easy setup                                                                37
+  4 Reproducibility in general                                                12
+  5 Must run                                                                   8
+  6 Repeatability of results                                                   7
+  7 Availability                                                               6
+  8 Completeness                                                               5
+  9 Reasonable effort                                                          5
+ 10 Reproducibility of claims                                                  5
+ 11 Deviation allowed                                                          3
+ 12 No minimum requirements                                                    3
+ 13 Self-Containment                                                           3
+ 14 Artifact meets expectations set by the paper                               2
+ 15 Consistency with claims                                                    2
+ 16 Depends on requested badge                                                 2
+ 17 Examples from the paper should be available                                2
+ 18 Minimal documentation on building and running                              2
+ 19 Possibility to run with other experiments                                  2
+ 20 Produce similar results                                                    2
+ 21 Results can be easily reproduced                                           2
+ 22 Results can be recreated                                                   2
+ 23 Reusability                                                                2
+ 24 Understandable                                                             2
+ 25 Ability to change experiment setup                                         1
+ 26 Accessibility                                                              1
+ 27 All major claims are supported by evidence from the artifact               1
+ 28 All major results are reproducible                                         1
+ 29 Artifact must resemble paper contributions                                 1
+ 30 Artifact must specify which claims it supports and must support them       1
+ 31 Artifact needs to support claims of the paper                              1
+ 32 Artifact retention                                                         1
+ 33 Artifact should conform to expectations set by the paper                   1
+ 34 Artifact walk-through                                                      1
+ 35 Authors make a job anyway                                                  1
+ 36 Automatic repeatability                                                    1
+ 37 Availability is more important than quality                                1
+ 38 Avoid exotic techniques and formats                                        1
+ 39 Can be built                                                               1
+ 40 Clear instructions to reproduce results                                    1
+ 41 Clear isolation of artifact evaluation and paper evaluation                1
+ 42 Clear sequence to build software                                           1
+ 43 Clear sequence to repeat experiment                                        1
+ 44 Clear structure                                                            1
+ 45 Complete documentation of set up process                                   1
+ 46 Consistency with results                                                   1
+ 47 Consistency with the experiments                                           1
+ 48 Customizable                                                               1
+ 49 Data format and script documentation                                       1
+ 50 Depends on paper/circumstances of experiment                               1
+ 51 Depends on type of artifact                                                1
+ 52 Documentation links code, proofs, and data to discussions in the paper     1
+ 53 Documentation should guide setup and artifact execution                    1
+ 54 Documentation should link artifact to claims                               1
+ 55 Documentation should point out potential problems                          1
+ 56 Documentation should relate artifact to paper                              1
+ 57 Documentation sufficient to evaluate                                       1
+ 58 Easy setup guidelines                                                      1
+ 59 Easy setup on fresh machine                                                1
+ 60 Easy to use                                                                1
+ 61 Every artifact is different                                                1
+ 62 Expectations will grow as AE will become more accepted                     1
+ 63 Experiment subsets might be necessary                                      1
+ 64 Follow conference rules                                                    1
+ 65 Free of bugs                                                               1
+ 66 Inspection of source code                                                  1
+ 67 Instructions help to run artifact                                          1
+ 68 Instructions must match paper                                              1
+ 69 Instructions on how to reproduce results                                   1
+ 70 It should work                                                             1
+ 71 Licensing information                                                      1
+ 72 Links between paper and specific parts of the artifact                     1
+ 73 Match claims made in the paper                                             1
+ 74 Meaningful results on similar inputs                                       1
+ 75 Must withstand pertubation                                                 1
+ 76 No parts not related to the paper                                          1
+ 77 Non trivial                                                                1
+ 78 Platform independent                                                       1
+ 79 Positioning of the artifact                                                1
+ 80 Possibility to verify main claims                                          1
+ 81 Possible setup                                                             1
+ 82 Presence of data                                                           1
+ 83 Quality criteria will disencourage authors from publishing artifacts       1
+ 84 Quick setup                                                                1
+ 85 Raw data must be included                                                  1
+ 86 Readme file                                                                1
+ 87 Recreate main experiment                                                   1
+ 88 Relation to claims from the paper                                          1
+ 89 Replicability of paper results                                             1
+ 90 Replicability of results                                                   1
+ 91 Replicate (subset of) results                                              1
+ 92 Reproducibility is not necessary                                           1
+ 93 Reproducibility of main claims                                             1
+ 94 Robustness                                                                 1
+ 95 Run within limited timeframe                                               1
+ 96 Runnable                                                                   1
+ 97 Scripts/programs should be easily readable                                 1
+ 98 Self-containment                                                           1
+ 99 Setup should be done with reasonable effort                                1
+100 Should allow for smaller runs                                              1
+101 Should run in less than a day                                              1
+102 Size                                                                       1
+103 Some documentation                                                         1
+104 Something that agrees with primary statements                              1
+105 Stable                                                                     1
+106 Step-by-step guide to run experiments                                      1
+107 Tool must be working                                                       1
+108 Understand how results were produced by the artifact                       1
+109 Understandable architecture                                                1
+110 Usability                                                                  1
+111 Usable with reasonable effort                                              1
+112 Use tool for different purpose                                             1
+113 Use tool with different input                                              1
+114 Virtual Machines preferred                                                 1
+115 Virtual machines help                                                      1
+116 Virtual machines only help reviews, but not future researchers             1
+117 Working example                                                            1
+118 Works as intended                                                          1
+
+ae1: What is your minimum requirement to accept an artifact in an artifact evaluation process in general? (e.g., reproducibility of article results, easy setup, documentation)
+For question code ae1 in the pl community we received 90 answers.
+Top 1000 tags were:
+# A tibble: 92 x 2
+   tag                                                                    usage
+   <chr>                                                                  <int>
+ 1 Reproducibility of results                                                39
+ 2 Good documentation                                                        32
+ 3 Easy setup                                                                26
+ 4 Reproducibility in general                                                 8
+ 5 Repeatability of results                                                   6
+ 6 Must run                                                                   5
+ 7 Availability                                                               4
+ 8 Reasonable effort                                                          4
+ 9 Reproducibility of claims                                                  4
+10 Completeness                                                               3
+11 Consistency with claims                                                    2
+12 Deviation allowed                                                          2
+13 Minimal documentation on building and running                              2
+14 Possibility to run with other experiments                                  2
+15 Produce similar results                                                    2
+16 Reusability                                                                2
+17 Self-Containment                                                           2
+18 Accessibility                                                              1
+19 All major claims are supported by evidence from the artifact               1
+20 All major results are reproducible                                         1
+21 Artifact must resemble paper contributions                                 1
+22 Artifact must specify which claims it supports and must support them       1
+23 Artifact needs to support claims of the paper                              1
+24 Artifact retention                                                         1
+25 Artifact should conform to expectations set by the paper                   1
+26 Artifact walk-through                                                      1
+27 Automatic repeatability                                                    1
+28 Avoid exotic techniques and formats                                        1
+29 Can be built                                                               1
+30 Clear instructions to reproduce results                                    1
+31 Clear isolation of artifact evaluation and paper evaluation                1
+32 Clear sequence to build software                                           1
+33 Clear sequence to repeat experiment                                        1
+34 Clear structure                                                            1
+35 Complete documentation of set up process                                   1
+36 Customizable                                                               1
+37 Data format and script documentation                                       1
+38 Depends on paper/circumstances of experiment                               1
+39 Depends on type of artifact                                                1
+40 Documentation links code, proofs, and data to discussions in the paper     1
+41 Documentation should guide setup and artifact execution                    1
+42 Documentation should link artifact to claims                               1
+43 Documentation should relate artifact to paper                              1
+44 Documentation sufficient to evaluate                                       1
+45 Easy setup guidelines                                                      1
+46 Easy setup on fresh machine                                                1
+47 Easy to use                                                                1
+48 Every artifact is different                                                1
+49 Examples from the paper should be available                                1
+50 Expectations will grow as AE will become more accepted                     1
+51 Experiment subsets might be necessary                                      1
+52 Free of bugs                                                               1
+53 Inspection of source code                                                  1
+54 Instructions help to run artifact                                          1
+55 Instructions must match paper                                              1
+56 Instructions on how to reproduce results                                   1
+57 It should work                                                             1
+58 Licensing information                                                      1
+59 Links between paper and specific parts of the artifact                     1
+60 Match claims made in the paper                                             1
+61 Meaningful results on similar inputs                                       1
+62 Must withstand pertubation                                                 1
+63 No minimum requirements                                                    1
+64 No parts not related to the paper                                          1
+65 Non trivial                                                                1
+66 Platform independent                                                       1
+67 Positioning of the artifact                                                1
+68 Possibility to verify main claims                                          1
+69 Quick setup                                                                1
+70 Readme file                                                                1
+71 Relation to claims from the paper                                          1
+72 Replicability of paper results                                             1
+73 Replicability of results                                                   1
+74 Reproducibility is not necessary                                           1
+75 Reproducibility of main claims                                             1
+76 Results can be easily reproduced                                           1
+77 Results can be recreated                                                   1
+78 Robustness                                                                 1
+79 Runnable                                                                   1
+80 Scripts/programs should be easily readable                                 1
+81 Self-containment                                                           1
+82 Should run in less than a day                                              1
+83 Some documentation                                                         1
+84 Something that agrees with primary statements                              1
+85 Stable                                                                     1
+86 Step-by-step guide to run experiments                                      1
+87 Tool must be working                                                       1
+88 Usability                                                                  1
+89 Usable with reasonable effort                                              1
+90 Virtual machines help                                                      1
+91 Virtual machines only help reviews, but not future researchers             1
+92 Works as intended                                                          1
+
+ae1: What is your minimum requirement to accept an artifact in an artifact evaluation process in general? (e.g., reproducibility of article results, easy setup, documentation)
+For question code ae1 in the se community we received 25 answers.
+Top 1000 tags were:
+# A tibble: 36 x 2
+   tag                                                                  usage
+   <chr>                                                                <int>
+ 1 Good documentation                                                      11
+ 2 Easy setup                                                               9
+ 3 Reproducibility of results                                               7
+ 4 Artifact meets expectations set by the paper                             2
+ 5 Availability                                                             2
+ 6 Depends on requested badge                                               2
+ 7 Must run                                                                 2
+ 8 Reproducibility in general                                               2
+ 9 Self-Containment                                                         2
+10 All major claims are supported by evidence from the artifact             1
+11 All major results are reproducible                                       1
+12 Artifact retention                                                       1
+13 Availability is more important than quality                              1
+14 Completeness                                                             1
+15 Deviation allowed                                                        1
+16 Documentation should point out potential problems                        1
+17 Examples from the paper should be available                              1
+18 Inspection of source code                                                1
+19 No minimum requirements                                                  1
+20 No parts not related to the paper                                        1
+21 Non trivial                                                              1
+22 Possible setup                                                           1
+23 Presence of data                                                         1
+24 Produce similar results                                                  1
+25 Quality criteria will disencourage authors from publishing artifacts     1
+26 Raw data must be included                                                1
+27 Reasonable effort                                                        1
+28 Repeatability of results                                                 1
+29 Replicate (subset of) results                                            1
+30 Reproducibility of claims                                                1
+31 Results can be recreated                                                 1
+32 Setup should be done with reasonable effort                              1
+33 Understand how results were produced by the artifact                     1
+34 Understandable architecture                                              1
+35 Virtual Machines preferred                                               1
+36 Working example                                                          1
+
+[1] "ae1 differs across communities"
+--------------
+
+---- AE2  ----
+ae2: What is your minimum expectation for the code portion of an artifact? (e.g., code quality, documentation, packaging, size)
+For question code ae2 we received 123 answers.
+Top 1000 tags were:
+# A tibble: 124 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 Documentation in general                                                  30
+  2 Compile and run                                                           29
+  3 Code quality                                                              19
+  4 Setup documentation                                                       17
+  5 Not important - Code quality                                              12
+  6 Packaging                                                                 12
+  7 Legible code                                                              10
+  8 Easy setup                                                                 8
+  9 Not important - Size                                                       7
+ 10 Availability                                                               6
+ 11 Code documentation                                                         6
+ 12 Easy to execute                                                            6
+ 13 Self-containment                                                           6
+ 14 Should do what the paper says                                              6
+ 15 Reasonable effort                                                          5
+ 16 Reproduce results                                                          5
+ 17 Documentation of relevant parts                                            4
+ 18 None                                                                       4
+ 19 Reproduce results from the paper                                           4
+ 20 Run without error                                                          4
+ 21 Source code                                                                4
+ 22 Structure                                                                  4
+ 23 Virtual machine                                                            4
+ 24 Code must support claims from the paper                                    3
+ 25 No time to look at code quality                                            3
+ 26 Based on expectations set by the paper                                     2
+ 27 Being able to run the same experiments as the authors                      2
+ 28 Clear logging                                                              2
+ 29 Code comments                                                              2
+ 30 Completeness                                                               2
+ 31 Depends on artifact type                                                   2
+ 32 Depends on claims                                                          2
+ 33 Docker image                                                               2
+ 34 Documentation of command-line options                                      2
+ 35 Easy to compile or build                                                   2
+ 36 Examples                                                                   2
+ 37 Instructions how to run the artifact                                       2
+ 38 Not important - Documentation                                              2
+ 39 Not important - Packaging                                                  2
+ 40 Not obfuscated                                                             2
+ 41 Robustness                                                                 2
+ 42 Run without errors                                                         2
+ 43 Runs on examples                                                           2
+ 44 Runs without error                                                         2
+ 45 Size matters                                                               2
+ 46 25% of comments in header files                                            1
+ 47 5% comments in the core of the code                                        1
+ 48 Academic artifacts are of poor quality                                     1
+ 49 Acceptable quality                                                         1
+ 50 Authors have not time to document or improve quality                       1
+ 51 Automated setup                                                            1
+ 52 Basic documentation                                                        1
+ 53 Binary and source code should match                                        1
+ 54 Clear entry point                                                          1
+ 55 Code reflects research                                                     1
+ 56 Commented out code should be motivated                                     1
+ 57 Comments for novel parts presented in the paper                            1
+ 58 Compressed (zip, tar.gz)                                                   1
+ 59 Correct functionality of provided examples                                 1
+ 60 Dependency footprint should be minimal                                     1
+ 61 Description of dependencies                                                1
+ 62 Differences in views of code quality                                       1
+ 63 Difficult to formalize                                                     1
+ 64 Docker container                                                           1
+ 65 Documentation for externally exposed features                              1
+ 66 Documentation not important                                                1
+ 67 Documentation of file format                                               1
+ 68 Documentation of usage                                                     1
+ 69 Documentation on now to use parts                                          1
+ 70 Easy-to-follow architecture                                                1
+ 71 Examples are not hard-coded                                                1
+ 72 Except when the code is the main contribution                              1
+ 73 Extreme requirements should be up front                                    1
+ 74 Generating tables is ideal                                                 1
+ 75 Good naming                                                                1
+ 76 Licence information                                                        1
+ 77 Main part should focus on relevant functionality                           1
+ 78 Maturity                                                                   1
+ 79 Modularity                                                                 1
+ 80 No TODO comments                                                           1
+ 81 No volatile dependencies                                                   1
+ 82 Not important - Code documentation                                         1
+ 83 Not important - Legible code                                               1
+ 84 Not industrial code                                                        1
+ 85 Open source                                                                1
+ 86 Output easily parseable                                                    1
+ 87 Packaging as requested by the conference                                   1
+ 88 Partial implementations should be marked as future work                    1
+ 89 Permanent repository                                                       1
+ 90 Platform independence                                                      1
+ 91 Possibility to make changes                                                1
+ 92 Produces correct results                                                   1
+ 93 Quality criteria negatively influece artifact availability                 1
+ 94 Quality is not important                                                   1
+ 95 Readme file in root folder                                                 1
+ 96 Reasonable effort for setup                                                1
+ 97 Reasonable size                                                            1
+ 98 Reasonably well written                                                    1
+ 99 Reproduce all results                                                      1
+100 Results should trend towards the results in the paper                      1
+101 Robustness against minimal changes                                         1
+102 Room for improvement                                                       1
+103 Runnable on different architectures                                        1
+104 Runs in reviewers comment                                                  1
+105 Runs within 24 hours                                                       1
+106 Runs without errors                                                        1
+107 Script for experiments                                                     1
+108 Scripts for experiments                                                    1
+109 Self-contained                                                             1
+110 Should compile                                                             1
+111 Small number of compiler warnings                                          1
+112 Standard toolchain                                                         1
+113 Structure should link to parts described in the paper                      1
+114 Support claims from the paper                                              1
+115 Test editable                                                              1
+116 Test suite included                                                        1
+117 Tests set up                                                               1
+118 Traceable results                                                          1
+119 Transparency is a plus                                                     1
+120 Understand parts of the implementation                                     1
+121 Verify paper results                                                       1
+122 Well-defined platform depedencies                                          1
+123 Well-structured                                                            1
+124 When we see more than 30% noise then the code is not representing the…     1
+
+ae2: What is your minimum expectation for the code portion of an artifact? (e.g., code quality, documentation, packaging, size)
+For question code ae2 in the pl community we received 90 answers.
+Top 1000 tags were:
+# A tibble: 99 x 2
+   tag                                                     usage
+   <chr>                                                   <int>
+ 1 Compile and run                                            23
+ 2 Documentation in general                                   19
+ 3 Code quality                                               16
+ 4 Setup documentation                                        16
+ 5 Not important - Code quality                               11
+ 6 Packaging                                                  10
+ 7 Legible code                                                9
+ 8 Code documentation                                          5
+ 9 Easy setup                                                  5
+10 Not important - Size                                        5
+11 Reproduce results                                           5
+12 Should do what the paper says                               5
+13 Availability                                                4
+14 Easy to execute                                             4
+15 Reasonable effort                                           4
+16 Reproduce results from the paper                            4
+17 Run without error                                           4
+18 Self-containment                                            4
+19 Structure                                                   4
+20 Virtual machine                                             4
+21 Documentation of relevant parts                             3
+22 No time to look at code quality                             3
+23 Source code                                                 3
+24 Based on expectations set by the paper                      2
+25 Being able to run the same experiments as the authors       2
+26 Code must support claims from the paper                     2
+27 Depends on artifact type                                    2
+28 Depends on claims                                           2
+29 Docker image                                                2
+30 Not important - Documentation                               2
+31 Not important - Packaging                                   2
+32 Run without errors                                          2
+33 Runs without error                                          2
+34 Size matters                                                2
+35 25% of comments in header files                             1
+36 5% comments in the core of the code                         1
+37 Authors have not time to document or improve quality        1
+38 Automated setup                                             1
+39 Binary and source code should match                         1
+40 Clear entry point                                           1
+41 Clear logging                                               1
+42 Code comments                                               1
+43 Code reflects research                                      1
+44 Commented out code should be motivated                      1
+45 Completeness                                                1
+46 Compressed (zip, tar.gz)                                    1
+47 Correct functionality of provided examples                  1
+48 Dependency footprint should be minimal                      1
+49 Description of dependencies                                 1
+50 Differences in views of code quality                        1
+51 Docker container                                            1
+52 Documentation for externally exposed features               1
+53 Documentation not important                                 1
+54 Documentation of command-line options                       1
+55 Documentation of file format                                1
+56 Documentation of usage                                      1
+57 Documentation on now to use parts                           1
+58 Easy to compile or build                                    1
+59 Easy-to-follow architecture                                 1
+60 Examples are not hard-coded                                 1
+61 Except when the code is the main contribution               1
+62 Extreme requirements should be up front                     1
+63 Licence information                                         1
+64 Maturity                                                    1
+65 Modularity                                                  1
+66 No TODO comments                                            1
+67 No volatile dependencies                                    1
+68 None                                                        1
+69 Not important - Code documentation                          1
+70 Not important - Legible code                                1
+71 Not obfuscated                                              1
+72 Open source                                                 1
+73 Packaging as requested by the conference                    1
+74 Partial implementations should be marked as future work     1
+75 Permanent repository                                        1
+76 Platform independence                                       1
+77 Possibility to make changes                                 1
+78 Produces correct results                                    1
+79 Readme file in root folder                                  1
+80 Reasonable effort for setup                                 1
+81 Reasonable size                                             1
+82 Reproduce all results                                       1
+83 Results should trend towards the results in the paper       1
+84 Robustness                                                  1
+85 Runs in reviewers comment                                   1
+86 Runs within 24 hours                                        1
+87 Runs without errors                                         1
+88 Scripts for experiments                                     1
+89 Self-contained                                              1
+90 Standard toolchain                                          1
+91 Structure should link to parts described in the paper       1
+92 Support claims from the paper                               1
+93 Test suite included                                         1
+94 Traceable results                                           1
+95 Transparency is a plus                                      1
+96 Understand parts of the implementation                      1
+97 Verify paper results                                        1
+98 Well-defined platform depedencies                           1
+99 Well-structured                                             1
+
+ae2: What is your minimum expectation for the code portion of an artifact? (e.g., code quality, documentation, packaging, size)
+For question code ae2 in the se community we received 24 answers.
+Top 1000 tags were:
+# A tibble: 32 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Documentation in general                                                    9
+ 2 Compile and run                                                             5
+ 3 Easy setup                                                                  3
+ 4 Availability                                                                2
+ 5 Documentation of relevant parts                                             2
+ 6 None                                                                        2
+ 7 Not obfuscated                                                              2
+ 8 Packaging                                                                   2
+ 9 Should do what the paper says                                               2
+10 Acceptable quality                                                          1
+11 Clear logging                                                               1
+12 Code comments                                                               1
+13 Completeness                                                                1
+14 Depends on artifact type                                                    1
+15 Documentation of command-line options                                       1
+16 Easy to execute                                                             1
+17 Examples                                                                    1
+18 Good naming                                                                 1
+19 Legible code                                                                1
+20 Main part should focus on relevant functionality                            1
+21 Not important - Code quality                                                1
+22 Not industrial code                                                         1
+23 Quality criteria negatively influece artifact availability                  1
+24 Quality is not important                                                    1
+25 Robustness against minimal changes                                          1
+26 Runs on examples                                                            1
+27 Self-containment                                                            1
+28 Setup documentation                                                         1
+29 Small number of compiler warnings                                           1
+30 Source code                                                                 1
+31 Transparency is a plus                                                      1
+32 When we see more than 30% noise then the code is not representing the …     1
+
+[1] "ae2 differs across communities"
+--------------
+
+---- AE3  ----
+ae3: What is your minimum expectation for the proof portion of an artifact? (e.g., completeness, understandability)
+For question code ae3 we received 105 answers.
+Top 1000 tags were:
+# A tibble: 60 x 2
+   tag                                                                 usage
+   <chr>                                                               <int>
+ 1 Understandability                                                      24
+ 2 Completeness                                                           23
+ 3 Never reviewed a proof                                                 16
+ 4 Proof checker says OK                                                  12
+ 5 Documentation of the high-level flow                                    9
+ 6 Correspondence between the paper claims and the formalized lemmata      8
+ 7 Documentation in general                                                8
+ 8 Structure should mirror the one from the paper                          5
+ 9 Comments on definitions                                                 4
+10 Correctness                                                             2
+11 Difficult to evaluate - Understandable                                  2
+12 Expectations from the paper drive artifact evaluation                   2
+13 Manual proofs are too hard to verify                                    2
+14 Mechanized proofs                                                       2
+15 Modular                                                                 2
+16 Readability                                                             2
+17 Accessibility                                                           1
+18 All proof obligations are discharged                                    1
+19 Availability trumps quality                                             1
+20 Avoid complexity                                                        1
+21 Axions should be listed in documentation                                1
+22 Central points understandable                                           1
+23 Checking formalism against the paper is too daunting                    1
+24 Clear documentation how to check the proofs from the artifact           1
+25 Clear explanation of the proofs                                         1
+26 Compile and run without error                                           1
+27 Coq proof                                                               1
+28 Definition of well-formedness criteria                                  1
+29 Depends on artifact type                                                1
+30 Depends on claims                                                       1
+31 Different proof concepts have different requirements for evaluation     1
+32 Divergences need to be explained                                        1
+33 Documentation how to compare the output to the paper results            1
+34 Documentation of any assumptions                                        1
+35 Documentation of low-level too hard                                     1
+36 Documentation of usage beyond that described in the paper               1
+37 Easy to follow                                                          1
+38 Entry points given                                                      1
+39 Evidence of a complete proof                                            1
+40 Executability                                                           1
+41 Existence                                                               1
+42 Generally make sense of it                                              1
+43 Hand-written proofs must be comprehensible                              1
+44 High-level understanding                                                1
+45 Intuition                                                               1
+46 Lack of admits                                                          1
+47 Lucid                                                                   1
+48 Min number of proofs                                                    1
+49 Modularity                                                              1
+50 No need to formally verify proofs                                       1
+51 None                                                                    1
+52 Not familiar                                                            1
+53 Not misleading                                                          1
+54 Notion should be clear                                                  1
+55 Only mechanized proofs                                                  1
+56 Positive tests                                                          1
+57 Proof checker should be standard software                               1
+58 Proof mechanics irrelevant                                              1
+59 Proof solver ready to run                                               1
+60 Usable on new inputs                                                    1
+
+ae3: What is your minimum expectation for the proof portion of an artifact? (e.g., completeness, understandability)
+For question code ae3 in the pl community we received 79 answers.
+Top 1000 tags were:
+# A tibble: 48 x 2
+   tag                                                                 usage
+   <chr>                                                               <int>
+ 1 Completeness                                                           19
+ 2 Understandability                                                      16
+ 3 Never reviewed a proof                                                 11
+ 4 Proof checker says OK                                                  11
+ 5 Documentation of the high-level flow                                    8
+ 6 Correspondence between the paper claims and the formalized lemmata      6
+ 7 Documentation in general                                                6
+ 8 Structure should mirror the one from the paper                          5
+ 9 Comments on definitions                                                 4
+10 Difficult to evaluate - Understandable                                  2
+11 Expectations from the paper drive artifact evaluation                   2
+12 Manual proofs are too hard to verify                                    2
+13 Mechanized proofs                                                       2
+14 Readability                                                             2
+15 Accessibility                                                           1
+16 All proof obligations are discharged                                    1
+17 Axions should be listed in documentation                                1
+18 Central points understandable                                           1
+19 Clear documentation how to check the proofs from the artifact           1
+20 Clear explanation of the proofs                                         1
+21 Compile and run without error                                           1
+22 Coq proof                                                               1
+23 Correctness                                                             1
+24 Definition of well-formedness criteria                                  1
+25 Depends on artifact type                                                1
+26 Depends on claims                                                       1
+27 Different proof concepts have different requirements for evaluation     1
+28 Divergences need to be explained                                        1
+29 Documentation of any assumptions                                        1
+30 Documentation of usage beyond that described in the paper               1
+31 Easy to follow                                                          1
+32 Entry points given                                                      1
+33 Evidence of a complete proof                                            1
+34 Generally make sense of it                                              1
+35 Hand-written proofs must be comprehensible                              1
+36 High-level understanding                                                1
+37 Intuition                                                               1
+38 Lack of admits                                                          1
+39 Lucid                                                                   1
+40 Modularity                                                              1
+41 No need to formally verify proofs                                       1
+42 Not familiar                                                            1
+43 Not misleading                                                          1
+44 Only mechanized proofs                                                  1
+45 Positive tests                                                          1
+46 Proof checker should be standard software                               1
+47 Proof mechanics irrelevant                                              1
+48 Usable on new inputs                                                    1
+
+ae3: What is your minimum expectation for the proof portion of an artifact? (e.g., completeness, understandability)
+For question code ae3 in the se community we received 20 answers.
+Top 1000 tags were:
+# A tibble: 14 x 2
+   tag                                                                 usage
+   <chr>                                                               <int>
+ 1 Understandability                                                       6
+ 2 Completeness                                                            4
+ 3 Never reviewed a proof                                                  4
+ 4 Proof checker says OK                                                   2
+ 5 Availability trumps quality                                             1
+ 6 Correctness                                                             1
+ 7 Correspondence between the paper claims and the formalized lemmata      1
+ 8 Different proof concepts have different requirements for evaluation     1
+ 9 Documentation in general                                                1
+10 Executability                                                           1
+11 Expectations from the paper drive artifact evaluation                   1
+12 None                                                                    1
+13 Notion should be clear                                                  1
+14 Structure should mirror the one from the paper                          1
+
+[1] "ae3 differs across communities"
+--------------
+
+---- AE4  ----
+ae4: What is your minimum expectation for the data portion of an artifact? (e.g., raw data, data format, format documentation, size)
+For question code ae4 we received 112 answers.
+Top 1000 tags were:
+# A tibble: 110 x 2
+    tag                                                              usage
+    <chr>                                                            <int>
+  1 Format description                                                  33
+  2 Raw data                                                            16
+  3 Documentation in general                                            13
+  4 Have not evaluated data artifacts                                   12
+  5 Non-proprietory format                                               8
+  6 Reproducible                                                         8
+  7 Completeness                                                         7
+  8 Scripts/Program/Library to manipulate data                           7
+  9 Documentation of origin                                              6
+ 10 Some data format                                                     6
+ 11 Depends on artifact type                                             5
+ 12 Structure documentation                                              5
+ 13 Text format                                                          5
+ 14 Standard format                                                      4
+ 15 Availability                                                         3
+ 16 Documentation of data type                                           3
+ 17 Human-readable format                                                3
+ 18 None                                                                 3
+ 19 Scripts/Program/Library to analyze the data                          3
+ 20 Size                                                                 3
+ 21 Subset should be possible                                            3
+ 22 Derived or cleaned data                                              2
+ 23 Documentation of data collection/production                          2
+ 24 It should be possible to create new input data                       2
+ 25 Matches claims from the paper                                        2
+ 26 Reusability                                                          2
+ 27 Scripts/Program/Library to plot the data                             2
+ 28 Sensible structure                                                   2
+ 29 A corpus analysis should be performed on an available corpus         1
+ 30 Anonymization                                                        1
+ 31 Approachable                                                         1
+ 32 Automatically generated data preferred                               1
+ 33 Availability trumps quality                                          1
+ 34 Browsable with reasonable effort                                     1
+ 35 Cite data sources                                                    1
+ 36 Cleaned data                                                         1
+ 37 Column names should be clear                                         1
+ 38 Compelling reasons if data cannot be reproduced                      1
+ 39 Comprehensible data format                                           1
+ 40 Consistent format                                                    1
+ 41 Coverage                                                             1
+ 42 Data description                                                     1
+ 43 Data has the characteristic described in the paper                   1
+ 44 Data production should be clear                                      1
+ 45 Data supports code portion                                           1
+ 46 Dependencies are documented                                          1
+ 47 Depends on claims made in the paper                                  1
+ 48 Description of how it can be explored                                1
+ 49 Description of how it is used by research tools                      1
+ 50 Description of how scripts/programs use that data                    1
+ 51 Deviations should be allowed                                         1
+ 52 Discussion of methodology in the paper or artifact documentation     1
+ 53 Documentation of data production                                     1
+ 54 Easy data format                                                     1
+ 55 Easy data production                                                 1
+ 56 Editable scripts                                                     1
+ 57 Editor for raw data                                                  1
+ 58 Ethics                                                               1
+ 59 Examples                                                             1
+ 60 Existence                                                            1
+ 61 Explanation of data points                                           1
+ 62 Formal description of the format                                     1
+ 63 Format supports replication                                          1
+ 64 Generated data is fine                                               1
+ 65 Good names                                                           1
+ 66 Guide to reproduce data                                              1
+ 67 Helper scripts                                                       1
+ 68 Least important aspect                                               1
+ 69 Matches data presented in the paper                                  1
+ 70 Matches data reported in the paper                                   1
+ 71 Matches expectations from the paper                                  1
+ 72 Matches findings from the paper                                      1
+ 73 Modifiable                                                           1
+ 74 Not evaluated data yet                                               1
+ 75 Not important - Size                                                 1
+ 76 Open source formats                                                  1
+ 77 Packaging                                                            1
+ 78 Platform-indepedent format                                           1
+ 79 Portable format                                                      1
+ 80 Preprocessed data                                                    1
+ 81 Program to read data                                                 1
+ 82 Provide all scripts                                                  1
+ 83 Provide multiple formats                                             1
+ 84 Quality criteria hurt availability                                   1
+ 85 Raw input data used for benchmarking                                 1
+ 86 Reconfirms experiments                                               1
+ 87 Relationship with the paper clarified                                1
+ 88 Replicable                                                           1
+ 89 Replicate results                                                    1
+ 90 Representative size                                                  1
+ 91 Representative subset for larger datasets                            1
+ 92 Reproducible experiments                                             1
+ 93 Reusability beyond replication                                       1
+ 94 Reusable for other experiments                                       1
+ 95 Reusable format                                                      1
+ 96 Scripts/Program/Library to generate data                             1
+ 97 Scripts/Program/Library to manipulate the data                       1
+ 98 Should conform to expectations set by the paper                      1
+ 99 Should not require excessive resources                               1
+100 Size depends on paper                                                1
+101 Stored separately from other parts                                   1
+102 Text format ensure longevity                                         1
+103 Timing information is almost never reproducible                      1
+104 Understand a line of data                                            1
+105 Understandability                                                    1
+106 Understandable format                                                1
+107 Usable data format                                                   1
+108 Usefulness linked to results of the paper                            1
+109 Very large data files can be challenging                             1
+110 Works with the given tool                                            1
+
+ae4: What is your minimum expectation for the data portion of an artifact? (e.g., raw data, data format, format documentation, size)
+For question code ae4 in the pl community we received 82 answers.
+Top 1000 tags were:
+# A tibble: 81 x 2
+   tag                                                              usage
+   <chr>                                                            <int>
+ 1 Format description                                                  19
+ 2 Raw data                                                            13
+ 3 Have not evaluated data artifacts                                   12
+ 4 Documentation in general                                            10
+ 5 Reproducible                                                         7
+ 6 Scripts/Program/Library to manipulate data                           7
+ 7 Non-proprietory format                                               6
+ 8 Some data format                                                     6
+ 9 Documentation of origin                                              5
+10 Text format                                                          5
+11 Completeness                                                         4
+12 Depends on artifact type                                             4
+13 Structure documentation                                              4
+14 Documentation of data type                                           3
+15 Human-readable format                                                3
+16 Subset should be possible                                            3
+17 Availability                                                         2
+18 None                                                                 2
+19 Scripts/Program/Library to analyze the data                          2
+20 Scripts/Program/Library to plot the data                             2
+21 Size                                                                 2
+22 Standard format                                                      2
+23 A corpus analysis should be performed on an available corpus         1
+24 Anonymization                                                        1
+25 Approachable                                                         1
+26 Browsable with reasonable effort                                     1
+27 Cite data sources                                                    1
+28 Compelling reasons if data cannot be reproduced                      1
+29 Consistent format                                                    1
+30 Coverage                                                             1
+31 Data production should be clear                                      1
+32 Data supports code portion                                           1
+33 Dependencies are documented                                          1
+34 Depends on claims made in the paper                                  1
+35 Derived or cleaned data                                              1
+36 Description of how it can be explored                                1
+37 Description of how it is used by research tools                      1
+38 Description of how scripts/programs use that data                    1
+39 Deviations should be allowed                                         1
+40 Discussion of methodology in the paper or artifact documentation     1
+41 Documentation of data collection/production                          1
+42 Easy data format                                                     1
+43 Easy data production                                                 1
+44 Editor for raw data                                                  1
+45 Ethics                                                               1
+46 Examples                                                             1
+47 Explanation of data points                                           1
+48 Formal description of the format                                     1
+49 Format supports replication                                          1
+50 Generated data is fine                                               1
+51 Good names                                                           1
+52 Guide to reproduce data                                              1
+53 Least important aspect                                               1
+54 Matches claims from the paper                                        1
+55 Matches data presented in the paper                                  1
+56 Matches data reported in the paper                                   1
+57 Matches expectations from the paper                                  1
+58 Matches findings from the paper                                      1
+59 Not important - Size                                                 1
+60 Open source formats                                                  1
+61 Packaging                                                            1
+62 Portable format                                                      1
+63 Program to read data                                                 1
+64 Raw input data used for benchmarking                                 1
+65 Reconfirms experiments                                               1
+66 Replicate results                                                    1
+67 Representative size                                                  1
+68 Reproducible experiments                                             1
+69 Reusable for other experiments                                       1
+70 Reusable format                                                      1
+71 Scripts/Program/Library to generate data                             1
+72 Scripts/Program/Library to manipulate the data                       1
+73 Sensible structure                                                   1
+74 Should conform to expectations set by the paper                      1
+75 Should not require excessive resources                               1
+76 Text format ensure longevity                                         1
+77 Timing information is almost never reproducible                      1
+78 Understand a line of data                                            1
+79 Understandability                                                    1
+80 Usefulness linked to results of the paper                            1
+81 Works with the given tool                                            1
+
+ae4: What is your minimum expectation for the data portion of an artifact? (e.g., raw data, data format, format documentation, size)
+For question code ae4 in the se community we received 23 answers.
+Top 1000 tags were:
+# A tibble: 36 x 2
+   tag                                             usage
+   <chr>                                           <int>
+ 1 Format description                                  8
+ 2 Non-proprietory format                              4
+ 3 Standard format                                     3
+ 4 Completeness                                        2
+ 5 Documentation in general                            2
+ 6 Raw data                                            2
+ 7 Reusability                                         2
+ 8 Availability trumps quality                         1
+ 9 Cleaned data                                        1
+10 Column names should be clear                        1
+11 Comprehensible data format                          1
+12 Depends on artifact type                            1
+13 Derived or cleaned data                             1
+14 Deviations should be allowed                        1
+15 Documentation of data collection/production         1
+16 Documentation of origin                             1
+17 Matches data presented in the paper                 1
+18 Matches expectations from the paper                 1
+19 None                                                1
+20 Platform-indepedent format                          1
+21 Preprocessed data                                   1
+22 Provide all scripts                                 1
+23 Provide multiple formats                            1
+24 Quality criteria hurt availability                  1
+25 Replicable                                          1
+26 Representative size                                 1
+27 Reproducible                                        1
+28 Reusability beyond replication                      1
+29 Reusable for other experiments                      1
+30 Scripts/Program/Library to analyze the data         1
+31 Sensible structure                                  1
+32 Some data format                                    1
+33 Structure documentation                             1
+34 Timing information is almost never reproducible     1
+35 Usable data format                                  1
+36 Usefulness linked to results of the paper           1
+
+[1] "ae4 differs across communities"
+--------------
+
+---- AE5  ----
+ae5: Do you have any other comments on the requirements for accepting an artifact?
+For question code ae5 we received 50 answers.
+Top 1000 tags were:
+# A tibble: 62 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 None                                                                        7
+ 2 Artifact evaluation should be a two step process to improve quality         4
+ 3 Easy installation                                                           4
+ 4 Script for a full reproduction                                              3
+ 5 Virtual machine                                                             3
+ 6 Artifact works                                                              2
+ 7 Artifacts should not be viewed as production-quality software               2
+ 8 Authors should provide a better experience for reviewer                     2
+ 9 Availability                                                                2
+10 Conditional accepts for papers depeding on artifact evaluation              2
+11 Docker container                                                            2
+12 It needs to match the expectations set by the paper                         2
+13 Leniency is a good thing                                                    2
+14 Too much focus on reproducing experiments                                   2
+15 AE is only a black-box inspection                                           1
+16 AE should be in parallel to paper evaluation                                1
+17 AEC should not set their own criteria                                       1
+18 Access to server                                                            1
+19 Artifact lives in the context of the paper                                  1
+20 Artifact works on multiple operating systems                                1
+21 Artifacts are allowed to run under controlled circumstances                 1
+22 Artifacts are not very useful in general                                    1
+23 Artifacts should be portable                                                1
+24 Artifacts that are usable enough to substantiate claims should be acce…     1
+25 Authors should provide documentation how to produce new input               1
+26 Badges are useful                                                           1
+27 Badges for artifact with higher quality                                     1
+28 Bar for quality should be higher                                            1
+29 Being able to run extra tests                                               1
+30 Cheaper packaging necessary                                                 1
+31 Completeness                                                                1
+32 Consistency between implementation and contribution                         1
+33 Dependency problem                                                          1
+34 Documentation should be more important                                      1
+35 Documentation should describe organization and structure                    1
+36 Format requirements should be enforced more strictly                        1
+37 Guidelines for long-lasting artifacts                                       1
+38 Hard to give explicit requirements                                          1
+39 Ideally artifact should be quality software products                        1
+40 KTT phase can help with packaging                                           1
+41 Kicking-the-tires phase                                                     1
+42 Long running experiments are problematic                                    1
+43 Missing information is always grounds for rejection                         1
+44 Missing source code may be an attempt to defeat a reviewer                  1
+45 Only well documented artifacts help the community                           1
+46 Open process like POPL is ideal                                             1
+47 Packaging is hard                                                           1
+48 Prefers to run directly on the machine                                      1
+49 References in the final version of the paper                                1
+50 Requirements should be more strict                                          1
+51 Retention                                                                   1
+52 Runs on a laptop with reasonable specs in reasonable time                   1
+53 Should not require network resources                                        1
+54 Should run on examples or tests                                             1
+55 Showing only partial results in an artifact is unacceptable                 1
+56 Source code needs to be submitted                                           1
+57 Standards for packing should be followed                                    1
+58 Subset experiments for larger experiments                                   1
+59 Transparency in the installation/uninstallation process                     1
+60 VMs are a fallback                                                          1
+61 VMs are inconvenient                                                        1
+62 Virtual machines or docker images are often bloated                         1
+
+ae5: Do you have any other comments on the requirements for accepting an artifact?
+For question code ae5 in the pl community we received 33 answers.
+Top 1000 tags were:
+# A tibble: 47 x 2
+   tag                                                                 usage
+   <chr>                                                               <int>
+ 1 None                                                                    5
+ 2 Artifact works                                                          2
+ 3 It needs to match the expectations set by the paper                     2
+ 4 Leniency is a good thing                                                2
+ 5 AE is only a black-box inspection                                       1
+ 6 AEC should not set their own criteria                                   1
+ 7 Artifact evaluation should be a two step process to improve quality     1
+ 8 Artifact lives in the context of the paper                              1
+ 9 Artifact works on multiple operating systems                            1
+10 Artifacts are allowed to run under controlled circumstances             1
+11 Artifacts are not very useful in general                                1
+12 Artifacts should be portable                                            1
+13 Artifacts should not be viewed as production-quality software           1
+14 Authors should provide a better experience for reviewer                 1
+15 Badges are useful                                                       1
+16 Badges for artifact with higher quality                                 1
+17 Being able to run extra tests                                           1
+18 Cheaper packaging necessary                                             1
+19 Completeness                                                            1
+20 Conditional accepts for papers depeding on artifact evaluation          1
+21 Consistency between implementation and contribution                     1
+22 Documentation should be more important                                  1
+23 Documentation should describe organization and structure                1
+24 Easy installation                                                       1
+25 Format requirements should be enforced more strictly                    1
+26 Guidelines for long-lasting artifacts                                   1
+27 Hard to give explicit requirements                                      1
+28 Ideally artifact should be quality software products                    1
+29 KTT phase can help with packaging                                       1
+30 Kicking-the-tires phase                                                 1
+31 Long running experiments are problematic                                1
+32 Missing information is always grounds for rejection                     1
+33 Missing source code may be an attempt to defeat a reviewer              1
+34 Only well documented artifacts help the community                       1
+35 Open process like POPL is ideal                                         1
+36 Packaging is hard                                                       1
+37 Prefers to run directly on the machine                                  1
+38 Script for a full reproduction                                          1
+39 Should not require network resources                                    1
+40 Showing only partial results in an artifact is unacceptable             1
+41 Source code needs to be submitted                                       1
+42 Standards for packing should be followed                                1
+43 Subset experiments for larger experiments                               1
+44 Too much focus on reproducing experiments                               1
+45 VMs are a fallback                                                      1
+46 VMs are inconvenient                                                    1
+47 Virtual machines or docker images are often bloated                     1
+
+ae5: Do you have any other comments on the requirements for accepting an artifact?
+For question code ae5 in the se community we received 9 answers.
+Top 1000 tags were:
+# A tibble: 13 x 2
+   tag                                                                 usage
+   <chr>                                                               <int>
+ 1 Artifact evaluation should be a two step process to improve quality     2
+ 2 AE should be in parallel to paper evaluation                            1
+ 3 AEC should not set their own criteria                                   1
+ 4 Artifact lives in the context of the paper                              1
+ 5 Authors should provide documentation how to produce new input           1
+ 6 Conditional accepts for papers depeding on artifact evaluation          1
+ 7 Easy installation                                                       1
+ 8 It needs to match the expectations set by the paper                     1
+ 9 None                                                                    1
+10 Open process like POPL is ideal                                         1
+11 Script for a full reproduction                                          1
+12 Should run on examples or tests                                         1
+13 Transparency in the installation/uninstallation process                 1
+
+[1] "ae5 differs across communities"
+--------------
+
+---- AE7  ----
+ae7: Please elaborate on your previous answer:
+For question code ae7 we received 98 answers.
+Top 1000 tags were:
+# A tibble: 126 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 AE process guides authors towards good artifacts                          13
+  2 AE review should be tightly coupled with PC review                         9
+  3 Artifacts allow to build on other people's research                        6
+  4 Effort is not great                                                        6
+  5 AE provides higher standard of reproducibility                             4
+  6 Effort is high                                                             4
+  7 AE checks that research can be reproduced                                  3
+  8 AE encourages good science                                                 3
+  9 Artifact has to undergo a rigorous review process to be trusted            3
+ 10 Some papers have deceiving artifacts                                       3
+ 11 AE encourages artifact availability                                        2
+ 12 AE helps to maintain confidence in the peer review process                 2
+ 13 AE improves overall quality in the community                               2
+ 14 AE is the process to review artifact and therefore the effort is just…     2
+ 15 AE keeps authors honest                                                    2
+ 16 AE provides higher standard of reusability                                 2
+ 17 Artifacts allow for easier comparisons                                     2
+ 18 Badging can help signal minimal usability                                  2
+ 19 Benefit in the long run                                                    2
+ 20 Better than nothing                                                        2
+ 21 Community is then able to build on top of each others work                 2
+ 22 Effort for a high-quality artifact is not rewarded                         2
+ 23 Effort is small compared to benefits                                       2
+ 24 Good learning experience for juniors                                       2
+ 25 It is important to verify claims made in the paper                         2
+ 26 Separate process is justified                                              2
+ 27 Students pay the price for this process                                    2
+ 28 AE allows reproducible research                                            1
+ 29 AE assesses the quality of accepted papers                                 1
+ 30 AE can have the effect that papers are withdrawn/rejected                  1
+ 31 AE checks if findings or contributions are valid                           1
+ 32 AE checks proofs of theorems                                               1
+ 33 AE checks replicability of results                                         1
+ 34 AE ensures that a paper has a running experiment                           1
+ 35 AE has a positive impact on the CS community                               1
+ 36 AE helps to assure quality                                                 1
+ 37 AE helps to create stable versions of research prototypes                  1
+ 38 AE helps to have reproducible experiments                                  1
+ 39 AE helps to improve research                                               1
+ 40 AE improves the heath of our scientific contributions                      1
+ 41 AE increases trust in the results                                          1
+ 42 AE is a check mechanism for fraudulent research                            1
+ 43 AE is a necessary part of the scientific process                           1
+ 44 AE makes fraud less compelling                                             1
+ 45 AE makes the scientific process more transparent                           1
+ 46 AE might help to provide evidence that the experiments run at the tim…     1
+ 47 AE provides sound artifacts                                                1
+ 48 AE separates usable software from unusable software                        1
+ 49 AE should be a iterative process                                           1
+ 50 AE should be less effort                                                   1
+ 51 AE takes responsibility away from paper evaluation in a way that is n…     1
+ 52 AE usually has no influence on paper acceptance                            1
+ 53 AE verifies the quality of research                                        1
+ 54 AE work is unrewarding                                                     1
+ 55 Accessibility of artifacts                                                 1
+ 56 Added value to the research work                                           1
+ 57 Artifacts and papers should be reviewed                                    1
+ 58 Artifacts are created anyway                                               1
+ 59 Artifacts can propel research as much as papers                            1
+ 60 Artifacts have to be on the same level of quality as the paper             1
+ 61 Artifacts increase confidence in the legitimacy of the paper               1
+ 62 Badge is a quality indicator                                               1
+ 63 Better than plain open-source repositories                                 1
+ 64 Big groups are privileged                                                  1
+ 65 Community is evolving towards an understanding                             1
+ 66 Community judges in the end and not the AEC                                1
+ 67 Conditions not clear in the call                                           1
+ 68 Consistent archiving                                                       1
+ 69 Differences discovered in AE can cause revisions of the paper              1
+ 70 Different tools are hard to compare                                        1
+ 71 Effort is not fully justified                                              1
+ 72 Effort makes sense                                                         1
+ 73 Effort should be mostly on the authors side                                1
+ 74 Effort will go down over time when process becomes established             1
+ 75 Essential component of the scientific process                              1
+ 76 Experiments are prepared anyway so they can be easily packaged             1
+ 77 Gains have not been assessed yet                                           1
+ 78 Good artifacts get rejected due to technical requirements                  1
+ 79 Good setup makes it easier                                                 1
+ 80 Great experience for students                                              1
+ 81 Have to read and understand the paper additionally                         1
+ 82 Having an implementation of a paper's ideas helps                          1
+ 83 Help replicability                                                         1
+ 84 Helps to verify evaluations from another angle                             1
+ 85 If artifacts are bad then papers should be rejectedq                       1
+ 86 If artifacts are good artifacts should get a boost for acceptance          1
+ 87 If claims are not reproducible then the paper should be rejected           1
+ 88 Independent reuse helps new students                                       1
+ 89 Information should be validated by multiple people                         1
+ 90 Less funded groups and universities are suffering                          1
+ 91 Lighter reviews opens the door to make AE mandatory                        1
+ 92 Lot of effort in creation                                                  1
+ 93 Main contribution is the artifact and not the paper                        1
+ 94 Makes collaborations easier                                                1
+ 95 More fair comparisons                                                      1
+ 96 Motivation for authors                                                     1
+ 97 No claims without evidence                                                 1
+ 98 Opportunity to reject inadequate artifacts                                 1
+ 99 Outreach to people outside the community                                   1
+100 Paper revisions based on artifact evaluations occur but are not manda…     1
+101 Papers should be conditionally accepted until the artifact passes          1
+102 Papers with certified artifacts are preferred                              1
+103 Preparing an artifact needs to become integrated into the experimenta…     1
+104 Programming languages coupled to artifacts                                 1
+105 Public artifacts are an advance                                            1
+106 Rejected out of silly reasons                                              1
+107 Reproducible experiments                                                   1
+108 Reproduciblity is very important                                           1
+109 Requirements are still work in progress                                    1
+110 Requirements need to be tailored to different communities                  1
+111 Research prototypes do not stand the test of time                          1
+112 Researchers are not software developers                                    1
+113 Reusable artifacts are useful for the community                            1
+114 Scientific standards as in other fields                                    1
+115 Separate publication may be a better incentive                             1
+116 Sharing software instigates trust                                          1
+117 Should not be a burden on the authors                                      1
+118 Space limits in the paper sometimes do not allow full presentation of…     1
+119 Speak a similar language than industry                                     1
+120 Support for the paper                                                      1
+121 The production of high-quality tools is important                          1
+122 Too much focus on artifact quality                                         1
+123 Weak artifacts get accepted                                                1
+124 Without replication there is no science.                                   1
+125 Without review other researchers code or data is hard to reuse             1
+126 Worthwhile goal                                                            1
+
+ae7: Please elaborate on your previous answer:
+For question code ae7 in the pl community we received 71 answers.
+Top 1000 tags were:
+# A tibble: 94 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 AE process guides authors towards good artifacts                           10
+ 2 AE review should be tightly coupled with PC review                          7
+ 3 Effort is not great                                                         6
+ 4 Artifacts allow to build on other people's research                         5
+ 5 AE provides higher standard of reproducibility                              4
+ 6 AE encourages good science                                                  3
+ 7 Some papers have deceiving artifacts                                        3
+ 8 AE checks that research can be reproduced                                   2
+ 9 AE encourages artifact availability                                         2
+10 AE improves overall quality in the community                                2
+11 AE keeps authors honest                                                     2
+12 AE provides higher standard of reusability                                  2
+13 Artifacts allow for easier comparisons                                      2
+14 Better than nothing                                                         2
+15 Community is then able to build on top of each others work                  2
+16 Effort is small compared to benefits                                        2
+17 Good learning experience for juniors                                        2
+18 It is important to verify claims made in the paper                          2
+19 Separate process is justified                                               2
+20 AE assesses the quality of accepted papers                                  1
+21 AE can have the effect that papers are withdrawn/rejected                   1
+22 AE checks if findings or contributions are valid                            1
+23 AE checks proofs of theorems                                                1
+24 AE checks replicability of results                                          1
+25 AE ensures that a paper has a running experiment                            1
+26 AE has a positive impact on the CS community                                1
+27 AE helps to assure quality                                                  1
+28 AE helps to create stable versions of research prototypes                   1
+29 AE helps to improve research                                                1
+30 AE helps to maintain confidence in the peer review process                  1
+31 AE improves the heath of our scientific contributions                       1
+32 AE increases trust in the results                                           1
+33 AE is a check mechanism for fraudulent research                             1
+34 AE is a necessary part of the scientific process                            1
+35 AE is the process to review artifact and therefore the effort is justi…     1
+36 AE makes fraud less compelling                                              1
+37 AE makes the scientific process more transparent                            1
+38 AE might help to provide evidence that the experiments run at the time…     1
+39 AE provides sound artifacts                                                 1
+40 AE separates usable software from unusable software                         1
+41 AE should be a iterative process                                            1
+42 AE should be less effort                                                    1
+43 AE takes responsibility away from paper evaluation in a way that is no…     1
+44 Added value to the research work                                            1
+45 Artifact has to undergo a rigorous review process to be trusted             1
+46 Artifacts and papers should be reviewed                                     1
+47 Artifacts have to be on the same level of quality as the paper              1
+48 Artifacts increase confidence in the legitimacy of the paper                1
+49 Badge is a quality indicator                                                1
+50 Badging can help signal minimal usability                                   1
+51 Better than plain open-source repositories                                  1
+52 Big groups are privileged                                                   1
+53 Consistent archiving                                                        1
+54 Differences discovered in AE can cause revisions of the paper               1
+55 Different tools are hard to compare                                         1
+56 Effort for a high-quality artifact is not rewarded                          1
+57 Effort is high                                                              1
+58 Effort is not fully justified                                               1
+59 Effort will go down over time when process becomes established              1
+60 Essential component of the scientific process                               1
+61 Experiments are prepared anyway so they can be easily packaged              1
+62 Good artifacts get rejected due to technical requirements                   1
+63 Good setup makes it easier                                                  1
+64 Great experience for students                                               1
+65 Having an implementation of a paper's ideas helps                           1
+66 Help replicability                                                          1
+67 Helps to verify evaluations from another angle                              1
+68 If claims are not reproducible then the paper should be rejected            1
+69 Independent reuse helps new students                                        1
+70 Information should be validated by multiple people                          1
+71 Less funded groups and universities are suffering                           1
+72 Lighter reviews opens the door to make AE mandatory                         1
+73 Makes collaborations easier                                                 1
+74 More fair comparisons                                                       1
+75 No claims without evidence                                                  1
+76 Paper revisions based on artifact evaluations occur but are not mandat…     1
+77 Papers should be conditionally accepted until the artifact passes           1
+78 Papers with certified artifacts are preferred                               1
+79 Preparing an artifact needs to become integrated into the experimental…     1
+80 Programming languages coupled to artifacts                                  1
+81 Public artifacts are an advance                                             1
+82 Reproduciblity is very important                                            1
+83 Requirements are still work in progress                                     1
+84 Requirements need to be tailored to different communities                   1
+85 Research prototypes do not stand the test of time                           1
+86 Researchers are not software developers                                     1
+87 Reusable artifacts are useful for the community                             1
+88 Scientific standards as in other fields                                     1
+89 Sharing software instigates trust                                           1
+90 Should not be a burden on the authors                                       1
+91 Students pay the price for this process                                     1
+92 The production of high-quality tools is important                           1
+93 Weak artifacts get accepted                                                 1
+94 Worthwhile goal                                                             1
+
+ae7: Please elaborate on your previous answer:
+For question code ae7 in the se community we received 18 answers.
+Top 1000 tags were:
+# A tibble: 26 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 AE review should be tightly coupled with PC review                          3
+ 2 Effort is high                                                              2
+ 3 AE ensures that a paper has a running experiment                            1
+ 4 AE process guides authors towards good artifacts                            1
+ 5 AE usually has no influence on paper acceptance                             1
+ 6 Artifacts are created anyway                                                1
+ 7 Artifacts can propel research as much as papers                             1
+ 8 Badging can help signal minimal usability                                   1
+ 9 Conditions not clear in the call                                            1
+10 Effort should be mostly on the authors side                                 1
+11 Gains have not been assessed yet                                            1
+12 Have to read and understand the paper additionally                          1
+13 Helps to verify evaluations from another angle                              1
+14 If artifacts are bad then papers should be rejectedq                        1
+15 If artifacts are good artifacts should get a boost for acceptance           1
+16 Lot of effort in creation                                                   1
+17 Programming languages coupled to artifacts                                  1
+18 Rejected out of silly reasons                                               1
+19 Reproducible experiments                                                    1
+20 Space limits in the paper sometimes do not allow full presentation of …     1
+21 Speak a similar language than industry                                      1
+22 Students pay the price for this process                                     1
+23 Support for the paper                                                       1
+24 Too much focus on artifact quality                                          1
+25 Without replication there is no science.                                    1
+26 Without review other researchers code or data is hard to reuse              1
+
+[1] "ae7 differs across communities"
+--------------
+
+---- AE8  ----
+ae8: What are the reasons why you have recommended to accept or reject an artifact?
+For question code ae8 we received 110 answers.
+Top 1000 tags were:
+# A tibble: 119 x 2
+    tag                                                                    usage
+    <chr>                                                                  <int>
+  1 Accept - Was able to reproduce results                                    18
+  2 Reject - Unable to reproduce results                                      14
+  3 Accept - Easy setup                                                        7
+  4 Accept - Good documentation                                                5
+  5 Accept - Matches claims in the paper                                       5
+  6 Accept - Meets minimum requirements                                        5
+  7 Reject - Bad documentation                                                 5
+  8 Reject - Results deviate too much                                          5
+  9 Accept - Compiles and runs                                                 4
+ 10 Accept - If it fits the expectations                                       4
+ 11 Accept - Matches results from the paper                                    4
+ 12 Accept - Willingness of authors to improve based on review comments        4
+ 13 Reject - Artifact is substantially different from the description in …     4
+ 14 Reject - Did not support major claims of the paper                         4
+ 15 Reject - Does not work                                                     4
+ 16 Accept - Documentation                                                     3
+ 17 Accept - Was able to replicate results                                     3
+ 18 Reject - Buggy code                                                        3
+ 19 Reject - Does not compile                                                  3
+ 20 Reject - Too much effort to evaluate                                       3
+ 21 Accept - Changing input was easy / artifact robust                         2
+ 22 Accept - Completeness                                                      2
+ 23 Accept - Reproducible experiments                                          2
+ 24 Accept - Worked as described                                               2
+ 25 Reject - Did not run                                                       2
+ 26 Reject - Unstable                                                          2
+ 27 AE assists authors in the production of high-quality artifacts             1
+ 28 Accept - Automatic generation of tables                                    1
+ 29 Accept - Clarity                                                           1
+ 30 Accept - Code quality                                                      1
+ 31 Accept - Compleness                                                        1
+ 32 Accept - Consistency with results                                          1
+ 33 Accept - Correct results                                                   1
+ 34 Accept - Correctness                                                       1
+ 35 Accept - Correlations between artifact and article                         1
+ 36 Accept - Correspondence with the paper                                     1
+ 37 Accept - Ease of use                                                       1
+ 38 Accept - Executable statistics                                             1
+ 39 Accept - Faithful implementation                                           1
+ 40 Accept - Following criteria from chairs                                    1
+ 41 Accept - Good presentation                                                 1
+ 42 Accept - Links in the paper to parts of the code                           1
+ 43 Accept - Meets criteria and reviewers agree                                1
+ 44 Accept - Minimal documentation                                             1
+ 45 Accept - Open data format                                                  1
+ 46 Accept - Open source                                                       1
+ 47 Accept - Portability                                                       1
+ 48 Accept - Quickly run examples                                              1
+ 49 Accept - Raw data and steps to reproduce                                   1
+ 50 Accept - Reasonable results                                                1
+ 51 Accept - Reasonable time to get it to run                                  1
+ 52 Accept - Reusability of the artifact                                       1
+ 53 Accept - Runs                                                              1
+ 54 Accept - Script that runs experiments                                      1
+ 55 Accept - Something referenced in the paper is there                        1
+ 56 Accept - Supports paper claims                                             1
+ 57 Accept - Test/examples are reproducible                                    1
+ 58 Accept - VM existed                                                        1
+ 59 Accept - Was able to replicate the experiments                             1
+ 60 Accept - Well documented code                                              1
+ 61 Accept is minimum requirements are met                                     1
+ 62 All my assigned artifacts looked reasonable                                1
+ 63 All papers are different                                                   1
+ 64 Artifact should conform to the expectations set by the paper               1
+ 65 Artifacts cannot be rejected                                               1
+ 66 Artifacts should convince AEC that results or claims can be reproduced     1
+ 67 Conditional accept should be possible                                      1
+ 68 Dislike - Artifact discoupled from paper                                   1
+ 69 Goal is to accept all artifacts                                            1
+ 70 Good if reader can benefit from artifact existance                         1
+ 71 Main goal is to make results reproducible                                  1
+ 72 Major problems (i.e., when parts of the READMEs cannot be substantiat…     1
+ 73 No reject for bad documentation                                            1
+ 74 Portability should be a goal                                               1
+ 75 Reject - Artifact that did not evaluate anything                           1
+ 76 Reject - Behaves differently                                               1
+ 77 Reject - Binary input format without editor                                1
+ 78 Reject - Code not runnable                                                 1
+ 79 Reject - Crashes                                                           1
+ 80 Reject - Different packaging format                                        1
+ 81 Reject - Difficult setup                                                   1
+ 82 Reject - Does not contain tests                                            1
+ 83 Reject - Does not meet minimum requirements                                1
+ 84 Reject - Does not support the paper                                        1
+ 85 Reject - Experiment did not finish in reasonable time                      1
+ 86 Reject - Incomplete                                                        1
+ 87 Reject - Incorrect packaging                                               1
+ 88 Reject - Just a set of examples                                            1
+ 89 Reject - Lack of data                                                      1
+ 90 Reject - Lacks promised features                                           1
+ 91 Reject - Low contribution to the corresponding paper                       1
+ 92 Reject - Missing interpretation                                            1
+ 93 Reject - No connection between output and paper presentation               1
+ 94 Reject - No description for data                                           1
+ 95 Reject - No documentation                                                  1
+ 96 Reject - No effort spent on preparing the artifact                         1
+ 97 Reject - No information on how experiments were done                       1
+ 98 Reject - No introspection possible                                         1
+ 99 Reject - No source code                                                    1
+100 Reject - Nonsense output                                                   1
+101 Reject - Not mature enough                                                 1
+102 Reject - Not self contained                                                1
+103 Reject - Paper does not match artifact                                     1
+104 Reject - Pure log output, no aggregation                                   1
+105 Reject - Required trial license                                            1
+106 Reject - Results not reproducible                                          1
+107 Reject - Results obfuscated                                                1
+108 Reject - Too hard or confusing to run                                      1
+109 Reject - Too many experiments failing                                      1
+110 Reject - Tools does not run on input from the paper                        1
+111 Reject - Toy examples instead of full benchmarks                           1
+112 Reject - Uncommented code                                                  1
+113 Reject - Unreasonably difficult to vary the test environment               1
+114 Reject - Wrong documentation                                               1
+115 Rejection - Lack of confidence that it reproduces results                  1
+116 Revise when packaging is lacking                                           1
+117 Should be able to understand how raw data is linked to results             1
+118 Suggestion - Reference parts of the paper to parts of the artifact         1
+119 There is no point in rejecting                                             1
+
+ae8: What are the reasons why you have recommended to accept or reject an artifact?
+For question code ae8 in the pl community we received 83 answers.
+Top 1000 tags were:
+# A tibble: 96 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Accept - Was able to reproduce results                                     15
+ 2 Reject - Unable to reproduce results                                       10
+ 3 Accept - Matches claims in the paper                                        5
+ 4 Accept - Meets minimum requirements                                         5
+ 5 Accept - Compiles and runs                                                  4
+ 6 Accept - Easy setup                                                         4
+ 7 Accept - Good documentation                                                 4
+ 8 Reject - Bad documentation                                                  4
+ 9 Reject - Did not support major claims of the paper                          4
+10 Reject - Results deviate too much                                           4
+11 Accept - Documentation                                                      3
+12 Accept - Matches results from the paper                                     3
+13 Accept - Was able to replicate results                                      3
+14 Reject - Artifact is substantially different from the description in t…     3
+15 Reject - Buggy code                                                         3
+16 Reject - Does not work                                                      3
+17 Accept - Changing input was easy / artifact robust                          2
+18 Accept - If it fits the expectations                                        2
+19 Accept - Willingness of authors to improve based on review comments         2
+20 Accept - Worked as described                                                2
+21 Reject - Did not run                                                        2
+22 Reject - Too much effort to evaluate                                        2
+23 AE assists authors in the production of high-quality artifacts              1
+24 Accept - Clarity                                                            1
+25 Accept - Code quality                                                       1
+26 Accept - Compleness                                                         1
+27 Accept - Correct results                                                    1
+28 Accept - Correctness                                                        1
+29 Accept - Correlations between artifact and article                          1
+30 Accept - Correspondence with the paper                                      1
+31 Accept - Ease of use                                                        1
+32 Accept - Executable statistics                                              1
+33 Accept - Faithful implementation                                            1
+34 Accept - Following criteria from chairs                                     1
+35 Accept - Good presentation                                                  1
+36 Accept - Links in the paper to parts of the code                            1
+37 Accept - Meets criteria and reviewers agree                                 1
+38 Accept - Open data format                                                   1
+39 Accept - Open source                                                        1
+40 Accept - Portability                                                        1
+41 Accept - Quickly run examples                                               1
+42 Accept - Raw data and steps to reproduce                                    1
+43 Accept - Reasonable results                                                 1
+44 Accept - Reasonable time to get it to run                                   1
+45 Accept - Reusability of the artifact                                        1
+46 Accept - Script that runs experiments                                       1
+47 Accept - Supports paper claims                                              1
+48 Accept - Test/examples are reproducible                                     1
+49 Accept - VM existed                                                         1
+50 Accept - Was able to replicate the experiments                              1
+51 Accept - Well documented code                                               1
+52 All papers are different                                                    1
+53 Artifact should conform to the expectations set by the paper                1
+54 Artifacts cannot be rejected                                                1
+55 Artifacts should convince AEC that results or claims can be reproduced      1
+56 Dislike - Artifact discoupled from paper                                    1
+57 Goal is to accept all artifacts                                             1
+58 Major problems (i.e., when parts of the READMEs cannot be substantiate…     1
+59 Portability should be a goal                                                1
+60 Reject - Artifact that did not evaluate anything                            1
+61 Reject - Binary input format without editor                                 1
+62 Reject - Code not runnable                                                  1
+63 Reject - Different packaging format                                         1
+64 Reject - Difficult setup                                                    1
+65 Reject - Does not compile                                                   1
+66 Reject - Does not contain tests                                             1
+67 Reject - Does not meet minimum requirements                                 1
+68 Reject - Does not support the paper                                         1
+69 Reject - Incomplete                                                         1
+70 Reject - Incorrect packaging                                                1
+71 Reject - Just a set of examples                                             1
+72 Reject - Lack of data                                                       1
+73 Reject - Lacks promised features                                            1
+74 Reject - Low contribution to the corresponding paper                        1
+75 Reject - Missing interpretation                                             1
+76 Reject - No connection between output and paper presentation                1
+77 Reject - No documentation                                                   1
+78 Reject - No effort spent on preparing the artifact                          1
+79 Reject - No information on how experiments were done                        1
+80 Reject - No introspection possible                                          1
+81 Reject - No source code                                                     1
+82 Reject - Nonsense output                                                    1
+83 Reject - Not mature enough                                                  1
+84 Reject - Not self contained                                                 1
+85 Reject - Paper does not match artifact                                      1
+86 Reject - Required trial license                                             1
+87 Reject - Results not reproducible                                           1
+88 Reject - Results obfuscated                                                 1
+89 Reject - Toy examples instead of full benchmarks                            1
+90 Reject - Uncommented code                                                   1
+91 Reject - Unreasonably difficult to vary the test environment                1
+92 Reject - Unstable                                                           1
+93 Reject - Wrong documentation                                                1
+94 Revise when packaging is lacking                                            1
+95 Suggestion - Reference parts of the paper to parts of the artifact          1
+96 There is no point in rejecting                                              1
+
+ae8: What are the reasons why you have recommended to accept or reject an artifact?
+For question code ae8 in the se community we received 19 answers.
+Top 1000 tags were:
+# A tibble: 23 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Reject - Unable to reproduce results                                        4
+ 2 Accept - If it fits the expectations                                        2
+ 3 Accept - Was able to reproduce results                                      2
+ 4 Accept - Willingness of authors to improve based on review comments         2
+ 5 AE assists authors in the production of high-quality artifacts              1
+ 6 Accept - Completeness                                                       1
+ 7 Accept - Easy setup                                                         1
+ 8 Accept - Links in the paper to parts of the code                            1
+ 9 Accept - Matches results from the paper                                     1
+10 Accept - Something referenced in the paper is there                         1
+11 Reject - Artifact is substantially different from the description in t…     1
+12 Reject - Artifact that did not evaluate anything                            1
+13 Reject - Bad documentation                                                  1
+14 Reject - Crashes                                                            1
+15 Reject - Does not compile                                                   1
+16 Reject - Does not work                                                      1
+17 Reject - Experiment did not finish in reasonable time                       1
+18 Reject - Low contribution to the corresponding paper                        1
+19 Reject - No description for data                                            1
+20 Reject - Too hard or confusing to run                                       1
+21 Reject - Too much effort to evaluate                                        1
+22 Reject - Unstable                                                           1
+23 Should be able to understand how raw data is linked to results              1
+
+[1] "ae8 differs across communities"
+--------------
+
+---- AE9  ----
+ae9: Which arguments of your fellow artifact evaluation committee members for the acceptance or rejection of an artifact do you recall?
+For question code ae9 we received 73 answers.
+Top 1000 tags were:
+# A tibble: 69 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Similar arguments                                                          15
+ 2 None                                                                       11
+ 3 Reject - Not well documented                                                7
+ 4 Reject - Setup failed                                                       4
+ 5 Reject - Cannot reproduce                                                   3
+ 6 AE is not a software competition                                            2
+ 7 Accept - Easy to reproduce                                                  2
+ 8 Reject - Errors occur                                                       2
+ 9 Reject - Incomplete                                                         2
+10 Reject - Not indicated where to find contributions                          2
+11 Sometimes reviewers give up early                                           2
+12 Accept - Blindly follow authors instructions led to same plots              1
+13 Accept - Depending on proprietory software is okay, because it reprodu…     1
+14 Accept - Did what was promised                                              1
+15 Accept - Documentation                                                      1
+16 Accept - Good code quality                                                  1
+17 Accept - Good documentation                                                 1
+18 Accept - Proof checker says OK                                              1
+19 Accept - Replicable results                                                 1
+20 Accept - Reproducibility                                                    1
+21 Accept - Reproducible results in a reasonable range                         1
+22 Accept - Results correspond to those in the paper                           1
+23 Accept - Results reproduced even though hard to comprehend and poorly …     1
+24 Accept - Works as expected                                                  1
+25 Acceptance is standard                                                      1
+26 Arguments only about executability                                          1
+27 Artifact needs to meet technical requirements state in the call             1
+28 Communication with the authors is important                                 1
+29 Correctness requires more effort than reproducibility                       1
+30 Documentation is crucial for reviewer understanding                         1
+31 Generating output only in some scenarios is insufficient                    1
+32 Inventing new problems for artifacts is rare                                1
+33 Must use high standards while reviewing artifacts                           1
+34 Only minor differences                                                      1
+35 Other reviewers argued that watching a supplied video was sufficient d…     1
+36 Partial reproducibility also is acceptable                                  1
+37 Pleasantness of the reviewing experience has come up                        1
+38 Poor packaging does not necessarily lead to rejection                       1
+39 Reject - Cheating in the submission process                                 1
+40 Reject - Code poorly commented                                              1
+41 Reject - Did not run                                                        1
+42 Reject - Did not work                                                       1
+43 Reject - Different numbers than reported                                    1
+44 Reject - Does not work                                                      1
+45 Reject - GPL License but no source code                                     1
+46 Reject - Gross discrepancy                                                  1
+47 Reject - Hard to run new experiments                                        1
+48 Reject - Incompleteness                                                     1
+49 Reject - Lack of automation                                                 1
+50 Reject - No correlation from software to plots                              1
+51 Reject - No source code                                                     1
+52 Reject - Other aspects                                                      1
+53 Reject - Packaging too difficult to use                                     1
+54 Reject - Poor preparation                                                   1
+55 Reject - Reproducibility                                                    1
+56 Reject - Setup hard                                                         1
+57 Reject - Significantly different from the paper                             1
+58 Reject - Unable to compile                                                  1
+59 Reject - Unable to reproduce                                                1
+60 Reject - Unable to support claim                                            1
+61 Rejection is less frequent                                                  1
+62 Reviewers should aim to verify not to disprove                              1
+63 Reviewers should do more introspection                                      1
+64 Reviewers should understand what was proven                                 1
+65 Some reviewers require exact correspondence                                 1
+66 Some supplemental results do not need to reproduce                          1
+67 Sometimes exact correspondence is infeasible                                1
+68 When proprietary software is necessary, reviews are sometimes hard to …     1
+69 When the paper is incorrect, then the artifact can be consistent even …     1
+
+ae9: Which arguments of your fellow artifact evaluation committee members for the acceptance or rejection of an artifact do you recall?
+For question code ae9 in the pl community we received 55 answers.
+Top 1000 tags were:
+# A tibble: 55 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Similar arguments                                                          11
+ 2 None                                                                        7
+ 3 Reject - Not well documented                                                7
+ 4 Reject - Setup failed                                                       4
+ 5 Reject - Cannot reproduce                                                   3
+ 6 AE is not a software competition                                            2
+ 7 Accept - Easy to reproduce                                                  2
+ 8 Reject - Errors occur                                                       2
+ 9 Reject - Not indicated where to find contributions                          2
+10 Sometimes reviewers give up early                                           2
+11 Accept - Blindly follow authors instructions led to same plots              1
+12 Accept - Depending on proprietory software is okay, because it reprodu…     1
+13 Accept - Did what was promised                                              1
+14 Accept - Documentation                                                      1
+15 Accept - Good code quality                                                  1
+16 Accept - Good documentation                                                 1
+17 Accept - Proof checker says OK                                              1
+18 Accept - Replicable results                                                 1
+19 Accept - Reproducibility                                                    1
+20 Accept - Reproducible results in a reasonable range                         1
+21 Accept - Results correspond to those in the paper                           1
+22 Accept - Results reproduced even though hard to comprehend and poorly …     1
+23 Accept - Works as expected                                                  1
+24 Artifact needs to meet technical requirements state in the call             1
+25 Communication with the authors is important                                 1
+26 Correctness requires more effort than reproducibility                       1
+27 Documentation is crucial for reviewer understanding                         1
+28 Inventing new problems for artifacts is rare                                1
+29 Only minor differences                                                      1
+30 Other reviewers argued that watching a supplied video was sufficient d…     1
+31 Partial reproducibility also is acceptable                                  1
+32 Pleasantness of the reviewing experience has come up                        1
+33 Poor packaging does not necessarily lead to rejection                       1
+34 Reject - Code poorly commented                                              1
+35 Reject - Did not work                                                       1
+36 Reject - Does not work                                                      1
+37 Reject - GPL License but no source code                                     1
+38 Reject - Gross discrepancy                                                  1
+39 Reject - Hard to run new experiments                                        1
+40 Reject - Incompleteness                                                     1
+41 Reject - No correlation from software to plots                              1
+42 Reject - No source code                                                     1
+43 Reject - Packaging too difficult to use                                     1
+44 Reject - Poor preparation                                                   1
+45 Reject - Setup hard                                                         1
+46 Reject - Unable to reproduce                                                1
+47 Reject - Unable to support claim                                            1
+48 Reviewers should aim to verify not to disprove                              1
+49 Reviewers should do more introspection                                      1
+50 Reviewers should understand what was proven                                 1
+51 Some reviewers require exact correspondence                                 1
+52 Some supplemental results do not need to reproduce                          1
+53 Sometimes exact correspondence is infeasible                                1
+54 When proprietary software is necessary, reviews are sometimes hard to …     1
+55 When the paper is incorrect, then the artifact can be consistent even …     1
+
+ae9: Which arguments of your fellow artifact evaluation committee members for the acceptance or rejection of an artifact do you recall?
+For question code ae9 in the se community we received 9 answers.
+Top 1000 tags were:
+# A tibble: 12 x 2
+   tag                                                      usage
+   <chr>                                                    <int>
+ 1 Similar arguments                                            3
+ 2 AE is not a software competition                             1
+ 3 Accept - Good code quality                                   1
+ 4 Accept - Works as expected                                   1
+ 5 Arguments only about executability                           1
+ 6 Generating output only in some scenarios is insufficient     1
+ 7 None                                                         1
+ 8 Reject - Cannot reproduce                                    1
+ 9 Reject - Different numbers than reported                     1
+10 Reject - Not well documented                                 1
+11 Reject - Setup hard                                          1
+12 Reject - Unable to compile                                   1
+
+[1] "ae9 differs across communities"
+--------------
+
+---- AE11 ----
+ae11: Which reasons for the acceptance/rejection of your artifact do you recall? Please indicate for each reason if you consider it justified or not.
+For question code ae11 we received 58 answers.
+Top 1000 tags were:
+# A tibble: 97 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Accept - Good documentation                                                 7
+ 2 Accept - Easy to use                                                        6
+ 3 Accept - Reproducibility                                                    5
+ 4 Accepted without specific reasons                                           5
+ 5 Accept - Reproducibility of the results                                     4
+ 6 Accept - Consistency with claims in the paper                               3
+ 7 Accept - Consistent with the claims from the paper                          2
+ 8 Accept - Easy setup                                                         2
+ 9 Accept - Reproduces results                                                 2
+10 Best artifact prize                                                         2
+11 Don't recall                                                                2
+12 Negative - Code not well documented                                         2
+13 Reject - Did not reproduce                                                  2
+14 Reject - Incomplete                                                         2
+15 Requiring exact results does not work under different enviroments, the…     2
+16 Similar arguments                                                           2
+17 Accept - All steps described                                                1
+18 Accept - Artifact documentation helped to understand paper                  1
+19 Accept - Artifact robust                                                    1
+20 Accept - Artifact was as described                                          1
+21 Accept - Artifact worked well                                               1
+22 Accept - Artifact works                                                     1
+23 Accept - Changing input easy                                                1
+24 Accept - Clarity of examples                                                1
+25 Accept - Code was documented                                                1
+26 Accept - Compile and run                                                    1
+27 Accept - Completeness                                                       1
+28 Accept - Direct integration of documentation                                1
+29 Accept - Docker                                                             1
+30 Accept - Documentation                                                      1
+31 Accept - Easy to reproduce                                                  1
+32 Accept - Experiments reproduced                                             1
+33 Accept - Functionality                                                      1
+34 Accept - Indication that research works as intended                         1
+35 Accept - Instruction were clear                                             1
+36 Accept - Online access to VM                                                1
+37 Accept - Post-processed data matches with paper                             1
+38 Accept - Provided data as described                                         1
+39 Accept - Quality of the implementation                                      1
+40 Accept - Raw data reproduced                                                1
+41 Accept - Replicable results                                                 1
+42 Accept - Replication of main results                                        1
+43 Accept - Results match the paper                                            1
+44 Accept - Results reproducible                                               1
+45 Accept - Results validated                                                  1
+46 Accept - Results well formatted                                             1
+47 Accept - Satisfied reviewers requirements                                   1
+48 Accept - Script to recreate everything                                      1
+49 Accept - Standard stuff                                                     1
+50 Accept - Supports claims from the paper                                     1
+51 Accept - Time taken to run the experiment                                   1
+52 Accept - Usable                                                             1
+53 Accept - Useful addition for understanding theoretical work                 1
+54 Accept - Verified major points of functionality                             1
+55 Accept - Worked as described                                                1
+56 Accept - Worked with own examples                                           1
+57 Author changes - Adding missing pieces                                      1
+58 Author changes - Clarifying expectations                                    1
+59 Author changes - Fixing documentation                                       1
+60 Badge systems can be used to allow for different priorities                 1
+61 Call was not well enough defined                                            1
+62 Commitee members are younger, inexperiences PhD students                    1
+63 Committee members are not always competent                                  1
+64 Depends on policy used to assign badges                                     1
+65 Did not pay much attention to the reviews as paper is already accepted      1
+66 Evaluators should be enganged and provide useful feedback in case of s…     1
+67 High memory requirements was not available for all reviewers                1
+68 My artifacts should be of higher quality                                    1
+69 Negative - Compilation should have been done before                         1
+70 Negative - Complex namings                                                  1
+71 Negative - Different results because of different environments              1
+72 Negative - Incomplete                                                       1
+73 Negative - Missing documentation on tactics                                 1
+74 Negative - More documentation on code structure requested                   1
+75 Negative - Naming differences between artifact and paper                    1
+76 Negative - Not extensible                                                   1
+77 Negative - Not much documentation                                           1
+78 Negative - Usability issues                                                 1
+79 Packaging can be difficult                                                  1
+80 Positive - Good documentation                                               1
+81 Positive - Organization of scripts                                          1
+82 Positive experiences as author                                              1
+83 Process is still very fuzzy                                                 1
+84 Reject - Crashes due to out of memory in reviewer environment               1
+85 Reject - No exact reproducibility                                           1
+86 Reject - No well documented                                                 1
+87 Reject - Not general purpos                                                 1
+88 Reject - Not professional quality                                           1
+89 Reject - Poor job in packaging                                              1
+90 Reject - Should have worked with other dataset as well                      1
+91 Rejection led to not making the artifact available at all                   1
+92 Reviewer did not read requirements                                          1
+93 Reviewers asked about library usage                                         1
+94 Satisfied all relevant criteria                                             1
+95 Sometimes it takes extra effort to get an artifact running for a revie…     1
+96 Sometimes you cannot redistribute a tool you compared against               1
+97 Still in review                                                             1
+
+ae11: Which reasons for the acceptance/rejection of your artifact do you recall? Please indicate for each reason if you consider it justified or not.
+For question code ae11 in the pl community we received 41 answers.
+Top 1000 tags were:
+# A tibble: 75 x 2
+   tag                                                                     usage
+   <chr>                                                                   <int>
+ 1 Accept - Good documentation                                                 6
+ 2 Accept - Easy to use                                                        4
+ 3 Accept - Reproducibility                                                    4
+ 4 Accepted without specific reasons                                           4
+ 5 Accept - Consistency with claims in the paper                               3
+ 6 Accept - Reproducibility of the results                                     3
+ 7 Accept - Easy setup                                                         2
+ 8 Best artifact prize                                                         2
+ 9 Requiring exact results does not work under different enviroments, the…     2
+10 Accept - All steps described                                                1
+11 Accept - Artifact documentation helped to understand paper                  1
+12 Accept - Artifact robust                                                    1
+13 Accept - Artifact was as described                                          1
+14 Accept - Artifact worked well                                               1
+15 Accept - Artifact works                                                     1
+16 Accept - Changing input easy                                                1
+17 Accept - Clarity of examples                                                1
+18 Accept - Code was documented                                                1
+19 Accept - Compile and run                                                    1
+20 Accept - Completeness                                                       1
+21 Accept - Consistent with the claims from the paper                          1
+22 Accept - Easy to reproduce                                                  1
+23 Accept - Experiments reproduced                                             1
+24 Accept - Indication that research works as intended                         1
+25 Accept - Instruction were clear                                             1
+26 Accept - Post-processed data matches with paper                             1
+27 Accept - Provided data as described                                         1
+28 Accept - Quality of the implementation                                      1
+29 Accept - Raw data reproduced                                                1
+30 Accept - Replicable results                                                 1
+31 Accept - Replication of main results                                        1
+32 Accept - Reproduces results                                                 1
+33 Accept - Results match the paper                                            1
+34 Accept - Results reproducible                                               1
+35 Accept - Results validated                                                  1
+36 Accept - Satisfied reviewers requirements                                   1
+37 Accept - Script to recreate everything                                      1
+38 Accept - Standard stuff                                                     1
+39 Accept - Supports claims from the paper                                     1
+40 Accept - Time taken to run the experiment                                   1
+41 Accept - Useful addition for understanding theoretical work                 1
+42 Accept - Worked as described                                                1
+43 Accept - Worked with own examples                                           1
+44 Author changes - Adding missing pieces                                      1
+45 Author changes - Clarifying expectations                                    1
+46 Author changes - Fixing documentation                                       1
+47 Badge systems can be used to allow for different priorities                 1
+48 Depends on policy used to assign badges                                     1
+49 Did not pay much attention to the reviews as paper is already accepted      1
+50 Don't recall                                                                1
+51 Evaluators should be enganged and provide useful feedback in case of s…     1
+52 My artifacts should be of higher quality                                    1
+53 Negative - Code not well documented                                         1
+54 Negative - Compilation should have been done before                         1
+55 Negative - Complex namings                                                  1
+56 Negative - Different results because of different environments              1
+57 Negative - Incomplete                                                       1
+58 Negative - Missing documentation on tactics                                 1
+59 Negative - More documentation on code structure requested                   1
+60 Negative - Naming differences between artifact and paper                    1
+61 Negative - Not extensible                                                   1
+62 Negative - Not much documentation                                           1
+63 Negative - Usability issues                                                 1
+64 Packaging can be difficult                                                  1
+65 Positive - Good documentation                                               1
+66 Positive - Organization of scripts                                          1
+67 Positive experiences as author                                              1
+68 Reject - No exact reproducibility                                           1
+69 Reject - Not general purpos                                                 1
+70 Reject - Not professional quality                                           1
+71 Reject - Poor job in packaging                                              1
+72 Reviewer did not read requirements                                          1
+73 Reviewers asked about library usage                                         1
+74 Similar arguments                                                           1
+75 Sometimes it takes extra effort to get an artifact running for a revie…     1
+
+ae11: Which reasons for the acceptance/rejection of your artifact do you recall? Please indicate for each reason if you consider it justified or not.
+For question code ae11 in the se community we received 12 answers.
+Top 1000 tags were:
+# A tibble: 16 x 2
+   tag                                                           usage
+   <chr>                                                         <int>
+ 1 Accepted without specific reasons                                 2
+ 2 Accept - Direct integration of documentation                      1
+ 3 Accept - Docker                                                   1
+ 4 Accept - Easy to reproduce                                        1
+ 5 Accept - Easy to use                                              1
+ 6 Accept - Online access to VM                                      1
+ 7 Accept - Verified major points of functionality                   1
+ 8 Commitee members are younger, inexperiences PhD students          1
+ 9 Committee members are not always competent                        1
+10 Don't recall                                                      1
+11 High memory requirements was not available for all reviewers      1
+12 Reject - Crashes due to out of memory in reviewer environment     1
+13 Reject - Incomplete                                               1
+14 Rejection led to not making the artifact available at all         1
+15 Similar arguments                                                 1
+16 Still in review                                                   1
+
+[1] "ae11 differs across communities"
+--------------
+
+---- AU2  ----
+au2: Please elaborate on the (un-)met expectations towards the code:
+For question code au2 we received 35 answers.
+Top 1000 tags were:
+# A tibble: 12 x 2
+   tag                      usage
+   <chr>                    <int>
+ 1 documentation               14
+ 2 (not) runnable              11
+ 3 usability                    9
+ 4 reusability                  7
+ 5 result reproducibility       4
+ 6 code quality                 2
+ 7 source code availability     2
+ 8 contact original authors     1
+ 9 depends on artifact          1
+10 expectations met             1
+11 generalizability             1
+12 “tooling” availability       1
+
+au2: Please elaborate on the (un-)met expectations towards the code:
+For question code au2 in the pl community we received 27 answers.
+Top 1000 tags were:
+# A tibble: 10 x 2
+   tag                      usage
+   <chr>                    <int>
+ 1 documentation               14
+ 2 (not) runnable               8
+ 3 usability                    7
+ 4 reusability                  6
+ 5 result reproducibility       4
+ 6 code quality                 1
+ 7 contact original authors     1
+ 8 expectations met             1
+ 9 source code availability     1
+10 “tooling” availability       1
+
+au2: Please elaborate on the (un-)met expectations towards the code:
+For question code au2 in the se community we received 6 answers.
+Top 1000 tags were:
+# A tibble: 6 x 2
+  tag                      usage
+  <chr>                    <int>
+1 (not) runnable               2
+2 usability                    2
+3 depends on artifact          1
+4 documentation                1
+5 reusability                  1
+6 source code availability     1
+
+[1] "au2 differs across communities"
+--------------
+
+---- AU5  ----
+au5: Please elaborate on the (un-)met expectations towards the proofs:
+For question code au5 we received 6 answers.
+Top 1000 tags were:
+# A tibble: 3 x 2
+  tag               usage
+  <chr>             <int>
+1 understandability     3
+2 (re-)usability        2
+3 generality            1
+
+au5: Please elaborate on the (un-)met expectations towards the proofs:
+For question code au5 in the pl community we received 6 answers.
+Top 1000 tags were:
+# A tibble: 3 x 2
+  tag               usage
+  <chr>             <int>
+1 understandability     3
+2 (re-)usability        2
+3 generality            1
+
+au5: Please elaborate on the (un-)met expectations towards the proofs:
+For question code au5 in the se community we received 0 answers.
+Top 1000 tags were:
+# A tibble: 0 x 2
+# … with 2 variables: tag <chr>, usage <named list>
+
+--------------
+
+---- AU8  ----
+au8: Please elaborate on the (un-)met expectations towards the data:
+For question code au8 we received 17 answers.
+Top 1000 tags were:
+# A tibble: 13 x 2
+   tag                                   usage
+   <chr>                                 <int>
+ 1 availability                              5
+ 2 analysis automation                       3
+ 3 raw data                                  3
+ 4 documentation                             2
+ 5 tracability                               2
+ 6 usability                                 2
+ 7 coinsistency with published results       1
+ 8 completeness                              1
+ 9 consistency with published results        1
+10 inferability of data creation process     1
+11 size                                      1
+12 transformability                          1
+13 “usability”                               1
+
+au8: Please elaborate on the (un-)met expectations towards the data:
+For question code au8 in the pl community we received 9 answers.
+Top 1000 tags were:
+# A tibble: 10 x 2
+   tag                                 usage
+   <chr>                               <int>
+ 1 analysis automation                     2
+ 2 availability                            2
+ 3 documentation                           2
+ 4 coinsistency with published results     1
+ 5 completeness                            1
+ 6 consistency with published results      1
+ 7 raw data                                1
+ 8 size                                    1
+ 9 tracability                             1
+10 “usability”                             1
+
+au8: Please elaborate on the (un-)met expectations towards the data:
+For question code au8 in the se community we received 5 answers.
+Top 1000 tags were:
+# A tibble: 7 x 2
+  tag                                   usage
+  <chr>                                 <int>
+1 analysis automation                       1
+2 availability                              1
+3 inferability of data creation process     1
+4 raw data                                  1
+5 tracability                               1
+6 transformability                          1
+7 usability                                 1
+
+[1] "au8 differs across communities"
+--------------
+
+---- AU11 ----
+au11: Please elaborate on your previous answer:
+For question code au11 we received 14 answers.
+Top 1000 tags were:
+# A tibble: 14 x 2
+   tag                             usage
+   <chr>                           <int>
+ 1 understandability                   4
+ 2 usability                           4
+ 3 consistency with paper              3
+ 4 artifact improvement through AE     2
+ 5 availability                        2
+ 6 consistency with paper results      2
+ 7 documentation                       2
+ 8 quality                             2
+ 9 runnability                         2
+10 setup difficulty                    2
+11 author responsiveness               1
+12 correctness                         1
+13 reproducibility                     1
+14 resusability                        1
+
+au11: Please elaborate on your previous answer:
+For question code au11 in the pl community we received 11 answers.
+Top 1000 tags were:
+# A tibble: 14 x 2
+   tag                             usage
+   <chr>                           <int>
+ 1 understandability                   3
+ 2 usability                           3
+ 3 artifact improvement through AE     2
+ 4 availability                        2
+ 5 consistency with paper              2
+ 6 documentation                       2
+ 7 runnability                         2
+ 8 setup difficulty                    2
+ 9 author responsiveness               1
+10 consistency with paper results      1
+11 correctness                         1
+12 quality                             1
+13 reproducibility                     1
+14 resusability                        1
+
+au11: Please elaborate on your previous answer:
+For question code au11 in the se community we received 4 answers.
+Top 1000 tags were:
+# A tibble: 6 x 2
+  tag               usage
+  <chr>             <int>
+1 quality               2
+2 understandability     2
+3 usability             2
+4 availability          1
+5 resusability          1
+6 setup difficulty      1
+
+[1] "au11 differs across communities"
+--------------
+
+---- AU12 ----
+au12: Do you have any other comments on artifact usage from the perspective of a researcher?
+For question code au12 we received 49 answers.
+Top 1000 tags were:
+# A tibble: 36 x 2
+   tag                                   usage
+   <chr>                                 <int>
+ 1 -                                        32
+ 2 B                                        14
+ 3 positive                                 13
+ 4 availability                              8
+ 5 research quality control                  8
+ 6 R                                         6
+ 7 constructive                              6
+ 8 negative                                  6
+ 9 U, B                                      5
+10 no experience with AU                     5
+11 packaging                                 5
+12 R, U                                      2
+13 decay                                     2
+14 documentation                             2
+15 tooling standards                         2
+16 AE undervalued                            1
+17 AE useless                                1
+18 artifact availability                     1
+19 artifact quality                          1
+20 artifacts undervalued                     1
+21 badging                                   1
+22 buildability                              1
+23 calls                                     1
+24 community standard                        1
+25 context gap (artifact creation/usage)     1
+26 extendability                             1
+27 negative (on AU)                          1
+28 no experience with AE                     1
+29 overhead                                  1
+30 partial artifact usage                    1
+31 platform dependencies                     1
+32 positive (on AE)                          1
+33 review process                            1
+34 runnability                               1
+35 space restrictions                        1
+36 “software reproducibility”                1
+
+au12: Do you have any other comments on artifact usage from the perspective of a researcher?
+For question code au12 in the pl community we received 36 answers.
+Top 1000 tags were:
+# A tibble: 27 x 2
+   tag                                   usage
+   <chr>                                 <int>
+ 1 -                                        26
+ 2 positive                                 11
+ 3 B                                         9
+ 4 availability                              6
+ 5 research quality control                  6
+ 6 R                                         5
+ 7 constructive                              4
+ 8 negative                                  4
+ 9 packaging                                 4
+10 U, B                                      3
+11 R, U                                      2
+12 decay                                     2
+13 documentation                             2
+14 tooling standards                         2
+15 AE useless                                1
+16 artifact quality                          1
+17 artifacts undervalued                     1
+18 buildability                              1
+19 community standard                        1
+20 context gap (artifact creation/usage)     1
+21 extendability                             1
+22 no experience with AE                     1
+23 no experience with AU                     1
+24 overhead                                  1
+25 runnability                               1
+26 space restrictions                        1
+27 “software reproducibility”                1
+
+au12: Do you have any other comments on artifact usage from the perspective of a researcher?
+For question code au12 in the se community we received 9 answers.
+Top 1000 tags were:
+# A tibble: 16 x 2
+   tag                   usage
+   <chr>                 <int>
+ 1 -                         5
+ 2 B                         3
+ 3 positive                  3
+ 4 availability              2
+ 5 constructive              2
+ 6 negative                  2
+ 7 AE undervalued            1
+ 8 U, B                      1
+ 9 badging                   1
+10 calls                     1
+11 negative (on AU)          1
+12 no experience with AU     1
+13 packaging                 1
+14 platform dependencies     1
+15 positive (on AE)          1
+16 review process            1
+
+[1] "au12 differs across communities"
+--------------
+
+

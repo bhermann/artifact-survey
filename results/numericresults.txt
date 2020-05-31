@@ -1,0 +1,16 @@
+g1: Are you familiar with the ACM Policy on Artifact Review and Badging?
+We received 157 answers. 106 (67.52 %) were positive. 51 (32.48 %) were negative.
+ae6: Do you think that the effort of artifact evaluation is justified?
+We received 118 answers. 110 (93.22 %) were positive. 8 (6.78 %) were negative.
+ae10: Have you ever submitted an artifact to an artifact evaluation track?
+We received 115 answers. 76 (66.09 %) were positive. 39 (33.91 %) were negative.
+au3: Were your expectations met by the code from the artifacts?
+We received 57 answers. 45 (78.95 %) were positive. 12 (21.05 %) were negative.
+au6: Were your expectations met by the proofs in the artifact?
+We received 12 answers. 10 (83.33 %) were positive. 2 (16.67 %) were negative.
+au9: Were your expectations met by data in the artifact?
+We received 32 answers. 25 (78.12 %) were positive. 7 (21.88 %) were negative.
+au10: Have you noticed a difference between artifacts with and without a successful evaluation?
+We received 53 answers. 20 (37.74 %) were positive. 33 (62.26 %) were negative.
+f0: Are you satisfied with the current artifact evaluation process?
+We received 100 answers. 57 (57 %) were positive. 43 (43 %) were negative.
