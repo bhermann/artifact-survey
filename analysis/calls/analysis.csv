@@ -1,0 +1,80 @@
+conference;purpose;badges;evaluation_criteria;submission_criteria;artifact_types;per_type_criteria
+ICSE19;reuse;reusable,available,replicated,reproduced;ACM;<= 30 min configuration & installation,code for installing/building/running,data for installing/building/running,documentation for installing/building/running,documentation for obtaining/unpacking/installation/use/replication;software,data,frameworks,others;none
+FSE19;reuse;reusable,available,replicated,reproduced;ACM;code for installing/building/running,data for installing/building/running,documentation for installing/building/running,documentation for installing;software,data;none
+ISSTA19;reuse,comparison;functional,reusable;replicability,reusability,completeness,documentation,ease of reuse ('self-assessment');<= 30 min config & installation,documentation for usage/replication;tools,data,frameworks,others;none
+SAS19;replicability,comparison;;;documentation for replication/run time estimate/output,VM only;;none
+VISSOFT19;evidence for result quality;;completeness,consistency,documentation,clarity,availability (copied from guidelines),executability,evidence of verification and validation;;tools,data,models,videos,software,systems,tutorials,more;evaluation criteria for data/tutorials/systems
+OOPSLA19;reuse;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/expected output/smaller input if execution time exceeds few minutes;;none
+ECOOP19;evidence for result quality,repeatability,comparison;;consistency,documentation,integrity;documentation for usage;tools,data,models,videos,more;submission suggestions for tools,submission criteria for data
+POPL19;reuse,validation of claims on artifacts,artifact availability improves replicability/reproducibility/reusability;functional,reusable,available;consistency,completeness,documentation,reusability,replicability;documentation for usage,sigplan guidelines;software,mechanized proofs,models,test suites,benchmarks,data,more;submission criteria for proofs/code/tools/data
+PLDI19;replicability,reproducibility,reusability;functional;consistency,documentation,reusability;documentation for <= 30 min setup & testing/replication/smaller input if execution time exceeds few minutes,sigplan guidelines;software,mechanized proofs,models,test suites,benchmarks,hardware,videos,more;none
+SLE19;reproducibility;functional,available;consistency,completeness,documentation,reusability;integrity,documentation for setup/installation/replication;tools,grammars,metamodels,models,programs,algorithms,scripts,proofs,datasets,statistical tests,checklists,surveys,interview scripts,visualizations,annotated bibliographies,tutorials,more;submission criteria for tools/data
+PPoPP19;reproducibility;functional,reusable,available,replicated,reproduced;ACM;CK;code,data;none
+ICFP19;reproducibility,reuse,comparison;functional;consistency,completeness,documentation,future-proofness,reusability;documentation for <= 30 min setup & testing/replication/expected execution time if exceeds few minutes,data processing automation,source code plus executable package;software w/ input,data,mechanized proofs,more;submission criteria for code/data
+CGO19;reproducibility;functional,reusable,available,replicated,reproduced;ACM;CK;code,data;none
+MODELS19;;;;;software,data,proofs,more;none
+CAV19;reuse,comparison;;replicability,reusability,consistency,completeness,documentation;predefined VM environment,documentation for usage/replication,(just) usability,self-containment,reasonable resource demands;benchmarks,tools,proof scripts;none
+TACAS19;replicability;;consistency,completeness,documentation,(just) usability;documentation for usage/replication/resource demands,predefined VM environment,self-containment;software,data,machine-checkable proofs,more;none
+FSE18;reusability;reusable,available,replicated,reproduced;ACM;documentation for artifact function/installation/output;software,data,frameworks;submission criteria imply code
+ISSTA18;validation of claims (general),reuse;functional,reusable;consistency,completeness,documentation,reusability ('self-assessment');<= 30 min config & installation,documentation for usage/replication;tools,data,frameworks,more;none
+SAS18;reproducibility,comparison;'artifact approved';replicability;VM only;;none
+VISSOFT18;evidence for result quality;;artifact-eval.org;artifact-eval.org;tools,data,models,videos,more;submission criteria for code/non-code
+OOPSLA18;reuse,comparison;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/expected output/smaller inputs if execution time exceeds few minutes;;none
+ECOOP18;evidence for result quality,repeatability,comparison;;consistency,documentation,integrity;documentation for usage;tools,data,models,videos,more;submission suggestions for tools,submission criteria for data
+POPL18;reuse,validation of claims on artifacts,artifact availability improves replicability/reproducibility/reusability;functional,available;consistency,completeness,documentation,reusability,replicability;documentation for usage,sigplan guidelines;software,mechanized proofs,models,test suites,benchmarks,data,more;submission criteria for proofs/code/tools/data
+PLDI18;reproducibility,reuse;functional;consistency,completeness,documentation,reusability;;software,mechanized proofs,models,test suites,benchmarks,hardware,videos,more;none
+SLE18;reproducibility;functional,available;consistency,completeness,documentation,reusability;integrity,documentation for setup/installation/replication;tools,grammars,metamodels,models,programs,algorithms,scripts,proofs,datasets,statistical tests,checklists,surveys,interview scripts,visualizations,annotated bibliographies,tutorials,more;submission criteria for tools/data
+PPoPP18;support paper,reproducibility;functional,reusable,available,results validated;ACM;;code,data;none
+ICFP18;reproducibility,reuse,comparison;functional;consistency,completeness,documentation,future-proofness,reusability;documentation for <= 30 min setup & testing/replication/expected execution time if exceeds few minutes,data processing automation,VM or Docker only;software w/ input,data,mechanized proofs,more;submission criteria for data
+CGO18;reproducibility;functional,reusable,available,results validated;ACM;;code,data;none
+MODELS18;reproducibility;;consistency,completeness,documentation,reusability;;;none
+CAV18;repeat-ability (replicability),extensibility (reuse);;coverage (fraction of 'reproducible' results/fraction of repeatable elements),instructions (doc? conciseness?),quality (doc/tests);;;evaluation criteria for software
+TACAS18;validation of claims (general);;consistency,completeness,documentation,(just) usability;documentation for usage/replication/availability goals,self-containment,reasonable resource demands;software,data,machine-checkable proofs,more;none
+FSE17;repeatability,replicability,reuse;functional,reusable,available;ACM;<= 30 min config & installation,documentation for execution/analysis/expected output;ACM;open formats for documents,csv for data
+ISSTA17;validation of claims (general),reuse;;;;;none
+SAS17;reproducibility,comparison;;replicability;VM only;;none
+VISSOFT17;evidence for result quality;;artifact-eval.org;artifact-eval.org;tools,data,models,videos,more;submission criteria for code/non-code
+OOPSLA17;reuse,comparison;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/output/expected execution time if exceeds few minutes;;submission criteria for data/tools
+ECOOP17;;;consistency,documentation,integrity;documentation for usage;;submission criteria for data,submission suggestions for tools
+POPL17;reuse,validation of claims on artifacts,artifact availability improves replicability/reproducibility/reusability;(just) evaluated;consistency,completeness,documentation,reusability,replicability;documentation for usage,sigplan guidelines;software,mechanized proofs,models,test suites,benchmarks,data,more;submission criteria for proofs/code/tools/data
+PLDI17;reuse,validation of claims on artifacts,artifact availability improves reproducibility/reusability;;consistency,completeness,documentation,reusability;;software,proofs,models,test suites,benchmarks,videos of artifacts,more;none
+SLE17;reproducibility;functional,available;consistency,completeness,documentation,reusability;integrity,documentation for setup/installation/replication;tools,grammars,metamodels,models,programs,algorithms,scripts,proofs,datasets,statistical tests,checklists,surveys,interview scripts,visualizations,annotated bibliographies,tutorials,more;submission criteria for tools/data
+PPoPP17;reproducibility,replicability;artifact evaluated;documentation,completeness,(just) usability,consistency,reusability;;code,data;none
+ICFP17;reproducibility,reuse,comparison;functional;consistency,completeness,documentation,future-proofness,reusability;documentation for <= 30 min setup & testing/replication/expected execution time if exceeds few minutes,data processing automation;software w/ input,data,mechanized proofs,paper proofs,more;submission criteria for data
+CGO17;reproducibility,replicability;artifact evaluated;documentation,completeness,(just) usability,consistency,reusability;;code,data;none
+MODELS17;reproducibility,comparison;;;;;none
+CAV17;;;;documentation for resource requirements/replication/,VM only,self-containment,reasonable resource demands;;none
+FSE16;reusability;;insightfulness,usefulness,(just) usability;open source license,documentation for usage/maturity;reusable units of research,tools,data,scripts,etc;none
+ISSTA16;validation of claims in papers,availability improves reproducibility/comparison;;reusability,consistency,completeness,documentation;script for partial reproduction if run time significant;data,experimental setups,test suites,tools,more;submission criteria for code
+SAS16;reproducibility;;;VM only;;none
+VISSOFT16;evidence for result quality;;artifact-eval.org;artifact-eval.org;tools,data,models,videos,more;submission criteria for code/non-code
+OOPSLA16;reuse,comparison;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/output/expected execution time if exceeds few minutes;;submission criteria for data/tools
+ECOOP16;;;consistency,documentation,integrity;documentation for usage;;submission criteria for data,submission suggestions for tools
+POPL16;reuse,validation of claims on artifacts,artifact availability improves replicability/reproducibility/reusability;(just) evaluated;consistency,completeness,documentation,reusability,replicability;documentation for usage,sigplan guidelines;software,mechanized proofs,models,test suites,benchmarks,data,videos of artifacts,more;submission criteria for proofs/code/tools/data
+PLDI16;reuse,validation of claims on artifacts,artifact availability improves reproducibility/reusability;;consistency,completeness,documentation,reusability;;software,proofs,models,test suites,benchmarks,videos of artifacts,more;none
+SLE16;reproducibility;;consistency,completeness,documentation,reusability;artifact-eval.org;tools,grammars,datasets,proofs,links,models,videos,visualizations;none
+PPoPP16;;;documentation,completeness,(just) usability,consistency,reusability;;code,non-code;submission criteria for code/non-code
+CGO16;;;documentation,completeness,(just) usability,consistency,reusability;;code,non-code;submission criteria for code/non-code
+CAV16;reuse,support paper;artifact evaluated;reusability,consistency,completeness,documentation;documentation for platform requirements/installation/external dependencies;software,data,mechanized proofs,models,test suites,more;none
+FSE15;;;consistency,completeness,reusability,documentation;documentation for usage/maturity;tools,models,datasets,more;standard formats for non-code artifacts
+ISSTA15;;;reusability,consistency,completeness,documentation;;data,experimental setups,test suites,tools,more;submission criteria for code
+SAS15;reproducibility;;;VM only;;none
+VISSOFT15;evidence for result quality;;;;tools,data,models,videos,more;submission criteria for code/non-code
+OOPSLA15;reuse,comparison;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/output/expected execution time if exceeds few minutes;;submission criteria for data/tools
+ECOOP15;;;consistency,documentation,integrity;documentation for usage;;submission criteria for data,submission suggestions for tools
+POPL15;;;;documentation on maturity;;submission criteria for proofs/code/tools/data
+PLDI15;reuse,validation of claims on artifacts,artifact availability improves reproducibility/reusability;;consistency,completeness,documentation,reusability;;software,proofs,models,test suites,benchmarks,videos of artifacts,more;none
+PPoPP15;;;artifact-eval.org;artifact-eval.org;code,non-code;submission criteria for code/non-code
+CGO15;;;artifact-eval.org;artifact-eval.org;code,non-code;submission criteria for code/non-code
+CAV15;reuse,support paper;artifact evaluated;reusability,consistency,completeness,documentation;documentation for platform requirements/installation/external dependencies;software,data,mechanized proofs,models,test suites,more;none
+FSE14;;;;;tools,data,model;none
+ISSTA14;;;reusability,consistency,completeness,documentation;VM only;data,experimental setups,test suites,tools,more;submission criteria for tools
+SAS14;reproducibility;;;VM only;;none
+OOPSLA14;reuse,comparison;;consistency,completeness,documentation,reusability;documentation for <= 30 min setup & testing/replication/output/expected execution time if exceeds few minutes;;submission criteria for data/tools
+ECOOP14;repeatability,comparison,reproducibility;;consistency,documentation,integrity;documentation for usage;tools,data,models,videos,more;submission criteria for data,submission suggestions for tools
+PLDI14;;;artifact-eval.org;artifact-eval.org;code,non-code;submission criteria for code/non-code
+FSE13;validation/support of results;;;;software;none
+OOPSLA13;reuse;;consistency,completeness,documentation,reusability;setup <= 30 min;code,executables,data,VM images,documents,tools,proofs,more;submission criteria for data/documents
+ECOOP13;;;;documentation (only);;submission criteria for code/non-code
+FSE12;reproducibility,reuse;;reproducibility;;tools,data,proofs,scripts;none
+FSE11;;;;documentation (only);software,non-code artifacts;submission formats
