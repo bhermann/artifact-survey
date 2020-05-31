@@ -1,11 +1,20 @@
 # This script produces a plot of the histogram of individuals by number of AECs served in partioned by invited and responded
+
+if (!require("readxl")) install.packages("readxl")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("tidyr")) install.packages("tidyr")
+if (!require("stringr")) install.packages("stringr")
+if (!require("ggplot2")) install.packages("ggplot2")
+
 library(readxl)
 library(dplyr)
 library(tidyr)
 library(stringr)
 library(ggplot2)
 
-SurveyData <- read_excel("../../results/results-survey54231.xlsx")
+sourceDir <- getSrcDirectory(function(dummy) {dummy})
+
+SurveyData <- read_excel(paste0(sourceDir, "../../results/results-survey54231.xlsx"))
 
 # trim data to the same set we tagged
 SurveyData <- SurveyData %>% filter(id <= 273)

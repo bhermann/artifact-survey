@@ -1,11 +1,22 @@
+# This script produces a chart indicating the size of AE committees at the inspected conferences.
+# Overlayed are the number of respondents from the inspected AECs.
+
+if (!require("readxl")) install.packages("readxl")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("tidyr")) install.packages("tidyr")
+if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("tibble")) install.packages("tibble")
+
 library(readxl)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(tibble)
 
+sourceDir <- getSrcDirectory(function(dummy) {dummy})
+
 # Read in the complete survey result data
-SurveyData <- read_excel("../../results/results-survey54231.xlsx")
+SurveyData <- read_excel(paste0(sourceDir, "../../results/results-survey54231.xlsx"))
 
 # trim data to the same set we tagged
 SurveyData <- SurveyData %>% filter(id <= 273)
@@ -27,7 +38,7 @@ ConferenceMatrix <-
     `2017` = `g0[CICSE_Y2017]`, `2018` = `g0[CICSE_Y2018]`, `2019` = `g0[CICSE_Y2019]`
     )
 
-CommitteeData <- rename(separate(tally(group_by(read_excel("../../results/aec.xlsx"), Conference)),
+CommitteeData <- rename(separate(tally(group_by(read_excel(paste0(sourceDir, "../../results/aec.xlsx")), Conference)),
                           Conference, sep = " ", into = c("Conference", "year")),
                         `committee_size` = `n`)
 
@@ -46,4 +57,4 @@ ConferencePlot <- ggplot(FullPlotData, aes(x = year, y = ConferenceId)) +
   scale_y_discrete(limits = 1:16, breaks = 1:16, labels = lconf, drop = FALSE, position = "right", name = "") +
   scale_size_area(max_size=15)
 #show(ConferencePlot)
-ggsave(ConferencePlot, filename="output/ConferencePlot.pdf")
+ggsave(ConferencePlot, filename=paste0(sourceDir,"output/ConferencePlot.pdf"))
