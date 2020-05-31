@@ -9,13 +9,11 @@ library(readxl)
 library(stringr)
 
 sourceDir <- getSrcDirectory(function(dummy) {dummy})
-workingdir <- paste0(sourceDir,"")
-setwd(workingdir)
 
 SEConfs <- c("ICSE","FSE","ISSTA","VISSOFT","MODELS","CAV")
 PLConfs <- c("OOPSLA","PLDI","POPL","ECOOP","SAS","SLE","PPoPP","CGO","ICFP","TACAS")
 
-CallData <- read.csv2(paste0(workingdir,"analysis.csv"))
+CallData <- read.csv2(paste0(sourceDir,"analysis.csv"))
 
 purposeData <- as.vector(str_split(CallData$purpose,",",simplify = TRUE))
 #purposeTags <- unique(purposeData)
