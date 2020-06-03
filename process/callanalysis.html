@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Artifact Evaluation Survey (Additional Material)</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <head>
+
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Artifact Evaluation Survey (Additional Material)</h1>
+        <h2>Call Analysis Process and Datafile Description</h2>
+        <a class="btn btn-primary" href="../index.html">Back to Main Page</a>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h3>Call Collection</h3>
+        <p>Using a web browser (Google Chrome) we collected the calls for artifact from conferences in the PL and SE field.</p>
+        <h4>Related Artifact:</h4>
+        <p>
+          <span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a class="" href="calls/index.html">Collected Calls for Artifacts</a> (Collected Calls for Artifacts (CfA) of the inspected conferences.)<br>
+          <em>Data Format Description:</em> Complete web pages (HTML plus graphics, scripts, and styles) and pure text of calls for artifacts.
+        </p>
+
+        <h3>Committee Extraction</h3>
+        <p>For each call for artifact we manually extracted the artifact commitee including the respective chairs and manually searched for their current e-mail address. Sources for these addresses were affiliation websites or current publications
+          in digital libraries. These e-mail addresses were used to invite the participants of the survey. In the related data artifact the e-mail addresses have been omitted for concerns of privacy.</p>
+        <h4>Related artifact:</h4>
+        <p>
+          <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/aec.xlsx">Artifact Evaluation Commitees (collected from CfAs) (Excel)</a> - e-mail addresses removed <br>
+          <em>Data Format Description:</em> A file in Microsoft Excel format.
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>First name</td>
+                <td>First name of the committee member</td>
+              </tr>
+              <tr>
+                <td>Last name</td>
+                <td>Last name of the committee member</td>
+              </tr>
+              <tr>
+                <td>Full name</td>
+                <td>Full name of the commitee member</td>
+              </tr>
+              <tr>
+                <td>Conference</td>
+                <td>Venue of the artifact evaluation track (e.g. CAV 2015)</td>
+              </tr>
+              <tr>
+                <td>E-Mail</td>
+                <td>anonymized</td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+
+        <h3>Analysis of Calls</h3>
+
+        <p>
+          We analyzed the text of artifact calls for explicit statements of two types: (1) Statements about the purpose of artifact evaluations as a process and (2) statements about criteria that artifacts under evaluation are expected to meet. The
+          analysis was performed manually by one researcher and confirmed by another one independently. A tool for <a href="https://github.com/diogocabral/sherlock">plagiarism checking (Sherlock)</a> and a tool for difference visualization (<code>git
+            diff –no-index –color-words</code>) were used to aid the analysis in order to recognize repeating passages. We expect the stated criteria to follow from the stated purpose, however, analyzing both kinds of statements, we are able to
+          identify possible inconsistencies. The inconsistencies would indicate possible misunderstandings of the used terms, be it on our side or on the side of the calls’ authors.</p>
+
+        <p>
+          We recorded the results of this analysis in a CSV file along with the mention of badges, submission criteria, and explicit mentions of artifact types.
+        </p>
+
+        <p>
+          We used an R script inside of <a href="https://rstudio.com/">RStudio</a> to help us summarize the findings.
+          The script does not produce an explicit output but sets several variables which we used in discussing the findings and summarizing it for the paper.
+        </p>
+
+        <h4>Related artifacts:</h4>
+        <p>
+          <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a href="analysis/calls/analysis.csv">Card sorting results from calls of artifacts</a><br>
+          <em>Data Format Description:</em> A CSV file (semicolon delimited)
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>conference</td>
+                <td>Inspected conference and year (e.g. ICSE2019)</td>
+              </tr>
+              <tr>
+                <td>purpose</td>
+                <td>Stated purpose of artifact evaluation (e.g. reuse)</td>
+              </tr>
+              <tr>
+                <td>badges</td>
+                <td>Comma-separated list of mentioned badges (e.g. functional, reusable)</td>
+              </tr>
+              <tr>
+                <td>evaluation_criteria</td>
+                <td>Mentioned evaluation criteria used (e.g. ACM)</td>
+              </tr>
+              <tr>
+                <td>submission_criteria</td>
+                <td>Comma-separated list of mentioned submission criteria (e.g. <= 30 min configuration & installation)</td>
+              </tr>
+              <tr>
+                <td>artifact_types</td>
+                <td>Comma-separated list of mentioned artifact types (e.g. software,data,frameworks,others)</td>
+              </tr>
+              <tr>
+                <td>per_type_criteria</td>
+                <td>Mentioned criteria per artifact type (e.g. submission criteria for tools/data)</td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+        <p>
+          <span class="badge badge-warning">R Script</span> <a href="analysis/calls/analysis.R">Analysis script for CfA tags</a><br>
+          <em>Format:</em> A script in the R language<br>
+          It can be run inside of the <code>analysis/calls</code> folder with the <code>R < analysis.R --vanilla</code> command.
+        </p>
+      </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+
+</html>
