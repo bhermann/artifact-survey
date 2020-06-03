@@ -100,7 +100,9 @@
                 <li>
                   Survey
                   <ul>
+                    <li><span class="badge badge-primary">Process</span> <a href="process/surveyanalysis.html">Survey Analysis Process and Datafile Description</a> </li>
                     <li><a class="" href="questionnaire/index.html">Survey</a> (Our survey questions in printable form. Survey was filled out online.)</li>
+                    <li><a href="questionnaire/survey-questions.xlsx">Survey Questions (Excel)</a> - used in scripts for relations to the survey</li>
                     <li><span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a href="results/results-survey54231.xlsx">Raw result data file (Excel)</a> - anonymized at F3</li>
                     <li><span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/cardsorting.html">Card sorting results</a> (Labels obtained with the open card sorting method.)</li>
                     <li>
@@ -145,6 +147,11 @@
               </div>
             </div>
           </div>
+
+          <h3>Data File Formats</h3>
+          <p>
+            Data files are provided as CSV or Excel files. They can be read and processed with R or other capable environments (e.g. pandas, Excel itself, ...). The process description for the <a href="process/callanalysis.html">call analysis</a> and the <a href="process/surveyanalysis.html">survey analysis</a> contain format descriptions for the data files.
+          </p>
 
           <h3>Requirements</h3>
           <p>
@@ -191,15 +198,12 @@
             </tbody>
           </table>
 
+          <h3>Executing scripts</h3>
           <p>
             All scripts will automatically install the necessary packages if not present in the current environment.
             However, there were cases in the past when functions were deprecated by the package authors.
             During the time of the study we did not experience such a case, but they might appear in the future.
           </p>
-
-          <p>Data files are provided as CSV or Excel files. They can be read and processed with R or other capable environments (e.g. pandas, Excel itself, ...)</p>
-
-          <h3>Executing scripts</h3>
 
           <p>
             To create the scripts and inspect results, we used <a href="https://rstudio.com/">RStudio</a>.
