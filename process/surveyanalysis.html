@@ -22,7 +22,7 @@
       <div class="container">
         <h3>Survey Distribution</h3>
         <p>
-          Using <a href="https://www.limesurvey.org/">LimeSurvey (Version 3.17.7)</a>  installed on a university server we distributed a questionnaire to all AEC members collected in the <a href="callanalysis.html">analysis of Calls for Artifacts</a>.
+          Using <a href="https://www.limesurvey.org/">LimeSurvey (Version 3.17.7)</a> installed on a university server at Paderborn University we distributed a questionnaire to all AEC members collected in the <a href="callanalysis.html">analysis of Calls for Artifacts</a>.
         </p>
         <h4>Related Artifacts:</h4>
         <p>
@@ -32,13 +32,210 @@
         <p>
           <a href="../questionnaire/survey-questions.xlsx">Survey Questions (survey-questions.xlsx)</a> - Extracted for references in analysis scripts<br>
           <em>Data Format Description:</em> Excel
-
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Number</td>
+                <td>Number of the question</td>
+              </tr>
+              <tr>
+                <td>Code</td>
+                <td>Internal code to related answers to questions (e.g. g4)</td>
+              </tr>
+              <tr>
+                <td>Text</td>
+                <td>Question text</td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td>Answer type (e.g. Yes/No, Text, Matrix)</td>
+              </tr>
+            </tbody>
+          </table>
         </p>
         <p>
-          <span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a href="results/results-survey54231.xlsx">Raw result data file (Excel)</a> - anonymized at F3
+          <span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a href="../results/results-survey54231.xlsx">Raw result data file (results-survey54231.xlsx)</a><br>
+          <em>Data Format Description:</em> Excel (Exported from LimeSurvey)
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>id</td>
+                <td>Participant ID</td>
+              </tr>
+              <tr>
+                <td>submitdate</td>
+                <td>Timestamp of final submission</td>
+              </tr>
+              <tr>
+                <td>lastpage</td>
+                <td>The last page displayed for the participant (0-4). Values below 4 indicate an incomplete answer.</td>
+              </tr>
+              <tr>
+                <td>startlanguage</td>
+                <td>The language the questionnaire was used in (only English (en) was available)</td>
+              </tr>
+              <tr>
+                <td>seed</td>
+                <td>Random seed used by LimeSurvey to check if invitations have been used already</td>
+              </tr>
+              <tr>
+                <td>startdate</td>
+                <td>Timestamp when the participant started answering the survey</td>
+              </tr>
+              <tr>
+                <td>datestamp</td>
+                <td>Last timestamp when the participant was active</td>
+              </tr>
+              <tr>
+                <td>[questionCode] (multiple columns)</td>
+                <td>Anwers for questions</td>
+              </tr>
+              <tr>
+                <td>interviewtime</td>
+                <td>Time in seconds the participant needed to complete the questionnaire</td>
+              </tr>
+              <tr>
+                <td>[questionCode]Time (multiple columns)</td>
+                <td>Timing for multiple questions or question groups</td>
+              </tr>
+            </tbody>
+          </table>
         </p>
 
-        <h3>Open Card Sorting</h3>
+        <h3>Plots</h3>
+        <p>
+          From the raw results we created the plots for Figure 1 and Figure 2 using R scripts.
+        </p>
+
+        <h4>Related Artifacts:</h4>
+        <p><span class="badge badge-warning">R Script</span> <a href="../analysis/survey/conferencespread.R">Committee sizes and responses</a> (Figure 1) (conferencespread.R)<br>
+          <em>Format:</em> A script in the R language <br>
+          It can be run inside of the <code>analysis/survey</code> folder with the <code>R < conferencespread.R --vanilla</code> command. It uses the <code>results-survey54231.xlsx</code> file described above as well as the <code>aec.xlsx</code> file described in the <a href="callanalysis.html>">call analysis process</a>. It outputs the plot in PDF format to <code>output/ConferencePlot.pdf</code>.
+        </p>
+
+        <p>
+          <span class="badge badge-warning">R Script</span> <a href="../analysis/survey/participant_stats.R">Histogram of individuals by number of AECs served in</a> (Figure 2) (participant_stats.R)<br>
+            <em>Format:</em> A script in the R language <br>
+            It can be run inside of the <code>analysis/survey</code> folder with the <code>R < participant_stats.R --vanilla</code> command. It uses the <code>results-survey54231.xlsx</code> file described above as well as the <code>aec.xlsx</code> file described in the <a href="callanalysis.html>">call analysis process</a>. It outputs the plot in PDF format to <code>output/aec_histogram.pdf</code>.
+        </p>
+
+        <p>
+          <span class="badge badge-secondary">Output</span> <a class="" href="../figures/index.html">Figures</a> (Figures derived from the collected data.) <br>
+          <em>Format:</em> A webpage showing the created figures for convenience in this artifact.
+        </p>
+
+
+        <h3 id="opencardsorting">Open Card Sorting</h3>
+
+        <h4>Methodology</h4>
+
+        <p>
+          We follow Hudson's approach of open card sorting [Hudson13] to analyze the answers.
+        </p>
+
+        <p>
+          We assigned (at least) two authors per survey question to process the answers. One author identified higher-order topics to each answer. As the process was open, there were no predetermined categories, but they were extracted while reading the answers. For instance, for the answer “Reproducibility to a certain exten[t]. Availability of the code.” to the question “[...] what is the purpose of artifact evaluation?” the labels “reproducibility” and “availability” were extracted. The other author checked the labels. Difficult cases were marked and discussed with all authors until consensus was reached. In a second pass, we reviewed all assigned labels and simplified and harmonized labeling (as different authors have used different labels referring to the same concept). A note on replication: Other researchers might derive different labels, if the dataset would be labeled again from a blank state.
+        </p>
+
+        <p>[Hudson13] <a href="https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/card-sorting">William Hudson. 2013. Card Sorting. In The Encyclopedia of Human-Computer Interaction. The Interaction Design Foundation</a></p>
+
+        <h4>Related Artifacts:</h4>
+
+        <p>
+          <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="../results/cardsorting.html">Card sorting results</a>
+          <em>Data Format Description:</em> Multiple Excel files - all follow the same structure <br>
+          Files are named in the following schema <code>AEC-Survey-[QuestionCode].xlsx</code>
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Response ID</td>
+                <td>Participant ID (as in the raw results)</td>
+              </tr>
+              <tr>
+                <td>[Question Text]</td>
+                <td>Answer from the participant</td>
+              </tr>
+              <tr>
+                <td>(Multiple columns - no header)</td>
+                <td>Labels given to the answer</td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+
+        <h3>Label Analysis</h3>
+
+        <p>
+          We have developed two scripts for the analysis and presentation of numerical data and the data from the open card sorting process.
+          We used the output of these scripts to create the report in the paper and for its interpretation.
+        </p>
+
+        <h4>Related Artifacts:</h4>
+        <p>
+          <span class="badge badge-warning">R Script</span> <a href="../analysis/survey/numericdata.R">Analysis of questions with numeric answers</a> (numericdata.R) <br>
+          <em>Format:</em> A script in the R language <br>
+          It can be run inside of the <code>analysis/survey</code> folder with the <code>R < numericdata.R --vanilla</code> command. It uses the <code>results-survey54231.xlsx</code> file described above as well as the <code>survey-questions.xlsx</code> file described earlier. It outputs a textual summary of the answers into <code>output/numericresults.txt</code>. The file is re-created at each run. It furthermore produces a plot on answers given on artifact usage to <code>output/au-matrices.svg</code>. We did not use this plot in the paper.
+        </p>
+        <p>
+          <span class="badge badge-secondary">Output</span> <a href="../results/numericresults.txt">Results from the analysis of numeric answers</a> (numericresults.txt)<br>
+          <em>Format:</em> Textual output for human interpretation<br>
+          The output of <code>numericdata.R</code>.<br>
+          Example:<br>
+          <pre>
+            g1: Are you familiar with the ACM Policy on Artifact Review and Badging?
+            We received 157 answers. 106 (67.52 %) were positive. 51 (32.48 %) were negative.
+          </pre>
+        </p>
+        <p>
+          <span class="badge badge-warning">R Script</span> <a href="../analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a> (taganalysis.R)<br>
+          <em>Format:</em> A script in the R language <br>
+          It can be run inside of the <code>analysis/survey</code> folder with the <code>R < taganalysis.R --vanilla</code> command. It uses the open card sorting Excel files <a href="#opencardsorting">described above</a> as well as the <code>survey-questions.xlsx</code> file described earlier. It outputs a textual summary of the answers into <code>output/tagresults.txt</code>. The file is re-created at each run. It uses the helper script <code>respondent-profiling.R</code> to differentiate answers between communities.
+        </p>
+        <p>
+          <span class="badge badge-secondary">Output</span> <a href="../results/tagresults.txt">Results from the analysis of open card sorting tags</a> (tagresults.txt)<br>
+          <em>Format:</em> Textual output for human interpretation<br>
+          The output of <code>taganalysis.R</code>.<br>
+          Example:<br>
+          <pre>
+            ---- G4   ----
+            g4: In your words, what is the purpose of artifact evaluation?
+            For question code g4 we received 147 answers.
+            Top 1000 tags were:
+            # A tibble: 158 x 2
+                tag                                                                    usage
+                <chr>                                                                  <int>
+              1 "Foster reproducibility"                                                  32
+              2 "Foster reusability"                                                      26
+              3 "Verify results"                                                          19
+              4 "Verify claims"                                                           18
+              5 "Availability"                                                            16
+              6 "Artifact Quality"                                                        13
+              7 "Check claims"                                                             6
+              ...
+          </pre>
+       </p>
+       <h4>A Note of Reusability</h4>
+       <p>
+         Even though the scripts currently output data in form of a text file, they may be easily modified to output the data in other formats as the internal table structure of (tag, usage) is already present. 
+       </p>
       </div>
     </main>
     <footer>
