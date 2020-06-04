@@ -117,6 +117,7 @@
                     <li>
                       Analyses
                       <ul>
+                        <li><span class="badge badge-warning">R Script</span> <a href="analysis/survey/respondent-profiling.R">A helper script to distinguish responses by community</a></li>
                         <li><span class="badge badge-warning">R Script</span> <a href="analysis/survey/numericdata.R">Analysis of questions with numeric answers</a></li>
                         <li><span class="badge badge-secondary">Output</span> <a href="results/numericresults.txt">Results from the analysis of numeric answers</a> </li>
                         <li><span class="badge badge-warning">R Script</span> <a href="analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a></li>
@@ -228,7 +229,90 @@
             During the preparation of the artifact we found that there is a typo in reporting of the numbers here. It should read as "[...] in which <b>14</b> respondents indicate reusability as artifact purpose, whereas only <b>6</b> indicate replicability." We will correct this in the final version of the paper. The overall argument is, however, not affected by this mistake.
           </p>
 
+          <h3>Sections of the Paper and their Relationship to the Artifacts</h3>
 
+          <p>
+            In the following table we show the relationship between the sections of the paper and the data and analysis artifacts provided here.
+          </p>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Involved Analysis</th>
+                <th>Involved Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3.2.2</td>
+                <td><span class="badge badge-warning">R Script</span> <a href="analysis/calls/analysis.R">Analysis script for CfA tags</a> </td>
+                <td><span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a class="" href="calls/index.html">Collected Calls for Artifacts</a><br>
+                <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a href="analysis/calls/analysis.csv">Text analysis results from calls of artifacts</a> </td>
+              </tr>
+              <tr>
+                <td>4.1</td>
+                <td>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/conferencespread.R">Committee sizes and responses</a><br>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/participant_stats.R">Histogram of individuals by number of AECs served in</a><br>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/respondent-profiling.R">A helper script to distinguish responses by community</a>
+                </td>
+                <td>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/aec.xlsx">Artifact Evaluation Commitees (collected from CfAs) (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a href="results/results-survey54231.xlsx">Raw result data file (Excel)</a>
+                 </td>
+              </tr>
+              <tr>
+                <td>4.2</td>
+                <td><span class="badge badge-warning">R Script</span> <a href="analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a></td>
+                <td><span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-G4.xlsx">Card sorting results for question G4 (Excel)</a></td>
+              </tr>
+              <tr>
+                <td>4.3.1</td>
+                <td>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a><br>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/respondent-profiling.R">A helper script to distinguish responses by community</a>
+                </td>
+                <td>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE1.xlsx">Card sorting results for question AE1 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE2.xlsx">Card sorting results for question AE2 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE3.xlsx">Card sorting results for question AE3 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE4.xlsx">Card sorting results for question AE4 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE5.xlsx">Card sorting results for question AE5 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE8.xlsx">Card sorting results for question AE8 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AE9.xlsx">Card sorting results for question AE9 (Excel)</a><br>
+                </td>
+              </tr>
+              <tr>
+                <td>4.3.2</td>
+                <td>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a><br>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/respondent-profiling.R">A helper script to distinguish responses by community</a>
+                </td>
+                <td>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AU2.xlsx">Card sorting results for question AU2 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AU5.xlsx">Card sorting results for question AU5 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AU8.xlsx">Card sorting results for question AU8 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AU11.xlsx">Card sorting results for question AU11 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-AU12.xlsx">Card sorting results for question AU12 (Excel)</a><br>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/taganalysis.R">Analysis of full-text answers using the tags from open card sorting</a><br>
+                  <span class="badge badge-warning">R Script</span> <a href="analysis/survey/numericdata.R">Analysis of questions with numeric answers</a>
+                </td>
+                <td>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-F01.xlsx">Card sorting results for question F01 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-F02.xlsx">Card sorting results for question F02 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-F03.xlsx">Card sorting results for question F03 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-success">Derived</span> <a class="" href="results/AEC-Survey-F99.xlsx">Card sorting results for question F99 (Excel)</a><br>
+                  <span class="badge badge-danger">Data</span> <span class="badge badge-info">Raw</span> <a href="results/results-survey54231.xlsx">Raw result data file (Excel)</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
       </div>
     </main>
