@@ -130,7 +130,43 @@
         <p>
           <span class="badge badge-warning">R Script</span> <a href="../analysis/calls/analysis.R">Analysis script for CfA tags</a><br>
           <em>Format:</em> A script in the R language<br>
-          It can be run inside of the <code>analysis/calls</code> folder with the <code>R < analysis.R --vanilla</code> command. It uses the <a href="../analysis/calls/callAnalysisResults.csv"><code>callAnalysisResults.csv</code></a> file described above.
+          It can be run inside of the <code>analysis/calls</code> folder with the <code>R < analysis.R --vanilla</code> command. It uses the <a href="../analysis/calls/callAnalysisResults.csv"><code>callAnalysisResults.csv</code></a> file described above. It outputs multiple data files in CSV format for the different inspection dimensions. The format of these files is as follows:<br>
+          <em>Data Format Description:</em> A CSV file (semicolon delimited)
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>""</td>
+                <td>Counter</td>
+              </tr>
+              <tr>
+                <td>(submission criteria, evaluation criteria, artifact purpose, etc. ) - differs in files</td>
+                <td>Specific label inspected</td>
+              </tr>
+              <tr>
+                <td>count</td>
+                <td>Frequency this label was observed</td>
+              </tr>
+              <tr>
+                <td>byNumberTags</td>
+                <td>Frequency this label was observed related to the total number of tags (unused in the paper)</td>
+              </tr>
+              <tr>
+                <td>byAllCalls</td>
+                <td>Frequency this label was observed related to the total number of calls (unused in the paper)</td>
+              </tr>
+              <tr>
+                <td>byCallsWithTags</td>
+                <td>Frequency this label was observed related to the total number of tags (unused in the paper)</td>
+              </tr>
+            </tbody>
+          </table>
+
         </p>
       </div>
     </main>
