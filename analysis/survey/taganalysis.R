@@ -10,13 +10,14 @@ library(tidyr)
 library(stringr)
 
 sourceDir <- getSrcDirectory(function(dummy) {dummy})
-workingdir <- paste0(sourceDir,"")
-resultsDir <- paste0(sourceDir,"../../results/")
+workingdir <- paste0(sourceDir,"/")
+setwd(workingdir)
+resultsDir <- paste0(workingdir,"../../results/")
 
 source(paste0(workingdir,"respondent-profiling.R"))
 
-unlink(paste0(sourceDir, "output/tagresults.txt"))
-sink(paste0(sourceDir, "output/tagresults.txt"))
+unlink(paste0(workingdir, "output/tagresults.txt"))
+sink(paste0(workingdir, "output/tagresults.txt"))
 
 plIDs <- as.vector(serviceByID %>% filter(pl == TRUE) %>% select(id))$id
 seIDs <- as.vector(serviceByID %>% filter(se == TRUE) %>% select(id))$id
@@ -24,22 +25,24 @@ crossIDs <- as.vector(serviceByID %>% filter(cross == TRUE) %>% select(id))$id
 plOnlyIDs <- as.vector(serviceByID %>% filter(pl == TRUE & se == FALSE) %>% select(id))$id
 seOnlyIDs <- as.vector(serviceByID %>% filter(se == TRUE & pl == FALSE) %>% select(id))$id
 
-g4 <- read_excel(paste0(resultsDir,"AEC-Survey-G4.xlsx"))
-ae1 <- read_excel(paste0(resultsDir,"AEC-Survey-AE1.xlsx"))
-ae2 <- read_excel(paste0(resultsDir,"AEC-Survey-AE2.xlsx"))
-ae3 <- read_excel(paste0(resultsDir,"AEC-Survey-AE3.xlsx"))
-ae4 <- read_excel(paste0(resultsDir,"AEC-Survey-AE4.xlsx"))
-ae5 <- read_excel(paste0(resultsDir,"AEC-Survey-AE5.xlsx"))
-ae7 <- read_excel(paste0(resultsDir,"AEC-Survey-AE7.xlsx"))
-ae8 <- read_excel(paste0(resultsDir,"AEC-Survey-AE8.xlsx"))
-ae9 <- read_excel(paste0(resultsDir,"AEC-Survey-AE9.xlsx"))
-ae11 <- read_excel(paste0(resultsDir,"AEC-Survey-AE11.xlsx"))
-au2 <- read_excel(paste0(resultsDir,"AEC-Survey-AU2.xlsx"))
-au5 <- read_excel(paste0(resultsDir,"AEC-Survey-AU5.xlsx"))
-au8 <- read_excel(paste0(resultsDir,"AEC-Survey-AU8.xlsx"))
-au11 <- read_excel(paste0(resultsDir,"AEC-Survey-AU11.xlsx"))
-au12 <- read_excel(paste0(resultsDir,"AEC-Survey-AU12.xlsx"))
-questions <- read_excel(paste0(sourceDir,"../../questionnaire/survey-questions.xlsx"))
+
+
+g4 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-G4.xlsx")))
+ae1 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE1.xlsx")))
+ae2 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE2.xlsx")))
+ae3 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE3.xlsx")))
+ae4 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE4.xlsx")))
+ae5 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE5.xlsx")))
+ae7 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE7.xlsx")))
+ae8 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE8.xlsx")))
+ae9 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE9.xlsx")))
+ae11 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AE11.xlsx")))
+au2 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU2.xlsx")))
+au5 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU5.xlsx")))
+au8 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU8.xlsx")))
+au11 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU11.xlsx")))
+au12 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU12.xlsx")))
+questions <- suppressMessages(read_excel(paste0(workingdir,"../../questionnaire/survey-questions.xlsx")))
 
 
 artifact.datareport <- function(rawData, full = FALSE, community = 'all') {
@@ -146,7 +149,7 @@ ae8SE <- artifact.datareport(ae8, TRUE, 'se')
 ae8 <- merge(ae8all,merge(ae8PL,ae8SE,all=TRUE,by="tag"),all=TRUE,by="tag")
 if (!all(head(ae8PL$tag,10)==head(ae8SE$tag,10))) { print("ae8 differs across communities") }
 print(str_glue("--------------\n\n"))
-#
+
 print(str_glue("---- AE9  ----"))
 ae9all <- artifact.datareport(ae9, TRUE)
 ae9PL <- artifact.datareport(ae9, TRUE, 'pl')

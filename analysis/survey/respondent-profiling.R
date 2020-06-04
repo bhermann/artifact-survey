@@ -1,4 +1,5 @@
 # This script is a helper script to allow analysis differentiation between communities.
+# In particular, the 'experience' indicators after quotations in the paper have been derived from this analysis.
 
 if (!require("dplyr")) install.packages("dplyr")
 if (!require("ggplot2")) install.packages("ggplot2")
@@ -10,12 +11,12 @@ library(ggplot2)
 library(readxl)
 library(stringr)
 
-sourceDir <- getSrcDirectory(function(dummy) {dummy})
+sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
 
 SurveyData <- read_excel(paste0(sourceDir,"../../results/results-survey54231.xlsx"))
 SurveyData <- SurveyData %>% filter(id != 99 & id!= 218 & id <= 273)
 
-# SE conferences
+# SE/PL conferences
 SEConfs <- c("ICSE","FSE","ISSTA","VISSOFT","MODELS","CAV")
 PLConfs <- c("OOPSLA","PLDI","POPL","ECOOP","SAS","SLE","PPoPP","PPOPP","CGO","ICFP","TACAS")
 

@@ -13,7 +13,8 @@ library(tidyr)
 library(ggplot2)
 library(tibble)
 
-sourceDir <- getSrcDirectory(function(dummy) {dummy})
+sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
+setwd(sourceDir)
 
 # Read in the complete survey result data
 SurveyData <- read_excel(paste0(sourceDir, "../../results/results-survey54231.xlsx"))

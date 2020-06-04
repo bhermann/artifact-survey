@@ -14,7 +14,7 @@ library(tidyr)
 library(stringr)
 library(ggplot2)
 
-sourceDir <- getSrcDirectory(function(dummy) {dummy})
+sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
 
 full_results <- read_excel(paste0(sourceDir,"../../results/results-survey54231.xlsx"))
 questions <- read_excel(paste0(sourceDir,"../../questionnaire/survey-questions.xlsx"))
