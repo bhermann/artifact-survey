@@ -14,16 +14,11 @@ library(tidyr)
 library(stringr)
 library(ggplot2)
 
-sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
+full_results <- read_excel("../../results/results-survey54231.xlsx")
+questions <- read_excel("../../questionnaire/survey-questions.xlsx")
 
-full_results <- read_excel(paste0(sourceDir,"../../results/results-survey54231.xlsx"))
-questions <- read_excel(paste0(sourceDir,"../../questionnaire/survey-questions.xlsx"))
-
-unlink(paste0(sourceDir, "output/numericresults.txt"))
-sink(paste0(sourceDir, "output/numericresults.txt"))
-
-# trim data to the same set we tagged
-full_results <- full_results %>% filter(id <= 273)
+unlink( "output/numericresults.txt")
+sink("output/numericresults.txt")
 
 # remove unusable replies from ID 99 and 218
 full_results <- full_results %>% filter(id != 99 & id != 218)
@@ -91,4 +86,4 @@ au_matrix_plot <- ggplot(au[au$artifact_counts != 0,], aes(x = au, y = Count, fi
   theme(axis.title.x = element_blank()) +
   scale_fill_brewer(type = "qual", palette = "Dark2") +
   labs(fill = "Artifact\nType")
-ggsave(paste0(sourceDir,"output/au-matrices.svg"))
+ggsave("output/au-matrices.svg")

@@ -13,14 +13,8 @@ library(tidyr)
 library(ggplot2)
 library(tibble)
 
-sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
-setwd(sourceDir)
-
 # Read in the complete survey result data
-SurveyData <- read_excel(paste0(sourceDir, "../../results/results-survey54231.xlsx"))
-
-# trim data to the same set we tagged
-SurveyData <- SurveyData %>% filter(id <= 273)
+SurveyData <- read_excel("../../results/results-survey54231.xlsx")
 
 # remove unusable replies from ID 99 and 218
 SurveyData <- SurveyData %>% filter(id != 99 & id != 218)
@@ -39,7 +33,7 @@ ConferenceMatrix <-
     `2017` = `g0[CICSE_Y2017]`, `2018` = `g0[CICSE_Y2018]`, `2019` = `g0[CICSE_Y2019]`
     )
 
-CommitteeData <- rename(separate(tally(group_by(read_excel(paste0(sourceDir, "../../results/aec.xlsx")), Conference)),
+CommitteeData <- rename(separate(tally(group_by(read_excel("../../results/aec.xlsx"), Conference)),
                           Conference, sep = " ", into = c("Conference", "year")),
                         `committee_size` = `n`)
 
@@ -50,12 +44,12 @@ FullPlotData <- mutate(full_join(CommitteeData, ConferencePlotData, by = c("Conf
                        value = ifelse(is.na(value), 0, value),
                        ConferenceId = ifelse(is.na(ConferenceId), match(Conference, Conferences), ConferenceId))
 
-lconf <- function(index) { return (Conferences[index]) }
-ConferencePlot <- ggplot(FullPlotData, aes(x = year, y = ConferenceId)) +
-  geom_point(aes(size = (committee_size)), color = "green", alpha=.4, show.legend = FALSE) +
-  geom_point(aes(size = (ifelse(value == 0, NA, value))), alpha=.7, color = "red", show.legend = FALSE) +
-  geom_text(aes(label = paste(value, "/", committee_size)), size = 2.5, position = position_nudge(y = -0.2, x = 0.32)) +
-  scale_y_discrete(limits = 1:16, breaks = 1:16, labels = lconf, drop = FALSE, position = "right", name = "") +
-  scale_size_area(max_size=15)
-#show(ConferencePlot)
-ggsave(ConferencePlot, filename=paste0(sourceDir,"output/ConferencePlot.pdf"))
+# lconf <- function(index) { return (Conferences[index]) }
+# ConferencePlot <- ggplot(FullPlotData, aes(x = year, y = ConferenceId)) +
+#   geom_point(aes(size = (committee_size)), color = "green", alpha=.4, show.legend = FALSE) +
+#   geom_point(aes(size = (ifelse(value == 0, NA, value))), alpha=.7, color = "red", show.legend = FALSE) +
+#   geom_text(aes(label = paste(value, "/", committee_size)), size = 2.5, position = position_nudge(y = -0.2, x = 0.32)) +
+#   scale_y_discrete(limits = 1:16, breaks = 1:16, labels = lconf, drop = FALSE, position = "right", name = "") +
+#   scale_size_area(max_size=15)
+# #show(ConferencePlot)
+# ggsave(ConferencePlot, filename="output/ConferencePlot.pdf")

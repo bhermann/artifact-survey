@@ -12,13 +12,7 @@ library(tidyr)
 library(stringr)
 library(ggplot2)
 
-sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
-setwd(sourceDir)
-
-SurveyData <- read_excel(paste0(sourceDir, "../../results/results-survey54231.xlsx"))
-
-# trim data to the same set we tagged
-SurveyData <- SurveyData %>% filter(id <= 273)
+SurveyData <- read_excel("../../results/results-survey54231.xlsx")
 
 # remove unusable replies from ID 99 and 218
 SurveyData <- SurveyData %>% filter(id != 99 & id != 218)

@@ -11,10 +11,8 @@ library(ggplot2)
 library(readxl)
 library(stringr)
 
-sourceDir <- paste0(getSrcDirectory(function(dummy) {dummy}),"/")
-
-SurveyData <- read_excel(paste0(sourceDir,"../../results/results-survey54231.xlsx"))
-SurveyData <- SurveyData %>% filter(id != 99 & id!= 218 & id <= 273)
+SurveyData <- read_excel("../../results/results-survey54231.xlsx")
+SurveyData <- SurveyData %>% filter(id != 99 & id!= 218)
 
 # SE/PL conferences
 SEConfs <- c("ICSE","FSE","ISSTA","VISSOFT","MODELS","CAV")

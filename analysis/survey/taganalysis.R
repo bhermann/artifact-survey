@@ -9,15 +9,12 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-sourceDir <- getSrcDirectory(function(dummy) {dummy})
-workingdir <- paste0(sourceDir,"/")
-setwd(workingdir)
-resultsDir <- paste0(workingdir,"../../results/")
+resultsDir <- "../../results/"
 
-source(paste0(workingdir,"respondent-profiling.R"))
+source("respondent-profiling.R")
 
-unlink(paste0(workingdir, "output/tagresults.txt"))
-sink(paste0(workingdir, "output/tagresults.txt"))
+unlink("output/tagresults.txt")
+sink("output/tagresults.txt")
 
 plIDs <- as.vector(serviceByID %>% filter(pl == TRUE) %>% select(id))$id
 seIDs <- as.vector(serviceByID %>% filter(se == TRUE) %>% select(id))$id
@@ -42,7 +39,7 @@ au5 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU5.xlsx")))
 au8 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU8.xlsx")))
 au11 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU11.xlsx")))
 au12 <- suppressMessages(read_excel(paste0(resultsDir,"AEC-Survey-AU12.xlsx")))
-questions <- suppressMessages(read_excel(paste0(workingdir,"../../questionnaire/survey-questions.xlsx")))
+questions <- suppressMessages(read_excel("../../questionnaire/survey-questions.xlsx"))
 
 
 artifact.datareport <- function(rawData, full = FALSE, community = 'all') {
