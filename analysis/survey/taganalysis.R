@@ -1,8 +1,8 @@
 
-if (!require("readxl")) install.packages("readxl")
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("stringr")) install.packages("stringr")
+if (!require("readxl")) install.packages("readxl", repos="https://cloud.r-project.org")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("tidyr")) install.packages("tidyr", repos="https://cloud.r-project.org")
+if (!require("stringr")) install.packages("stringr", repos="https://cloud.r-project.org")
 
 library(readxl)
 library(dplyr)

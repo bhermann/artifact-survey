@@ -1,11 +1,11 @@
 # This script produces a chart indicating the size of AE committees at the inspected conferences.
 # Overlayed are the number of respondents from the inspected AECs.
 
-if (!require("readxl")) install.packages("readxl")
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("tibble")) install.packages("tibble")
+if (!require("readxl")) install.packages("readxl", repos="https://cloud.r-project.org")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("tidyr")) install.packages("tidyr", repos="https://cloud.r-project.org")
+if (!require("ggplot2")) install.packages("ggplot2", repos="https://cloud.r-project.org")
+if (!require("tibble")) install.packages("tibble", repos="https://cloud.r-project.org")
 
 library(readxl)
 library(dplyr)

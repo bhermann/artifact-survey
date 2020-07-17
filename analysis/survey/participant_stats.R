@@ -1,10 +1,10 @@
 # This script produces a plot of the histogram of individuals by number of AECs served in partioned by invited and responded
 
-if (!require("readxl")) install.packages("readxl")
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("stringr")) install.packages("stringr")
-if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("readxl")) install.packages("readxl", repos="https://cloud.r-project.org")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("tidyr")) install.packages("tidyr", repos="https://cloud.r-project.org")
+if (!require("stringr")) install.packages("stringr", repos="https://cloud.r-project.org")
+if (!require("ggplot2")) install.packages("ggplot2", repos="https://cloud.r-project.org")
 
 library(readxl)
 library(dplyr)

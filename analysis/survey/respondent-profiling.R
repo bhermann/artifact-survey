@@ -1,10 +1,10 @@
 # This script is a helper script to allow analysis differentiation between communities.
 # In particular, the 'experience' indicators after quotations in the paper have been derived from this analysis.
 
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("svglite")) install.packages("svglite")
-if (!require("stringr")) install.packages("stringr")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("ggplot2")) install.packages("ggplot2", repos="https://cloud.r-project.org")
+if (!require("svglite")) install.packages("svglite", repos="https://cloud.r-project.org")
+if (!require("stringr")) install.packages("stringr", repos="https://cloud.r-project.org")
 
 library(dplyr)
 library(ggplot2)

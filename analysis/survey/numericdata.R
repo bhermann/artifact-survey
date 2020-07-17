@@ -2,11 +2,11 @@
 # It outputs a file numericresults.txt which contains textual representations of the answers given.
 # It also produces a chart (au-matrices.svg) on the prevalence of artifact usage.
 
-if (!require("readxl")) install.packages("readxl")
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("stringr")) install.packages("stringr")
-if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("readxl")) install.packages("readxl", repos="https://cloud.r-project.org")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("tidyr")) install.packages("tidyr", repos="https://cloud.r-project.org")
+if (!require("stringr")) install.packages("stringr", repos="https://cloud.r-project.org")
+if (!require("ggplot2")) install.packages("ggplot2", repos="https://cloud.r-project.org")
 
 library(readxl)
 library(dplyr)

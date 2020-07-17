@@ -1,10 +1,10 @@
 "This file contains R code to extract and summarize information from a (mostly) manually conducted analysis
  of calls for artifacts in SE and PL conferences. The call analysis data can be found in the file callAnalysisResults.csv."
 
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("stringr")) install.packages("stringr")
-if (!require("readxl")) install.packages("readxl")
-if (!require("gsubfn")) install.packages("gsubfn")
+if (!require("dplyr")) install.packages("dplyr", repos="https://cloud.r-project.org")
+if (!require("stringr")) install.packages("stringr", repos="https://cloud.r-project.org")
+if (!require("readxl")) install.packages("readxl", repos="https://cloud.r-project.org")
+if (!require("gsubfn")) install.packages("gsubfn", repos="https://cloud.r-project.org")
 
 library(dplyr)
 library(readxl)
