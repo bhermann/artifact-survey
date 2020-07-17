@@ -1,3 +1,6 @@
+# Dockerfile to create environment under which the artifact survey and call analyses can run
+# Build via: docker build -t artifact-survey:latest -f Dockerfile .
+
 FROM ubuntu:focal
 
 ARG USER=artifact-evaluator
@@ -9,6 +12,6 @@ RUN apt-get update && \
 
 WORKDIR /home/$USER
 
-RUN git clone https://github.com/bhermann/artifact-survey
+COPY . /home/$USER/artifact-survey
 
 CMD /bin/bash
