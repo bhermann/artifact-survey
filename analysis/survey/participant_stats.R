@@ -33,8 +33,9 @@ full_plot_data <- full_hist_data %>% gather(var, val, invited, responded)
 aec_hist_plot <- ggplot(data = full_plot_data, aes(x=served_in, y=val, fill=var)) +
   scale_x_discrete(limits = c(1:10)) +
   geom_bar(position="dodge", stat = "identity") +
-  geom_text(position=position_dodge(width=0.9), aes(label=val), vjust=-0.8, color="black", size=3.5) +
+  geom_text(position=position_dodge(width=0.9), aes(label=val), vjust=-0.8, color="black", size=5) +
   labs(x = "Committees served in", y = "Number of individuals", fill="") +
-  theme_minimal()+ theme(legend.position = c(0.8, 0.8))
+  theme_minimal() +
+  theme(legend.position = c(0.8, 0.8), text=element_text(size=20))
 
 ggsave(aec_hist_plot, filename="output/aec_histogram.pdf")

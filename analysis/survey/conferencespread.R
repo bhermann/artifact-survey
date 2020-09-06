@@ -48,8 +48,10 @@ lconf <- function(index) { return (Conferences[index]) }
 ConferencePlot <- ggplot(FullPlotData, aes(x = year, y = ConferenceId)) +
   geom_point(aes(size = (committee_size)), color = "green", alpha=.4, show.legend = FALSE) +
   geom_point(aes(size = (ifelse(value == 0, NA, value))), alpha=.7, color = "red", show.legend = FALSE) +
-  geom_text(aes(label = paste(value, "/", committee_size)), size = 2.5, position = position_nudge(y = -0.2, x = 0.32)) +
-  scale_y_discrete(limits = 1:16, breaks = 1:16, labels = lconf, drop = FALSE, position = "right", name = "") +
-  scale_size_area(max_size=15)
+  geom_text(aes(label = paste(value, "/", committee_size)), size = 5, position = position_nudge(y = -0.35, x = 0)) +
+  scale_x_discrete(name="Year") +
+  scale_y_discrete(limits = 1:18, breaks = 1:16, labels = lconf, drop = FALSE, position = "right", name = "") +
+  scale_size_area(max_size=15) +
+  theme(text=element_text(size=22),title=element_text(size=22))
 #show(ConferencePlot)
-ggsave(ConferencePlot, filename="output/ConferencePlot.pdf")
+ggsave(ConferencePlot, filename="output/ConferencePlot.pdf", height=10, width=7)
