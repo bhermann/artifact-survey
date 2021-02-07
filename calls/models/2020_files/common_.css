@@ -1,0 +1,94 @@
+/* Bootstrap adapt */
+body{ 
+  padding: 0px 0px 0px;
+}
+
+/* Generic CSS */
+
+html{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;  
+  overflow-y: scroll;	
+}
+body {
+	min-height: 100%;
+	position: relative;
+}
+textarea { 
+  min-height : 250px !important;
+}
+.form-control {
+  min-width : 100% !important;
+}
+
+select {
+  width: 100%;
+  max-width: 200px;
+}
+input[type="text"]{
+  max-width: 200px;
+}
+input[type="file"]{
+  width : 200px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.inputInt {
+  width: 8em !important;
+  min-width: 8em !important;
+}
+.input-group .inputInt {
+/*  min-width: 100% !important; */
+ min-width: 3.5em !important;
+ width: 100% !important;
+}
+
+img {
+  border-width: 0px;
+}
+span.highlightcontent {
+	background-color: #BADBFF;
+	border-radius: 3px 3px;
+	padding: 2px;
+}
+
+/* input of List */
+.sortable { list-style-type: none; margin: 0; padding: 0; }
+.sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; min-width: 165px; }
+.sortable li span.ui-icon-arrowthick-2-n-s { position: absolute; margin-left: -1.3em; }
+.sortable li span.ui-icon-close { float: right; }
+.ui-icon-close:hover{ cursor: pointer; }
+
+span.action-failure-msg {
+  position: fixed;
+  z-index: 100000;
+  color: red;
+  bottom: 0px;
+  background-color: #ffdddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 1px solid #ff9a9a;
+}

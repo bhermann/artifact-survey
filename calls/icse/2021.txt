@@ -1,0 +1,293 @@
+Call For Artifact Submissions
+Authors of papers accepted to the 2021 Technical/SEIP/NIER/SEET/SEIS Track are invited to submit artifacts associated with those papers to the ICSE Artifact Track for evaluation as candidate reusable, available, replicated or reproduced artifacts. Authors of any prior Software Engineering work (published at ICSE or elsewhere) are also eligible (and invited) to submit an artifact for evaluation as a candidate ** reusable, available, replicated or reproduced** artifact. If those artifact(s) are accepted, they will each receive one (and only one) of the badges below on the front page of the authors’ paper and in the proceedings.
+
+In addition, authors of any prior SE research work (published at ICSE or elsewhere) are invited to submit an artifact to the ICSE Artifact Track for evaluation as a candidate replicated or reproduced artifact. Those badges indicate that the original work has been independently (externally) replicated or reproduced by authors other than those of the original work and will be assigned digitally in retrospect (if supported by the respective publisher). If the artifact is accepted:
+
+Authors will be invited to give lightning talks on this work at ICSE’21
+We will do our best to work with the IEEE Xplore and ACM Portal administrator to add badges to the electronic versions of the authors’ paper(s).
+
+Functional	Reusable
+Open to ICSE 21 submissions only	Available
+Open to ICSE 21 submissions only	Replicated
+Open to any submission	Reproduced
+Open to any submission
+No Badge
+Artifacts documented, consistent, complete, exercisable, and include appropriate evidence of verification and validation	Functional + very carefully documented and well-structured to the extent that reuse and repurposing is facilitated. In particular, norms and standards of the research community for artifacts of this type are strictly adhered to.	Functional + placed on a publicly accessible archival repository. A DOI or link to this repository along with a unique identifier for the object is provided.	Available + main results of the paper have been obtained in a subsequent study by a person or team other than the authors, using, in part, artifacts provided by the author.	Available + the main results of the paper have been independently obtained in a subsequent study by a person or team other than the authors, without the use of author-supplied artifacts.
+All accepted abstracts documenting the artifacts will be further published in the ICSE 2021 proceedings as a further form of recognition.
+
+In principle, papers with badges from the artifact evaluation track contain reusable products that other researchers can use to bootstrap their own research. Experience shows that such papers earn increased citations and greater prestige in the research community. Artifacts of interest include (but are not limited to) the following:
+
+Software, which are implementations of systems or algorithms potentially useful in other studies.
+
+Data repositories, which are data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.
+
+Frameworks, which are tools and services illustrating new approaches to software engineering that could be used by other researchers in different contexts.
+
+This list is not exhaustive, so the authors are asked to email the chairs before submitting if their proposed artifact is not on this list. Further information on data sharing principles and approaches are further introduced along an introduction of the general notion of open science in the book chapter Open Science in Software Engineering: https://arxiv.org/abs/1904.06499
+
+Important Dates
+Artifacts Evaluation Pre-submission Registration Deadline: 15 January 2021 (mandatory)
+
+Artifact Evaluation Submissions Deadline: 22 January 2021
+
+Artifact Evaluation Acceptance Notification: 24 February 2021
+
+Best Artifact Awards
+There will be two ICSE 2021 Best Artifact Awards to recognize the effort of authors creating and sharing outstanding research artifacts.
+
+Submission Instructions and Reviewing Guidelines
+Submission instructions and reviewing guidelines can both be taken from the Submission and Reviewing Guidelines. This document details the submission process, the expected contents of the artifacts as well as the expected criteria to merit awarding the respective badges in the hope to increase the transparency for both authors and reviewers.
+
+It is important that authors submitting to this track carefully read the guidelines prior to their submission.
+
+In the following, we briefly summarize key aspects of the submission process in dependency of the envisioned badge. For details, please refer to the provided guidelines.
+
+Submission Process Overview
+In principle, authors are expected to submit through EasyChair their artifact documentation. This documentation distinguishes two basic types of information - captured in one central research abstract (two pages max) - depending on the envisioned badge:
+
+Replicated and Reproduced where the emphasis lies on providing information about how their already published research has been replicated or reproduced as well as links to further material (e.g. the papers and artifacts in question). Note that we encourage submissions for those badges also to nominate other authors (e.g., when authors having reproduced study results want to nominate authors of the original study being replicated/reproduced).
+Reusable and Available where the emphasis lies on providing documentation on the research artifact previously prepared and archived. Here, the authors need to write and submit a documentation explaining how to obtain the artifact package, how to unpack the artifact, how to get started, and how to use the artifacts in more detail. The submission must only describe the technicalities of the artifacts and uses of the artifact that are not already described in the paper.
+Note that if the authors are aiming for the badges Available and beyond, the artifact needs to be publicly accessible at the time of submission. This means that the EasyChair submission should include the research abstract only providing links to the repositories where the artifact is permanently stored and available. Submitting artifacts themselves through EasyChair without making them publicly accessible (through a repository or an archival service) will not be sufficient for any further badge. In the case of authors applying for the badge Reusable, the artifacts do not necessarily have to be publicly accessible for the review process. In this very case, the authors are asked to provide either a private link / password-protected link to a repository or they may submit the artifact directly through EasyChair (in a zip file) and it should become clear which steps are necessary for authors who would like to reuse the artifact.
+
+Details on the research artifacts themselves are provided next.
+
+Submission for Replicated and Reproduced Badges
+For “replicated” and “reproduced” badges, authors will need to offer appropriate documentation that their artifacts have reached that stage.
+
+By January 15, 2021 register your research artifact at the ICSE EasyChair site by submitting a two pages (max) abstract in PDF format describing your artifact.
+
+The abstract should include the paper title, the purpose of the research artifact, the badge(s) you are claiming, and the technology skills assumed by the reviewer evaluating the artifact. Please also mention if running your artifact requires specific Operating Systems or other environments.
+
+TITLE: A (Partial)? (Replication|Reproduction) of XYZ . Please add the term partial to your title if only some of the original work could be replicated/reproduced.
+WHO: name the original authors (and paper) and the authors that performed the replication/reproduction. Include contact information and mark one author as the corresponding author.
+IMPORTANT : include also a web link to a publically available URL directory containing (a) the original paper (that is being reproduced) and (b) any subsequent paper(s)/documents/reports that do the reproduction.
+
+WHAT: describe the “thing” being replicated/reproduced;
+WHY: clearly state why that “thing” is interesting/important;
+HOW: say how it was done first;
+WHERE: describe the replication/reproduction. If the replication/reproduction was only partial, then explain what parts could be achieved or had to be missed.
+DISCUSSION (if applicable): What aspects of this “thing” made it easier/harder to replicate/reproduce. What are the lessons learned from this work that would enable more replication/reproduction in the future for other kinds of tasks or other kinds of research.
+Two PC members will review each abstract, possibly reaching out to the authors of the abstract or original paper. Abstracts will be ranked as follows.
+
+If PC members do not find sufficient substantive evidence for replication/reproduction, the abstract will be rejected.
+Any abstract that is judged to be unnecessarily critical towards others in the research community will be rejected (*).
+The remaining abstracts will be sorted according to (a) how interesting they are to the community and (b) their correctness.
+The top ranked abstracts will be invited to give lightning talks.
+(*) Please note that our goal is to foster a positive environment that supports and rewards researchers for conducting replications and reproductions. To that end, it is important to encourage an atmosphere where presentations pay due respect to both work that is being reproduced/replicated and reproductions/replications. Criticism of other work related to the reproduction/replication is acceptable only as part of a balanced and substantive discussion of prior accomplishments.
+
+Submission for Reusable and Available Badges
+Only authors of papers accepted to the 2021Technical/SEIP/NIER/SEET/SEIS Track can submit candidate reusable or available artifacts.
+
+By January 15, 2021 register your research artifact at the ICSE EasyChair site by submitting a two pages (max) abstract in PDF format describing your artifact.
+
+For the reusable and available badges, authors must offer “download information” showing how reviewers can access and execute (if appropriate) their artifact.
+
+Authors must perform the following steps to submit an artifact:
+
+Preparing the artifact
+Making the artifact publicly available (by using repositories granting public access)
+Documenting the artifact
+Submitting the artifact
+
+
+1. Preparing the Artifact
+There are two options depending on the nature of the artifacts: Installation Package or Simple Package. In both cases, the configuration and installation for the artifact should take less than 30 minutes. Otherwise, the artifact is unlikely to be endorsed simply because the committee will not have sufficient time to evaluate it.
+
+Installation Package. If the artifact consists of a tool or software system, then the authors need to prepare an installation package so that the tool can be installed and run in the evaluator’s environment. Provide enough associated instruction, code, and data such that some CS person with a reasonable knowledge of scripting, build tools, etc. could install, build, and run the code. If the artifact contains or requires the use of a special tool or any other non-trivial piece of software the authors must provide a VirtualBox VM image or a Docker container image with a working environment containing the artifact and all the necessary tools.
+
+We expect that the artifacts have been vetted on a clean machine before submission.
+
+Simple Package. If the artifact only contains documents which can be used with a simple text editor, a PDF viewer, or some other common tool (e.g., a spreadsheet program in its basic configuration) the authors can just save all documents in a single package file (zip or tar.gz).
+
+
+
+2. Making the Artifact Available
+The authors need to make the packaged artifact (installation package or simple package) available so that the Evaluation Committee can access it. We suggest a link to a public repository (e.g., GitHub) or to a single archive file in a widely available archive format.
+
+If the authors are aiming for the badges “available” and beyond, the artifact needs to be publicly accessible. In other cases, the artifacts do not necessarily have to be publicly accessible for the review process. In this case, the authors are asked to provide a private link or a password-protected link. In any case, we encourage the authors to use permanent repositories dedidated at data sharing where no registration is necessary for those accessing the artifacts (e.g., please avoid using services such as GoogleDrive).
+
+
+
+3. Documenting the Artifact
+The authors need to write and submit a documentation explaining how to obtain the artifact package, how to unpack the artifact, how to get started, and how to use the artifacts in more detail. The artifact submission must only describe the technicalities of the artifacts and uses of the artifact that are not already described in the paper.
+
+The submission should contain the following documents (in plain text or pdf format) in a zip archive:
+
+A README main file describing what the artifact does and where it can be obtained (with hidden links and access password if necessary). Also, there should be a clear description how to repeat/replicate/reproduce the results presented in the paper. Artifacts which focus on data should, in principle, cover aspects relevant to understand the context, data provenance, ethical and legal statements (as long as relevant), and storage requirements. Artifacts which focus on software should, in principle, cover aspects relevant to how to install and use it (and be accompanied by a small example).
+A REQUIREMENTS file for artifacts which focus on software. This file should, in principle, cover aspects of hardware environment requirements (e.g., performance, storage or non-commodity peripherals) and software environments (e.g., Docker, VM, and operating system) but also, if relevant, a requirements.txt with explicit versioning information (e.g. for Python-only environments). Any deviation from standard environments needs to be reasonably justified.
+A STATUS file stating what kind of badge(s) the authors are applying for as well as the reasons why the authors believe that the artifact deserves that badge(s).
+A LICENSE file describing the distribution rights. Note that to score “available” or higher, then that license needs to be some form of open source license. Details also under the respective badges and the ICSE 2021 open science policy.
+An INSTALL file with installation instructions. These instructions should include notes illustrating a very basic usage example or a method to test the installation. This could be, for instance, on what output to expect that confirms that the code is installed and working; and the code is doing something interesting and useful.
+A copy of the accepted paper in pdf format.
+
+
+4. Submitting the Artifact
+By January 15, 2021 register your research artifact at the ICSE EasyChair site by submitting an abstract describing your artifact. The abstract should include the paper title, the purpose of the research artifact, the badge(s) you are claiming, and the technology skills assumed by the reviewer evaluating the artifact. Please also mention if running your artifact requires specific Operation Systems or other environments.
+
+By January 22, 2021 complete your submission by making sure that all the content related to the actual artifact is available.
+
+The Evaluation Committee may contact the authors within the Rebuttal Period to request clarifications on the basic installation and start-up procedures or to resolve simple installation problems. Information on the rebuttal phase are provided in the Submission and Reviewing Guidelines. Instructions will further be sent to the authors (and reviewers) along the reviewing process.
+
+Given the short review time available, the authors are expected to respond within a 48-hour period. Authors may update their research artifact after submission only for changes requested by reviewers in the rebuttal phase. Author submitting an open source repository link, are expected to give a tag to time-stamp your submission.
+
+
+Finally, further information will be constantly made available on the website https://conf.researchr.org/track/icse-2021/icse-2021-Artifact-Evaluation.
+
+In case of questions, please do not hesitate contacting the chairs.
+
+Looking forward to welcome you soon!
+
+Silvia Abrahão, Daniel Mendez
+
+Program Committee
+Silvia Abrahão
+Silvia AbrahãoChair
+Universitat Politècnica de València
+Spain
+Daniel Mendez
+Daniel MendezChair
+Blekinge Institute of Technology
+Sweden
+Luca Ardito
+Luca Ardito
+Politecnico di Torino
+Italy
+Loli Burgueño
+Loli Burgueño
+Open University of Catalonia
+Spain
+Federico Ciccozzi
+Federico Ciccozzi
+Malardalen University
+Sweden
+Jose Luis de la Vara
+Jose Luis de la Vara
+Universidad de Castilla - La Mancha
+Spain
+Davide Di Ruscio
+Davide Di Ruscio
+University of L'Aquila
+Italy
+Michael Dorner
+Michael Dorner
+Blekinge Institute of Technology
+Sweden
+Emelie Engstrom
+Emelie Engstrom
+Lund University
+Sweden
+Huseyin Ergin
+Huseyin Ergin
+Ball State University
+United States
+Michalis Famelis
+Michalis Famelis
+Université de Montréal
+Canada
+Alessio Ferrari
+Alessio Ferrari
+CNR-ISTI
+Italy
+Efraín R. Fonseca C.
+Efraín R. Fonseca C.
+Universidad de las Fuerzas Armadas ESPE
+Ecuador
+Abel Gómez
+Abel Gómez
+Universitat Oberta de Catalunya
+Spain
+Javier Gonzalez Huerta
+Javier Gonzalez Huerta
+Blekinge Institute of Technology
+Mahmoud Hammad
+Mahmoud Hammad
+University of California, Irvine
+United States
+Johannes Kroß
+Johannes Kroß
+fortiss
+Germany
+Sylwia Kopczyńska
+Sylwia Kopczyńska
+Poznan University of Technology
+Poland
+Li Li
+Li Li
+Monash University
+Grischa Liebel
+Grischa Liebel
+Reykjavik University
+Iceland
+Mahdi Manesh
+Mahdi Manesh
+Porsche Digital GmbH
+Germany
+micro-avatar
+Leandro Minku
+Martin Monperrus
+Martin Monperrus
+KTH Royal Institute of Technology
+Sweden
+Lloyd Montgomery
+Lloyd Montgomery
+Universität Hamburg
+Germany
+Sébastien Mosser
+Sébastien Mosser
+Université du Québec à Montréal
+Canada
+Elena Navarro
+Elena Navarro
+University of Castilla-La Mancha
+Spain
+micro-avatar
+Istvan Rath
+Gabriela Robiolo
+Gabriela Robiolo
+Argentina
+Julio Sandobalín
+Julio Sandobalín
+Escuela Politénica Nacional
+Ecuador
+Jesús Sánchez Cuadrado
+Jesús Sánchez Cuadrado
+Universidad de Murcia
+Spain
+micro-avatar
+Ezequiell Scott
+Janet Siegmund
+Janet Siegmund
+Chemnitz University of Technology
+Carla Silva
+Carla Silva
+Universidade Federal de Pernambuco
+Brazil
+Isabel Sofia Sousa Brito
+Isabel Sofia Sousa Brito
+Instituto Politécnico de Beja
+Portugal
+Matthew Stephan
+Matthew Stephan
+Miami University
+United States
+micro-avatar
+Harald Störrle
+QAware GmbH
+Andreas Vogelsang
+Andreas Vogelsang
+University of Cologne
+Germany
+Shuai Wang
+Shuai Wang
+Hong Kong University of Science and Technology
+Vadim Zaytsev
+Vadim Zaytsev
+University of Twente, Netherlands
+Netherlands
+micro-avatar
+Man Zhang
+Kristiania University College, Norway
+Steffen Zschaler
+Steffen Zschaler
+King's College London
+United Kingdom

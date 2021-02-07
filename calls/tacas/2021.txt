@@ -1,0 +1,95 @@
+Artifact Evaluation for TACAS 2021
+The deadline for artifact submission was moved to 2020-10-23.
+
+As in 2020, TACAS'21 will include an artifact evaluation (AE) for all types of papers. There will be two rounds of the AE: For regular tool papers and tool demonstration papers, artifact evaluation is compulsory (see the TACAS’21 call for papers) and artifacts must be submitted to the first round; for research and case study papers, it is voluntary, and artifacts may be submitted to either the first or the second round. All accepted papers with accepted artifacts will receive a badge.
+
+Artifacts and Evaluation Criteria
+An artifact is any additional material (software, data sets, machine-checkable proofs, etc.) that substantiates the claims made in the paper and ideally makes them fully replicable. As an example, a typical artifact would consist of the tool (in binary or source code form) and its documentation, the input files (e.g., models analysed or programs verified) used for the tool evaluation in the paper, and a configuration file or document describing the parameters used in the experiments. The Artifact Evaluation Committee will read the corresponding paper and evaluate the submitted artifact w.r.t. the following criteria:
+
+consistency with and replicability of results presented in the paper,
+completeness,
+documentation and ease of use.
+Compulsory AE for Tool and Tool Demonstration Papers
+Regular tool papers and tool demonstration papers are required to be accompanied by an artifact for evaluation by the Artifact Evaluation Committee at paper submission time. The results of the evaluation will be taken into consideration in the paper reviewing and rebuttal phase of TACAS'21. The fact that not all experiments may be reproducible (e.g., due to high computational demands) does not mean automatic rejection of the paper. Papers that succeed in artifact evaluation and are accepted will receive a badge that can be shown on the title page of the corresponding paper.
+
+Artifact Evaluation for Research and Case Study Papers
+Authors of research papers and case study papers are also invited to submit an artifact. In this case, the submission is voluntary. If the artifact is submitted at the same time as the paper, then it will be reviewed immediately by the Artifact Evaluation Committee (AEC) and the results of the evaluation can be taken into consideration during the paper reviewing and rebuttal phase of TACAS’21. Authors of accepted papers who did not submit an artifact will be invited to submit an artifact after notification. Authors of artifacts that are accepted by the AEC will receive a badge that can be shown on the title page of the corresponding paper.
+
+Artifact Submission
+An artifact submission consists of
+
+an abstract that summarizes the artifact and its relation to the paper,
+a .pdf file of the paper (uploaded via EasyChair), which may be modified from the submitted version to take reviewers’ comments into account (if submitted in the second round),
+a link to a .zip file (available for download) containing
+a directory with the artifact itself,
+a text file named License.txt that contains the license for the artifact (it is required that the license at least allows the Artifact Evaluation Committee to evaluate the artifact w.r.t. the criteria mentioned above),
+a text file called Readme.txt that contains detailed, step-by-step instructions on how to use the artifact to replicate the results in the paper, and
+an indication whether and how the artifact will be made publicly available and archived permanently, if the paper is accepted.
+The artifact submission is handled via Easychair. Artifacts have to be submitted in the artifact evaluation track, with the same title and authors as the submitted paper.
+
+Guidelines for Artifacts
+We expect artifact submissions to package their artifact and write their instructions such that Artifact Evaluation Committee (AEC) members can evaluate the artifact using the TACAS’21 Artifact Evaluation Virtual Machine for VirtualBox available via Zenodo. The virtual machine is based on an Ubuntu 20.04 LTS GNU/Linux operating system with the following additional packages: build-essential, cmake, clang, mono-complete, openjdk-8-jdk, python3.8, pip3, ruby, and a 32-bit libc. Moreover, VirtualBox guest additions are installed on the VM; it is therefore possible to connect a shared folder from the host computer. The login and password of the default user are: “tacas21” / “tacas21”.
+
+If the artifact requires additional software or libraries that are not part of the virtual machine, the instructions must include all necessary steps for their installation and setup. Any software that is not already part of the virtual machine must be included in the .zip file. AEC members will not download software or data from external sources, and the artifact must work without a network connection. In case you feel that this VM will not allow an adequate replication of the results in your paper, please contact the AEC chairs prior to artifact submission (also see below).
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the AEC. Some guidelines:
+
+Document in detail how to replicate most, or ideally all, of the (experimental) results of the paper using the artifact.
+Keep the evaluation process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.
+For experiments that require a large amount of resources (hardware or time), it is recommended to provide a way to replicate a subset of the results of the paper with reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops, and in a reasonable amount of time. Do include the full set of experiments as well (for those reviewers with sufficient hardware or time), just make it optional.
+State the resource requirements, or the environment in which you successfully tested the artifact, in the instructions file (RAM, number of cores, CPU frequency).
+Do not submit a virtual machine; only submit your files, which AEC members will copy into the provided virtual machine.
+Members of the AEC will use the submitted artifact for the sole purpose of artifact evaluation. We do, however, encourage authors to make their artifacts publicly and permanently available.
+
+Possibility for exemption
+In case your experiments cannot be replicated inside the provided VM, please contact the AEC chairs before submission. Possible reasons include the need for special hardware (GPUs, compute clusters, bluetooth devices, robots etc.), software licensing issues or the need to access the internet. In any case, you are encouraged to submit a complete artifact. This way, the reviewers have the option to replicate the experiments in the event they have access to the required resources.
+
+Important Dates
+All dates refer to 23:59 "anywhere on Earth" (UTC-12) on that day.
+
+First round:
+2020-10-15
+2020-10-23	Artifact submission deadline (mandatory for tool and tool demo papers, optional for research and case study papers)
+2020-11-17	Communication with authors in case of technical problems with the artifact
+2020-12-13	Notification of AE reviews (results will also be communicated to the TACAS paper reviewers and considered for the paper acceptance decision)
+Second round:
+2021-01-06	Artifact submission deadline (optional for accepted research and case study papers that did not submit to the first round)
+2021-01-14	Communication with authors in case of technical problems with the artifact
+2021-01-27	Notification of AE reviews
+2021-01-28	Extended deadline for updating camera-ready paper with AEC badge (if artifact is accepted).
+NB: regardless of whether an artifact was submitted, the camera-ready paper needs to be submitted by 2021-01-22.
+Artifact Evaluation Chairs
+Thomas Neele (Royal Holloway University of London, UK)
+Peter Gjøl Jensen (Aalborg Universitet, Denmark)
+Artifact Evaluation Committee
+Elvio Gilberto Amparore (University of Turin, Italy)
+Haniel Barbosa (Universidade Federal de Minas Gerais, Brazil)
+František Blahoudek (University of Texas at Austin, USA)
+Olav Bunte (Eindhoven University of Technology, The Netherlands)
+Damien Busatto-Gaston (Université Libre de Bruxelles, Belgium)
+Nathalie Cauchi (University of Oxford, UK)
+Jesus Mauricio Chimento (KTH, Sweden)
+Joshua Dawes (University of Manchester and CERN, Switzerland)
+Mathias Fleury (Johannes Kepler University Linz, Austria)
+Daniel J. Fremont (University of California, Santa Cruz, USA)
+Manuel Gieseking (University of Oldenburg, Germany)
+Kush Grover (Technical University of Munich, Germany)
+Hans-Dieter Hiep (CWI, The Netherlands)
+Daniela Kaufmann (Johannes Kepler University Linz, Austria)
+Mitja Kulczynski (Kiel University, Germany)
+Luca Laurenti (University of Oxford, UK)
+Maurice Laveaux (Eindhoven University of Technology, The Netherlands)
+Yong Li (Institute of Software, Chinese Academy of Sciences, China)
+Debasmita Lohar (Max Planck Institute for Software Systems, Germany)
+Viktor Malík (FIT Brno University of Technology, Czech Republic)
+Joshua Moerman (RWTH Aachen University, Germany)
+Stefanie Mohr (Technische Universität München, Germany)
+Marco Muniz (Aalborg University, Denmark)
+Wytse Oortwijn (University of Twente, The Netherlands)
+Elizabeth Polgreen (University of California, Berkeley, USA)
+Jose Proenca (CISTER-ISEP, Portugal)
+Etienne Renault (LRDE, France)
+Alceste Scalas (DTU Compute - Technical University of Denmark, Denmark)
+Morten Konggaard Schou (Aalborg University, Denmark)
+Veronika Šoková (FIT Brno University of Technology, Czech Republic)
+Yoni Zohar (Stanford University, USA)

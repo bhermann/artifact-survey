@@ -1,0 +1,51 @@
+Artifacts:
+
+Traditionally, technical research papers are published without including any artifacts (such as tools, data, models, videos, etc.), even though the artifacts may serve as crucial and detailed evidence for the quality of the results that the associated paper offers. Following the effort initiated at ESEC/FSE’11, authors of accepted technical papers at VISSOFT 2020 can have their artifacts evaluated by the program committee. Positively evaluated artifacts will be reflected in the paper publication and be formally announced during the conference.
+
+The artifacts of interest (but not limited to) are listed below, if your proposed artifact is not on this list, please email the chairs before submitting.
+
+Software systems (compiled applications and/or source code) that are available for end users and researchers who aim at replicating a study.
+Repositories that contain data involved in a study (e.g., logging data, system traces, survey raw data, evaluation results), which are needed to replicate a study.
+Given the short time between the acceptance notification and the deadline to submit the artifact, we suggest the authors to start preparing it beforehand.
+
+Finally, for more information about the artifact evaluation process visit http://www.artifact-eval.org.
+
+Important Dates:
+Artifact Submission: August 2, 2020
+
+Submission link: https://easychair.org/conferences/?conf=vissoft2020
+
+The artifacts (e.g., systems, data sets, tutorials) are going to be evaluated according to the following points: Completeness, consistency, documented, clarity, availability (placed on a publicly accessible archival repository. A DOI or link to this repository along with a unique identifier for the object is provided).
+
+Data sets: Completeness, consistency, documented
+Tutorials: Consistency, clarity
+Systems: Functional (artifacts documented, consistent, complete, executable, and include evidence of verification and validation)
+
+Artifact Evaluation Co-Chairs
+Juan Pablo Sandoval Alcocer
+Juan Pablo Sandoval Alcocer
+Universidad Católica Boliviana - "San Pablo", Cochabamba,
+BoliviaDirk Zeckzer
+Dirk Zeckzer
+Leipzig University
+Germany
+
+Program Committee - Artifact Evaluation Track
+Alejandra Siles
+Universidad Católica Boliviana - "San Pablo", Cochabamba,
+Bolivia
+Alison Fernandez Blanco
+University of Chile,
+Chile
+Diego Costa
+Concordia University Montreal,
+Canada
+Fabio Petrillo
+Universite du Quebec a Chicoutimi,
+Canada
+Rina Nakazawa
+IBM,
+Japan
+Tarner Hagen
+University of Duisburg-Essen,
+Germany

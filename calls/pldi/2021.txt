@@ -1,0 +1,304 @@
+PLDI Research Artifacts
+About
+Info for Reviewers
+Info for Authors
+FAQ
+Background
+A paper consists of a constellation of artifacts that extend beyond the document itself: software, proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet most of our conferences offer no formal means to submit and evaluate anything but the paper.
+
+Following a trend in our community over the past many years, PLDI 2021 includes an Artifact Evaluation process, which allows authors of accepted papers to optionally submit supporting artifacts. The goal of artifact evaluation is two-fold: to probe further into the claims and results presented in a paper, and to reward authors who take the trouble to create useful artifacts to accompany the work in their paper. Artifact evaluation is optional, but highly encouraged, and authors may choose to submit their artifact for evaluation only after their paper has been accepted.
+
+The evaluation and dissemination of artifacts improves reproducibility, and enables authors to build on top of each other’s work. Beyond helping the community as a whole, the evaluation and dissemination of artifacts confers several direct and indirect benefits to the authors themselves.
+
+The ideal outcome for the artifact evaluation process is to accept every artifact that is submitted, provided it meets the evaluation criteria listed below. We will strive to remain as close as possible to that ideal goal. However, even though some artifacts may not pass muster and may be rejected, we will evaluate in earnest and make our best attempt to follow authors’ evaluation instructions.
+
+Evaluation Criteria
+The artifact evaluation committee will read each artifact’s paper and judge how well the submitted artifact conforms to the expectations set by the paper. The specific artifact evaluation criteria are:
+
+Consistency with the paper, the artifact should reproduce the same results, modulo experimental error.
+Completeness, the artifact should reproduce all the results that the paper reports, and should include everything (code, tools, 3rd party libraries, etc.) required to do so.
+Documentation, the artifact should be well documented so that reproducing the results is easy and transparent.
+Ease of reuse, the artifact provides everything needed to build on top of the original work, including source files together with a working build process that can recreate the binaries provided.
+Note that artifacts will be evaluated with respect to the claims and presentation in the submitted version of the paper, not the camera-ready version.
+
+Badges
+Authors of papers with accepted artifacts will be assigned official ACM artifact evaluation badges, indicating that they have taken the extra time and have undergone the extra scrutiny to prepare a useful artifact. The badges will appear on the first page of the camera-ready version of the paper, indicating that the artifact was submitted, evaluated, and found to be functional. Artifact authors will be allowed to revise their camera ready paper after they are notified of their artifact’s publication in order to include a link to the artifact’s DOI.
+
+Process
+To maintain the separation of paper and artifact review, authors will only be asked to upload their artifacts after their papers have been accepted. Authors planning to submit to the artifact evaluation should prepare their artifacts well in advance of this date to ensure adequate time for packaging and documentation.
+
+Throughout the artifact review period, submitted reviews will be (approximately) continuously visible to authors. Reviewers will be able to continuously interact (anonymously) with authors for clarifications, system-specific patches, and other logistics help to make the artifact evaluable. The goal of continuous interaction is to prevent rejecting artifacts for minor issues, not research related at all, such as a “wrong library version”-type problem. The conference proceedings will include a discussion of the continuous artifact evaluation process.
+
+Types of Artifacts
+The artifact evaluation will accept any artifact that authors wish to submit, broadly defined. A submitted artifact might be:
+
+software
+mechanized proofs
+test suites
+data sets
+hardware (if absolutely necessary)
+a video of a difficult- or impossible-to-share system in use
+any other artifact described in a paper
+Artifact Evaluation Committee
+Other than the chairs, the AEC members are senior graduate students, postdocs, or recent PhD graduates, identified with the help of the PLDI PC and recent artifact evaluation committees.
+
+Among researchers, experienced graduate students are often in the best position to handle the diversity of systems expectations that the AEC will encounter. In addition, graduate students represent the future of the community, so involving them in the AEC process early will help push this process forward. The AEC chairs devote considerable attention to both mentoring and monitoring, helping to educate the students on their responsibilities and privileges.
+
+Important Dates AoE (UTC-12h)
+Thu 4 Mar 2021new
+Artifact Submission Deadline
+Tue 13 Apr 2021new
+Author Notification
+Artifact Evaluation Committee
+Luís Pina
+Luís PinaCo-chair
+University of Illinois at Chicago
+United States
+Niki Vazou
+Niki VazouCo-chair
+IMDEA Software Institute
+Subarno Banerjee
+Subarno Banerjee
+University of Michigan
+Chandrika Bhardwaj
+Chandrika Bhardwaj
+IIT Delhi
+India
+Christiano Braga
+Christiano Braga
+Universidade Federal Fluminense
+Brazil
+Alexandra Bugariu
+Alexandra Bugariu
+ETH Zurich
+Switzerland
+Julian Büning
+Julian Büning
+RWTH Aachen University
+Germany
+micro-avatar
+Giovanni Campagna
+Stanford University, USA
+Roberto Casadei
+Roberto Casadei
+University of Bologna, Italy
+Italy
+Yanju Chen
+Yanju Chen
+University of California, Santa Barbara
+United States
+Jianyi Cheng
+Jianyi Cheng
+Imperial College London
+United Kingdom
+Vikraman Choudhury
+Vikraman Choudhury
+Indiana University & University of Cambridge
+United States
+Sangeeta Chowdhary
+Sangeeta Chowdhary
+Rutgers University, USA
+Berkeley Churchill
+Berkeley Churchill
+Stanford University
+United States
+Maxime Cordy
+Maxime Cordy
+University of Luxembourg, Luxembourg
+micro-avatar
+Jesse Coultas
+University of Illinois at Chicago
+United States
+Sadegh Dalvandi
+Sadegh Dalvandi
+University of Surrey
+micro-avatar
+Lesly-Ann Daniel
+CEA List
+micro-avatar
+Diptorup Deb
+Intel Corp.
+micro-avatar
+Laxman Dhulipala
+MIT CSAIL
+Stefania Dumbrava
+Stefania Dumbrava
+ENSIIE Paris-Évry
+France
+Saikat Dutta
+Saikat Dutta
+University of Illinois at Urbana-Champaign, USA
+United States
+Karine Even-Mendoza
+Karine Even-Mendoza
+Imperial College London
+United Kingdom
+micro-avatar
+Isaac Oscar Gariano
+Victoria University of Wellington
+Kaan Genç
+Kaan Genç
+Ohio State University, USA
+Sangharatna Godboley
+Sangharatna Godboley
+National Institute of Technology Warangal, India
+India
+Kiran Gopinathan
+Kiran Gopinathan
+National University of Singapore
+Singapore
+Zheng Guo
+Zheng Guo
+University of California, San Diego
+Sankha Narayan Guria
+Sankha Narayan Guria
+University of Maryland, College Park
+United States
+Ákos Hajdu
+Ákos Hajdu
+Budapest University of Technology and Economics
+Hungary
+micro-avatar
+Jafar Hamin
+Nokia Antwerp
+micro-avatar
+Xiaowen Hu
+The University of Sydney
+micro-avatar
+Guillaume Iooss
+Inria
+micro-avatar
+Clothilde Jeangoudoux
+micro-avatar
+Dane Johnson
+University of Washington
+Ifaz Kabir
+Ifaz Kabir
+University of Alberta
+Madhukar Kedlaya
+Madhukar Kedlaya
+Shape Security
+United States
+micro-avatar
+Maja Kirkeby
+Roskilde University
+micro-avatar
+Tristan Knoth
+University of California at San Diego, USA
+Chaitanya Koparkar
+Chaitanya Koparkar
+Indiana University
+United States
+micro-avatar
+James Kukucka
+George Mason University
+micro-avatar
+Stella Lau
+micro-avatar
+Ton Chanh Le
+Stevens Institute of Technology
+micro-avatar
+Ao Li
+Carnegie Mellon University
+Zhengyang Liu
+Zhengyang Liu
+University of Utah
+micro-avatar
+Hendrik Maarand
+Tallinn University of Technology
+Dimitris Mitropoulos
+Dimitris Mitropoulos
+Athens University of Economics and Business
+Raphaël Monat
+Raphaël Monat
+Sorbonne Université — LIP6
+France
+Cameron Moy
+Cameron Moy
+Northeastern University
+United States
+Egor Namakonov
+Egor Namakonov
+JetBrains Research, St Petersburg University
+Krishna Narasimhan
+Krishna Narasimhan
+TU Darmstadt, Germany
+Germany
+micro-avatar
+Phil Nguyen
+Google
+Adrian Palacios
+Adrian Palacios
+Amazon Web Services
+Spain
+Mário Pereira
+Mário Pereira
+NOVA LINCS & DI -- Nova School of Science and Technology
+Goran Piskachev
+Goran Piskachev
+Fraunhofer IEM
+Germany
+Anton Podkopaev
+Anton Podkopaev
+HSE University, JetBrains Research
+Russia
+Hernan Ponce de Leon
+Hernan Ponce de Leon
+Bundeswehr University Munich
+Germany
+Sumanth Prabhu
+Sumanth Prabhu
+IISc Bangalore & TCS Research
+micro-avatar
+Lisa Rennels
+UC Berkeley
+Jiasi Shen
+Jiasi Shen
+Massachusetts Institute of Technology
+micro-avatar
+Aishwarya Sivaraman
+University of California, Los Angeles
+Divyesh Unadkat
+Divyesh Unadkat
+Indian Institute of Technology Bombay & TCS Research
+India
+micro-avatar
+Mark Utting
+The University of Queensland
+micro-avatar
+Peixin Wang
+Shanghai Jiao Tong University
+Wenxi Wang
+Wenxi Wang
+University of Texas at Austin, USA
+United States
+micro-avatar
+Yanjun Wang
+Purdue University, USA
+Guannan Wei
+Guannan Wei
+Purdue University
+micro-avatar
+Anton Xue
+University of Pennsylvania
+micro-avatar
+Irene Yoon
+University of Pennsylvania
+Uma Zalakain
+Uma Zalakain
+University of Glasgow
+Chengyu Zhang
+Chengyu Zhang
+East China Normal University
+China
+micro-avatar
+Yaoda Zhou
+University of Hong Kong
+Daming Zou
+Daming Zou
+ETH Zurich
+Switzerland
+Jan de Muijnck-Hughes
+Jan de Muijnck-Hughes
+University of Glasgow
+United Kingdom

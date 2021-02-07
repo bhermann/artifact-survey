@@ -1,0 +1,81 @@
+Artifact Evaluation
+Authors of accepted regular papers: you are invited to submit (but are not required to submit) the relevant artifact for evaluation by the artifact evaluation committee. To submit an accepted regular paper for the artifact evaluation, please use the “CAV AE Regular Papers 2020” track at the submission site: https://easychair.org/conferences/?conf=cav2020 Please submit the final PDF version of your paper and instructions on how to run the tool as supplementary material. Please look at the “Packaging Guidelines” section on how to prepare your artifact submission.
+
+Authors of all tool papers: you are required to submit your artifact to the artifact evaluation committee at the paper submission time.  Authors of tool papers must submit their tool paper to both the “CAV 2020” and “CAV AE 2020″ tracks at the submission site: https://easychair.org/conferences/?conf=cav2020
+Unlike regular papers, the results of the artifact evaluation for tool papers will be available to the program committee during the online discussions.
+
+Packaging Guidelines
+To submit an artifact, please prepare a virtual machine (VM) or docker image of your artifact and keep it accessible through an HTTP link throughout the evaluation process. We recommend to either put the HTTP link in the EasyChair abstract or directly in the .pdf of the paper.
+
+As the basis of the VM image, please choose commonly used OS versions that have been tested with the virtual machine software and that evaluators are likely to be accustomed to. We encourage you to use https://www.virtualbox.org and save the VM image as an Open Virtual Appliance (OVA) file.
+
+Please include the prepared link in the appropriate field of the artifact submission form. Only for the tool artifacts: To ensure the integrity of the submitted artifacts, we kindly ask the authors to compute the SHA1 checksum of the artifact file and provide it at submission time. (A checksum can be found by running sha1sum (Linux) or File Checksum Integrity Verifier (Microsoft Windows)).
+
+In addition, please supply at submission time a link to a short plain-text file describing the OS and parameters of the image, as well as the host platform on which you prepared and tested your virtual machine image (OS, RAM, number of cores, CPU frequency). Please describe how to proceed after booting the image, including the instructions for locating the full documentation for evaluating the artifact.
+
+Important Steps
+Include your tool in the virtual machine or docker image, namely create in the home directory a folder with the following items: 1.a) Your accepted paper 1.b) A detailed README file of how to run your tool 1.c) A directory containing the artifact (benchmarks + tool or proof scripts)
+Submit to EasyChair and add the link to your artifact in the abstract field. Please use the same title as for the CAV submission.
+If you are not in a position to prepare the artifact as above, please contact PC chairs for an alternative arrangement. For instance, if you cannot provide us with a VM that contains licensed software, e.g., Matlab, please contact us, so we can find a solution.
+
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the artifact evaluation committee and that yields expected results. The artifact should follow the guidelines:
+
+Document in detail how to reproduce most of the experimental results of the paper using the artifact; keep this process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.
+Ensure the artifact is in the state ready to run. It should work without a network connection. It should not require the user to install additional software before running, that is, all required packages should be installed on the provided virtual machine.
+The artifact should use reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops. The evaluation should take reasonable amount of time to complete. If this is not the case for your benchmarks, make sure to also include simpler benchmarks that do not require long running time by the artifact. If this is not possible, please contact PC and AEC chairs as soon as possible.
+When possible include source code within your virtual machine image and point to the most relevant and interesting parts of the source code tree.
+We encourage the authors to include log files that were produced by their tools, and point to the relevant log files in the artifact description.
+Members of the artifact evaluation committee and the program committee are asked to use submitted artifact for the sole purpose of evaluating the contribution associated with the artifact.
+
+Artifact Evaluation Criteria
+The purpose of the evaluation is to provide a service by the community to help authors provide more substantial supplements to their papers so future researchers can more effectively build on and compare with previous work. The Artifact Evaluation Committee (AEC) will read the paper and explore the artifact to give the authors third-party feedback about how well the artifact supports the paper and how easy it is for future researchers to use the artifact.
+
+At least two members of the AEC will review an artifact with respect to the following criteria (if applicable):
+
+Easy to reuse. How easy is it to reuse the provided artifact?
+Consistent. Does the artifact help to reproduce the results from the paper?
+Complete. What is the percentage of the results that can be reproduced?
+Well documented. Does the artifact describe and demonstrate how to apply the presented method to a new input?
+The members of the AEC will return their feedback on these criteria, and consequently a submitted artifact will be deemed to meet (or exceed) the expectations set out by the corresponding paper accepted into CAV 2020, or fail to do so. Successful validations may make use of the above seal, and will be highlighted at the conference.
+
+Artifact Evaluation Committee
+Xinyu Wang, University of Michigan (co-chair)
+He Zhu, Rutgers University (co-chair)
+Angello Astorga, University of Illinois at Urbana-Champaign
+Subarno Banerjee, University of Michigan
+Martin Blicha, University of Lugano
+Brandon Bohrer, Carnegie Mellon University
+Jose Cambronero, Massachusetts Institute of Technology
+Joonwon Choi, Massachusetts Institute of Technology
+Norine Coenen, Saarland University
+Katherine Cordwell, Carnegie Mellon University
+Chuchu Fan, Massachusetts Institute of Technology
+Yotam Feldman, Tel-Aviv University
+Timon Gehr, ETH Zurich
+Aman Goel, University of Michigan
+Chih-Duo Hong, University of Oxford
+Bo-Yuan Huang, Princeton University
+Jeevana Priya Inala, Massachusetts Institute of Technology
+Samuel Kaufman, University of Washington
+Ratan Lal, Kansas State University
+Stella Lau, Massachusetts Institute of Technology
+Juneyoung Lee, Seoul National University
+Enrico Magnago, Fondazione Bruno Kessler
+Umang Mathur, University of Illinois at Urbana Champaign
+Jedidiah McClurg, Colorado School of Mines
+Sam Merten, Ohio University
+Luan Nguyen, University of Pennsylvania
+Aina Niemetz, Stanford University
+Shankara Pailoor, University of Texas at Austin
+Brandon Paulsen, University of Southern California
+Mouhammad Sakr, Saarland University
+Daniel Selsam, Microsoft Research, Redmond
+Jiasi Shen, Massachusetts Institute of Technology
+Xujie Si, University of Pennsylvania
+Gagandeep Singh, ETH Zurich
+Abhinav Verma, Rice University
+Di Wang, Carnegie Mellon University
+Yuepeng Wang, University of Texas at Austin
+Guannan Wei, Purdue University
+Zikang Xiong, Purdue University
+Klaus von Gleissenthall, University of California San Diego

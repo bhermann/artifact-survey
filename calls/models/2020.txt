@@ -1,0 +1,87 @@
+Artifact EvaluationMODELS 2020
+About
+MODELS will once again implement a separate evaluation process to assess the quality of the artifacts supporting the work presented in accepted papers. The purpose of the artifact evaluation process is to acknowledge the considerable effort required to obtain high-quality artifacts, to foster a culture of experimental reproducibility, and to provide a peer review and archiving process for artifacts analogous to that of research papers.
+
+The goal of artifact archiving is to ensure that the artifacts stay available for a long time, that they can be located easily, and can be reused by other researchers. Additionally, archiving allows to designate exactly the version of the artifact that was used to produce the research results.
+
+We aim to assess the artifacts themselves and help improve them rather than evaluate the quality of the research linked to the artifact. This process assumes that the quality of research has been already assessed and approved for MODELS by the respective program committees. Thus, the main goal of our review process is constructive: to improve the submitted artifacts, not to reject or filter them. An artifact evaluation rejection may happen if we determine that improving the artifact to sufficient quality is impossible in the given time frame, the artifact is not consistent with the paper’s results, or the artifact itself is not of sufficient relevance to the scope of the main research paper or to the MODELS community at large.
+
+To summarize, a good artifact is:
+
+Consistent with the paper
+As complete as possible
+Well-documented
+Easy to (re)use
+Publicly available and persisted
+Submission to the artifact evaluation committee is optional and the result of the artifact evaluation process will not influence the existing decision on already accepted papers
+
+Note:If you think your artifact would be a good candidate for a tool demonstration at MODELS, please also consider submitting it to the Tools and Demonstrations Track!
+
+Benefits
+Potential Badges - Detailed explanations can be found at Artifact Review Badging!
+
+
+ACM's Artifacts Evaluated – Reusable Badge       ACM's Artifacts Available Badge       ACM's Artifacts Replicated Badge       ACM's Artifacts Reproduced Badge
+
+Authors of papers with accepted artifacts will be invited to include an official ACM Artifact Evaluation badge on the first page of the camera-ready version of their paper. This badge explicitly communicates to the paper’s readers that the authors have undergone a specific evaluation process for their artifact.
+
+Submission
+Authors of accepted papers will receive an invitation to submit their paper for artifact evaluation and detailed instructions by email.
+
+Questions? Use the MODELS Artifact Evaluation contact form.
+Important Dates AoE (UTC-12h)
+Fri 31 Jul 2020
+Camera ready (corresponds to Technical Track Camera Ready)
+Wed 29 Jul 2020
+Notification
+Fri 17 Jul 2020
+Artifact submission deadline
+Tue 14 Jul 2020
+Call for artifacts
+Chairs
+Huseyin Ergin
+Huseyin Ergin
+Ball State University
+United States
+Matthew Stephan
+Matthew Stephan
+Miami University
+United States
+Artifact Evaluation Committee
+Juliana Alves Pereira
+Juliana Alves Pereira
+PUC-Rio
+Brazil
+Lorena Arcega
+Lorena Arcega
+San Jorge University
+Spain
+micro-avatar
+Mojtaba Bagherzadeh
+Jaime Font
+Jaime Font
+San Jorge University, Spain
+Michael Herzberg
+Michael Herzberg
+University of Sheffield
+United Kingdom
+Théo Le Calvar
+Théo Le Calvar
+University of Angers
+France
+Eric Rapos
+Eric Rapos
+Miami University
+United States
+June Sallou
+June Sallou
+University of Rennes 1
+France
+Stefan Sauer
+Stefan Sauer
+Paderborn University
+Germany
+Vadim Zaytsev
+Vadim Zaytsev
+University of Twente, The Netherlands
+Netherlands

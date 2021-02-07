@@ -1,0 +1,203 @@
+FSE 2020 Artifact Track: Call for Submissions
+For FSE 2020, artifact badges can be earned for papers published at FSE 2020 (available, functional, and reusable). Badges can also be earned for papers published previously (at FSE or elsewhere) where the main results of the papers were obtained in a subsequent study by people other than the authors (replicated and reproduced).
+
+Badges for Papers Published at FSE 2020
+Authors of papers accepted to the FSE 2020 Technical Track are invited to submit artifacts associated with those papers to the FSE Artifact Track for evaluation as candidate reusable, functional, or available artifacts. If those artifact(s) are accepted, they will each receive one of the badges below on the front page of the authors’ paper and in the proceedings.
+
+Available	Functional	Reusable
+alt_text	alt_text	alt_text
+Placed on a publicly accessible archival repository. A DOI with a unique identifier for the object is provided.	Available + Artifacts documented, consistent, complete, exercisable, and include appropriate evidence of verification and validation	Available + Functional + very carefully documented and well-structured to the extent that reuse and repurposing is facilitated. In particular, norms and standards of the research community for artifacts of this type are strictly adhered to.
+Papers with such badges contain reusable products that other researchers can use to bootstrap their own research. Experience shows that such papers earn increased citations and greater prestige in the research community. Artifacts of interest include (but are not limited to) the following.
+
+Software, which are implementations of systems or algorithms potentially useful in other studies.
+Data repositories, which are data (e.g., logging data, system traces, survey raw data) that can be used for multiple software engineering approaches.
+Frameworks, which are tools and services illustrating new approaches to software engineering that could be used by other researchers in different contexts.
+This list is not exhaustive, so the authors are asked to email the chairs before submitting if their proposed artifact is not on this list.
+
+Badges for Replicated or Reproduced Papers
+The ROSE (Recognizing and Rewarding Open Science in Software Engineering) festival is a world-wide salute to replication and reproducibility in software engineering. Our aim is to create a venue where researchers can receive public credit for facilitating and participating in open science in software engineering (specifically, in creating replicated and reproduced results).
+
+If you are an author of prior SE work (published at FSE or elsewhere) and the main results of the paper have been obtained in a subsequent study by a person or team other than the authors, the prior SE work is eligible for a replicated or reproduced badge. If the prior work had artifacts published and those artifacts were used in the subsequent study, the prior work is a candidate for a replicated badge. For the reproduced badge, the prior work may or may not have an artifact, and the subsequent study needs to have artifacts associated with it.
+
+Examples: If Asha published a paper with artifacts in 2018, and Tim published a replication in 2019 using the artifacts, then Asha can now apply for the replicated badge on the 2018 paper. If Cameron published a paper in 2017 with no artifacts, and Miles published a paper with artifacts in 2019 that independently obtained the main result, then Cameron can apply for the reproduced badge on the 2017 paper.
+
+Replicated	Reproduced
+alt_text	alt_text
+Available + main results of the paper have been obtained in a subsequent study by a person or team other than the authors, using, in part, artifacts provided by the author.	Available + the main results of the paper have been independently obtained in a subsequent study by a person or team other than the authors, without the use of author-supplied artifacts.
+If the artifact is accepted:
+
+Authors will be invited to give lightning talks on this work at the ROSE session at FSE’20
+We will work with the IEEE Xplore and ACM Portal administrator to add badges to the electronic versions of the authors’ prior SE paper(s).
+If time allows, authors of papers in FSE 2020 that have earned artifact badges (functional or reusable) may be invited to give lightning talks to promote their artifacts.
+
+Evaluation Criteria
+The FSE artifact evaluation track uses a single-blind review process. The artifacts will be evaluated according to the ACM Artifact Review and Badging guide.
+
+Review will be via Github. All submitting authors must supply a valid Github id that identifies themselves.
+
+Best Artifact Awards
+There will be two FSE 2020 Best Artifact Awards to recognize the effort of authors creating and sharing outstanding research artifacts.
+
+Submission and Review
+IMPORTANT NOTE: different badges have different submission procedures. See below.
+
+Note that all submissions, reviewing, and notifications for this track will be via the Github repository https://github.com/researchart/fse20.
+
+There will be no emails notifying authors, acknowledging a submission, or informing authors of the results of the review process.
+Instead, submitters can track the progress of their work by tracking its activity in the repo
+Submitting anything to this track will mean
+Creating a GitHub account with your public name
+Forking the master branch of our repo http://github.com/researchart/fse20 into your own local branch
+Creating a subdirectory one per submission, underneath one of the directories (submission/reusable, submission/available, submission/replicated, submission/reproduced)
+Adding file(s) to your new directory,
+Commit your branch,
+Submit a pull request back to master.
+All reviewing will be done in Github.
+Each submission will be processed in its own issue.
+Authors will be notified of final decisions when the track chairs add labels to the submission’s issue.
+For Reusable, Functional, and Available Badges
+Only authors of papers accepted to the FSE 2020 Technical Track can submit candidate reusable, functional, or available artifacts.
+
+Create a subdirectory under the directories for available, functional, and reusable (perhaps followed by a unique number if the same author is submitting multiple artifacts; e,g, menzies1, menzies2).
+
+For available badges, the DOI with a unique identifier for the object is needed. Put the DOI link in the index.md file within the directory you made.
+
+For the reusable and functional badges, authors must offer “download information” showing how reviewers can access and execute (if appropriate) their artifact. Authors must perform the following steps to submit an artifact:
+
+Prepare the artifact
+Make the artifact available
+Document the artifact
+Submit the artifact
+Authors need to write and submit documentation explaining how to obtain the artifact package, how to unpack the artifact, how to get started, and how to use the artifacts in sufficient detail. The artifact submission must describe only the technicalities of the artifacts and uses of the artifact that are not already described in the paper. The submission should contain the following documents (in markdown plain text format):
+
+A CONTACT.md file listing emails and github ids (important) for the authors. Please mark one author as the corresponding author.
+A README.md main file describing what the artifact does and where it can be obtained (with hidden links and access password if necessary). Also, there should be a clear description of how to reproduce the results presented in the paper.
+A STATUS.md file stating what kind of badge(s) the authors are applying for as well as the reasons why the authors believe that the artifact deserves that badge(s).
+A LICENSE.md file describing the distribution rights. Note that to score “available” or higher, then that license needs to be some form of open source license.
+An INSTALL.md file with installation instructions. These instructions should include notes illustrating a very basic usage example or a method to test the installation. This could be, for instance, information on what output to expect that confirms that the code is installed and working; and that the code is doing something interesting and useful.
+A copy of the accepted paper in pdf format.
+For reusable and functional badges, the review process will be interactive as follows:
+
+Prior to reviewing, there may be some interactions to handle set up and install. Before the actual evaluation reviewers will check the integrity of the artifact and look for any possible setup problems that may prevent it from being properly evaluated (e.g., corrupted or missing files, VM won’t start, immediate crashes on the simplest example, etc.). The Evaluation Committee may contact the authors to request clarifications on the basic installation and start-up procedures or to resolve simple installation problems.
+Reviewing will be on Github with reviewers commenting via anonymous Github ids. Authors should not comment until at least two reviewers have added comments. Earlier author comments will be deleted.
+Authors are informed of the outcome and, in case of technical problems, they can help solve them during a brief 48-hour author response period. Authors may update their research artifacts after submission only for changes requested by reviewers in the rebuttal phase.
+For Replicated and Reproduced Badges
+For replicated and reproduced badges, authors will need to offer appropriate documentation that their artifacts have reached that stage.
+
+Create a subdirectory under the directories for replicated and reproduced (perhaps followed by a unique number if the same author is submitting multiple artifacts; e,g, menzies1, menzies2) and add a one page (max) abstract in PDF format:
+
+TITLE: A (Partial)? (Replication|Reproduction) of XYZ. Please add the term partial to your title if only some of the original work could be replicated/reproduced.
+WHO: name the original authors (and paper) and the authors that performed the replication/reproduction. Include contact information (emails) and github ids. Mark one author as the corresponding author.
+IMPORTANT: include also a web link to a publically available URL directory containing (a)the original paper (that is being reproduced) and (b)any subsequent paper(s)/documents/reports that do the reproduction.
+IMPORTANT: include also a web link to a publically available URL directory containing (a)the original paper (that is being reproduced) and (b)any subsequent paper(s)/documents/reports that do the reproduction.
+WHAT: describe the “thing” being replicated/reproduced;
+WHY: clearly state why that “thing” is interesting/important;
+HOW: say how it was done first;
+WHERE: describe the replication/reproduction. If the replication/reproduction was only partial, then explain what parts could be achieved or had to be missed.
+DISCUSSION: What aspects of this “thing” made it easier/harder to replicate/reproduce. What are the lessons learned from this work that would enable more replication/reproduction in the future for other kinds of tasks or other kinds of research.
+Two PC members will review each abstract, possibly reaching out to the authors of the abstract or original paper. Abstracts will be ranked as follows.
+
+If PC members do not find sufficient substantive evidence for replication/reproduction, the abstract will be rejected.
+Any abstract that is judged to be unnecessarily critical of prior work will be rejected (*).
+The remaining abstracts will be sorted according to (a) interestingness and (b) correctness.
+The top ranked abstracts will be invited to give lightning talks.
+(*) Our goal is to foster a positive environment that supports and rewards researchers for conducting replications and reproductions. To that end, we require that all abstracts and presentations pay due respect to the work they are reproducing/replicating. Criticism of prior work is acceptable only as part of a balanced and substantive discussion of prior accomplishments.
+
+Important Dates:
+
+Artifact Submission Deadline June 4, 2020
+
+Artifact Discussions Begin June 22, 2020
+
+Artifact Notification July 1, 2020
+
+Camera Ready Date September 10, 2020
+
+Program Committee
+Georgios Gousios
+Georgios GousiosCo-chair
+Facebook & Delft University of Technology
+Netherlands
+Kathryn Stolee
+Kathryn StoleeCo-chair
+North Carolina State University
+United States
+Subarno Banerjee
+Subarno Banerjee
+University of Michigan
+micro-avatar
+Titus Barik
+Casey Casalnuovo
+Casey Casalnuovo
+University of California at Davis, USA
+United States
+Gemma Catolino
+Gemma Catolino
+Tilburg University
+Netherlands
+Jürgen Cito
+Jürgen Cito
+TU Wien and MIT
+United States
+Eleni Constantinou
+Eleni Constantinou
+Eindhoven University of Technology
+Netherlands
+Luis Cruz
+Luis Cruz
+Deflt University of Technology
+Netherlands
+James C. Davis
+James C. Davis
+Purdue University, USA
+United States
+Xavier Devroey
+Xavier Devroey
+Delft University of Technology
+Netherlands
+Vincent Hellendoorn
+Vincent Hellendoorn
+Carnegie Mellon University
+United States
+Ayaan M. Kazerouni
+Ayaan M. Kazerouni
+California Polytechnic State University, San Luis Obispo
+United States
+Maria Kechagia
+Maria Kechagia
+University College London
+United Kingdom
+George Mathew
+George Mathew
+North Carolina State University, USA
+Collin McMillan
+Collin McMillan
+University of Notre Dame
+micro-avatar
+Samim Mirhosseini
+North Carolina State University, USA
+Dimitris Mitropoulos
+Dimitris Mitropoulos
+Athens University of Economics and Business
+Lloyd Montgomery
+Lloyd Montgomery
+Universität Hamburg
+Germany
+Moritz Beller
+Moritz Beller
+Facebook, USA
+Vivek Nair
+Vivek Nair
+Facebook
+United States
+John-Paul Ore
+John-Paul Ore
+North Carolina State University
+United States
+Anand Ashok Sawant
+Anand Ashok Sawant
+University of California, Davis
+Michele Tufano
+Michele Tufano
+Microsoft
+United States

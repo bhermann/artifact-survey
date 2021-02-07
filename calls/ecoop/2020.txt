@@ -1,0 +1,164 @@
+Call for Artifacts
+Authors of accepted papers at ECOOP 2020 can have their artifacts evaluated by an Artifact Evaluation Committee. Artifacts that live up to the expectations created by the paper will be marked with a badge in the proceedings.
+
+Artifacts that are deemed especially meritorious will be singled out for special recognition in the proceedings and at the conference.
+
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. The submission of an artifact is voluntary and will not influence the final decision regarding the papers (which is obviously enforced because the artifacts are submitted after the notification of acceptance has been sent out). Notification about the outcome of the Artifact Evaluation and reviews including suggestions for improving the artifacts will be distributed before the deadline for the final version of the paper.
+
+A submitted artifact should be consistent with the associated paper. It should be so well documented that it is accessible for a general computer scientist with an interest in the research area, who has read the associated paper.
+
+A submitted artifact is treated as confidential, just like a submitted paper. However, it is strongly recommended that artifacts are made available to the research community afterwards, thus enabling the above mentioned effects such as improved reproducibility etc.
+
+Artifact Submission, Guidelines, and Process
+Artifact Submission
+Submission link: https://ecoop20-ae.hotcrp.com/
+
+Every submission must include:
+
+An abstract that briefly describes the artifact.
+
+A PDF file that describes the artifact in detail and provides instructions for using it.
+
+A URL for downloading the artifact.
+
+A PDF file of the most recent version of the accepted paper.
+
+Artifact Packaging Guidelines
+When packaging your artifact for submission, please take the following into consideration: Your artifact should be as accessible to the AE committee members as possible, and it should be easy for the AE members to quickly make progress on the investigation of your artifact. Please provide some simple scenarios describing concretely how the artifact is intended to be used; for a tool, this would include specific inputs to provide or actions to take, and expected output or behavior in response to this input. In addition to these very tightly controlled scenarios that you prepare for the AE committee members to try out, it may be very useful if you suggest some variations along the way, such that the AE committee members will be able to see that the artifact is robust enough to tolerate a few experiments. For artifacts that are tools, one very convenient way for reviewers to learn about your artifact is to include a video showing you using the artifact in a simple scenario, along with verbal comments explaining what is going on.
+
+To avoid problems with software dependencies and installation, it may be very useful if you provide the artifact installed and ready to use on a virtual machine (for example, VirtualBox, VMware, or a similar widely available platform). The artifact must be made available as a single, self-contained archive file, using a widely supported archive format such as zip or a compressed tar format (e.g., tgz). Please use widely supported open formats for documents, and preferably the CSV or JSON format for data.
+
+As an alternative to packaging artifacts independently, we introduce in 2020 the possibility to use the hosting platform Nextjournal. In an effort to promote artifact reproducibility, Nextjournal provides an infrastructure to build and host artifacts in notebooks, which can run in different environments. Authors that create their artifacts using Nextjournal should submit a link to the notebook in which their artifact runs. Authors are expected to profit from the simplified artifact creation process and wider visibility of their artifact, because artifacts can be inspected and modified online. More information and guidelines on how to use Nextjournal can be found here: https://nextjournal.com/ecoop-2020/artifacts-submission. Nextjournal will provide active support to artifact authors during the submission period (refer to the “Get Help” section on the Nextjournal page).
+
+Reviewing Process
+Submitted artifacts will go through a two-phase evaluation:
+
+Kicking-the-tires: Reviewers check the artifact integrity and look for any possible setup problems that may prevent it from being properly evaluated (e.g., corrupted or missing files, VM won’t start, immediate crashes on the simplest example, etc.). Authors are informed of the outcome and, in case of technical problems, they can help solve them during a brief author response period.
+
+Artifact assessment: Reviewers evaluate the artifacts, checking if they live up to the expectations created by the papers.
+
+Kick-the-Tires Response Period
+Authors will be given a 4-day period to read and respond to the kick-the-tires reports of their artifacts. Authors may be asked for clarifications in case the committee encountered problems that may prevent reviewers from properly evaluating the artifact.
+
+Guidelines for Authors and Reviewers
+Guidelines for Authors: When submitting artifacts, please consult the Guidelines for Packaging AEC Submissions. We encourage you to also read the HOWTO for AEC Submitters. We would also like to provide artifact authors with general information on what makes good / bad artifacts and suggestions for good practices. In a nutshell:
+
+Committee members want artifacts that:
+
+Contain all dependencies (Linux container / VM)
+
+Have few setup steps
+
+Have getting started guides where all instructions are tested
+
+Include some documentation on the code and layout of the artifact
+
+Have a short run reviewers can try first (several minutes max)
+
+Show progress messages (percentage complete) during longer runs
+
+Avoid:
+
+Downloading content over the Internet during experiments or tests
+
+Closed source software libraries, frameworks, operating systems, and container formats
+
+Experiments or tests that run for multiple days
+
+Authors and Reviewers of Proof Artifacts: We encourage authors and reviewers of mechanized proofs to consult the recent guidelines for submitting and reviewing proof artifacts.
+
+Artifact Evaluation Committee
+Lisa Nguyen Quang Do
+Lisa Nguyen Quang DoArtifact Evaluation Co-Chair
+Google
+Switzerland
+Manuel Rigger
+Manuel RiggerArtifact Evaluation Co-Chair
+ETH Zurich
+Ellen Arteca
+Ellen Arteca
+Northeastern University
+United States
+micro-avatar
+Alexandre Bartel
+University of Luxembourg
+micro-avatar
+Francesco Dagnino
+DIBRIS, University of Genova, Italy
+Italy
+micro-avatar
+Erin Dahlgren
+Kiko Fernandez-Reyes
+Kiko Fernandez-Reyes
+Uppsala University
+Sweden
+Zheng Guo
+Zheng Guo
+University of California, San Diego
+United States
+Byron Hawkins
+Byron Hawkins
+INRIA Rennes
+France
+Pinjia He
+Pinjia He
+ETH Zurich, Switzerland
+Switzerland
+Aarti Kashyap
+Aarti Kashyap
+University of British Columbia
+Canada
+micro-avatar
+Alyssa Milburn
+Felix Pauck
+Felix Pauck
+Paderborn University, Germany
+Germany
+Cedric Richter
+Cedric Richter
+Paderborn University, Germany
+Germany
+Andrea Rosà
+Andrea Rosà
+University of Lugano, Switzerland
+Switzerland
+Somesh Singh
+Somesh Singh
+Indian Institute of Technology, Madras
+India
+Justin Smith
+Justin Smith
+Lafayette College
+United States
+Quentin Stiévenart
+Quentin Stiévenart
+Vrije Universiteit Brussel
+Qiyi Tang
+Qiyi Tang
+University of Oxford
+United Kingdom
+John Toman
+John Toman
+University of Washington, Seattle
+United States
+micro-avatar
+Alix Trieu
+Aarhus University
+Denmark
+Alexi Turcotte
+Alexi Turcotte
+Northeastern University
+Junwen Yang
+Junwen Yang
+University of Chicago
+China
+Chengyu Zhang
+Chengyu Zhang
+East China Normal University
+China
+micro-avatar
+Fuyuan Zhang
+MPI-SWS
+Daming Zou
+Daming Zou
+Peking University

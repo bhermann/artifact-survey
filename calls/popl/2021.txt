@@ -1,0 +1,177 @@
+Process
+Artifact evaluation begins with authors of (conditionally) accepted POPL papers submitting artifacts on HotCRP (https://popl21ae.hotcrp.com). Artifact evaluation is optional. Authors are strongly encouraged to submit an artifact to the AEC, but not doing so will not impact their paper acceptance. Authors may, but are not required to, provide their artifacts to paper reviewers as supplemental materials.
+
+Artifacts are submitted as a stable URL or, if that is not possible, as an uploaded archive. We recommend using a URL that you can update in response to reviewer comments, to fix issues that come up. Additionally, authors are asked to enter topics, conflicts, and “bidding instructions” to be used for assigning reviewers. You must check the “ready for review” box before the deadline for your artifact to be considered.
+
+Artifact evaluation is single blind. Artifacts should not collect any telemetry or logging data; if that is impossible to ensure, logging data should not be accessed by authors. Any data files included with the artifact should be anonymized.
+
+Reviewers will be instructed that they may not publicize any part of an artifact during or after completing evaluation, nor retain any part of one after evaluation. Thus, authors are free to include models, data files, proprietary binaries, etc. in your artifact.
+
+AEC Membership
+The AEC will consist of roughly 30 members, mostly senior graduate students, postdocs, and researchers. As the future of our community, graduate students will be the ones reproducing, reusing, and building upon the results published at POPL 2021. They are also better positioned to handle the diversity of systems that artifacts span.
+
+This year, for the second time, we are hosting a public call for committee members. Please see the Call for Nominations for more details. Participation in the AEC demonstrates the value of artifacts, provides early experience with the peer review process, and establishes community norms. We therefore seek to include a broad cross-section of the POPL community on the AEC.
+
+Two-Phase Evaluation
+This year, the artifact evaluation process will proceed in two phases.
+
+In the first “kick the tires” phase reviewers download and install the artifact (if relevant) and exercise the basic functionality of the artifact to ensure that it works. We recommend authors include explicit instructions for this step. Failing the first phase—so that reviewers are unable to download and install the artifact—will prevent the artifact from being accepted.
+
+In the second “evaluation” phase reviewers systematically evaluate all claims in the paper via procedures included in the artifact to ensure consistency, completeness, documentation, and reusability. We recommend authors list all claims in the paper and indicate how to evaluate each claim using the artifact.
+
+Reviewers and authors will communicate back and forth during the review process over HotCRP. We have set up HotCRP to allow reviewers to ask questions or raise issues: those questions and issues will immediately be forwarded to authors, who will be able to answer questions or implement fixes.
+
+After the two-phase evaluation process, the AEC will discuss each artifact and notify authors of the final decision.
+
+Two days separate the AEC notification from the camera ready deadline for accepted papers. This gap allows authors time to update their papers to indicate artifact acceptance.
+
+Badges
+The AEC will award three ACM standard badges. Badges are added to papers by the publisher, not by the authors.
+
+ACM's Artifacts Evaluated – Reusable Badge       ACM's Artifacts Evaluated – Functional Badge       ACM's Artifacts Available Badge
+
+All artifacts that pass artifact evaluation will receive the “Artifacts Evaluated - Functional” badge.
+
+Artifacts that receive above average scores and are made available in a way that enables reuse (including source code availability, open source licensing, and an open issue tracker), such as via GitHub, GitLab, or BitBucket, will be awarded the “Artifacts Evaluated - Reusable” badge.
+
+Finally, artifacts that pass artifact evaluation and where the authors additionally make an immutable snapshot of their artifacts available eternally on a publicly accessible archival repository such as Zenodo or ACM DL will also receive ACM’s “Artifacts Available” badge. An immutable snapshot does not prevent authors from also distributing their code in another way, on an open source platform or on their personal websites.
+
+Questions? Use the POPL Artifact Evaluation contact form.
+Important Dates AoE (UTC-12h)
+Mon 2 Nov 2020
+Phase 2 notification
+Thu 22 Oct 2020
+Phase 1 notification
+Thu 8 Oct 2020
+Submission deadline
+Mon 5 Oct 2020
+Registration Deadline
+Artifact Evaluation Committee
+Jeehoon Kang
+Jeehoon KangArtifact Evaluation Co-Chair
+KAIST
+South Korea
+Pavel Panchekha
+Pavel PanchekhaArtifact Evaluation Co-Chair
+University of Utah
+United States
+Heiko Becker
+Heiko Becker
+MPI-SWS
+Germany
+Sidi Mohamed Beillahi
+Sidi Mohamed Beillahi
+IRIF - Université de Paris
+France
+Tej Chajed
+Tej Chajed
+Massachusetts Institute of Technology, USA
+United States
+micro-avatar
+Stefan Ciobaca
+Alexandru Ioan Cuza University of Iasi
+Hoang-Hai Dang
+Hoang-Hai Dang
+MPI-SWS
+Germany
+Germán Andrés Delbianco
+Germán Andrés Delbianco
+Nomadic Labs
+France
+Pierre Donat-Bouillud
+Pierre Donat-Bouillud
+Czech Technical University
+Stefania Dumbrava
+Stefania Dumbrava
+ENSIIE Paris-Évry
+France
+Aymeric Fromherz
+Aymeric Fromherz
+Carnegie Mellon University
+micro-avatar
+William T. Hallahan
+Yale University
+Anastasiia Izycheva
+Anastasiia Izycheva
+Technical University of Munich
+Germany
+micro-avatar
+Jaehwang Jung
+KAIST, South Korea
+micro-avatar
+Stella Lau
+MIT
+micro-avatar
+Théo Laurent
+INRIA Paris
+Nicholas V. Lewchenko
+Nicholas V. Lewchenko
+University of Colorado Boulder
+United States
+Yao Li
+Yao Li
+University of Pennsylvania
+United States
+Steven Lyubomirsky
+Steven Lyubomirsky
+University of Washington, USA
+United States
+micro-avatar
+Guido Martínez
+CIFASIS-CONICET, Argentina
+Argentina
+Raphaël Monat
+Raphaël Monat
+Sorbonne Université — LIP6
+France
+Charlie Murphy
+Charlie Murphy
+Princeton University
+United States
+Benjamin Barslev Nielsen
+Benjamin Barslev Nielsen
+Aarhus University
+Yuanfeng Peng
+Yuanfeng Peng
+Google
+George Pîrlea
+George Pîrlea
+National University of Singapore, Singapore
+micro-avatar
+Lionel Rieg
+Verimag
+Gabriel Scherer
+Gabriel Scherer
+INRIA Saclay
+France
+Kartik Singhal
+Kartik Singhal
+University of Chicago
+United States
+micro-avatar
+Gus Henry Smith
+University of Washington
+Caleb Stanford
+Caleb Stanford
+University of Pennsylvania
+Kathrin Stark
+Kathrin Stark
+Princeton University, USA
+United States
+micro-avatar
+Alix Trieu
+Aarhus University
+Denmark
+micro-avatar
+Pierre Vial
+Inria Paris-Saclay
+micro-avatar
+Peixin Wang
+Shanghai Jiao Tong University
+micro-avatar
+Sebastian Wolff
+TU Braunschweig
+Germany
+Zhenya Zhang
+Zhenya Zhang
+National Institute of Informatics

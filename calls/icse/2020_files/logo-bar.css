@@ -1,0 +1,43 @@
+.navbar-brand {
+    float: left;
+    background: url("https://2020.icse-conferences.org/getImage/orig/ICSEwide.png");
+    background-size: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -12px;
+    border-radius: 5px;
+    display: inline-block;
+    background-size: contain;
+    background-position: left;
+    width: 100%;
+}
+
+.navbar-brand {
+    min-height: 75px;
+}
+
+.navbar-brand .brand-text{
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+    .navbar-brand {
+        min-height: 150px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .navbar-brand {
+        min-height: 150px;
+    }
+}
+
+.logobar .place {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  font-size: xx-large;
+  display: none;
+}

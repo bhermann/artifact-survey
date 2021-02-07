@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0035)https://tacas.info/artifacts-21.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./2021_files/layout.css">
+<link rel="stylesheet" type="text/css" href="./2021_files/design.css">
+<meta http-equiv="content-language" content="en">
+
+  <style>  
+    p.ind{  
+      text-indent: 2em;  
+    }  
+ </style>  
+
+<meta http-equiv="Content-Language" content="en">
+<title>TACAS — International Conference on Tools and Algorithms for the Construction and Analysis of Systems</title>
+</head>
+
+<body>
+<div id="head">
+<br>
+<br>
+<br>
+<table style="background-color: #2C68A3; color: white; font-size: 220%; width: 100%; max-width: 100%; border: 0px;">
+<tbody><tr>
+<td style="text-align: center; border: 0px; width: 50%;">
+<a title="TACAS — International Conference on Tools and Algorithms for the Construction and Analysis of Systems">
+<img src="./2021_files/etapsLogolarge_white.png" style="max-width: 300px;" alt="TACAS Logo">
+</a>
+</td>
+<td style="text-align: center; border: 0px; width: 50%;">
+<b>TACAS</b>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; border: 0px;" colspan="2">
+TACAS — International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+</td>
+</tr>
+</tbody></table>
+
+<br>
+</div>
+
+<div id="Navigation">
+<div id="navigation-head"></div>
+<ul class="Navigation">
+<li><a href="https://tacas.info/index.php">About TACAS</a></li>
+<li><a href="https://tacas.info/committee.php">Steering Committee</a></li>
+<li><a href="https://tacas.info/history.php">TACAS History</a></li>
+<li><a href="https://tacas.info/guidelines.php">Documents</a></li>
+<li><a href="https://tacas.info/artifacts.php">Artifact Evaluation</a></li>
+<li><a href="https://tacas.info/toolympics.php">TOOLympics 2019</a></li>
+</ul>
+</div>
+
+<div id="main"><div id="content">
+
+
+<h2> Artifact Evaluation for TACAS 2021 </h2>
+<p>
+<b>The deadline for artifact submission was moved to 2020-10-23.</b>
+</p>
+
+<p>
+As in 2020, TACAS'21 will include an artifact evaluation (AE) for all types of papers. There will be two rounds of the AE: For regular tool papers and tool demonstration papers, artifact evaluation is compulsory (see the TACAS’21 call for papers) and artifacts must be submitted to the first round; for research and case study papers, it is voluntary, and artifacts may be submitted to either the first or the second round. All accepted papers with accepted artifacts will receive a badge.
+</p>
+
+<h3>
+Artifacts and Evaluation Criteria
+</h3>
+<p>
+An artifact is any additional material (software, data sets, machine-checkable proofs, etc.) that substantiates the claims made in the paper and ideally makes them fully replicable. As an example, a typical artifact would consist of the tool (in binary or source code form) and its documentation, the input files (e.g., models analysed or programs verified) used for the tool evaluation in the paper, and a configuration file or document describing the parameters used in the experiments. The Artifact Evaluation Committee will read the corresponding paper and evaluate the submitted artifact w.r.t. the following criteria:
+</p>
+<ul>
+	<li>consistency with and replicability of results presented in the paper,</li>
+	<li>completeness,</li>
+	<li>documentation and ease of use.</li>
+</ul>
+
+<h3>Compulsory AE for Tool and Tool Demonstration Papers</h3>
+<p>
+Regular tool papers and tool demonstration papers are required to be accompanied by an artifact for evaluation by the Artifact Evaluation Committee at paper submission time. The results of the evaluation will be taken into consideration in the paper reviewing and rebuttal phase of TACAS'21. The fact that not all experiments may be reproducible (e.g., due to high computational demands) does not mean automatic rejection of the paper. Papers that succeed in artifact evaluation and are accepted will receive a badge that can be shown on the title page of the corresponding paper.
+</p>
+
+<h3>Artifact Evaluation for Research and Case Study Papers</h3>
+<p>
+Authors of research papers and case study papers are also invited to submit an artifact. In this case, the submission is voluntary. If the artifact is submitted at the same time as the paper, then it will be reviewed immediately by the Artifact Evaluation Committee (AEC) and the results of the evaluation can be taken into consideration during the paper reviewing and rebuttal phase of TACAS’21. Authors of accepted papers who did not submit an artifact will be invited to submit an artifact after notification. Authors of artifacts that are accepted by the AEC will receive a badge that can be shown on the title page of the corresponding paper.
+</p>
+
+<h3>Artifact Submission</h3>
+<p>
+An artifact submission consists of
+</p>
+<ul>
+	<li>an abstract that summarizes the artifact and its relation to the paper,</li>
+	<li>a .pdf file of the paper (uploaded via EasyChair), which may be modified from the submitted version to take reviewers’ comments into account (if submitted in the second round),</li>
+	<li>a link to a .zip file (available for download) containing
+	<ul>
+		<li>a directory with the artifact itself,</li>
+		<li>a text file named License.txt that contains the license for the artifact (it is required that the license at least allows the Artifact Evaluation Committee to evaluate the artifact w.r.t. the criteria mentioned above),</li>
+		<li>a text file called Readme.txt that contains detailed, step-by-step instructions on how to use the artifact to replicate the results in the paper, and</li>
+	</ul>
+	</li><li>an indication whether and how the artifact will be made publicly available and archived permanently, if the paper is accepted.</li>
+</ul>
+
+<p>The artifact submission is handled via <a href="https://easychair.org/conferences/?conf=tacas2021">Easychair</a>. Artifacts have to be submitted in the artifact evaluation track, with the same title and authors as the submitted paper.</p>
+
+<h3>Guidelines for Artifacts</h3>
+<p>
+We expect artifact submissions to package their artifact and write their instructions such that Artifact Evaluation Committee (AEC)  members can evaluate the artifact using the TACAS’21 Artifact Evaluation Virtual Machine for VirtualBox available via <a href="https://zenodo.org/record/4041464">Zenodo</a>. The virtual machine is based on an Ubuntu 20.04 LTS GNU/Linux operating system with the following additional packages: build-essential, cmake, clang, mono-complete, openjdk-8-jdk, python3.8, pip3, ruby, and a 32-bit libc. Moreover, VirtualBox guest additions are installed on the VM; it is therefore possible to connect a shared folder from the host computer. The login and password of the default user are: “tacas21” / “tacas21”.
+</p>
+<p>
+If the artifact requires additional software or libraries that are not part of the virtual machine, the instructions must include all necessary steps for their installation and setup. Any software that is not already part of the virtual machine must be included in the .zip file. AEC members will not download software or data from external sources, and the artifact must work without a network connection. In case you feel that this VM will not allow an adequate replication of the results in your paper, please contact the AEC chairs prior to artifact submission (also see below).
+</p>
+<p>
+It is to the advantage of authors to prepare an artifact that is easy to evaluate by the AEC. Some guidelines:
+</p>
+<ul>
+	<li>Document in detail how to replicate most, or ideally all, of the (experimental) results of the paper using the artifact.</li>
+	<li>Keep the evaluation process simple through easy-to-use scripts and provide detailed documentation assuming minimum expertise of users.</li>
+	<li>For experiments that require a large amount of resources (hardware or time), it is recommended to provide a way to replicate a subset of the results of the paper with reasonably modest resources (RAM, number of cores), so that the results can be reproduced on various hardware platforms including laptops, and in a reasonable amount of time. Do include the full set of experiments as well (for those reviewers with sufficient hardware or time), just make it optional.</li>
+	<li>State the resource requirements, or the environment in which you successfully tested the artifact, in the instructions file (RAM, number of cores, CPU frequency).</li>
+	<li><b>Do not submit a virtual machine</b>; only submit your files, which AEC members will copy into the provided virtual machine.</li>
+</ul>
+<p>
+Members of the AEC will use the submitted artifact for the sole purpose of artifact evaluation. We do, however, encourage authors to make their artifacts publicly and permanently available.
+</p>
+
+<h3>Possibility for exemption</h3>
+<p>
+In case your experiments cannot be replicated inside the provided VM, please contact the AEC chairs before submission. Possible reasons include the need for special hardware (GPUs, compute clusters, bluetooth devices, robots etc.), software licensing issues or the need to access the internet. In any case, you are encouraged to submit a complete artifact. This way, the reviewers have the option to replicate the experiments in the event they have access to the required resources.
+</p>
+
+<h3>Important Dates</h3>
+<p>
+All dates refer to 23:59 "anywhere on Earth" (UTC-12) on that day.
+</p>
+
+<b>First round:</b>
+<table style="border-collapse:separate; border-spacing: 10px 14px;">
+<tbody><tr>
+<td>
+<s>2020-10-15</s><br><b>2020-10-23</b>
+</td>
+<td>
+Artifact submission deadline (mandatory for tool and tool demo papers, optional for research and case study papers)
+</td>
+</tr>
+<tr>
+<td>
+2020-11-17
+</td>
+<td>
+Communication with authors in case of technical problems with the artifact
+</td>
+</tr>
+<tr>
+<td>
+2020-12-13
+</td>
+<td>
+Notification of AE reviews (results will also be communicated to the TACAS paper reviewers and considered for the paper acceptance decision)
+</td>
+</tr>
+</tbody></table>
+
+<b>Second round:</b>
+<table style="border-collapse:separate; border-spacing: 10px 14px;">
+<tbody><tr>
+<td>
+2021-01-06
+</td>
+<td>
+Artifact submission deadline (optional for accepted research and case study papers that did not submit to the first round)
+</td>
+</tr>
+<tr>
+<td>
+2021-01-14
+</td>
+<td>
+Communication with authors in case of technical problems with the artifact
+</td>
+</tr>
+<tr>
+<td>
+2021-01-27
+</td>
+<td>
+Notification of AE reviews
+</td>
+</tr>
+<tr>
+<td>
+2021-01-28
+</td>
+<td>
+Extended deadline for updating camera-ready paper with AEC badge (if artifact is accepted).
+</td>
+</tr>
+</tbody></table>
+
+<b>NB</b>: regardless of whether an artifact was submitted, the camera-ready paper needs to be submitted by 2021-01-22.
+
+<h3>Artifact Evaluation Chairs</h3>
+<ul>
+<li><a href="https://tneele.com/">Thomas Neele</a> (Royal Holloway University of London, UK)</li>
+<li><a href="http://petergjoel.dk/">Peter Gjøl Jensen</a> (Aalborg Universitet, Denmark)</li>
+</ul>
+
+<h3>Artifact Evaluation Committee</h3>
+<ul>
+    <li><a href="http://www.di.unito.it/~amparore/">Elvio Gilberto Amparore</a> (University of Turin, Italy)</li>
+    <li><a href="https://homepages.dcc.ufmg.br/~hbarbosa/">Haniel Barbosa</a> (Universidade Federal de Minas Gerais, Brazil)</li>
+    <li><a href="https://math.umons.ac.be/staff/Blahoudek.Frantisek/">František Blahoudek</a> (University of Texas at Austin, USA)</li>
+    <li><a href="https://research.tue.nl/en/persons/olav-bunte">Olav Bunte</a> (Eindhoven University of Technology, The Netherlands)</li>
+    <li><a href="https://www.ulb.be/fr/damien-busatto-gaston">Damien Busatto-Gaston</a> (Université Libre de Bruxelles, Belgium)</li>
+    <li><a href="https://www.cs.ox.ac.uk/people/nathaliemargaret.cauchi/">Nathalie Cauchi</a> (University of Oxford, UK)</li>
+    <li><a href="https://mchimento.github.io/">Jesus Mauricio Chimento</a> (KTH, Sweden)</li>
+    <li><a href="https://profiles.web.cern.ch/764925">Joshua Dawes</a> (University of Manchester and CERN, Switzerland)</li>
+    <li><a href="http://fmv.jku.at/fleury/">Mathias Fleury</a> (Johannes Kepler University Linz, Austria)</li>
+    <li><a href="https://people.ucsc.edu/~dfremont/">Daniel J. Fremont</a> (University of California, Santa Cruz, USA)</li>
+    <li><a href="https://uol.de/en/csd/persons-contacts/manuel-gieseking-msc">Manuel Gieseking</a> (University of Oldenburg, Germany)</li>
+    <li><a href="https://kushgrover.github.io/">Kush Grover</a> (Technical University of Munich, Germany)</li>
+    <li><a href="http://www.hansdieterhiep.nl/">Hans-Dieter Hiep</a> (CWI, The Netherlands)</li>
+    <li><a href="http://fmv.jku.at/kaufmann/">Daniela Kaufmann</a> (Johannes Kepler University Linz, Austria)</li>
+    <li><a href="https://www.informatik.uni-kiel.de/~mku/">Mitja Kulczynski</a> (Kiel University, Germany)</li>
+    <li><a href="https://www.cs.ox.ac.uk/people/luca.laurenti/">Luca Laurenti</a> (University of Oxford, UK)</li>
+    <li><a href="https://research.tue.nl/en/persons/maurice-laveaux">Maurice Laveaux</a> (Eindhoven University of Technology, The Netherlands)</li>
+    <li><a href="https://iscasmc.ios.ac.cn/?page_id=1141">Yong Li</a> (Institute of Software, Chinese Academy of Sciences, China)</li>
+    <li><a href="https://people.mpi-sws.org/~dlohar/">Debasmita Lohar</a> (Max Planck Institute for Software Systems, Germany)</li>
+    <li><a href="https://www.fit.vut.cz/person/imalik/.en">Viktor Malík</a> (FIT Brno University of Technology, Czech Republic)</li>
+    <li><a href="https://joshuamoerman.nl/">Joshua Moerman</a> (RWTH Aachen University, Germany)</li>
+    <li><a href="https://www7.in.tum.de/people/detail/index.php?id=people.detail&amp;arg=171">Stefanie Mohr</a> (Technische Universität München, Germany)</li>
+    <li><a href="http://people.cs.aau.dk/~muniz/">Marco Muniz</a> (Aalborg University, Denmark)</li>
+    <li><a href="https://www.pm.inf.ethz.ch/people/personal/woortwijn-pers.html">Wytse Oortwijn</a> (University of Twente, The Netherlands)</li>
+    <li><a href="https://polgreen.github.io/">Elizabeth Polgreen</a> (University of California, Berkeley, USA)</li>
+    <li><a href="https://jose.proenca.org/">Jose Proenca</a> (CISTER-ISEP, Portugal)</li>
+    <li><a href="https://www.lrde.epita.fr/~renault/">Etienne Renault</a> (LRDE, France)</li>
+    <li><a href="https://www.imm.dtu.dk/~alcsc/">Alceste Scalas</a> (DTU Compute - Technical University of Denmark, Denmark)</li>
+    <li><a href="https://vbn.aau.dk/en/persons/148881">Morten Konggaard Schou</a> (Aalborg University, Denmark)</li>
+    <li><a href="https://www.fit.vut.cz/person/isokova/publications/#nav">Veronika Šoková</a> (FIT Brno University of Technology, Czech Republic)</li>
+    <li><a href="https://cs.stanford.edu/~yoniz/">Yoni Zohar</a> (Stanford University, USA)</li>
+</ul>
+
+</div></div><div id="footer"><p>
+If you did not find what you are looking for, please do not hesitate to contact the
+<a href="http://depend.cs.uni-sb.de/hermanns">TACAS Publicity Chair</a>.</p>
+
+<div>
+<p><small>
+  <a href="https://www.sosy-lab.org/contact.php">Imprint and Privacy Policy</a>
+</small></p>
+</div>
+
+</div></body></html>

@@ -1,0 +1,64 @@
+.navbar-brand {
+    background-image: url('https://popl20.sigplan.org/getImage/orig/logo-POPL2020-Mardi-Gras.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 106px;
+    height: 97px;
+    z-index: 3;
+    margin-top: 14px;
+}
+.brand-text {
+     opacity: 0;
+}
+
+.place {
+  float: left;
+  padding: 55px 0 0 20px;
+  font-size: 15pt;
+}
+.place a {
+    display: block;
+}
+@media (max-width:767px){
+  .navbar-brand {
+    height: 53px;
+    width: 48px;
+    z-index: 3;
+    margin-top:24px;
+    margin-bottom: -29px;
+  }
+  .place{
+    font-size: 10pt;
+    padding: 36px 0px 0px 5px;
+  }
+}
+
+
+div.logobar {
+    padding: 10px 15px;
+    background-color: rgb(248, 248, 248);
+    color: #777777;
+}
+/*.logobar .container{
+	border-bottom: 1px solid #e7e7e7;
+}*/
+.logobar a {
+    color: #4e5e6b;
+}
+.navbar{
+  border-top: none !important;
+}
+.navbar-brand {
+  font-size : 36px;
+}
+.navbar{
+  border-radius: 0px !important;
+}
+.place {
+  float: left;
+  padding : 23px 0 0 40px
+}
+.place2 {
+  float: right;
+  padding : 23px 0 0 0px
+}

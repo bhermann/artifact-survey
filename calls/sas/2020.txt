@@ -1,0 +1,71 @@
+Call for Artifacts
+As in previous years, we encourage authors to submit a virtual machine image containing any artifacts and evaluations presented in the paper. The goal of the artifact submissions is to strengthen our field’s scientific approach to evaluations and reproducibility of results. The virtual machines will be archived on a permanent Static Analysis Symposium website to provide a record of past experiments and tools, allowing future research to better evaluate and contrast existing work.
+
+Artifact submission is optional. We accept only virtual machine images that can be processed with VirtualBox. The artifact should come with a virtual machine (VM) image and step-by-step instructions:
+
+Virtual machine image: The VM image must be bootable and contain all the necessary libraries installed. Please ensure that the VM image can be processed with VirtualBox. When preparing your artifact, please make it light as possible.
+Step-by-step instructions: It should clearly explain how to reproduce the results that support your paper’s conclusions. We encourage the authors to have easy-to-run scripts. Also, you should explain how to interpret the output of the artifact. Please provide an estimated execution time for each instruction.
+The artifact submission is handled via Easychair. Please follow the instructions below to submit your artifact:
+
+Make the VM image and the instruction document into single compressed archive file using zip or gzip. Use your paper number for the name of the archive file.
+Upload the archive file to well-known storage service such as Dropbox or Google Drive and get the sharable link of it.
+Run a checksum function with the archive file and make a text file that contains the link to the archive file and the checksum the result.
+Submit the file via the specific submission page.
+The artifact submission is handled via Easychair.
+
+Artifact Evaluation Committee SAS
+Jyothi Vedurada
+Jyothi Vedurada Artifact Evaluation Chair
+Microsoft Research
+India
+Umair Z. Ahmed
+Umair Z. Ahmed
+National University of Singapore
+Singapore
+Marc Chevalier
+Marc Chevalier
+ENS, CNRS, PSL University, INRIA
+France
+small-avatar
+Pritam Gharat
+Timothée Haudebourg
+Timothée Haudebourg
+ENS Rennes
+France
+small-avatar
+Maxime Jacquemin
+CEA LIST, France
+France
+Nicolas Jeannerod
+Nicolas Jeannerod
+IRIF, University Paris Diderot and CNRS, France
+France
+Raphaël Monat
+Raphaël Monat
+Sorbonne Université — LIP6
+France
+Rashmi Mudduluru
+Rashmi Mudduluru
+University of Washington, Seattle
+United States
+Suvam Mukherjee
+Suvam Mukherjee
+Microsoft Research
+small-avatar
+Olivier Nicole
+CEA LIST, France
+France
+small-avatar
+Guillermo Román-Díez
+Devika Sondhi
+Devika Sondhi
+IIIT Delhi
+India
+Pedro Valero
+Pedro Valero
+IMDEA Software Institute, Spain
+Spain
+Marco Zanella
+Marco Zanella
+University of Padova, Italy
+Italy

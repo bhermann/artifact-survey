@@ -1,0 +1,76 @@
+.brand-text {
+    visibility: hidden;
+}
+
+div.logobar {
+    padding: 24px 0px;
+    background-image: url(https://2020.splashcon.org/getImage/orig/leftlogo8.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 300px, 200px, auto;
+    height: 150px;
+    border-bottom: 18px solid #1a1919;
+}
+
+@media screen and (max-width: 600px) {
+    div.logobar {
+        background-image: none;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        margin: 0px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        left: 0;
+    }
+}
+body {
+  /* awesome background texture-gradient */
+    background: #F0FFF0 left top;
+    color: black;
+}
+.navbar-brand {
+    position: absolute;
+    background: url(https://2020.splashcon.org/getImage/orig/sas-logo2.png) no-repeat;
+    background-size: auto auto;
+    top: 4px;
+    right: 20px;
+    height: 128px;
+    width: 235px;
+    z-index: 20;
+}
+
+.place {
+    position: absolute;
+    left: 91px;
+    top: 131px;
+    color: #cecece;
+}
+
+div.frame .carousel {
+    margin-bottom: 10px;
+}
+div.hidable {
+    background-color: white;
+}
+div.place2
+{
+  background: transparent;
+}
+#content {
+    background-color: white;
+}
+div.logobar.container {
+    background-color: transparent;
+}
+div.container-fluid.manage-page
+{
+  margin-top:-10px;
+}

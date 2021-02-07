@@ -1,0 +1,212 @@
+A paper consists of a constellation of artifacts that extend beyond the document itself, including software, mechanized proofs, models, test suites, and benchmarks. In some cases, the quality of these artifacts is as important as that of the document itself, yet our conferences offer no formal means to submit and evaluate anything but the paper. To address this, POPL has run an optional artifact evaluation process since POPL 2015, inspired by similar efforts in our community.
+
+Goals
+The goal of the artifact evaluation process is two-fold: to both reward and probe. Our primary goal is to reward authors who take the trouble to create useful artifacts beyond the paper. Sometimes the software tools that accompany the paper take years to build; in many such cases, authors who go to this trouble should be rewarded for setting high standards and creating systems that others in the community can build on. Conversely, authors sometimes take liberties in describing the status of their artifacts—claims they would temper if they knew the artifacts are going to be scrutinized. This leads to more accurate reporting.
+
+Our hope is that eventually, the assessment of a paper’s accompanying artifacts will guide the decision-making about papers: that is, the Artifact Evaluation Committee (AEC) would inform and advise the Program Committee (PC). This would, however, represent a radical shift in our conference evaluation processes; we would rather proceed gradually. Thus, artifact evaluation is optional, and authors choose to undergo evaluation only after their paper has been conditionally accepted. Nonetheless, feedback from the Artifact Evaluation Committee can help improve the both the final version of the paper and any publicly released artifacts. The authors are free to take or ignore the AEC feedback at their discretion.
+
+Criteria
+The evaluation criteria are ultimately simple. A paper sets up certain expectations of its artifacts based on its content. The AEC will read the paper and then judge how well the artifact matches these criteria. Thus the AEC’s decision will be that the artifact does or does not “conform to the expectations set by the paper”. Ultimately, we expect artifacts to be:
+
+consistent with the paper,
+as complete as possible,
+documented well, and
+easy to reuse, facilitating further research.
+Benefits
+We believe the dissemination of artifacts benefits our science and engineering as a whole. Their availability improves replicability and reproducibility, and enables authors to build on top of each others’ work. It can also help more unambiguously resolve questions about cases not considered by the original authors.
+
+Beyond helping the community as a whole, it confers several direct and indirect benefits to the authors themselves. The most direct benefit is, of course, the recognition that the authors accrue. But the very act of creating a bundle that can be evaluated by the AEC confers several benefits:
+
+The same bundle can be publicly released or distributed to third-parties.
+
+A bundle can be used subsequently for later experiments (e.g., on new parameters).
+
+The bundle simplifies having to re-run the system subsequently when, say, having to respond to a journal reviewer’s questions.
+
+The bundle is more likely to survive being put in storage between the departure of one student and the arrival of the next.
+
+Creating a bundle that meets all these properties can be onerous and therefore, the process we describe below does not require an artifact to have all these properties. It offers a route to evaluation that confers fewer benefits for vastly less effort.
+
+Process
+To maintain a wall of separation between paper review and the artifacts, authors will be asked to submit their artifacts only after their papers have been conditionally accepted and artifact evaluation does not influence acceptance decisions regarding papers. Of course, authors can (and should!) prepare their artifacts well in advance, and can provide the artifacts to the PC via supplemental materials, as many authors already do.
+
+The authors of all conditionally accepted papers will be asked whether they intend to have their artifact evaluated and, if so, to submit the artifact. They are welcome to indicate that they do not.
+
+After artifact submission, the AEC will download and install the artifact (where relevant), and evaluate it. Since we anticipate small glitches with installation and use, reviewers may communicate with authors to help resolve glitches while preserving reviewer anonymity. With the help of Eddie Kohler, we have set up HotCRP so that reviewers can ask questions while preserving their anonymity and get immediate answers from the (non-anonymous) authors directly from the HotCRP interface. Any reviews submitted to HotCRP also go immediately to the authors, who can again answer any reviewer questions or fix potential issues. The AEC will complete its evaluation, discuss, and notify authors of the outcome. There is approximately one week between feedback from the AEC and the deadline for the camera ready versions of accepted papers. This is intended to allow authors sufficient time to include the feedback from the AEC as they deem fit.
+
+Artifacts that receive above average scores and that are additionally made available in a way that enables reuse (for software artifacts this means releasing the artifact under an open source license, ideally on a platform like GitHub, GitLab, BitBucket, SourceForge, etc), will be awarded the “Artifacts Evaluated - Reusable” badge. All other artifacts that “meet expectations” will get the default “Artifacts Evaluated - Functional” badge. Finally, papers whose artifacts meet or surpass the AEC’s expectations and where the authors also make an immutable snapshot of their artifacts available eternally on a publicly accessible archival repository such as the Software Heritage Archive or ACM DL will also receive ACM’s “Artifacts Available” badge. It is up to the authors whether and how they want to make their artifacts available, and posting an immutable snapshot does not prevent authors in any way from also distributing their code on an open source platform or their personal websites.
+
+ACM's Artifacts Evaluated – Reusable Badge       ACM's Artifacts Evaluated – Functional Badge       ACM's Artifacts Available Badge
+
+All the badges above will be added to the papers by the publisher, not by the authors.
+
+Artifact Details
+To avoid excluding some papers, the AEC will try to accept any artifact that authors wish to submit. These can be software, mechanized proofs, test suites, data sets, and so on. Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it.
+
+Since POPL 2017 the AEC has decided to not accept paper proofs in the artifact evaluation process. The AEC lacks the time and often the expertise to carefully review paper proofs. We hope that reserving the artifact evaluated badge to mechanized proofs that are easier to check and reuse will incentivize more of the POPL authors to mechanize their metatheory in a proof assistant.
+
+While we encourage open research, submission of an artifact does not grant permission to make its content public. AEC members will be instructed that they may not publicize any part of your artifact during or after completing evaluation, nor retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact.
+
+We strongly encourage that you anonymize any data files that you submit. We recognize that some artifacts may attempt to perform malicious operations by design. These cases should be boldly and explicitly flagged in detail in the readme so AEC members can take appropriate precautions before installing and running these artifacts.
+
+AEC Membership
+The AEC will consist of about 30 members, made up of a combination of senior graduate students, postdocs, and researchers, identified with the help of the POPL Community and of previous AEC members.
+
+Qualified graduate students are often in a much better position than many researchers to handle the diversity of systems expectations we will encounter. In addition, these graduate students represent the future of the community, so involving them in this process early will help push this process forward. Moreover, participation in the AEC can provide useful insight into both the value of artifacts, the process of artifact evaluation, and help establish community norms for artifacts. We therefore seek to include a broad cross-section of the POPL community on the AEC.
+
+Naturally, the AEC chairs will devote considerable attention to both mentoring and monitoring the junior members of the AEC, helping to educate the students on their power and responsibilities.
+
+Important Dates AoE (UTC-12h)
+Wed 13 Nov 2019
+Artifact Decisions Announced
+Mon 21 Oct 2019
+Artifact Submission
+Wed 16 Oct 2019
+Artifiact Registration
+Fri 7 Jun 2019
+Nomination for Artifact Evaluation Committee
+Submission Link
+ https://popl20aec.hotcrp.com/
+Artifact Evaluation Committee
+Benjamin Delaware
+Benjamin DelawareArtifact Evaluation Co-Chair
+Purdue University
+Jeehoon Kang
+Jeehoon KangArtifact Evaluation Co-Chair
+KAIST
+South Korea
+Anitha Gollamudi
+Anitha Gollamudi
+Harvard University
+Andrew Hirsch
+Andrew Hirsch
+Max Planck Institute for Software Systems
+Germany
+Calvin Smith
+Calvin Smith
+University of Wisconsin - Madison
+United States
+Christian Roldán
+Christian Roldán
+University of Buenos Aires
+Argentina
+Daniel Dietsch
+Daniel Dietsch
+University of Freiburg
+Germany
+Di Wang
+Di Wang
+Carnegie Mellon University
+United States
+micro-avatar
+Guillaume Allais
+University of Strathclyde
+United Kingdom
+Ismail Kuru
+Ismail Kuru
+Drexel University
+United States
+Jennifer Hackett
+Jennifer Hackett
+University of Nottingham, UK
+United Kingdom
+Jihyeok Park
+Jihyeok Park
+KAIST, South Korea
+South Korea
+micro-avatar
+James Parker
+University of Maryland
+Manuel Rigger
+Manuel Rigger
+ETH Zurich
+Switzerland
+Maryam Dabaghchian
+Maryam Dabaghchian
+University of Utah
+Michalis Kokologiannakis
+Michalis Kokologiannakis
+MPI-SWS, Germany
+Greece
+Matías Toro
+Matías Toro
+University of Chile
+Saswat Padhi
+Saswat Padhi
+University of California, Los Angeles
+United States
+Hernan Ponce de Leon
+Hernan Ponce de Leon
+fortiss GmbH
+Germany
+Gabriel Radanne
+Gabriel Radanne
+University of Freiburg, Germany
+France
+Ravi Mangal
+Ravi Mangal
+Georgia Institute of Technology
+United States
+Sandra Dylus
+Sandra Dylus
+University of Kiel, Germany
+Germany
+Sankha Narayan Guria
+Sankha Narayan Guria
+University of Maryland, College Park
+United States
+Shuai Wang
+Shuai Wang
+Hong Kong University of Science and Technology
+Stefan K. Muller
+Stefan K. Muller
+Carnegie Mellon University
+United States
+Stefania Dumbrava
+Stefania Dumbrava
+ENSIIE Paris-Évry
+France
+David Swasey
+David Swasey
+MPI-SWS
+Germany
+Tej Chajed
+Tej Chajed
+Massachusetts Institute of Technology, USA
+United States
+Dmitriy Traytel
+Dmitriy Traytel
+ETH Zurich
+Switzerland
+Umang Mathur
+Umang Mathur
+University of Illinois at Urbana-Champaign
+United States
+Uri Alon
+Uri Alon
+Technion
+Israel
+Marco Vassena
+Marco Vassena
+CISPA Helmholtz Center for Information Security
+Germany
+Wen Kokke
+Wen Kokke
+University of Edinburgh
+United Kingdom
+Qianchuan Ye
+Qianchuan Ye
+Purdue University
+micro-avatar
+Yoonseung Kim
+Seoul National University (South Korea)
+Yuepeng Wang
+Yuepeng Wang
+University of Texas at Austin
+Wonyeol Lee
+Wonyeol Lee
+KAIST
+South Korea
+micro-avatar
+Youngju Song
+Seoul National University

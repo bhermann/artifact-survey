@@ -1,0 +1,220 @@
+Call for Artifacts
+The Artifact Evaluation Committee (AEC) invites authors of accepted papers to submit an artifact that supports the conclusions of the paper. The committee will read the paper, explore the artifact, and provide feedback on how easy it would be for future researchers to build on. The ultimate goal of artifact evaluation is to support future researchers in their ability to reproduce and build on today’s work.
+
+The submission of artifacts for review is voluntary and will not influence the final decision of whether the paper itself is accepted. Papers with successfully reviewed artifacts will receive a seal of approval printed on the first page of the paper in the ICFP proceedings. Authors of papers with successfully reviewed artifacts are encouraged to make the artifact publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.
+
+If the artifact review is successful then it will be awarded the “Artifact evaluated: functional” badge. For information on what we consider to be “functional” please see the page on Expected Forms of Artifacts.
+
+Types of Artifacts
+An artifact that supports the paper’s conclusions can take many forms, including any or all of the following:
+
+a working copy of the software and its dependencies, including benchmarks, examples and/or case studies
+experimental data sets
+a mechanized proof
+Paper proofs are not accepted as artifacts for evaluation.
+
+Selection Criteria
+The artifact will be evaluated in relation to the expectations set by the paper, and should be:
+
+consistent with the paper,
+as complete as possible,
+well documented,
+future-proof, and
+easy to reuse, facilitating further research.
+The community benefits most when an artifact facilitates future research. For example, future researchers may build on an artifact by extending it to cover new situations or augmenting it with new components to solve a different class of problems. Other researchers may try an alternative approach to solving the same problem. This new work can benefit by comparing new results directly with the ones produced by the artifact, and by understanding the various tradeoffs and engineering decisions that were taken in the past.
+
+We expect that most artifacts submitted for review at ICFP will have a few common forms: compilers, interpreters, proof scripts and so on. We have codified the expected forms of artifacts on a separate page. If you are considering submitting an artifact that does not have one of these forms, please contact the Artifact Evaluation chairs before the submission deadline to discuss what is expected.
+
+Submission Process
+The evaluation process is single blind. Reviewers will know the names of the authors, but not the reverse. However, the artifact evaluation process also encourages free, single-blind communication between reviewers and authors, so that small technical problems can be overcome. Authors may also iteratively improve their artifacts during the process to overcome small technical problems, but may not submit new material that would require substantially more reviewing effort.
+
+At this stage we intend for most artifact submissions to include BOTH:
+
+Software installed into a QEmu Debian base Virtual Machine (VM) image that will be provided by the committee. The committee will verify that the provided base image works on the reviewers’ machines before distribution, to avoid incompatibility problems between VM formats and VM players.
+
+A separate source tarball that includes just the source files.
+
+In most cases, artifacts should include BOTH the extended VM image AND a separate source tarball. The intention is that reviewers who are familiar with certain tools (e.g. Agda or OCaml) can inspect the artifact sources directly, while reviewers that are less familiar can still execute the artifact without needing to install new software on their own machines, except for QEmu. The VM image will be archived so that future researchers, say in 5 years time, do not need to worry about version incompatibilities between old tool versions and new operating systems.
+
+The detailed submission process is as follows:
+
+Read the Forms of Artifacts page for details on artifact preparation.
+Register your intent to submit an artifact on the separate artifact only HotCRP site before the end of 15th May.
+Download the current base VM image and prepare your artifact consisting of BOTH the extended VM image and source tarball.
+Retrieve the SFTP server name and password that will be posted on the HotCRP page for your artifact soon after the artifact registration deadline.
+Upload TWO files one called artifactXX-image-MD5HASH.tgz, and one called artifactXX-source-MD5HASH.tgz to the SFTP server. Replace XX by the artifact number assigned by HotCRP, and MD5HASH by the md5 hash of the corresponding file.
+The reviewers will also use SFTP to retrieve prepared artifacts.
+During the review process, if you need to upload a new version to fix minor technical problems, you can use the same SFTP server.
+Links to the base VM image, and the artifact evaluation HotCRP site, will be distributed to authors with accepted papers (including conditionally accepted) around the time of acceptance notification. We’re using QEmu and a standard Debian 10 installation.
+
+For questions about the overall review process or specific reviews, please contact Brent Yorgey (yorgey@hendrix.edu).
+
+For questions about the VM image or SFTP server, please contact Ben Lippmeier (benl@ouroborus.net).
+
+Timeline
+It takes time to produce a good artifact; thus we allot two weeks between conditional paper acceptance and artifact submission. These are the key dates (all dates are in the Anywhere on Earth (AOE / UTC-12) timezone):
+
+Event	Date
+ICFP Conditional Acceptance	Fri 8 May
+Registration date	Fri 15 May
+Artifact submission	Fri 22 May
+Review and technical clarification	Wed 3 June - Wed 17 June
+Preliminary reviews available	Wed 17 June
+Further clarification if needed	Wed 17 June - Tue 23 June
+Final decision sent to authors	Tue 23 June
+More Information
+For additional information, clarification, or answers to questions, please contact the ICFP Artifact Evaluation co-chairs:
+
+Brent Yorgey (byorgey@gmail.com)
+Ben Lippmeier (benl@ouroborus.net)
+Artifact Evaluation Committee
+Brent Yorgey
+Brent YorgeyCo-chair
+Hendrix College
+United States
+Ben Lippmeier
+Ben LippmeierCo-chair
+Ghost Locomotion
+Australia
+Justus Adam
+Justus Adam
+University of Kent, UK
+United Kingdom
+micro-avatar
+Alejandro Aguirre
+IMDEA Software Institute and T.U. of Madrid (UPM)
+micro-avatar
+Michael Buch
+Harvard University
+Zilin Chen
+Zilin Chen
+Data61, CSIRO and UNSW
+Australia
+Mistral Contrastin
+Mistral Contrastin
+University of Cambridge, UK
+United Kingdom
+Aymeric Fromherz
+Aymeric Fromherz
+Carnegie Mellon University
+April Gonçalves
+April Gonçalves
+Roskilde University, Denmark
+Zheng Guo
+Zheng Guo
+University of California, San Diego
+United States
+Matthias Güdemann
+Matthias Güdemann
+University of Applied Sciences Munich
+Germany
+Jason Z.S. Hu
+Jason Z.S. Hu
+McGill University
+Michael B. James
+Michael B. James
+University of California, San Diego
+United States
+Jonas Kastberg Hinrichsen
+Jonas Kastberg Hinrichsen
+IT University of Copenhagen
+Denmark
+Wen Kokke
+Wen Kokke
+University of Edinburgh
+United Kingdom
+micro-avatar
+Lukas Lazarek
+Northwestern University
+Georgy Lukyanov
+Georgy Lukyanov
+Newcastle University, UK
+United Kingdom
+micro-avatar
+Tran Ma
+Ghost Locomotion
+micro-avatar
+Guido Martínez
+CIFASIS-CONICET, Argentina
+Argentina
+Darius Mercadier
+Darius Mercadier
+Sorbonne Universités —UPMC Univ Paris 06
+Denis Merigoux
+Denis Merigoux
+INRIA
+France
+Agustín Mista
+Agustín Mista
+Chalmers University of Technology
+Sweden
+micro-avatar
+Philip Munksgaard
+DIKU, University of Copenhagen
+Denmark
+micro-avatar
+Yuki Nishida
+Kyoto University
+Arjen Rouvoet
+Arjen Rouvoet
+Delft University of Technology
+Netherlands
+Alex Sanchez-Stern
+Alex Sanchez-Stern
+University of California, San Diego
+United States
+John Sarracino
+John Sarracino
+University of California, San Diego
+Taro Sekiyama
+Taro Sekiyama
+National Institute of Informatics
+Japan
+Mallku Ernesto Soldevila Raffa
+Mallku Ernesto Soldevila Raffa
+FAMAF, UNC / CONICET
+Argentina
+micro-avatar
+Leo Stefanesco
+IRIF, University Paris Diderot & CNRS
+France
+Quentin Stiévenart
+Quentin Stiévenart
+Vrije Universiteit Brussel, Belgium
+Belgium
+micro-avatar
+Nachiappan Valliappan
+Chalmers University of Technology, Sweden
+micro-avatar
+Thomas Van Strydonck
+KULeuven
+Alexander Vandenbroucke
+Alexander Vandenbroucke
+KU Leuven, Belgium
+Belgium
+Niccolò Veltri
+Niccolò Veltri
+IT University of Copenhagen
+Denmark
+Yuting Wang
+Yuting Wang
+John Hopcroft Center for Computer Science - Shanghai Jiao Tong University
+China
+Guannan Wei
+Guannan Wei
+Purdue University
+micro-avatar
+Andy Wingo
+Igalia, S.L.
+micro-avatar
+Shu-Hung You
+Northwestern University, USA
+Taiwan
+Erik de Castro Lopo
+Erik de Castro Lopo
+IOHK
+Australia
+Birthe van den Berg
+Birthe van den Berg
+KU Leuven
+Belgium
